@@ -1,0 +1,64 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+	<ItemGroup>
+		<None Include="..\..\CEDVFighters.uproject" />
+		<Filter Include="Source">
+			<UniqueIdentifier>{EBD95F13-B988-408B-9912-0C2056A9C9E5}</UniqueIdentifier>
+		</Filter>
+		<None Include="..\..\Source\CEDVFighters.Target.cs">
+			<Filter>Source</Filter>
+		</None >
+		<None Include="..\..\Source\CEDVFightersEditor.Target.cs">
+			<Filter>Source</Filter>
+		</None >
+		<Filter Include="Config">
+			<UniqueIdentifier>{5A55F407-5C92-4474-B7E7-CFBAC4009AE3}</UniqueIdentifier>
+		</Filter>
+		<None Include="..\..\Config\DefaultEditor.ini">
+			<Filter>Config</Filter>
+		</None >
+		<None Include="..\..\Config\DefaultEditorPerProjectUserSettings.ini">
+			<Filter>Config</Filter>
+		</None >
+		<None Include="..\..\Config\DefaultEngine.ini">
+			<Filter>Config</Filter>
+		</None >
+		<None Include="..\..\Config\DefaultGame.ini">
+			<Filter>Config</Filter>
+		</None >
+		<None Include="..\..\Config\DefaultInput.ini">
+			<Filter>Config</Filter>
+		</None >
+		<Filter Include="Source\CEDVFighters">
+			<UniqueIdentifier>{7EA20E91-B738-4076-A9BD-96B794CAAC48}</UniqueIdentifier>
+		</Filter>
+		<None Include="..\..\Source\CEDVFighters\CEDVFighters.Build.cs">
+			<Filter>Source\CEDVFighters</Filter>
+		</None >
+		<ClCompile Include="..\..\Source\CEDVFighters\CEDVFighters.cpp">
+			<Filter>Source\CEDVFighters</Filter>
+		</ClCompile >
+		<ClInclude Include="..\..\Source\CEDVFighters\CEDVFighters.h">
+			<Filter>Source\CEDVFighters</Filter>
+		</ClInclude >
+		<ClCompile Include="..\..\Source\CEDVFighters\CEDVFightersGameMode.cpp">
+			<Filter>Source\CEDVFighters</Filter>
+		</ClCompile >
+		<ClInclude Include="..\..\Source\CEDVFighters\CEDVFightersGameMode.h">
+			<Filter>Source\CEDVFighters</Filter>
+		</ClInclude >
+		<ClCompile Include="..\..\Source\CEDVFighters\CEDVFightersPawn.cpp">
+			<Filter>Source\CEDVFighters</Filter>
+		</ClCompile >
+		<ClInclude Include="..\..\Source\CEDVFighters\CEDVFightersPawn.h">
+			<Filter>Source\CEDVFighters</Filter>
+		</ClInclude >
+		<ClCompile Include="..\..\Source\CEDVFighters\CEDVFightersProjectile.cpp">
+			<Filter>Source\CEDVFighters</Filter>
+		</ClCompile >
+		<ClInclude Include="..\..\Source\CEDVFighters\CEDVFightersProjectile.h">
+			<Filter>Source\CEDVFighters</Filter>
+		</ClInclude >
+	</ItemGroup>
+</Project>
