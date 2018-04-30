@@ -1,0 +1,1220 @@
+﻿Log file open, 04/30/18 19:55:45
+LogWindows: Failed to load 'aqProf.dll' (GetLastError=126)
+LogWindows: File 'aqProf.dll' does not exist
+LogWindows: Failed to load 'VtuneApi.dll' (GetLastError=126)
+LogWindows: File 'VtuneApi.dll' does not exist
+LogWindows: Failed to load 'VtuneApi32e.dll' (GetLastError=126)
+LogWindows: File 'VtuneApi32e.dll' does not exist
+LogInit: Display: Running engine for game: CEDVFighters
+LogPlatformFile: Not using cached read wrapper
+LogInit: Display: RandInit(-646256428) SRandInit(-646256428).
+LogInit: Read version file with build ID '3944462'
+LogInit: Overriding engine version to CL 3989454, compatible CL 3944462
+LogInit: Registered custom module enumerator with build ID '3944462'
+LogTaskGraph: Started task graph with 5 named threads and 23 total threads with 3 sets of task threads.
+LogStats: Stats thread started at 0.369928
+LogD3D11RHI: Aftermath initialized
+LogICUInternationalization: Display: ICU TimeZone Detection - Raw Offset: +1:00, Platform Override: ''
+LogPluginManager: Mounting plugin Paper2D
+LogPluginManager: Mounting plugin LiveLink
+LogPluginManager: Mounting plugin LightPropagationVolume
+LogPluginManager: Mounting plugin CLionSourceCodeAccess
+LogPluginManager: Mounting plugin CodeLiteSourceCodeAccess
+LogPluginManager: Mounting plugin GitSourceControl
+LogPluginManager: Mounting plugin KDevelopSourceCodeAccess
+LogPluginManager: Mounting plugin NullSourceCodeAccess
+LogPluginManager: Mounting plugin PerforceSourceControl
+LogPluginManager: Mounting plugin SubversionSourceControl
+LogPluginManager: Mounting plugin UObjectPlugin
+LogPluginManager: Mounting plugin VisualStudioCodeSourceCodeAccess
+LogPluginManager: Mounting plugin VisualStudioSourceCodeAccess
+LogPluginManager: Mounting plugin XCodeSourceCodeAccess
+LogPluginManager: Mounting plugin AssetManagerEditor
+LogPluginManager: Mounting plugin CryptoKeys
+LogPluginManager: Mounting plugin DataValidation
+LogPluginManager: Mounting plugin FacialAnimation
+LogPluginManager: Mounting plugin GameplayTagsEditor
+LogPluginManager: Mounting plugin MobileLauncherProfileWizard
+LogPluginManager: Mounting plugin PluginBrowser
+LogPluginManager: Mounting plugin SpeedTreeImporter
+LogPluginManager: Mounting plugin DatasmithContent
+LogPluginManager: Mounting plugin AlembicImporter
+LogPluginManager: Mounting plugin CharacterAI
+LogPluginManager: Mounting plugin HTML5Networking
+LogPluginManager: Mounting plugin AndroidMedia
+LogPluginManager: Mounting plugin AvfMedia
+LogPluginManager: Mounting plugin ImgMedia
+LogPluginManager: Mounting plugin LinearTimecode
+LogPluginManager: Mounting plugin MediaCompositing
+LogPluginManager: Mounting plugin MediaPlayerEditor
+LogPluginManager: Mounting plugin WmfMedia
+LogPluginManager: Mounting plugin TcpMessaging
+LogPluginManager: Mounting plugin UdpMessaging
+LogPluginManager: Mounting plugin ActorSequence
+LogPluginManager: Mounting plugin LevelSequenceEditor
+LogPluginManager: Mounting plugin MatineeToLevelSequence
+LogPluginManager: Mounting plugin NetcodeUnitTest
+LogPluginManager: Mounting plugin NUTUnrealEngine4
+LogPluginManager: Mounting plugin OnlineSubsystemGooglePlay
+LogPluginManager: Mounting plugin OnlineSubsystemIOS
+LogPluginManager: Mounting plugin OnlineSubsystem
+LogPluginManager: Mounting plugin OnlineSubsystemNull
+LogPluginManager: Mounting plugin OnlineSubsystemUtils
+LogPluginManager: Mounting plugin AndroidDeviceProfileSelector
+LogPluginManager: Mounting plugin AndroidMoviePlayer
+LogPluginManager: Mounting plugin AndroidPermission
+LogPluginManager: Mounting plugin AppleARKit
+LogPluginManager: Mounting plugin AppleMoviePlayer
+LogPluginManager: Mounting plugin ArchVisCharacter
+LogPluginManager: Mounting plugin AudioCapture
+LogPluginManager: Mounting plugin CableComponent
+LogPluginManager: Mounting plugin CustomMeshComponent
+LogPluginManager: Mounting plugin ExampleDeviceProfileSelector
+LogPluginManager: Mounting plugin GoogleCloudMessaging
+LogPluginManager: Mounting plugin ImmediatePhysics
+LogPluginManager: Mounting plugin IOSDeviceProfileSelector
+LogPluginManager: Mounting plugin LinuxDeviceProfileSelector
+LogPluginManager: Mounting plugin LocationServicesBPLibrary
+LogPluginManager: Mounting plugin MobilePatchingUtils
+LogPluginManager: Mounting plugin OculusVR
+LogPluginManager: Plugin shader directory ../../../Engine/Plugins/Runtime/Oculus/OculusVR/Shaders found
+LogPluginManager: Mapping shader source directory ../../../Engine/Plugins/Runtime/Oculus/OculusVR/Shaders to virtual directory /Plugin/OculusVR
+LogPluginManager: Mounting plugin PhysXVehicles
+LogPluginManager: Mounting plugin ProceduralMeshComponent
+LogPluginManager: Mounting plugin RuntimePhysXCooking
+LogPluginManager: Mounting plugin SteamVR
+LogPluginManager: Mounting plugin WindowsMoviePlayer
+LogStreaming: Display: Took  0.267s to configure plugins.
+LogModuleManager: Display: Found up-to-date module file D:/Documentos/Documentos/Unreal Projects/CEDVFighters/CEDVFighters/Binaries/Win64/UE4Editor-CEDVFighters.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/2D/Paper2D/Binaries/Win64/UE4Editor-Paper2D.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/2D/Paper2D/Binaries/Win64/UE4Editor-Paper2DEditor.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/2D/Paper2D/Binaries/Win64/UE4Editor-PaperSpriteSheetImporter.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/2D/Paper2D/Binaries/Win64/UE4Editor-PaperTiledImporter.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/2D/Paper2D/Binaries/Win64/UE4Editor-SmartSnapping.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Animation/LiveLink/Binaries/Win64/UE4Editor-LiveLink.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Animation/LiveLink/Binaries/Win64/UE4Editor-LiveLinkEditor.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Blendables/LightPropagationVolume/Binaries/Win64/UE4Editor-LightPropagationVolumeRuntime.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Blendables/LightPropagationVolume/Binaries/Win64/UE4Editor-LightPropagationVolumeEditor.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Developer/CLionSourceCodeAccess/Binaries/Win64/UE4Editor-CLionSourceCodeAccess.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Developer/GitSourceControl/Binaries/Win64/UE4Editor-GitSourceControl.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Developer/PerforceSourceControl/Binaries/Win64/UE4Editor-PerforceSourceControl.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Developer/SubversionSourceControl/Binaries/Win64/UE4Editor-SubversionSourceControl.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Developer/UObjectPlugin/Binaries/Win64/UE4Editor-UObjectPlugin.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Developer/VisualStudioCodeSourceCodeAccess/Binaries/Win64/UE4Editor-VisualStudioCodeSourceCodeAccess.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Developer/VisualStudioSourceCodeAccess/Binaries/Win64/UE4Editor-VisualStudioSourceCodeAccess.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Editor/AssetManagerEditor/Binaries/Win64/UE4Editor-AssetManagerEditor.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Editor/CryptoKeys/Binaries/Win64/UE4Editor-CryptoKeys.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Editor/CryptoKeys/Binaries/Win64/UE4Editor-CryptoKeysOpenSSL.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Editor/DataValidation/Binaries/Win64/UE4Editor-DataValidation.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Editor/FacialAnimation/Binaries/Win64/UE4Editor-FacialAnimation.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Editor/FacialAnimation/Binaries/Win64/UE4Editor-FacialAnimationEditor.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Editor/GameplayTagsEditor/Binaries/Win64/UE4Editor-GameplayTagsEditor.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Editor/MobileLauncherProfileWizard/Binaries/Win64/UE4Editor-MobileLauncherProfileWizard.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Editor/PluginBrowser/Binaries/Win64/UE4Editor-PluginBrowser.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Editor/SpeedTreeImporter/Binaries/Win64/UE4Editor-SpeedTreeImporter.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Enterprise/DatasmithContent/Binaries/Win64/UE4Editor-DatasmithContent.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Experimental/AlembicImporter/Binaries/Win64/UE4Editor-AlembicImporter.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Experimental/AlembicImporter/Binaries/Win64/UE4Editor-AlembicLibrary.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Experimental/CharacterAI/Binaries/Win64/UE4Editor-CharacterAI.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Experimental/HTML5Networking/Binaries/Win64/UE4Editor-HTML5Networking.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/AndroidMedia/Binaries/Win64/UE4Editor-AndroidMediaEditor.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/AndroidMedia/Binaries/Win64/UE4Editor-AndroidMediaFactory.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/AvfMedia/Binaries/Win64/UE4Editor-AvfMediaEditor.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/AvfMedia/Binaries/Win64/UE4Editor-AvfMediaFactory.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/AvfMedia/Binaries/Win64/UE4Editor-AvfMediaFactory.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/ImgMedia/Binaries/Win64/UE4Editor-ImgMedia.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/ImgMedia/Binaries/Win64/UE4Editor-ImgMediaEditor.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/ImgMedia/Binaries/Win64/UE4Editor-ImgMediaFactory.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/ImgMedia/Binaries/Win64/UE4Editor-ImgMediaFactory.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/ImgMedia/Binaries/Win64/UE4Editor-OpenExrWrapper.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/LinearTimecode/Binaries/Win64/UE4Editor-LinearTimecode.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/MediaCompositing/Binaries/Win64/UE4Editor-MediaCompositing.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/MediaCompositing/Binaries/Win64/UE4Editor-MediaCompositingEditor.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/MediaPlayerEditor/Binaries/Win64/UE4Editor-MediaPlayerEditor.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/WmfMedia/Binaries/Win64/UE4Editor-WmfMedia.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/WmfMedia/Binaries/Win64/UE4Editor-WmfMediaEditor.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/WmfMedia/Binaries/Win64/UE4Editor-WmfMediaFactory.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/WmfMedia/Binaries/Win64/UE4Editor-WmfMediaFactory.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Messaging/TcpMessaging/Binaries/Win64/UE4Editor-TcpMessaging.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Messaging/UdpMessaging/Binaries/Win64/UE4Editor-UdpMessaging.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/MovieScene/ActorSequence/Binaries/Win64/UE4Editor-ActorSequence.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/MovieScene/LevelSequenceEditor/Binaries/Win64/UE4Editor-LevelSequenceEditor.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/MovieScene/MatineeToLevelSequence/Binaries/Win64/UE4Editor-MatineeToLevelSequence.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/NetcodeUnitTest/NetcodeUnitTest/Binaries/Win64/UE4Editor-NetcodeUnitTest.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/NetcodeUnitTest/NUTUnrealEngine4/Binaries/Win64/UE4Editor-NUTUnrealEngine4.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Online/OnlineSubsystem/Binaries/Win64/UE4Editor-OnlineSubsystem.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Online/OnlineSubsystemNull/Binaries/Win64/UE4Editor-OnlineSubsystemNull.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Online/OnlineSubsystemUtils/Binaries/Win64/UE4Editor-OnlineSubsystemUtils.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Online/OnlineSubsystemUtils/Binaries/Win64/UE4Editor-OnlineBlueprintSupport.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/AndroidDeviceProfileSelector/Binaries/Win64/UE4Editor-AndroidDeviceProfileSelector.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/AndroidPermission/Binaries/Win64/UE4Editor-AndroidPermission.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/AppleARKit/Binaries/Win64/UE4Editor-AppleARKit.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/ArchVisCharacter/Binaries/Win64/UE4Editor-ArchVisCharacter.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/AudioCapture/Binaries/Win64/UE4Editor-AudioCapture.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/AudioCapture/Binaries/Win64/UE4Editor-AudioCaptureEditor.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/CableComponent/Binaries/Win64/UE4Editor-CableComponent.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/CustomMeshComponent/Binaries/Win64/UE4Editor-CustomMeshComponent.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/ExampleDeviceProfileSelector/Binaries/Win64/UE4Editor-ExampleDeviceProfileSelector.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/ImmediatePhysics/Binaries/Win64/UE4Editor-ImmediatePhysics.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/ImmediatePhysics/Binaries/Win64/UE4Editor-ImmediatePhysicsEditor.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/LocationServicesBPLibrary/Binaries/Win64/UE4Editor-LocationServicesBPLibrary.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/MobilePatchingUtils/Binaries/Win64/UE4Editor-MobilePatchingUtils.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/Oculus/OculusVR/Binaries/Win64/UE4Editor-OculusHMD.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/Oculus/OculusVR/Binaries/Win64/UE4Editor-OculusInput.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/Oculus/OculusVR/Binaries/Win64/UE4Editor-OculusEditor.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/PhysXVehicles/Binaries/Win64/UE4Editor-PhysXVehicles.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/PhysXVehicles/Binaries/Win64/UE4Editor-PhysXVehiclesEditor.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/ProceduralMeshComponent/Binaries/Win64/UE4Editor-ProceduralMeshComponent.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/ProceduralMeshComponent/Binaries/Win64/UE4Editor-ProceduralMeshComponentEditor.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/RuntimePhysXCooking/Binaries/Win64/UE4Editor-RuntimePhysXCooking.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/Steam/SteamVR/Binaries/Win64/UE4Editor-SteamVR.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/Steam/SteamVR/Binaries/Win64/UE4Editor-SteamVRController.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/WindowsMoviePlayer/Binaries/Win64/UE4Editor-WindowsMoviePlayer.dll (API version 3944462).
+LogInit: Using libcurl 7.47.1
+LogInit:  - built for x86_64-pc-win32
+LogInit:  - supports SSL with OpenSSL/1.0.2g
+LogInit:  - supports HTTP deflate (compression) using libz 1.2.8
+LogInit:  - other features:
+LogInit:      CURL_VERSION_SSL
+LogInit:      CURL_VERSION_LIBZ
+LogInit:      CURL_VERSION_IPV6
+LogInit:      CURL_VERSION_ASYNCHDNS
+LogInit:      CURL_VERSION_LARGEFILE
+LogInit:      CURL_VERSION_IDN
+LogInit:  CurlRequestOptions (configurable via config and command line):
+LogInit:  - bVerifyPeer = false  - Libcurl will NOT verify peer certificate
+LogInit:  - bUseHttpProxy = false  - Libcurl will NOT use HTTP proxy
+LogInit:  - bDontReuseConnections = false  - Libcurl will reuse connections
+LogInit:  - CertBundlePath = nullptr  - Libcurl will use whatever was configured at build time.
+LogInit:  - MaxHostConnections = 16  - Libcurl will limit the number of connections to a host
+LogInit:  - LocalHostAddr = Default
+LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+LogInit: WinSock: I am DESKTOP-BSEG7UJ (192.168.2.106:0)
+LogInit: Build: ++UE4+Release-4.19-CL-3989454
+LogInit: Engine Version: 4.19.1-3989454+++UE4+Release-4.19
+LogInit: Compatible Engine Version: 4.19.0-3944462+++UE4+Release-4.19
+LogInit: Net CL: 3944462
+LogDevObjectVersion: Number of dev versions registered: 18
+LogDevObjectVersion:   Dev-Blueprints (B0D832E4-1F89-4F0D-ACCF-7EB736FD4AA2): 10
+LogDevObjectVersion:   Dev-Build (E1C64328-A22C-4D53-A36C-8E866417BD8C): 0
+LogDevObjectVersion:   Dev-Core (375EC13C-06E4-48FB-B500-84F0262A717E): 2
+LogDevObjectVersion:   Dev-Editor (E4B068ED-F494-42E9-A231-DA0B2E46BB41): 23
+LogDevObjectVersion:   Dev-Framework (CFFC743F-43B0-4480-9391-14DF171D2073): 33
+LogDevObjectVersion:   Dev-Mobile (B02B49B5-BB20-44E9-A304-32B752E40360): 2
+LogDevObjectVersion:   Dev-Networking (A4E4105C-59A1-49B5-A7C5-40C4547EDFEE): 0
+LogDevObjectVersion:   Dev-Online (39C831C9-5AE6-47DC-9A44-9C173E1C8E7C): 0
+LogDevObjectVersion:   Dev-Physics (78F01B33-EBEA-4F98-B9B4-84EACCB95AA2): 0
+LogDevObjectVersion:   Dev-Platform (6631380F-2D4D-43E0-8009-CF276956A95A): 0
+LogDevObjectVersion:   Dev-Rendering (12F88B9F-8875-4AFC-A67C-D90C383ABD29): 25
+LogDevObjectVersion:   Dev-Sequencer (7B5AE74C-D270-4C10-A958-57980B212A5A): 6
+LogDevObjectVersion:   Dev-VR (D7296918-1DD6-4BDD-9DE2-64A83CC13884): 1
+LogDevObjectVersion:   Dev-LoadTimes (C2A15278-BFE7-4AFE-6C17-90FF531DF755): 1
+LogDevObjectVersion:   Private-Geometry (6EACA3D4-40EC-4CC1-B786-8BED09428FC5): 2
+LogDevObjectVersion:   Dev-AnimPhys (29E575DD-E0A3-4627-9D10-D276232CDCEA): 16
+LogDevObjectVersion:   Dev-ReflectionCapture (6B266CEC-1EC7-4B8F-A30B-E4D90942FC07): 1
+LogDevObjectVersion:   Dev-Automation (0DF73D61-A23F-47EA-B727-89E90C41499A): 1
+LogInit: Compiled (64-bit): Apr  6 2018 12:26:04
+LogInit: Compiled with Visual C++: 19.00.24215.01
+LogInit: Build Configuration: Development
+LogInit: Branch Name: ++UE4+Release-4.19
+LogInit: Command Line:  
+LogInit: Base Directory: C:/Program Files/Epic Games/UE_4.19/Engine/Binaries/Win64/
+LogInit: Installed Engine Build: 1
+LogStreaming: Display: Took  0.003s to delete old logs.
+LogInit: Presizing for max 8388607 objects, including 0 objects not considered by GC, pre-allocating 0 bytes for permanent pool.
+LogInit: Object subsystem initialized
+[2018.04.30-17.55.50:585][  0]LogInit: Selected Device Profile: [Windows]
+[2018.04.30-17.55.50:585][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2018.04.30-17.55.50:605][  0]LogInit: Computer: DESKTOP-BSEG7UJ
+[2018.04.30-17.55.50:606][  0]LogInit: User: Ricar
+[2018.04.30-17.55.50:606][  0]LogInit: CPU Page size=4096, Cores=4
+[2018.04.30-17.55.50:606][  0]LogInit: High frequency timer resolution =2.742189 MHz
+[2018.04.30-17.55.50:606][  0]LogMemory: Memory total: Physical=15.9GB (16GB approx)
+[2018.04.30-17.55.50:606][  0]LogMemory: Platform Memory Stats for Windows
+[2018.04.30-17.55.50:606][  0]LogMemory: Process Physical Memory: 273.94 MB used, 273.94 MB peak
+[2018.04.30-17.55.50:606][  0]LogMemory: Process Virtual Memory: 264.61 MB used, 264.61 MB peak
+[2018.04.30-17.55.50:606][  0]LogMemory: Physical Memory: 8178.91 MB used,  8122.79 MB free, 16301.70 MB total
+[2018.04.30-17.55.50:606][  0]LogMemory: Virtual Memory: 697.60 MB used,  8122.79 MB free, 134217728.00 MB total
+[2018.04.30-17.55.50:724][  0]LogInit: Overriding language with editor language configuration option (en).
+[2018.04.30-17.55.50:725][  0]LogInit: Overriding locale with editor locale configuration option (en).
+[2018.04.30-17.55.51:736][  0]LogStreaming: Display: Took  1.012s to EndInitTextLocalization.
+[2018.04.30-17.55.51:737][  0]LogInit: Setting process to per monitor DPI aware
+[2018.04.30-17.55.51:811][  0]LogSlate: New Slate User Created.  User Index 0, Is Virtual User: 0
+[2018.04.30-17.55.51:811][  0]LogSlate: Slate User Registered.  User Index 0, Is Virtual User: 0
+[2018.04.30-17.55.52:324][  0]LogD3D11RHI: D3D11 adapters:
+[2018.04.30-17.55.52:426][  0]LogD3D11RHI:    0. 'NVIDIA GeForce GTX 1050' (Feature Level 11_0)
+[2018.04.30-17.55.52:426][  0]LogD3D11RHI:       4031/0/8150 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:2, VendorId:0x10de
+[2018.04.30-17.55.52:447][  0]LogD3D11RHI:    1. 'Intel(R) HD Graphics 630' (Feature Level 11_0)
+[2018.04.30-17.55.52:447][  0]LogD3D11RHI:       128/0/8150 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x8086
+[2018.04.30-17.55.52:452][  0]LogD3D11RHI:    2. 'Microsoft Basic Render Driver' (Feature Level 11_0)
+[2018.04.30-17.55.52:453][  0]LogD3D11RHI:       0/0/8150 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
+[2018.04.30-17.55.52:453][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
+[2018.04.30-17.55.52:468][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2018.04.30-17.55.52:469][  0]LogD3D11RHI:     GPU DeviceId: 0x1c8d (for the marketing name, search the web for "GPU Device Id")
+[2018.04.30-17.55.52:469][  0]LogWindows: EnumDisplayDevices:
+[2018.04.30-17.55.52:469][  0]LogWindows:    0. 'Intel(R) HD Graphics 630' (P:0 D:1)
+[2018.04.30-17.55.52:469][  0]LogWindows:    1. 'Intel(R) HD Graphics 630' (P:1 D:1)
+[2018.04.30-17.55.52:470][  0]LogWindows:    2. 'Intel(R) HD Graphics 630' (P:0 D:0)
+[2018.04.30-17.55.52:470][  0]LogWindows: DebugString: GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter FoundDriverCount:0 
+[2018.04.30-17.55.52:470][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce GTX 1050
+[2018.04.30-17.55.52:470][  0]LogD3D11RHI:   Driver Version: Unknown (internal:Unknown, unified:Unknown)
+[2018.04.30-17.55.52:470][  0]LogD3D11RHI:      Driver Date: Unknown
+[2018.04.30-17.55.52:470][  0]LogRHI: Texture pool is 2821 MB (70% of 4031 MB)
+[2018.04.30-17.55.52:527][  0]LogD3D11RHI: [Aftermath] Aftermath enabled but failed to initialize
+[2018.04.30-17.55.52:527][  0]LogD3D11RHI: [Aftermath] Aftermath enabled and primed
+[2018.04.30-17.55.52:527][  0]LogD3D11RHI: Async texture creation enabled
+[2018.04.30-17.55.52:576][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 1)
+[2018.04.30-17.55.52:579][  0]LogShaderCompilers: Guid format shader working directory is -20 characters bigger than the processId version (D:/Documentos/Documentos/Unreal Projects/CEDVFighters/CEDVFighters/Intermediate/Shaders/WorkingDirectory/1120/).
+[2018.04.30-17.55.52:580][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/Ricar/AppData/Local/Temp/UnrealShaderWorkingDir/76EC0EB440F17268BCDE7EBAF8D8962C/'.
+[2018.04.30-17.55.53:111][  0]LogTemp: Display: Loaded TP AllDesktopTargetPlatform
+[2018.04.30-17.55.53:144][  0]LogTemp: Display: Loaded TP MacClientTargetPlatform
+[2018.04.30-17.55.53:177][  0]LogTemp: Display: Loaded TP MacNoEditorTargetPlatform
+[2018.04.30-17.55.53:214][  0]LogTemp: Display: Loaded TP MacServerTargetPlatform
+[2018.04.30-17.55.53:249][  0]LogTemp: Display: Loaded TP MacTargetPlatform
+[2018.04.30-17.55.53:283][  0]LogTemp: Display: Loaded TP WindowsClientTargetPlatform
+[2018.04.30-17.55.53:316][  0]LogTemp: Display: Loaded TP WindowsNoEditorTargetPlatform
+[2018.04.30-17.55.53:351][  0]LogTemp: Display: Loaded TP WindowsServerTargetPlatform
+[2018.04.30-17.55.53:367][  0]LogTemp: Display: Loaded TP WindowsTargetPlatform
+[2018.04.30-17.55.53:398][  0]LogTemp: Display: Loaded TP Android_ASTCTargetPlatform
+[2018.04.30-17.55.53:427][  0]LogTemp: Display: Loaded TP Android_ATCTargetPlatform
+[2018.04.30-17.55.53:456][  0]LogTemp: Display: Loaded TP Android_DXTTargetPlatform
+[2018.04.30-17.55.53:486][  0]LogTemp: Display: Loaded TP Android_ETC1aTargetPlatform
+[2018.04.30-17.55.53:514][  0]LogTemp: Display: Loaded TP Android_ETC1TargetPlatform
+[2018.04.30-17.55.53:543][  0]LogTemp: Display: Loaded TP Android_ETC2TargetPlatform
+[2018.04.30-17.55.53:601][  0]LogTemp: Display: Loaded TP Android_MultiTargetPlatform
+[2018.04.30-17.55.53:602][  0]LogTemp: Display: Loaded TP Android_PVRTCTargetPlatform
+[2018.04.30-17.55.53:633][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.04.30-17.55.53:636][  0]LogTemp: Display: Loaded TP HTML5TargetPlatform
+[2018.04.30-17.55.53:695][  0]LogTemp: Display: Loaded TP IOSTargetPlatform
+[2018.04.30-17.55.53:723][  0]LogTemp: Display: Loaded TP TVOSTargetPlatform
+[2018.04.30-17.55.53:752][  0]LogTemp: Display: Loaded TP LinuxClientTargetPlatform
+[2018.04.30-17.55.53:780][  0]LogTemp: Display: Loaded TP LinuxNoEditorTargetPlatform
+[2018.04.30-17.55.53:809][  0]LogTemp: Display: Loaded TP LinuxServerTargetPlatform
+[2018.04.30-17.55.53:840][  0]LogTemp: Display: Loaded TP LinuxTargetPlatform
+[2018.04.30-17.55.53:841][  0]LogTargetPlatformManager: Display: Building Assets For Windows
+[2018.04.30-17.55.54:139][  0]LogXGEController: Cannot use XGE Controller as Incredibuild is not installed on this machine.
+[2018.04.30-17.55.54:139][  0]LogShaderCompilers: Cannot use XGE Shader Compiler as Incredibuild is not installed on this machine.
+[2018.04.30-17.55.54:139][  0]LogShaderCompilers: Display: Using Local Shader Compiler.
+[2018.04.30-17.55.55:908][  0]LogDerivedDataCache: Display: Max Cache Size: 512 MB
+[2018.04.30-17.55.56:065][  0]LogDerivedDataCache: Loaded boot cache 0.16s 75MB C:/Users/Ricar/AppData/Local/UnrealEngine/4.19/DerivedDataCache/Boot.ddc.
+[2018.04.30-17.55.56:065][  0]LogDerivedDataCache: Display: Loaded Boot cache: C:/Users/Ricar/AppData/Local/UnrealEngine/4.19/DerivedDataCache/Boot.ddc
+[2018.04.30-17.55.56:065][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file D:/Documentos/Documentos/Unreal Projects/CEDVFighters/CEDVFighters/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2018.04.30-17.55.56:065][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2018.04.30-17.55.56:066][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file D:/Documentos/Documentos/Unreal Projects/CEDVFighters/CEDVFighters/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2018.04.30-17.55.56:066][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2018.04.30-17.55.56:105][  0]LogDerivedDataCache: Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2018.04.30-17.55.56:120][  0]LogDerivedDataCache: Using Local data cache path C:/Users/Ricar/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2018.04.30-17.55.56:148][  0]LogMaterial: Verifying Global Shaders for PCD3D_SM5
+[2018.04.30-17.55.56:148][  0]LogSlate: Using Freetype 2.6.0
+[2018.04.30-17.55.56:149][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2018.04.30-17.55.56:149][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2018.04.30-17.55.56:460][  0]LogAssetRegistry: FAssetRegistry took 0.0329 seconds to start up
+[2018.04.30-17.55.57:218][  0]LogInit: Selected Device Profile: [Windows]
+[2018.04.30-17.55.57:599][  0]LogSimplygon: Simplygon DLL not present - disabling.
+[2018.04.30-17.55.57:607][  0]LogMeshReduction: Using SimplygonSwarm for distributed automatic mesh merging
+[2018.04.30-17.55.57:607][  0]LogMeshReduction: Using QuadricMeshReduction for automatic static mesh reduction
+[2018.04.30-17.55.57:607][  0]LogMeshReduction: No automatic skeletal mesh reduction module available
+[2018.04.30-17.55.57:607][  0]LogMeshReduction: No automatic mesh merging module available
+[2018.04.30-17.55.57:607][  0]LogMeshMerging: No automatic mesh merging module available
+[2018.04.30-17.55.57:697][  0]LogNetVersion: CEDVFighters , NetCL: 3944462, EngineNetVer: 2, GameNetVer: 0 (Checksum: 260886863)
+[2018.04.30-17.55.58:880][  0]LogPackageLocalizationCache: Processed 9 localized package path(s) for 1 prioritized culture(s) in 0.111427 seconds
+[2018.04.30-17.55.58:897][  0]LogUObjectArray: 36728 objects as part of root set at end of initial load.
+[2018.04.30-17.55.58:897][  0]LogUObjectAllocator: 7314304 out of 0 bytes used by permanent object pool.
+[2018.04.30-17.55.58:897][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2018.04.30-17.56.03:460][  0]LogTcpMessaging: Initializing TcpMessaging bridge
+[2018.04.30-17.56.03:525][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2018.04.30-17.56.04:494][  0]SourceControl: Source control is disabled
+[2018.04.30-17.56.04:495][  0]SourceControl: Source control is disabled
+[2018.04.30-17.56.04:547][  0]SourceControl: Source control is disabled
+[2018.04.30-17.56.04:602][  0]SourceControl: Source control is disabled
+[2018.04.30-17.56.05:775][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
+[2018.04.30-17.56.06:264][  0]LogOcInput: OculusInput pre-init called
+[2018.04.30-17.56.06:520][  0]LogEngine: Initializing Engine...
+[2018.04.30-17.56.06:523][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2018.04.30-17.56.06:527][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2018.04.30-17.56.06:527][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
+[2018.04.30-17.56.07:113][  0]LogAIModule: Creating AISystem for world Untitled
+[2018.04.30-17.56.07:313][  0]LogInit: XAudio2 using 'Speaker (Sound Blaster Recon3D)' : 6 channels at 48 kHz using 16 bits per sample (channel mask 0x3f)
+[2018.04.30-17.56.07:344][  0]LogInit: FAudioDevice initialized.
+[2018.04.30-17.56.07:478][  0]LogDerivedDataCache: Saved boot cache 0.13s 75MB C:/Users/Ricar/AppData/Local/UnrealEngine/4.19/DerivedDataCache/Boot.ddc.
+[2018.04.30-17.56.07:489][  0]LogInit: Texture streaming: Enabled
+[2018.04.30-17.56.07:532][  0]LogEngineSessionManager: EngineSessionManager initialized
+[2018.04.30-17.56.07:573][  0]LogInit: Transaction tracking system initialized
+[2018.04.30-17.56.07:643][  0]BlueprintLog: New page: Editor Load
+[2018.04.30-17.56.07:884][  0]LocalizationService: Localization service is disabled
+[2018.04.30-17.56.08:174][  0]LogConsoleResponse: Display: 
+[2018.04.30-17.56.08:565][  0]LogCook: Display: Max memory allowance for cook 16384mb min free memory 0mb
+[2018.04.30-17.56.08:566][  0]LogCook: Display: Mobile HDR setting 1
+[2018.04.30-17.56.08:566][  0]LogGameplayTags: Display: UGameplayTagsManager::DoneAddingNativeTags. DelegateIsBound: 0
+[2018.04.30-17.56.08:566][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2018.04.30-17.56.08:566][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
+[2018.04.30-17.56.09:570][  0]LogFileCache: Scanning file cache for directory 'D:/Documentos/Documentos/Unreal Projects/CEDVFighters/CEDVFighters/Content/' took 0.02s
+[2018.04.30-17.56.09:588][  0]SourceControl: Source control is disabled
+[2018.04.30-17.56.09:588][  0]Cmd: MAP LOAD FILE="D:/Documentos/Documentos/Unreal Projects/CEDVFighters/CEDVFighters/Content/TwinStickCPP/Maps/TwinStickExampleMap.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2018.04.30-17.56.09:590][  0]LightingResults: New page: Lighting Build
+[2018.04.30-17.56.09:597][  0]MapCheck: New page: Map Check
+[2018.04.30-17.56.09:597][  0]LightingResults: New page: Lighting Build
+[2018.04.30-17.56.09:861][  0]LogLinker: Warning: Can't find file '/Game/TwinStickCPP/Maps/TwinStickExampleMap_BuiltData'
+[2018.04.30-17.56.09:861][  0]LogLinker: Warning: Can't find file for asset '/Game/TwinStickCPP/Maps/TwinStickExampleMap_BuiltData' while loading D:/Documentos/Documentos/Unreal Projects/CEDVFighters/CEDVFighters/Content/TwinStickCPP/Maps/TwinStickExampleMap.umap.
+[2018.04.30-17.56.09:861][  0]LoadErrors: Error: /Game/TwinStickCPP/Maps/TwinStickExampleMap : Can't find file for asset. /Game/TwinStickCPP/Maps/TwinStickExampleMap_BuiltData
+[2018.04.30-17.56.09:881][  0]LogLinker: Warning: Can't find file '/Game/TwinStickCPP/Maps/TwinStickExampleMap_BuiltData'
+[2018.04.30-17.56.09:881][  0]LogLinker: Warning: Can't find file for asset '/Game/TwinStickCPP/Maps/TwinStickExampleMap_BuiltData' while loading D:/Documentos/Documentos/Unreal Projects/CEDVFighters/CEDVFighters/Content/TwinStickCPP/Maps/TwinStickExampleMap.umap.
+[2018.04.30-17.56.09:881][  0]LoadErrors: Error: /Game/TwinStickCPP/Maps/TwinStickExampleMap : Can't find file for asset. /Game/TwinStickCPP/Maps/TwinStickExampleMap_BuiltData
+[2018.04.30-17.56.09:884][  0]LogLinker: Warning: Can't find file '/Game/TwinStickCPP/Maps/TwinStickExampleMap_BuiltData'
+[2018.04.30-17.56.09:884][  0]LogLinker: Warning: Can't find file for asset '/Game/TwinStickCPP/Maps/TwinStickExampleMap_BuiltData' while loading NULL.
+[2018.04.30-17.56.09:885][  0]LogLinker: Warning: Can't find file '/Game/TwinStickCPP/Maps/TwinStickExampleMap_BuiltData'
+[2018.04.30-17.56.09:885][  0]LogLinker: Warning: Can't find file for asset '/Game/TwinStickCPP/Maps/TwinStickExampleMap_BuiltData' while loading NULL.
+[2018.04.30-17.56.09:901][  0]LogLinker: Warning: Can't find file '/Game/TwinStickCPP/Maps/TwinStickExampleMap_BuiltData'
+[2018.04.30-17.56.09:901][  0]LoadErrors: Failed to load /Game/TwinStickCPP/Maps/TwinStickExampleMap_BuiltData.TwinStickExampleMap_BuiltData Referenced by PersistentLevel
+[2018.04.30-17.56.09:901][  0]LogLinker: Warning: Can't find file for asset '/Game/TwinStickCPP/Maps/TwinStickExampleMap_BuiltData' while loading NULL.
+[2018.04.30-17.56.09:901][  0]LoadErrors: Failed to load /Game/TwinStickCPP/Maps/TwinStickExampleMap_BuiltData.TwinStickExampleMap_BuiltData Referenced by PersistentLevel
+[2018.04.30-17.56.10:156][  0]LogAIModule: Creating AISystem for world TwinStickExampleMap
+[2018.04.30-17.56.10:177][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2018.04.30-17.56.10:215][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2018.04.30-17.56.10:392][  0]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 176.652ms to complete.
+[2018.04.30-17.56.10:392][  0]LogFileHelpers: Loading map 'TwinStickExampleMap' took 0.804
+[2018.04.30-17.56.10:880][  0]LogCollectionManager: Loaded 0 collections in 0.004431 seconds
+[2018.04.30-17.56.10:942][  0]LogFileCache: Scanning file cache for directory 'D:/Documentos/Documentos/Unreal Projects/CEDVFighters/CEDVFighters/Saved/Collections/' took 0.01s
+[2018.04.30-17.56.10:942][  0]LogFileCache: Scanning file cache for directory 'D:/Documentos/Documentos/Unreal Projects/CEDVFighters/CEDVFighters/Content/Developers/Ricar/Collections/' took 0.01s
+[2018.04.30-17.56.10:942][  0]LogFileCache: Scanning file cache for directory 'D:/Documentos/Documentos/Unreal Projects/CEDVFighters/CEDVFighters/Content/Collections/' took 0.01s
+[2018.04.30-17.56.10:942][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000001 seconds
+[2018.04.30-17.56.10:965][  0]LogContentBrowser: Native class hierarchy populated in 0.0229 seconds. Added 2456 classes and 562 folders.
+[2018.04.30-17.56.10:987][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0020 seconds. Added 0 classes and 0 folders.
+[2018.04.30-17.56.11:108][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0019 seconds. Added 0 classes and 0 folders.
+[2018.04.30-17.56.11:163][  0]LogSlate: Took 0.000680 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2018.04.30-17.56.11:183][  0]LogSlate: Took 0.000569 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
+[2018.04.30-17.56.11:195][  0]LogSlate: Took 0.000700 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
+[2018.04.30-17.56.11:437][  0]LogRenderer: Reallocating scene render targets to support 1072x604 Format 10 NumSamples 1 (Frame:1).
+[2018.04.30-17.56.11:999][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0015 seconds. Added 0 classes and 0 folders.
+[2018.04.30-17.56.11:999][  0]LogLoad: (Engine Initialization) Total time: 28.43 seconds
+[2018.04.30-17.56.11:999][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.00 seconds
+[2018.04.30-17.56.12:368][  0]LogContentStreaming: Texture pool size now 1000 MB
+[2018.04.30-17.56.12:407][  0]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2018.04.30-17.56.13:365][  3]LogSlate: Took 0.000719 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2018.04.30-17.56.14:357][  6]LogAssetRegistry: Asset discovery search completed in 17.9196 seconds
+[2018.04.30-17.56.14:363][  6]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000001 seconds (found 0 objects)
+[2018.04.30-17.56.14:363][  6]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000218 seconds (updated 0 objects)
+[2018.04.30-17.56.16:685][ 13]LogSlate: Took 0.000377 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2018.04.30-18.02.16:193][132]LogSlate: Window 'Message Log' being destroyed
+[2018.04.30-18.02.16:206][132]LogSlate: Window 'Message Log' being destroyed
+[2018.04.30-18.02.20:080][344]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.04.30-18.02.21:022][353]LogContentBrowser: Native class hierarchy updated for 'BlueprintGraph' in 0.0023 seconds. Added 116 classes and 0 folders.
+[2018.04.30-18.02.23:821][353]LogSlate: Took 0.000566 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-BoldCondensed.ttf' (158K)
+[2018.04.30-18.02.27:212][521]LogSlate: Took 0.000624 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Italic.ttf' (157K)
+[2018.04.30-18.02.56:732][207]LogSlate: Prevented a slow task dialog from being summoned while a context menu was open
+[2018.04.30-18.03.10:051][926]BlueprintLog: New page: Compile MainMenu
+[2018.04.30-18.03.11:020][947]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/CEDVFighters/UI/Widgets/MainMenu" FILE="D:/Documentos/Documentos/Unreal Projects/CEDVFighters/CEDVFighters/Content/CEDVFighters/UI/Widgets/MainMenu.uasset" SILENT=true
+[2018.04.30-18.03.11:444][947]LogSavePackage: Save=412.25ms
+[2018.04.30-18.03.11:445][947]LogSavePackage: Moving 'D:/Documentos/Documentos/Unreal Projects/CEDVFighters/CEDVFighters/Saved/MainMenuC791FA074F9BDF565EF608AB8E14609B.tmp' to 'D:/Documentos/Documentos/Unreal Projects/CEDVFighters/CEDVFighters/Content/CEDVFighters/UI/Widgets/MainMenu.uasset'
+[2018.04.30-18.03.11:453][947]LogSavePackage: Display: Finished SavePackage D:/Documentos/Documentos/Unreal Projects/CEDVFighters/CEDVFighters/Content/CEDVFighters/UI/Widgets/MainMenu.uasset
+[2018.04.30-18.03.12:713][ 18]LogTemp: Repeating last play command: Selected Viewport
+[2018.04.30-18.03.12:748][ 18]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/TwinStickCPP/Maps/TwinStickExampleMap.TwinStickExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/TwinStickCPP/Maps/TwinStickExampleMap.TwinStickExampleMap:PersistentLevel.TwinStickExampleMap' with GeneratedClass '/Game/TwinStickCPP/Maps/TwinStickExampleMap.TwinStickExampleMap_C' with ClassGeneratedBy '/Game/TwinStickCPP/Maps/TwinStickExampleMap.TwinStickExampleMap:PersistentLevel.TwinStickExampleMap'
+[2018.04.30-18.03.12:749][ 18]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.04.30-18.03.12:749][ 18]PIE: New page: PIE session: TwinStickExampleMap (Apr 30, 2018, 10:03:12 PM)
+[2018.04.30-18.03.12:749][ 18]LogPlayLevel: Creating play world package: /Game/TwinStickCPP/Maps/UEDPIE_0_TwinStickExampleMap
+[2018.04.30-18.03.12:798][ 18]LogPlayLevel: PIE: StaticDuplicateObject took: (0.048604s)
+[2018.04.30-18.03.12:799][ 18]LogAIModule: Creating AISystem for world TwinStickExampleMap
+[2018.04.30-18.03.12:800][ 18]LogPlayLevel: PIE: World Init took: (0.001715s)
+[2018.04.30-18.03.12:800][ 18]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/TwinStickCPP/Maps/TwinStickExampleMap.TwinStickExampleMap to /Game/TwinStickCPP/Maps/UEDPIE_0_TwinStickExampleMap.TwinStickExampleMap (0.050778s)
+[2018.04.30-18.03.12:867][ 18]LogInit: XAudio2 using 'Speaker (Sound Blaster Recon3D)' : 6 channels at 48 kHz using 16 bits per sample (channel mask 0x3f)
+[2018.04.30-18.03.12:888][ 18]LogInit: FAudioDevice initialized.
+[2018.04.30-18.03.13:017][ 18]LogLoad: Game class is 'CEDVFightersGameMode'
+[2018.04.30-18.03.13:021][ 18]LogWorld: Bringing World /Game/TwinStickCPP/Maps/UEDPIE_0_TwinStickExampleMap.TwinStickExampleMap up for play (max tick rate 60) at 2018.04.30-20.03.13
+[2018.04.30-18.03.13:022][ 18]LogWorld: Bringing up level for play took: 0.003266
+[2018.04.30-18.03.13:037][ 18]LogContentBrowser: Native class hierarchy updated for 'MovieSceneCapture' in 0.0015 seconds. Added 11 classes and 0 folders.
+[2018.04.30-18.03.13:048][ 18]PIE: Play in editor start time for /Game/TwinStickCPP/Maps/UEDPIE_0_TwinStickExampleMap -0.05
+[2018.04.30-18.03.13:049][ 18]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/TwinStickCPP/Maps/TwinStickExampleMap.TwinStickExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/TwinStickCPP/Maps/TwinStickExampleMap.TwinStickExampleMap:PersistentLevel.TwinStickExampleMap' with GeneratedClass '/Game/TwinStickCPP/Maps/TwinStickExampleMap.TwinStickExampleMap_C' with ClassGeneratedBy '/Game/TwinStickCPP/Maps/TwinStickExampleMap.TwinStickExampleMap:PersistentLevel.TwinStickExampleMap'
+[2018.04.30-18.03.13:106][ 18]LogRenderer: Reallocating scene render targets to support 1292x756 Format 10 NumSamples 1 (Frame:1).
+[2018.04.30-18.03.15:021][102]LogSlate: Window 'CEDVFighters Game Preview Standalone (64-bit/PCD3D_SM5)' being destroyed
+[2018.04.30-18.03.15:040][102]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/TwinStickCPP/Maps/TwinStickExampleMap.TwinStickExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/TwinStickCPP/Maps/TwinStickExampleMap.TwinStickExampleMap:PersistentLevel.TwinStickExampleMap' with GeneratedClass '/Game/TwinStickCPP/Maps/TwinStickExampleMap.TwinStickExampleMap_C' with ClassGeneratedBy '/Game/TwinStickCPP/Maps/TwinStickExampleMap.TwinStickExampleMap:PersistentLevel.TwinStickExampleMap'
+[2018.04.30-18.03.15:080][102]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/TwinStickCPP/Maps/TwinStickExampleMap.TwinStickExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/TwinStickCPP/Maps/TwinStickExampleMap.TwinStickExampleMap:PersistentLevel.TwinStickExampleMap' with GeneratedClass '/Game/TwinStickCPP/Maps/TwinStickExampleMap.TwinStickExampleMap_C' with ClassGeneratedBy '/Game/TwinStickCPP/Maps/TwinStickExampleMap.TwinStickExampleMap:PersistentLevel.TwinStickExampleMap'
+[2018.04.30-18.03.17:769][208]LogAIModule: Creating AISystem for world MainMenu
+[2018.04.30-18.03.17:872][208]Cmd: MAP LOAD FILE="D:/Documentos/Documentos/Unreal Projects/CEDVFighters/CEDVFighters/Content/CEDVFighters/MAPS/MainMenu.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2018.04.30-18.03.17:872][208]LightingResults: New page: Lighting Build
+[2018.04.30-18.03.17:874][208]LoadErrors: New page: Loading map: MainMenu.umap
+[2018.04.30-18.03.17:875][208]MapCheck: New page: Map Check
+[2018.04.30-18.03.17:875][208]LightingResults: New page: Lighting Build
+[2018.04.30-18.03.18:085][208]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2018.04.30-18.03.18:165][208]Cmd: MAP CHECKDEP NOCLEARLOG
+[2018.04.30-18.03.18:357][208]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 190.932ms to complete.
+[2018.04.30-18.03.18:359][208]LogFileHelpers: Loading map 'MainMenu' took 0.487
+[2018.04.30-18.03.20:238][316]LogTemp: Repeating last play command: Selected Viewport
+[2018.04.30-18.03.20:274][316]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/CEDVFighters/MAPS/MainMenu.MainMenu:PersistentLevel' has LevelScriptBlueprint '/Game/CEDVFighters/MAPS/MainMenu.MainMenu:PersistentLevel.MainMenu' with GeneratedClass '/Game/CEDVFighters/MAPS/MainMenu.MainMenu_C' with ClassGeneratedBy '/Game/CEDVFighters/MAPS/MainMenu.MainMenu:PersistentLevel.MainMenu'
+[2018.04.30-18.03.20:275][316]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.04.30-18.03.20:275][316]PIE: New page: PIE session: MainMenu (Apr 30, 2018, 10:03:20 PM)
+[2018.04.30-18.03.20:275][316]LogPlayLevel: Creating play world package: /Game/CEDVFighters/MAPS/UEDPIE_0_MainMenu
+[2018.04.30-18.03.20:277][316]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001876s)
+[2018.04.30-18.03.20:278][316]LogAIModule: Creating AISystem for world MainMenu
+[2018.04.30-18.03.20:279][316]LogPlayLevel: PIE: World Init took: (0.001389s)
+[2018.04.30-18.03.20:279][316]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/CEDVFighters/MAPS/MainMenu.MainMenu to /Game/CEDVFighters/MAPS/UEDPIE_0_MainMenu.MainMenu (0.003605s)
+[2018.04.30-18.03.20:341][316]LogInit: XAudio2 using 'Speaker (Sound Blaster Recon3D)' : 6 channels at 48 kHz using 16 bits per sample (channel mask 0x3f)
+[2018.04.30-18.03.20:359][316]LogInit: FAudioDevice initialized.
+[2018.04.30-18.03.20:465][316]LogLoad: Game class is 'CEDVFightersGameMode'
+[2018.04.30-18.03.20:468][316]LogWorld: Bringing World /Game/CEDVFighters/MAPS/UEDPIE_0_MainMenu.MainMenu up for play (max tick rate 60) at 2018.04.30-20.03.20
+[2018.04.30-18.03.20:468][316]LogWorld: Bringing up level for play took: 0.001629
+[2018.04.30-18.03.20:469][316]LogGameMode: FindPlayerStart: PATHS NOT DEFINED or NO PLAYERSTART with positive rating
+[2018.04.30-18.03.20:496][316]PIE: Play in editor start time for /Game/CEDVFighters/MAPS/UEDPIE_0_MainMenu -0.603
+[2018.04.30-18.03.20:497][316]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/CEDVFighters/MAPS/MainMenu.MainMenu:PersistentLevel' has LevelScriptBlueprint '/Game/CEDVFighters/MAPS/MainMenu.MainMenu:PersistentLevel.MainMenu' with GeneratedClass '/Game/CEDVFighters/MAPS/MainMenu.MainMenu_C' with ClassGeneratedBy '/Game/CEDVFighters/MAPS/MainMenu.MainMenu:PersistentLevel.MainMenu'
+[2018.04.30-18.03.41:087][376]LogSlate: Window 'CEDVFighters Game Preview Standalone (64-bit/PCD3D_SM5)' being destroyed
+[2018.04.30-18.03.41:104][376]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/CEDVFighters/MAPS/MainMenu.MainMenu:PersistentLevel' has LevelScriptBlueprint '/Game/CEDVFighters/MAPS/MainMenu.MainMenu:PersistentLevel.MainMenu' with GeneratedClass '/Game/CEDVFighters/MAPS/MainMenu.MainMenu_C' with ClassGeneratedBy '/Game/CEDVFighters/MAPS/MainMenu.MainMenu:PersistentLevel.MainMenu'
+[2018.04.30-18.03.41:142][376]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/CEDVFighters/MAPS/MainMenu.MainMenu:PersistentLevel' has LevelScriptBlueprint '/Game/CEDVFighters/MAPS/MainMenu.MainMenu:PersistentLevel.MainMenu' with GeneratedClass '/Game/CEDVFighters/MAPS/MainMenu.MainMenu_C' with ClassGeneratedBy '/Game/CEDVFighters/MAPS/MainMenu.MainMenu:PersistentLevel.MainMenu'
+[2018.04.30-18.04.25:457][885]BlueprintLog: New page: Compile MainMenu
+[2018.04.30-18.04.26:446][907]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/CEDVFighters/UI/Widgets/MainMenu" FILE="D:/Documentos/Documentos/Unreal Projects/CEDVFighters/CEDVFighters/Content/CEDVFighters/UI/Widgets/MainMenu.uasset" SILENT=true
+[2018.04.30-18.04.26:869][907]LogSavePackage: Save=414.76ms
+[2018.04.30-18.04.26:869][907]LogSavePackage: Moving 'D:/Documentos/Documentos/Unreal Projects/CEDVFighters/CEDVFighters/Saved/MainMenu8F5FD3B94E0C0E3AD29663AF83D5D844.tmp' to 'D:/Documentos/Documentos/Unreal Projects/CEDVFighters/CEDVFighters/Content/CEDVFighters/UI/Widgets/MainMenu.uasset'
+[2018.04.30-18.04.26:875][907]LogSavePackage: Display: Finished SavePackage D:/Documentos/Documentos/Unreal Projects/CEDVFighters/CEDVFighters/Content/CEDVFighters/UI/Widgets/MainMenu.uasset
+[2018.04.30-18.04.27:892][964]LogTemp: Repeating last play command: Selected Viewport
+[2018.04.30-18.04.27:939][964]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/CEDVFighters/MAPS/MainMenu.MainMenu:PersistentLevel' has LevelScriptBlueprint '/Game/CEDVFighters/MAPS/MainMenu.MainMenu:PersistentLevel.MainMenu' with GeneratedClass '/Game/CEDVFighters/MAPS/MainMenu.MainMenu_C' with ClassGeneratedBy '/Game/CEDVFighters/MAPS/MainMenu.MainMenu:PersistentLevel.MainMenu'
+[2018.04.30-18.04.27:940][964]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.04.30-18.04.27:940][964]PIE: New page: PIE session: MainMenu (Apr 30, 2018, 10:04:27 PM)
+[2018.04.30-18.04.27:940][964]LogPlayLevel: Creating play world package: /Game/CEDVFighters/MAPS/UEDPIE_0_MainMenu
+[2018.04.30-18.04.27:942][964]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001940s)
+[2018.04.30-18.04.27:943][964]LogAIModule: Creating AISystem for world MainMenu
+[2018.04.30-18.04.27:944][964]LogPlayLevel: PIE: World Init took: (0.001258s)
+[2018.04.30-18.04.27:944][964]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/CEDVFighters/MAPS/MainMenu.MainMenu to /Game/CEDVFighters/MAPS/UEDPIE_0_MainMenu.MainMenu (0.003514s)
+[2018.04.30-18.04.28:005][964]LogInit: XAudio2 using 'Speaker (Sound Blaster Recon3D)' : 6 channels at 48 kHz using 16 bits per sample (channel mask 0x3f)
+[2018.04.30-18.04.28:025][964]LogInit: FAudioDevice initialized.
+[2018.04.30-18.04.28:131][964]LogLoad: Game class is 'CEDVFightersGameMode'
+[2018.04.30-18.04.28:133][964]LogWorld: Bringing World /Game/CEDVFighters/MAPS/UEDPIE_0_MainMenu.MainMenu up for play (max tick rate 60) at 2018.04.30-20.04.28
+[2018.04.30-18.04.28:134][964]LogWorld: Bringing up level for play took: 0.001855
+[2018.04.30-18.04.28:135][964]LogGameMode: FindPlayerStart: PATHS NOT DEFINED or NO PLAYERSTART with positive rating
+[2018.04.30-18.04.28:166][964]PIE: Play in editor start time for /Game/CEDVFighters/MAPS/UEDPIE_0_MainMenu 1.067
+[2018.04.30-18.04.28:167][964]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/CEDVFighters/MAPS/MainMenu.MainMenu:PersistentLevel' has LevelScriptBlueprint '/Game/CEDVFighters/MAPS/MainMenu.MainMenu:PersistentLevel.MainMenu' with GeneratedClass '/Game/CEDVFighters/MAPS/MainMenu.MainMenu_C' with ClassGeneratedBy '/Game/CEDVFighters/MAPS/MainMenu.MainMenu:PersistentLevel.MainMenu'
+[2018.04.30-18.04.48:826][ 27]LogSlate: Window 'CEDVFighters Game Preview Standalone (64-bit/PCD3D_SM5)' being destroyed
+[2018.04.30-18.04.48:846][ 27]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/CEDVFighters/MAPS/MainMenu.MainMenu:PersistentLevel' has LevelScriptBlueprint '/Game/CEDVFighters/MAPS/MainMenu.MainMenu:PersistentLevel.MainMenu' with GeneratedClass '/Game/CEDVFighters/MAPS/MainMenu.MainMenu_C' with ClassGeneratedBy '/Game/CEDVFighters/MAPS/MainMenu.MainMenu:PersistentLevel.MainMenu'
+[2018.04.30-18.04.48:885][ 27]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/CEDVFighters/MAPS/MainMenu.MainMenu:PersistentLevel' has LevelScriptBlueprint '/Game/CEDVFighters/MAPS/MainMenu.MainMenu:PersistentLevel.MainMenu' with GeneratedClass '/Game/CEDVFighters/MAPS/MainMenu.MainMenu_C' with ClassGeneratedBy '/Game/CEDVFighters/MAPS/MainMenu.MainMenu:PersistentLevel.MainMenu'
+[2018.04.30-18.06.11:809][771]BlueprintLog: New page: Compile MainMenu
+[2018.04.30-18.06.13:519][837]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/CEDVFighters/UI/Widgets/MainMenu" FILE="D:/Documentos/Documentos/Unreal Projects/CEDVFighters/CEDVFighters/Content/CEDVFighters/UI/Widgets/MainMenu.uasset" SILENT=true
+[2018.04.30-18.06.13:945][837]LogSavePackage: Save=418.32ms
+[2018.04.30-18.06.13:945][837]LogSavePackage: Moving 'D:/Documentos/Documentos/Unreal Projects/CEDVFighters/CEDVFighters/Saved/MainMenuB213F4734FC5A6ACA6E85799BAC0427D.tmp' to 'D:/Documentos/Documentos/Unreal Projects/CEDVFighters/CEDVFighters/Content/CEDVFighters/UI/Widgets/MainMenu.uasset'
+[2018.04.30-18.06.13:952][837]LogSavePackage: Display: Finished SavePackage D:/Documentos/Documentos/Unreal Projects/CEDVFighters/CEDVFighters/Content/CEDVFighters/UI/Widgets/MainMenu.uasset
+[2018.04.30-18.06.14:261][853]LogTemp: Repeating last play command: Selected Viewport
+[2018.04.30-18.06.14:311][853]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/CEDVFighters/MAPS/MainMenu.MainMenu:PersistentLevel' has LevelScriptBlueprint '/Game/CEDVFighters/MAPS/MainMenu.MainMenu:PersistentLevel.MainMenu' with GeneratedClass '/Game/CEDVFighters/MAPS/MainMenu.MainMenu_C' with ClassGeneratedBy '/Game/CEDVFighters/MAPS/MainMenu.MainMenu:PersistentLevel.MainMenu'
+[2018.04.30-18.06.14:311][853]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.04.30-18.06.14:312][853]PIE: New page: PIE session: MainMenu (Apr 30, 2018, 10:06:14 PM)
+[2018.04.30-18.06.14:312][853]LogPlayLevel: Creating play world package: /Game/CEDVFighters/MAPS/UEDPIE_0_MainMenu
+[2018.04.30-18.06.14:314][853]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001801s)
+[2018.04.30-18.06.14:315][853]LogAIModule: Creating AISystem for world MainMenu
+[2018.04.30-18.06.14:315][853]LogPlayLevel: PIE: World Init took: (0.001306s)
+[2018.04.30-18.06.14:315][853]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/CEDVFighters/MAPS/MainMenu.MainMenu to /Game/CEDVFighters/MAPS/UEDPIE_0_MainMenu.MainMenu (0.003452s)
+[2018.04.30-18.06.14:379][853]LogInit: XAudio2 using 'Speaker (Sound Blaster Recon3D)' : 6 channels at 48 kHz using 16 bits per sample (channel mask 0x3f)
+[2018.04.30-18.06.14:401][853]LogInit: FAudioDevice initialized.
+[2018.04.30-18.06.14:514][853]LogLoad: Game class is 'CEDVFightersGameMode'
+[2018.04.30-18.06.14:516][853]LogWorld: Bringing World /Game/CEDVFighters/MAPS/UEDPIE_0_MainMenu.MainMenu up for play (max tick rate 60) at 2018.04.30-20.06.14
+[2018.04.30-18.06.14:517][853]LogWorld: Bringing up level for play took: 0.001637
+[2018.04.30-18.06.14:518][853]LogGameMode: FindPlayerStart: PATHS NOT DEFINED or NO PLAYERSTART with positive rating
+[2018.04.30-18.06.14:548][853]PIE: Play in editor start time for /Game/CEDVFighters/MAPS/UEDPIE_0_MainMenu -0.551
+[2018.04.30-18.06.14:549][853]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/CEDVFighters/MAPS/MainMenu.MainMenu:PersistentLevel' has LevelScriptBlueprint '/Game/CEDVFighters/MAPS/MainMenu.MainMenu:PersistentLevel.MainMenu' with GeneratedClass '/Game/CEDVFighters/MAPS/MainMenu.MainMenu_C' with ClassGeneratedBy '/Game/CEDVFighters/MAPS/MainMenu.MainMenu:PersistentLevel.MainMenu'
+[2018.04.30-18.06.27:479][591]LogSlate: Took 0.002811 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/DroidSansMono.ttf' (77K)
+[2018.04.30-18.06.33:515][857]LogSlate: Window 'CEDVFighters Game Preview Standalone (64-bit/PCD3D_SM5)' being destroyed
+[2018.04.30-18.06.33:531][857]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/CEDVFighters/MAPS/MainMenu.MainMenu:PersistentLevel' has LevelScriptBlueprint '/Game/CEDVFighters/MAPS/MainMenu.MainMenu:PersistentLevel.MainMenu' with GeneratedClass '/Game/CEDVFighters/MAPS/MainMenu.MainMenu_C' with ClassGeneratedBy '/Game/CEDVFighters/MAPS/MainMenu.MainMenu:PersistentLevel.MainMenu'
+[2018.04.30-18.06.33:575][857]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/CEDVFighters/MAPS/MainMenu.MainMenu:PersistentLevel' has LevelScriptBlueprint '/Game/CEDVFighters/MAPS/MainMenu.MainMenu:PersistentLevel.MainMenu' with GeneratedClass '/Game/CEDVFighters/MAPS/MainMenu.MainMenu_C' with ClassGeneratedBy '/Game/CEDVFighters/MAPS/MainMenu.MainMenu:PersistentLevel.MainMenu'
+[2018.04.30-18.06.34:991][932]LogTemp: Repeating last play command: Selected Viewport
+[2018.04.30-18.06.35:025][932]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/CEDVFighters/MAPS/MainMenu.MainMenu:PersistentLevel' has LevelScriptBlueprint '/Game/CEDVFighters/MAPS/MainMenu.MainMenu:PersistentLevel.MainMenu' with GeneratedClass '/Game/CEDVFighters/MAPS/MainMenu.MainMenu_C' with ClassGeneratedBy '/Game/CEDVFighters/MAPS/MainMenu.MainMenu:PersistentLevel.MainMenu'
+[2018.04.30-18.06.35:026][932]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.04.30-18.06.35:027][932]PIE: New page: PIE session: MainMenu (Apr 30, 2018, 10:06:35 PM)
+[2018.04.30-18.06.35:027][932]LogPlayLevel: Creating play world package: /Game/CEDVFighters/MAPS/UEDPIE_0_MainMenu
+[2018.04.30-18.06.35:030][932]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002336s)
+[2018.04.30-18.06.35:032][932]LogAIModule: Creating AISystem for world MainMenu
+[2018.04.30-18.06.35:033][932]LogPlayLevel: PIE: World Init took: (0.001954s)
+[2018.04.30-18.06.35:033][932]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/CEDVFighters/MAPS/MainMenu.MainMenu to /Game/CEDVFighters/MAPS/UEDPIE_0_MainMenu.MainMenu (0.005679s)
+[2018.04.30-18.06.35:097][932]LogInit: XAudio2 using 'Speaker (Sound Blaster Recon3D)' : 6 channels at 48 kHz using 16 bits per sample (channel mask 0x3f)
+[2018.04.30-18.06.35:118][932]LogInit: FAudioDevice initialized.
+[2018.04.30-18.06.35:164][932]LogLoad: Game class is 'CEDVFightersGameMode'
+[2018.04.30-18.06.35:166][932]LogWorld: Bringing World /Game/CEDVFighters/MAPS/UEDPIE_0_MainMenu.MainMenu up for play (max tick rate 60) at 2018.04.30-20.06.35
+[2018.04.30-18.06.35:167][932]LogWorld: Bringing up level for play took: 0.001227
+[2018.04.30-18.06.35:183][932]PIE: Play in editor start time for /Game/CEDVFighters/MAPS/UEDPIE_0_MainMenu 0.084
+[2018.04.30-18.06.35:183][932]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/CEDVFighters/MAPS/MainMenu.MainMenu:PersistentLevel' has LevelScriptBlueprint '/Game/CEDVFighters/MAPS/MainMenu.MainMenu:PersistentLevel.MainMenu' with GeneratedClass '/Game/CEDVFighters/MAPS/MainMenu.MainMenu_C' with ClassGeneratedBy '/Game/CEDVFighters/MAPS/MainMenu.MainMenu:PersistentLevel.MainMenu'
+[2018.04.30-18.06.42:693][377]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.04.30-18.06.56:738][203]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/CEDVFighters/MAPS/MainMenu.MainMenu:PersistentLevel' has LevelScriptBlueprint '/Game/CEDVFighters/MAPS/MainMenu.MainMenu:PersistentLevel.MainMenu' with GeneratedClass '/Game/CEDVFighters/MAPS/MainMenu.MainMenu_C' with ClassGeneratedBy '/Game/CEDVFighters/MAPS/MainMenu.MainMenu:PersistentLevel.MainMenu'
+[2018.04.30-18.06.56:792][203]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/CEDVFighters/MAPS/MainMenu.MainMenu:PersistentLevel' has LevelScriptBlueprint '/Game/CEDVFighters/MAPS/MainMenu.MainMenu:PersistentLevel.MainMenu' with GeneratedClass '/Game/CEDVFighters/MAPS/MainMenu.MainMenu_C' with ClassGeneratedBy '/Game/CEDVFighters/MAPS/MainMenu.MainMenu:PersistentLevel.MainMenu'
+[2018.04.30-18.07.07:714][640]LogSlate: Window 'Color Picker' being destroyed
+[2018.04.30-18.07.08:842][703]BlueprintLog: New page: Compile MainMenu
+[2018.04.30-18.07.09:621][713]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/CEDVFighters/UI/Widgets/MainMenu" FILE="D:/Documentos/Documentos/Unreal Projects/CEDVFighters/CEDVFighters/Content/CEDVFighters/UI/Widgets/MainMenu.uasset" SILENT=true
+[2018.04.30-18.07.10:048][713]LogSavePackage: Save=418.32ms
+[2018.04.30-18.07.10:048][713]LogSavePackage: Moving 'D:/Documentos/Documentos/Unreal Projects/CEDVFighters/CEDVFighters/Saved/MainMenuF0EAB90045EDEAFE8EF9AC92BC670AC7.tmp' to 'D:/Documentos/Documentos/Unreal Projects/CEDVFighters/CEDVFighters/Content/CEDVFighters/UI/Widgets/MainMenu.uasset'
+[2018.04.30-18.07.10:055][713]LogSavePackage: Display: Finished SavePackage D:/Documentos/Documentos/Unreal Projects/CEDVFighters/CEDVFighters/Content/CEDVFighters/UI/Widgets/MainMenu.uasset
+[2018.04.30-18.07.10:462][737]LogTemp: Repeating last play command: Selected Viewport
+[2018.04.30-18.07.10:497][737]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/CEDVFighters/MAPS/MainMenu.MainMenu:PersistentLevel' has LevelScriptBlueprint '/Game/CEDVFighters/MAPS/MainMenu.MainMenu:PersistentLevel.MainMenu' with GeneratedClass '/Game/CEDVFighters/MAPS/MainMenu.MainMenu_C' with ClassGeneratedBy '/Game/CEDVFighters/MAPS/MainMenu.MainMenu:PersistentLevel.MainMenu'
+[2018.04.30-18.07.10:499][737]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.04.30-18.07.10:499][737]PIE: New page: PIE session: MainMenu (Apr 30, 2018, 10:07:10 PM)
+[2018.04.30-18.07.10:500][737]LogPlayLevel: Creating play world package: /Game/CEDVFighters/MAPS/UEDPIE_0_MainMenu
+[2018.04.30-18.07.10:502][737]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001925s)
+[2018.04.30-18.07.10:503][737]LogAIModule: Creating AISystem for world MainMenu
+[2018.04.30-18.07.10:504][737]LogPlayLevel: PIE: World Init took: (0.001886s)
+[2018.04.30-18.07.10:505][737]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/CEDVFighters/MAPS/MainMenu.MainMenu to /Game/CEDVFighters/MAPS/UEDPIE_0_MainMenu.MainMenu (0.004958s)
+[2018.04.30-18.07.10:573][737]LogInit: XAudio2 using 'Speaker (Sound Blaster Recon3D)' : 6 channels at 48 kHz using 16 bits per sample (channel mask 0x3f)
+[2018.04.30-18.07.10:593][737]LogInit: FAudioDevice initialized.
+[2018.04.30-18.07.10:698][737]LogLoad: Game class is 'CEDVFightersGameMode'
+[2018.04.30-18.07.10:701][737]LogWorld: Bringing World /Game/CEDVFighters/MAPS/UEDPIE_0_MainMenu.MainMenu up for play (max tick rate 60) at 2018.04.30-20.07.10
+[2018.04.30-18.07.10:702][737]LogWorld: Bringing up level for play took: 0.001825
+[2018.04.30-18.07.10:704][737]LogGameMode: FindPlayerStart: PATHS NOT DEFINED or NO PLAYERSTART with positive rating
+[2018.04.30-18.07.10:734][737]PIE: Play in editor start time for /Game/CEDVFighters/MAPS/UEDPIE_0_MainMenu -0.365
+[2018.04.30-18.07.10:734][737]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/CEDVFighters/MAPS/MainMenu.MainMenu:PersistentLevel' has LevelScriptBlueprint '/Game/CEDVFighters/MAPS/MainMenu.MainMenu:PersistentLevel.MainMenu' with GeneratedClass '/Game/CEDVFighters/MAPS/MainMenu.MainMenu_C' with ClassGeneratedBy '/Game/CEDVFighters/MAPS/MainMenu.MainMenu:PersistentLevel.MainMenu'
+[2018.04.30-18.07.17:916][150]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.04.30-18.07.36:815][251]LogSlate: Window 'CEDVFighters Game Preview Standalone (64-bit/PCD3D_SM5)' being destroyed
+[2018.04.30-18.07.36:829][251]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/CEDVFighters/MAPS/MainMenu.MainMenu:PersistentLevel' has LevelScriptBlueprint '/Game/CEDVFighters/MAPS/MainMenu.MainMenu:PersistentLevel.MainMenu' with GeneratedClass '/Game/CEDVFighters/MAPS/MainMenu.MainMenu_C' with ClassGeneratedBy '/Game/CEDVFighters/MAPS/MainMenu.MainMenu:PersistentLevel.MainMenu'
+[2018.04.30-18.07.36:872][251]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/CEDVFighters/MAPS/MainMenu.MainMenu:PersistentLevel' has LevelScriptBlueprint '/Game/CEDVFighters/MAPS/MainMenu.MainMenu:PersistentLevel.MainMenu' with GeneratedClass '/Game/CEDVFighters/MAPS/MainMenu.MainMenu_C' with ClassGeneratedBy '/Game/CEDVFighters/MAPS/MainMenu.MainMenu:PersistentLevel.MainMenu'
+[2018.04.30-18.07.59:760][808]BlueprintLog: New page: Compile MainMenu
+[2018.04.30-18.08.00:520][809]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/CEDVFighters/UI/Widgets/MainMenu" FILE="D:/Documentos/Documentos/Unreal Projects/CEDVFighters/CEDVFighters/Content/CEDVFighters/UI/Widgets/MainMenu.uasset" SILENT=true
+[2018.04.30-18.08.00:992][809]LogSavePackage: Save=461.94ms
+[2018.04.30-18.08.00:993][809]LogSavePackage: Moving 'D:/Documentos/Documentos/Unreal Projects/CEDVFighters/CEDVFighters/Saved/MainMenuA90BB86344721EBE8F244B81EE75C934.tmp' to 'D:/Documentos/Documentos/Unreal Projects/CEDVFighters/CEDVFighters/Content/CEDVFighters/UI/Widgets/MainMenu.uasset'
+[2018.04.30-18.08.01:001][809]LogSavePackage: Display: Finished SavePackage D:/Documentos/Documentos/Unreal Projects/CEDVFighters/CEDVFighters/Content/CEDVFighters/UI/Widgets/MainMenu.uasset
+[2018.04.30-18.08.36:457][876]LogUObjectHash: Warning: Ambiguous search, could be CanvasPanel /Game/CEDVFighters/UI/Widgets/Floating.Floating:WidgetTree.CanvasPanel_1 or CanvasPanel /Game/CEDVFighters/UI/Widgets/Floating.SKEL_Floating_C:WidgetTree.CanvasPanel_1
+[2018.04.30-18.08.36:458][876]LogUObjectHash: Warning: Ambiguous search, could be CanvasPanel /Game/CEDVFighters/UI/Widgets/Floating.Floating:WidgetTree.CanvasPanel_1 or CanvasPanel /Game/CEDVFighters/UI/Widgets/Floating.Floating_C:WidgetTree.CanvasPanel_1
+[2018.04.30-18.08.36:458][876]LogUObjectHash: Warning: Ambiguous search, could be CanvasPanel /Game/CEDVFighters/UI/Widgets/Floating.Floating:WidgetTree.CanvasPanel_1 or CanvasPanel /Engine/Transient.World_1:Floating_C_20.WidgetTree_62.CanvasPanel_1
+[2018.04.30-18.08.36:459][876]LogProperty: Warning: Illegal TEXT reference to a private object in external package (CanvasPanelSlot /Game/CEDVFighters/UI/Widgets/Floating.Floating:WidgetTree.CanvasPanel_1.CanvasPanelSlot_2) from referencer (Image /Engine/UMG/Editor/Transient.Container).  Import failed...
+[2018.04.30-18.08.36:460][876]LogProperty: Warning: ObjectProperty /Script/UMG.Widget:Slot: unresolved reference to 'CanvasPanelSlot'"CanvasPanel_1.CanvasPanelSlot_2"''
+[2018.04.30-18.09.26:455][664]LogAudio: Warning: Current Audio Device with ID {0.0.0.00000000}.{174680c2-bfbc-483b-ae70-d3b11ee40f84} was removed. Shutting down audio device.
+[2018.04.30-18.09.26:456][664]LogInit: XAudio2 using 'Altavoces (Realtek High Definition Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2018.04.30-18.09.27:260][665]LogInit: XAudio2 using 'Altavoces (Realtek High Definition Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2018.04.30-18.10.19:789][759]LogProperty: Warning: Illegal TEXT reference to a private object in external package (MovieScene2DTransformTrack /Game/CEDVFighters/UI/Widgets/MainMenu.MainMenu:Unfold.Unfold.MovieScene2DTransformTrack_0) from referencer (MovieSceneCopyableBinding /Engine/Sequencer/Editor/Transient.MovieSceneCopyableBinding_0).  Import failed...
+[2018.04.30-18.10.19:791][759]LogProperty: Warning: ObjectProperty /Script/MovieScene.MovieSceneBinding:Tracks.Tracks: unresolved reference to 'MovieScene2DTransformTrack'"/Game/CEDVFighters/UI/Widgets/MainMenu.MainMenu:Unfold.Unfold.MovieScene2DTransformTrack_0"'))'
+[2018.04.30-18.12.17:500][537]LogProperty: Warning: Illegal TEXT reference to a private object in external package (MovieSceneFloatTrack /Game/CEDVFighters/UI/Widgets/MainMenu.MainMenu:FadeIn.FadeIn.MovieSceneFloatTrack_0) from referencer (MovieSceneCopyableBinding /Engine/Sequencer/Editor/Transient.MovieSceneCopyableBinding_1).  Import failed...
+[2018.04.30-18.12.17:501][537]LogProperty: Warning: ObjectProperty /Script/MovieScene.MovieSceneBinding:Tracks.Tracks: unresolved reference to 'MovieSceneFloatTrack'"/Game/CEDVFighters/UI/Widgets/MainMenu.MainMenu:FadeIn.FadeIn.MovieSceneFloatTrack_0"'))'
+[2018.04.30-18.12.33:296][425]LogProperty: Warning: Illegal TEXT reference to a private object in external package (MovieSceneFloatTrack /Game/CEDVFighters/UI/Widgets/MainMenu.MainMenu:Blink.Blink.MovieSceneFloatTrack_1) from referencer (MovieSceneCopyableBinding /Engine/Sequencer/Editor/Transient.MovieSceneCopyableBinding_2).  Import failed...
+[2018.04.30-18.12.33:297][425]LogProperty: Warning: ObjectProperty /Script/MovieScene.MovieSceneBinding:Tracks.Tracks: unresolved reference to 'MovieSceneFloatTrack'"/Game/CEDVFighters/UI/Widgets/MainMenu.MainMenu:Blink.Blink.MovieSceneFloatTrack_1"'))'
+[2018.04.30-18.12.42:689][974]BlueprintLog: New page: Compile Floating
+[2018.04.30-18.12.43:541][  6]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/CEDVFighters/UI/Widgets/Floating" FILE="D:/Documentos/Documentos/Unreal Projects/CEDVFighters/CEDVFighters/Content/CEDVFighters/UI/Widgets/Floating.uasset" SILENT=true
+[2018.04.30-18.12.43:591][  6]LogSavePackage: Save=37.86ms
+[2018.04.30-18.12.43:592][  6]LogSavePackage: Moving 'D:/Documentos/Documentos/Unreal Projects/CEDVFighters/CEDVFighters/Saved/FloatingC23D1D584F1C31B04D791F849A881BCC.tmp' to 'D:/Documentos/Documentos/Unreal Projects/CEDVFighters/CEDVFighters/Content/CEDVFighters/UI/Widgets/Floating.uasset'
+[2018.04.30-18.12.43:599][  6]LogSavePackage: Display: Finished SavePackage D:/Documentos/Documentos/Unreal Projects/CEDVFighters/CEDVFighters/Content/CEDVFighters/UI/Widgets/Floating.uasset
+[2018.04.30-18.13.06:554][357]LogUObjectHash: Warning: Ambiguous search, could be CanvasPanel /Game/CEDVFighters/UI/Widgets/Floating.Floating:WidgetTree.CanvasPanel_1 or CanvasPanel /Engine/Transient.World_1:Floating_C_20.WidgetTree_62.CanvasPanel_1
+[2018.04.30-18.13.06:556][357]LogUObjectHash: Warning: Ambiguous search, could be CanvasPanel /Game/CEDVFighters/UI/Widgets/Floating.Floating:WidgetTree.CanvasPanel_1 or CanvasPanel /Engine/Transient.World_1:Floating_C_21.WidgetTree_63.CanvasPanel_1
+[2018.04.30-18.13.06:557][357]LogUObjectHash: Warning: Ambiguous search, could be CanvasPanel /Game/CEDVFighters/UI/Widgets/Floating.Floating:WidgetTree.CanvasPanel_1 or CanvasPanel /Engine/Transient.World_1:Floating_C_22.WidgetTree_64.CanvasPanel_1
+[2018.04.30-18.13.06:558][357]LogUObjectHash: Warning: Ambiguous search, could be CanvasPanel /Game/CEDVFighters/UI/Widgets/Floating.Floating:WidgetTree.CanvasPanel_1 or CanvasPanel /Engine/Transient.World_1:Floating_C_37.WidgetTree_86.CanvasPanel_1
+[2018.04.30-18.13.06:559][357]LogUObjectHash: Warning: Ambiguous search, could be CanvasPanel /Game/CEDVFighters/UI/Widgets/Floating.Floating:WidgetTree.CanvasPanel_1 or CanvasPanel /Engine/Transient.World_1:Floating_C_36.WidgetTree_84.CanvasPanel_1
+[2018.04.30-18.13.06:560][357]LogUObjectHash: Warning: Ambiguous search, could be CanvasPanel /Game/CEDVFighters/UI/Widgets/Floating.Floating:WidgetTree.CanvasPanel_1 or CanvasPanel /Engine/Transient.REINST_Floating_C_25:WidgetTree.CanvasPanel_1
+[2018.04.30-18.13.06:561][357]LogUObjectHash: Warning: Ambiguous search, could be CanvasPanel /Game/CEDVFighters/UI/Widgets/Floating.Floating:WidgetTree.CanvasPanel_1 or CanvasPanel /Game/CEDVFighters/UI/Widgets/Floating.Floating_C:WidgetTree.CanvasPanel_1
+[2018.04.30-18.13.06:561][357]LogUObjectHash: Warning: Ambiguous search, could be CanvasPanel /Game/CEDVFighters/UI/Widgets/Floating.Floating:WidgetTree.CanvasPanel_1 or CanvasPanel /Engine/Transient.World_1:Floating_C_35.WidgetTree_83.CanvasPanel_1
+[2018.04.30-18.13.06:562][357]LogProperty: Warning: Illegal TEXT reference to a private object in external package (CanvasPanelSlot /Game/CEDVFighters/UI/Widgets/Floating.Floating:WidgetTree.CanvasPanel_1.CanvasPanelSlot_0) from referencer (Image /Engine/UMG/Editor/Transient.Frame_Glow).  Import failed...
+[2018.04.30-18.13.06:563][357]LogProperty: Warning: ObjectProperty /Script/UMG.Widget:Slot: unresolved reference to 'CanvasPanelSlot'"CanvasPanel_1.CanvasPanelSlot_0"''
+[2018.04.30-18.13.41:369][354]BlueprintLog: New page: Compile Floating
+[2018.04.30-18.13.42:434][392]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/CEDVFighters/UI/Widgets/Floating" FILE="D:/Documentos/Documentos/Unreal Projects/CEDVFighters/CEDVFighters/Content/CEDVFighters/UI/Widgets/Floating.uasset" SILENT=true
+[2018.04.30-18.13.42:479][392]LogSavePackage: Save=35.60ms
+[2018.04.30-18.13.42:479][392]LogSavePackage: Moving 'D:/Documentos/Documentos/Unreal Projects/CEDVFighters/CEDVFighters/Saved/Floating40765AB24A6853BC4FC4EDBEF3A521BC.tmp' to 'D:/Documentos/Documentos/Unreal Projects/CEDVFighters/CEDVFighters/Content/CEDVFighters/UI/Widgets/Floating.uasset'
+[2018.04.30-18.13.42:489][392]LogSavePackage: Display: Finished SavePackage D:/Documentos/Documentos/Unreal Projects/CEDVFighters/CEDVFighters/Content/CEDVFighters/UI/Widgets/Floating.uasset
+[2018.04.30-18.14.50:717][139]BlueprintLog: New page: Compile Floating
+[2018.04.30-18.14.51:426][158]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/CEDVFighters/UI/Widgets/Floating" FILE="D:/Documentos/Documentos/Unreal Projects/CEDVFighters/CEDVFighters/Content/CEDVFighters/UI/Widgets/Floating.uasset" SILENT=true
+[2018.04.30-18.14.51:478][158]LogSavePackage: Save=42.59ms
+[2018.04.30-18.14.51:479][158]LogSavePackage: Moving 'D:/Documentos/Documentos/Unreal Projects/CEDVFighters/CEDVFighters/Saved/Floating2B31300242DE5655B8915DA363F5F0B8.tmp' to 'D:/Documentos/Documentos/Unreal Projects/CEDVFighters/CEDVFighters/Content/CEDVFighters/UI/Widgets/Floating.uasset'
+[2018.04.30-18.14.51:485][158]LogSavePackage: Display: Finished SavePackage D:/Documentos/Documentos/Unreal Projects/CEDVFighters/CEDVFighters/Content/CEDVFighters/UI/Widgets/Floating.uasset
+[2018.04.30-18.17.09:447][959]BlueprintLog: New page: Compile Floating
+[2018.04.30-18.17.10:724][  9]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/CEDVFighters/UI/Widgets/Floating" FILE="D:/Documentos/Documentos/Unreal Projects/CEDVFighters/CEDVFighters/Content/CEDVFighters/UI/Widgets/Floating.uasset" SILENT=true
+[2018.04.30-18.17.10:779][  9]LogSavePackage: Save=45.05ms
+[2018.04.30-18.17.10:779][  9]LogSavePackage: Moving 'D:/Documentos/Documentos/Unreal Projects/CEDVFighters/CEDVFighters/Saved/Floating690B06A54509514B54A003BA01955AC4.tmp' to 'D:/Documentos/Documentos/Unreal Projects/CEDVFighters/CEDVFighters/Content/CEDVFighters/UI/Widgets/Floating.uasset'
+[2018.04.30-18.17.10:786][  9]LogSavePackage: Display: Finished SavePackage D:/Documentos/Documentos/Unreal Projects/CEDVFighters/CEDVFighters/Content/CEDVFighters/UI/Widgets/Floating.uasset
+[2018.04.30-18.17.12:711][118]LogTemp: Repeating last play command: Selected Viewport
+[2018.04.30-18.17.12:745][118]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/CEDVFighters/MAPS/MainMenu.MainMenu:PersistentLevel' has LevelScriptBlueprint '/Game/CEDVFighters/MAPS/MainMenu.MainMenu:PersistentLevel.MainMenu' with GeneratedClass '/Game/CEDVFighters/MAPS/MainMenu.MainMenu_C' with ClassGeneratedBy '/Game/CEDVFighters/MAPS/MainMenu.MainMenu:PersistentLevel.MainMenu'
+[2018.04.30-18.17.12:746][118]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.04.30-18.17.12:747][118]PIE: New page: PIE session: MainMenu (Apr 30, 2018, 10:17:12 PM)
+[2018.04.30-18.17.12:748][118]LogPlayLevel: Creating play world package: /Game/CEDVFighters/MAPS/UEDPIE_0_MainMenu
+[2018.04.30-18.17.12:751][118]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002579s)
+[2018.04.30-18.17.12:752][118]LogAIModule: Creating AISystem for world MainMenu
+[2018.04.30-18.17.12:753][118]LogPlayLevel: PIE: World Init took: (0.001842s)
+[2018.04.30-18.17.12:753][118]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/CEDVFighters/MAPS/MainMenu.MainMenu to /Game/CEDVFighters/MAPS/UEDPIE_0_MainMenu.MainMenu (0.005707s)
+[2018.04.30-18.17.12:811][118]LogInit: XAudio2 using 'Altavoces (Realtek High Definition Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2018.04.30-18.17.12:903][118]LogInit: FAudioDevice initialized.
+[2018.04.30-18.17.12:998][118]LogLoad: Game class is 'CEDVFightersGameMode'
+[2018.04.30-18.17.13:002][118]LogWorld: Bringing World /Game/CEDVFighters/MAPS/UEDPIE_0_MainMenu.MainMenu up for play (max tick rate 60) at 2018.04.30-20.17.13
+[2018.04.30-18.17.13:003][118]LogWorld: Bringing up level for play took: 0.001451
+[2018.04.30-18.17.13:004][118]LogGameMode: FindPlayerStart: PATHS NOT DEFINED or NO PLAYERSTART with positive rating
+[2018.04.30-18.17.13:027][118]PIE: Play in editor start time for /Game/CEDVFighters/MAPS/UEDPIE_0_MainMenu -0.072
+[2018.04.30-18.17.13:028][118]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/CEDVFighters/MAPS/MainMenu.MainMenu:PersistentLevel' has LevelScriptBlueprint '/Game/CEDVFighters/MAPS/MainMenu.MainMenu:PersistentLevel.MainMenu' with GeneratedClass '/Game/CEDVFighters/MAPS/MainMenu.MainMenu_C' with ClassGeneratedBy '/Game/CEDVFighters/MAPS/MainMenu.MainMenu:PersistentLevel.MainMenu'
+[2018.04.30-18.17.21:647][516]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.04.30-18.17.24:771][655]LogSlate: Window 'CEDVFighters Game Preview Standalone (64-bit/PCD3D_SM5)' being destroyed
+[2018.04.30-18.17.24:785][655]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/CEDVFighters/MAPS/MainMenu.MainMenu:PersistentLevel' has LevelScriptBlueprint '/Game/CEDVFighters/MAPS/MainMenu.MainMenu:PersistentLevel.MainMenu' with GeneratedClass '/Game/CEDVFighters/MAPS/MainMenu.MainMenu_C' with ClassGeneratedBy '/Game/CEDVFighters/MAPS/MainMenu.MainMenu:PersistentLevel.MainMenu'
+[2018.04.30-18.17.24:828][655]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/CEDVFighters/MAPS/MainMenu.MainMenu:PersistentLevel' has LevelScriptBlueprint '/Game/CEDVFighters/MAPS/MainMenu.MainMenu:PersistentLevel.MainMenu' with GeneratedClass '/Game/CEDVFighters/MAPS/MainMenu.MainMenu_C' with ClassGeneratedBy '/Game/CEDVFighters/MAPS/MainMenu.MainMenu:PersistentLevel.MainMenu'
+[2018.04.30-18.17.55:463][352]LogUObjectHash: Warning: Ambiguous search, could be CanvasPanel /Game/CEDVFighters/UI/Widgets/Floating.Floating:WidgetTree.CanvasPanel_0 or CanvasPanel /Game/CEDVFighters/UI/Widgets/MainMenu.MainMenu:WidgetTree.CanvasPanel_0
+[2018.04.30-18.17.55:463][352]LogUObjectHash: Warning: Ambiguous search, could be CanvasPanel /Game/CEDVFighters/UI/Widgets/Floating.Floating:WidgetTree.CanvasPanel_0 or CanvasPanel /Engine/Transient.REINST_MainMenu_C_7:WidgetTree.CanvasPanel_0
+[2018.04.30-18.17.55:464][352]LogUObjectHash: Warning: Ambiguous search, could be CanvasPanel /Game/CEDVFighters/UI/Widgets/Floating.Floating:WidgetTree.CanvasPanel_0 or CanvasPanel /Engine/Transient.World_3:MainMenu_C_14.WidgetTree_21.CanvasPanel_0
+[2018.04.30-18.17.55:465][352]LogUObjectHash: Warning: Ambiguous search, could be CanvasPanel /Game/CEDVFighters/UI/Widgets/Floating.Floating:WidgetTree.CanvasPanel_0 or CanvasPanel /Engine/Transient.World_3:MainMenu_C_22.WidgetTree_32.CanvasPanel_0
+[2018.04.30-18.17.55:466][352]LogUObjectHash: Warning: Ambiguous search, could be CanvasPanel /Game/CEDVFighters/UI/Widgets/Floating.Floating:WidgetTree.CanvasPanel_0 or CanvasPanel /Game/CEDVFighters/UI/HUD/Widgets/MainMenu.MainMenu_C:WidgetTree.CanvasPanel_0
+[2018.04.30-18.17.55:466][352]LogUObjectHash: Warning: Ambiguous search, could be CanvasPanel /Game/CEDVFighters/UI/Widgets/Floating.Floating:WidgetTree.CanvasPanel_0 or CanvasPanel /Game/CEDVFighters/UI/HUD/Widgets/MainMenu.SKEL_MainMenu_C:WidgetTree.CanvasPanel_0
+[2018.04.30-18.17.55:467][352]LogUObjectHash: Warning: Ambiguous search, could be CanvasPanel /Game/CEDVFighters/UI/Widgets/Floating.Floating:WidgetTree.CanvasPanel_0 or CanvasPanel /Game/CEDVFighters/UI/HUD/Widgets/MainMenu.MainMenu:WidgetTree.CanvasPanel_0
+[2018.04.30-18.17.55:468][352]LogUObjectHash: Warning: Ambiguous search, could be CanvasPanel /Game/CEDVFighters/UI/Widgets/Floating.Floating:WidgetTree.CanvasPanel_0 or CanvasPanel /Engine/Transient.World_1:Floating_C_20.WidgetTree_62.CanvasPanel_0
+[2018.04.30-18.17.55:469][352]LogUObjectHash: Warning: Ambiguous search, could be CanvasPanel /Game/CEDVFighters/UI/Widgets/Floating.Floating:WidgetTree.CanvasPanel_0 or CanvasPanel /Engine/Transient.World_3:MainMenu_C_41.WidgetTree_58.CanvasPanel_0
+[2018.04.30-18.17.55:470][352]LogUObjectHash: Warning: Ambiguous search, could be CanvasPanel /Game/CEDVFighters/UI/Widgets/Floating.Floating:WidgetTree.CanvasPanel_0 or CanvasPanel /Engine/Transient.REINST_MainMenu_C_10:WidgetTree.CanvasPanel_0
+[2018.04.30-18.17.55:470][352]LogUObjectHash: Warning: Ambiguous search, could be CanvasPanel /Game/CEDVFighters/UI/Widgets/Floating.Floating:WidgetTree.CanvasPanel_0 or CanvasPanel /Game/CEDVFighters/UI/Widgets/MainMenu.MainMenu_C:WidgetTree.CanvasPanel_0
+[2018.04.30-18.17.55:471][352]LogUObjectHash: Warning: Ambiguous search, could be CanvasPanel /Game/CEDVFighters/UI/Widgets/Floating.Floating:WidgetTree.CanvasPanel_0 or CanvasPanel /Engine/Transient.REINST_MainMenu_C_15:WidgetTree.CanvasPanel_0
+[2018.04.30-18.17.55:472][352]LogUObjectHash: Warning: Ambiguous search, could be CanvasPanel /Game/CEDVFighters/UI/Widgets/Floating.Floating:WidgetTree.CanvasPanel_0 or CanvasPanel /Engine/Transient.World_1:Floating_C_21.WidgetTree_63.CanvasPanel_0
+[2018.04.30-18.17.55:473][352]LogUObjectHash: Warning: Ambiguous search, could be CanvasPanel /Game/CEDVFighters/UI/Widgets/Floating.Floating:WidgetTree.CanvasPanel_0 or CanvasPanel /Engine/Transient.World_1:Floating_C_22.WidgetTree_64.CanvasPanel_0
+[2018.04.30-18.17.55:473][352]LogUObjectHash: Warning: Ambiguous search, could be CanvasPanel /Game/CEDVFighters/UI/Widgets/Floating.Floating:WidgetTree.CanvasPanel_0 or CanvasPanel /Engine/Transient.REINST_Floating_C_32:WidgetTree.CanvasPanel_0
+[2018.04.30-18.17.55:474][352]LogUObjectHash: Warning: Ambiguous search, could be CanvasPanel /Game/CEDVFighters/UI/Widgets/Floating.Floating:WidgetTree.CanvasPanel_0 or CanvasPanel /Engine/Transient.World_1:Floating_C_47.WidgetTree_96.CanvasPanel_0
+[2018.04.30-18.17.55:475][352]LogUObjectHash: Warning: Ambiguous search, could be CanvasPanel /Game/CEDVFighters/UI/Widgets/Floating.Floating:WidgetTree.CanvasPanel_0 or CanvasPanel /Game/CEDVFighters/UI/Widgets/Floating.Floating_C:WidgetTree.CanvasPanel_0
+[2018.04.30-18.17.55:475][352]LogUObjectHash: Warning: Ambiguous search, could be CanvasPanel /Game/CEDVFighters/UI/Widgets/Floating.Floating:WidgetTree.CanvasPanel_0 or CanvasPanel /Engine/Transient.REINST_Floating_C_29:WidgetTree.CanvasPanel_0
+[2018.04.30-18.17.55:476][352]LogUObjectHash: Warning: Ambiguous search, could be CanvasPanel /Game/CEDVFighters/UI/Widgets/Floating.Floating:WidgetTree.CanvasPanel_0 or CanvasPanel /Engine/Transient.World_1:Floating_C_39.WidgetTree_88.CanvasPanel_0
+[2018.04.30-18.17.55:477][352]LogUObjectHash: Warning: Ambiguous search, could be CanvasPanel /Game/CEDVFighters/UI/Widgets/Floating.Floating:WidgetTree.CanvasPanel_0 or CanvasPanel /Engine/Transient.World_1:Floating_C_38.WidgetTree_87.CanvasPanel_0
+[2018.04.30-18.17.55:477][352]LogUObjectHash: Warning: Ambiguous search, could be CanvasPanel /Game/CEDVFighters/UI/Widgets/Floating.Floating:WidgetTree.CanvasPanel_0 or CanvasPanel /Engine/Transient.REINST_Floating_C_35:WidgetTree.CanvasPanel_0
+[2018.04.30-18.17.55:478][352]LogUObjectHash: Warning: Ambiguous search, could be CanvasPanel /Game/CEDVFighters/UI/Widgets/Floating.Floating:WidgetTree.CanvasPanel_0 or CanvasPanel /Engine/Transient.World_1:Floating_C_52.WidgetTree_101.CanvasPanel_0
+[2018.04.30-18.17.55:479][352]LogUObjectHash: Warning: Ambiguous search, could be CanvasPanel /Game/CEDVFighters/UI/Widgets/Floating.Floating:WidgetTree.CanvasPanel_0 or CanvasPanel /Engine/Transient.World_3:MainMenu_C_58.WidgetTree_109.CanvasPanel_0
+[2018.04.30-18.17.55:480][352]LogUObjectHash: Warning: Ambiguous search, could be CanvasPanel /Game/CEDVFighters/UI/Widgets/Floating.Floating:WidgetTree.CanvasPanel_0 or CanvasPanel /Engine/Transient.REINST_Floating_C_25:WidgetTree.CanvasPanel_0
+[2018.04.30-18.17.55:480][352]LogUObjectHash: Warning: Ambiguous search, could be CanvasPanel /Game/CEDVFighters/UI/Widgets/Floating.Floating:WidgetTree.CanvasPanel_0 or CanvasPanel /Engine/Transient.World_1:Floating_C_56.WidgetTree_104.CanvasPanel_0
+[2018.04.30-18.17.55:481][352]LogUObjectHash: Warning: Ambiguous search, could be CanvasPanelSlot /Game/CEDVFighters/UI/Widgets/MainMenu.MainMenu:WidgetTree.CanvasPanel_0.CanvasPanelSlot_2 or CanvasPanelSlot /Engine/Transient.REINST_MainMenu_C_7:WidgetTree.CanvasPanel_0.CanvasPanelSlot_2
+[2018.04.30-18.17.55:482][352]LogUObjectHash: Warning: Ambiguous search, could be CanvasPanelSlot /Game/CEDVFighters/UI/Widgets/MainMenu.MainMenu:WidgetTree.CanvasPanel_0.CanvasPanelSlot_2 or CanvasPanelSlot /Engine/Transient.World_3:MainMenu_C_14.WidgetTree_21.CanvasPanel_0.CanvasPanelSlot_2
+[2018.04.30-18.17.55:483][352]LogUObjectHash: Warning: Ambiguous search, could be CanvasPanelSlot /Game/CEDVFighters/UI/Widgets/MainMenu.MainMenu:WidgetTree.CanvasPanel_0.CanvasPanelSlot_2 or CanvasPanelSlot /Engine/Transient.World_3:MainMenu_C_22.WidgetTree_32.CanvasPanel_0.CanvasPanelSlot_2
+[2018.04.30-18.17.55:484][352]LogUObjectHash: Warning: Ambiguous search, could be CanvasPanelSlot /Game/CEDVFighters/UI/Widgets/MainMenu.MainMenu:WidgetTree.CanvasPanel_0.CanvasPanelSlot_2 or CanvasPanelSlot /Game/CEDVFighters/UI/HUD/Widgets/MainMenu.MainMenu_C:WidgetTree.CanvasPanel_0.CanvasPanelSlot_2
+[2018.04.30-18.17.55:484][352]LogUObjectHash: Warning: Ambiguous search, could be CanvasPanelSlot /Game/CEDVFighters/UI/Widgets/MainMenu.MainMenu:WidgetTree.CanvasPanel_0.CanvasPanelSlot_2 or CanvasPanelSlot /Game/CEDVFighters/UI/HUD/Widgets/MainMenu.MainMenu:WidgetTree.CanvasPanel_0.CanvasPanelSlot_2
+[2018.04.30-18.17.55:485][352]LogUObjectHash: Warning: Ambiguous search, could be CanvasPanelSlot /Game/CEDVFighters/UI/Widgets/MainMenu.MainMenu:WidgetTree.CanvasPanel_0.CanvasPanelSlot_2 or CanvasPanelSlot /Game/CEDVFighters/UI/HUD/Widgets/MainMenu.SKEL_MainMenu_C:WidgetTree.CanvasPanel_0.CanvasPanelSlot_2
+[2018.04.30-18.17.55:486][352]LogUObjectHash: Warning: Ambiguous search, could be CanvasPanelSlot /Game/CEDVFighters/UI/Widgets/MainMenu.MainMenu:WidgetTree.CanvasPanel_0.CanvasPanelSlot_2 or CanvasPanelSlot /Engine/Transient.World_3:MainMenu_C_41.WidgetTree_58.CanvasPanel_0.CanvasPanelSlot_2
+[2018.04.30-18.17.55:487][352]LogUObjectHash: Warning: Ambiguous search, could be CanvasPanelSlot /Game/CEDVFighters/UI/Widgets/MainMenu.MainMenu:WidgetTree.CanvasPanel_0.CanvasPanelSlot_2 or CanvasPanelSlot /Engine/Transient.REINST_MainMenu_C_10:WidgetTree.CanvasPanel_0.CanvasPanelSlot_2
+[2018.04.30-18.17.55:488][352]LogUObjectHash: Warning: Ambiguous search, could be CanvasPanelSlot /Game/CEDVFighters/UI/Widgets/MainMenu.MainMenu:WidgetTree.CanvasPanel_0.CanvasPanelSlot_2 or CanvasPanelSlot /Game/CEDVFighters/UI/Widgets/MainMenu.MainMenu_C:WidgetTree.CanvasPanel_0.CanvasPanelSlot_2
+[2018.04.30-18.17.55:489][352]LogUObjectHash: Warning: Ambiguous search, could be CanvasPanelSlot /Game/CEDVFighters/UI/Widgets/MainMenu.MainMenu:WidgetTree.CanvasPanel_0.CanvasPanelSlot_2 or CanvasPanelSlot /Engine/Transient.REINST_MainMenu_C_15:WidgetTree.CanvasPanel_0.CanvasPanelSlot_2
+[2018.04.30-18.17.55:490][352]LogUObjectHash: Warning: Ambiguous search, could be CanvasPanelSlot /Game/CEDVFighters/UI/Widgets/MainMenu.MainMenu:WidgetTree.CanvasPanel_0.CanvasPanelSlot_2 or CanvasPanelSlot /Engine/Transient.World_3:MainMenu_C_58.WidgetTree_109.CanvasPanel_0.CanvasPanelSlot_2
+[2018.04.30-18.17.55:491][352]LogProperty: Warning: Illegal TEXT reference to a private object in external package (CanvasPanelSlot /Game/CEDVFighters/UI/Widgets/MainMenu.MainMenu:WidgetTree.CanvasPanel_0.CanvasPanelSlot_2) from referencer (Button /Engine/UMG/Editor/Transient.Records_Button).  Import failed...
+[2018.04.30-18.17.55:492][352]LogProperty: Warning: ObjectProperty /Script/UMG.Widget:Slot: unresolved reference to 'CanvasPanelSlot'"CanvasPanel_0.CanvasPanelSlot_2"''
+[2018.04.30-18.21.57:816][180]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/CEDVFighters/MAPS/MainMenu' took 0.055
+[2018.04.30-18.21.57:822][180]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/CEDVFighters/UI/Widgets/Floating] ([1] browsable assets)...
+[2018.04.30-18.21.57:823][180]OBJ SavePackage: Finished generating thumbnails for package [/Game/CEDVFighters/UI/Widgets/Floating]
+[2018.04.30-18.21.57:878][180]LogSavePackage: Save=45.94ms
+[2018.04.30-18.21.57:879][180]LogSavePackage: Moving 'D:/Documentos/Documentos/Unreal Projects/CEDVFighters/CEDVFighters/Saved/Floating_Auto100C6AA9E4D73CA5ECD4D018E9D12F44A.tmp' to 'D:/Documentos/Documentos/Unreal Projects/CEDVFighters/CEDVFighters/Saved/Autosaves/Game/CEDVFighters/UI/Widgets/Floating_Auto1.uasset'
+[2018.04.30-18.21.57:882][180]LogSavePackage: Display: Finished SavePackage D:/Documentos/Documentos/Unreal Projects/CEDVFighters/CEDVFighters/Saved/Autosaves/Game/CEDVFighters/UI/Widgets/Floating_Auto1.uasset
+[2018.04.30-18.21.57:884][180]LogFileHelpers: Auto-saving content packages took 0.065
+[2018.04.30-18.22.03:696][497]LogSlate: Window 'Color Picker' being destroyed
+[2018.04.30-18.22.17:473][277]LogUObjectHash: Warning: Ambiguous search, could be CanvasPanel /Game/CEDVFighters/UI/Widgets/Floating.Floating:WidgetTree.CanvasPanel_1 or CanvasPanel /Engine/Transient.REINST_Floating_C_32:WidgetTree.CanvasPanel_1
+[2018.04.30-18.22.17:474][277]LogUObjectHash: Warning: Ambiguous search, could be CanvasPanel /Game/CEDVFighters/UI/Widgets/Floating.Floating:WidgetTree.CanvasPanel_1 or CanvasPanel /Game/CEDVFighters/UI/Widgets/Floating.Floating_C:WidgetTree.CanvasPanel_1
+[2018.04.30-18.22.17:475][277]LogUObjectHash: Warning: Ambiguous search, could be CanvasPanel /Game/CEDVFighters/UI/Widgets/Floating.Floating:WidgetTree.CanvasPanel_1 or CanvasPanel /Engine/Transient.World_1:Floating_C_20.WidgetTree_62.CanvasPanel_1
+[2018.04.30-18.22.17:476][277]LogUObjectHash: Warning: Ambiguous search, could be CanvasPanel /Game/CEDVFighters/UI/Widgets/Floating.Floating:WidgetTree.CanvasPanel_1 or CanvasPanel /Engine/Transient.REINST_Floating_C_35:WidgetTree.CanvasPanel_1
+[2018.04.30-18.22.17:476][277]LogUObjectHash: Warning: Ambiguous search, could be CanvasPanel /Game/CEDVFighters/UI/Widgets/Floating.Floating:WidgetTree.CanvasPanel_1 or CanvasPanel /Engine/Transient.World_1:Floating_C_21.WidgetTree_63.CanvasPanel_1
+[2018.04.30-18.22.17:477][277]LogUObjectHash: Warning: Ambiguous search, could be CanvasPanel /Game/CEDVFighters/UI/Widgets/Floating.Floating:WidgetTree.CanvasPanel_1 or CanvasPanel /Engine/Transient.World_1:Floating_C_22.WidgetTree_64.CanvasPanel_1
+[2018.04.30-18.22.17:478][277]LogUObjectHash: Warning: Ambiguous search, could be CanvasPanel /Game/CEDVFighters/UI/Widgets/Floating.Floating:WidgetTree.CanvasPanel_1 or CanvasPanel /Engine/Transient.World_1:Floating_C_47.WidgetTree_96.CanvasPanel_1
+[2018.04.30-18.22.17:478][277]LogUObjectHash: Warning: Ambiguous search, could be CanvasPanel /Game/CEDVFighters/UI/Widgets/Floating.Floating:WidgetTree.CanvasPanel_1 or CanvasPanel /Engine/Transient.World_1:Floating_C_52.WidgetTree_101.CanvasPanel_1
+[2018.04.30-18.22.17:479][277]LogUObjectHash: Warning: Ambiguous search, could be CanvasPanel /Game/CEDVFighters/UI/Widgets/Floating.Floating:WidgetTree.CanvasPanel_1 or CanvasPanel /Engine/Transient.World_1:Floating_C_58.WidgetTree_111.CanvasPanel_1
+[2018.04.30-18.22.17:480][277]LogUObjectHash: Warning: Ambiguous search, could be CanvasPanel /Game/CEDVFighters/UI/Widgets/Floating.Floating:WidgetTree.CanvasPanel_1 or CanvasPanel /Engine/Transient.REINST_Floating_C_29:WidgetTree.CanvasPanel_1
+[2018.04.30-18.22.17:481][277]LogUObjectHash: Warning: Ambiguous search, could be CanvasPanel /Game/CEDVFighters/UI/Widgets/Floating.Floating:WidgetTree.CanvasPanel_1 or CanvasPanel /Engine/Transient.World_1:Floating_C_39.WidgetTree_88.CanvasPanel_1
+[2018.04.30-18.22.17:481][277]LogUObjectHash: Warning: Ambiguous search, could be CanvasPanel /Game/CEDVFighters/UI/Widgets/Floating.Floating:WidgetTree.CanvasPanel_1 or CanvasPanel /Engine/Transient.World_1:Floating_C_38.WidgetTree_87.CanvasPanel_1
+[2018.04.30-18.22.17:482][277]LogUObjectHash: Warning: Ambiguous search, could be CanvasPanel /Game/CEDVFighters/UI/Widgets/Floating.Floating:WidgetTree.CanvasPanel_1 or CanvasPanel /Engine/Transient.REINST_Floating_C_25:WidgetTree.CanvasPanel_1
+[2018.04.30-18.22.17:483][277]LogUObjectHash: Warning: Ambiguous search, could be CanvasPanel /Game/CEDVFighters/UI/Widgets/Floating.Floating:WidgetTree.CanvasPanel_1 or CanvasPanel /Engine/Transient.World_1:Floating_C_57.WidgetTree_110.CanvasPanel_1
+[2018.04.30-18.22.17:483][277]LogUObjectHash: Warning: Ambiguous search, could be CanvasPanel /Game/CEDVFighters/UI/Widgets/Floating.Floating:WidgetTree.CanvasPanel_1 or CanvasPanel /Engine/Transient.World_1:Floating_C_59.WidgetTree_112.CanvasPanel_1
+[2018.04.30-18.22.17:484][277]LogProperty: Warning: Illegal TEXT reference to a private object in external package (CanvasPanelSlot /Game/CEDVFighters/UI/Widgets/Floating.Floating:WidgetTree.CanvasPanel_1.CanvasPanelSlot_5) from referencer (Button /Engine/UMG/Editor/Transient.No_Button).  Import failed...
+[2018.04.30-18.22.17:485][277]LogProperty: Warning: ObjectProperty /Script/UMG.Widget:Slot: unresolved reference to 'CanvasPanelSlot'"CanvasPanel_1.CanvasPanelSlot_5"''
+[2018.04.30-18.22.51:375][ 81]LogSlate: Window 'Save Asset As' being destroyed
+[2018.04.30-18.23.47:297][191]LogSlate: Window 'Color Picker' being destroyed
+[2018.04.30-18.23.56:802][695]BlueprintLog: New page: Compile Floating
+[2018.04.30-18.23.58:207][744]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/CEDVFighters/UI/Widgets/Floating" FILE="D:/Documentos/Documentos/Unreal Projects/CEDVFighters/CEDVFighters/Content/CEDVFighters/UI/Widgets/Floating.uasset" SILENT=true
+[2018.04.30-18.23.58:263][744]LogSavePackage: Save=47.90ms
+[2018.04.30-18.23.58:264][744]LogSavePackage: Moving 'D:/Documentos/Documentos/Unreal Projects/CEDVFighters/CEDVFighters/Saved/FloatingB05CE05B47846B1F3941B0968BD998C3.tmp' to 'D:/Documentos/Documentos/Unreal Projects/CEDVFighters/CEDVFighters/Content/CEDVFighters/UI/Widgets/Floating.uasset'
+[2018.04.30-18.23.58:272][744]LogSavePackage: Display: Finished SavePackage D:/Documentos/Documentos/Unreal Projects/CEDVFighters/CEDVFighters/Content/CEDVFighters/UI/Widgets/Floating.uasset
+[2018.04.30-18.24.14:715][688]BlueprintLog: New page: Compile Floating
+[2018.04.30-18.24.15:611][714]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/CEDVFighters/UI/Widgets/Floating" FILE="D:/Documentos/Documentos/Unreal Projects/CEDVFighters/CEDVFighters/Content/CEDVFighters/UI/Widgets/Floating.uasset" SILENT=true
+[2018.04.30-18.24.15:669][714]LogSavePackage: Save=49.29ms
+[2018.04.30-18.24.15:670][714]LogSavePackage: Moving 'D:/Documentos/Documentos/Unreal Projects/CEDVFighters/CEDVFighters/Saved/FloatingAD2AB32C4E2D3DE9B67487ABF669F50E.tmp' to 'D:/Documentos/Documentos/Unreal Projects/CEDVFighters/CEDVFighters/Content/CEDVFighters/UI/Widgets/Floating.uasset'
+[2018.04.30-18.24.15:678][714]LogSavePackage: Display: Finished SavePackage D:/Documentos/Documentos/Unreal Projects/CEDVFighters/CEDVFighters/Content/CEDVFighters/UI/Widgets/Floating.uasset
+[2018.04.30-18.24.36:593][953]BlueprintLog: New page: Compile Floating
+[2018.04.30-18.24.37:295][978]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/CEDVFighters/UI/Widgets/Floating" FILE="D:/Documentos/Documentos/Unreal Projects/CEDVFighters/CEDVFighters/Content/CEDVFighters/UI/Widgets/Floating.uasset" SILENT=true
+[2018.04.30-18.24.37:354][978]LogSavePackage: Save=50.15ms
+[2018.04.30-18.24.37:354][978]LogSavePackage: Moving 'D:/Documentos/Documentos/Unreal Projects/CEDVFighters/CEDVFighters/Saved/FloatingAC74CD6A433D52C9D51CBC92F083C0FD.tmp' to 'D:/Documentos/Documentos/Unreal Projects/CEDVFighters/CEDVFighters/Content/CEDVFighters/UI/Widgets/Floating.uasset'
+[2018.04.30-18.24.37:359][978]LogSavePackage: Display: Finished SavePackage D:/Documentos/Documentos/Unreal Projects/CEDVFighters/CEDVFighters/Content/CEDVFighters/UI/Widgets/Floating.uasset
+[2018.04.30-18.25.18:597][222]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/CEDVFighters/UI/Widgets/Floating" FILE="D:/Documentos/Documentos/Unreal Projects/CEDVFighters/CEDVFighters/Content/CEDVFighters/UI/Widgets/Floating.uasset" SILENT=true
+[2018.04.30-18.25.18:654][222]LogSavePackage: Save=47.46ms
+[2018.04.30-18.25.18:654][222]LogSavePackage: Moving 'D:/Documentos/Documentos/Unreal Projects/CEDVFighters/CEDVFighters/Saved/FloatingCF99C93F4FD82B5139F8D09804099594.tmp' to 'D:/Documentos/Documentos/Unreal Projects/CEDVFighters/CEDVFighters/Content/CEDVFighters/UI/Widgets/Floating.uasset'
+[2018.04.30-18.25.18:659][222]LogSavePackage: Display: Finished SavePackage D:/Documentos/Documentos/Unreal Projects/CEDVFighters/CEDVFighters/Content/CEDVFighters/UI/Widgets/Floating.uasset
+[2018.04.30-18.25.23:110][482]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/CEDVFighters/UI/Widgets/Floating" FILE="D:/Documentos/Documentos/Unreal Projects/CEDVFighters/CEDVFighters/Content/CEDVFighters/UI/Widgets/Floating.uasset" SILENT=true
+[2018.04.30-18.25.23:169][482]LogSavePackage: Save=50.41ms
+[2018.04.30-18.25.23:170][482]LogSavePackage: Moving 'D:/Documentos/Documentos/Unreal Projects/CEDVFighters/CEDVFighters/Saved/Floating1D84C97140ECF7776B6CC8A537EBD7D9.tmp' to 'D:/Documentos/Documentos/Unreal Projects/CEDVFighters/CEDVFighters/Content/CEDVFighters/UI/Widgets/Floating.uasset'
+[2018.04.30-18.25.23:175][482]LogSavePackage: Display: Finished SavePackage D:/Documentos/Documentos/Unreal Projects/CEDVFighters/CEDVFighters/Content/CEDVFighters/UI/Widgets/Floating.uasset
+[2018.04.30-18.26.37:167][622]BlueprintLog: New page: Compile Floating
+[2018.04.30-18.26.38:003][661]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/CEDVFighters/UI/Widgets/Floating" FILE="D:/Documentos/Documentos/Unreal Projects/CEDVFighters/CEDVFighters/Content/CEDVFighters/UI/Widgets/Floating.uasset" SILENT=true
+[2018.04.30-18.26.38:064][661]LogSavePackage: Save=52.44ms
+[2018.04.30-18.26.38:064][661]LogSavePackage: Moving 'D:/Documentos/Documentos/Unreal Projects/CEDVFighters/CEDVFighters/Saved/Floating8AD65884488E4869F5A0ED9B92CC6E66.tmp' to 'D:/Documentos/Documentos/Unreal Projects/CEDVFighters/CEDVFighters/Content/CEDVFighters/UI/Widgets/Floating.uasset'
+[2018.04.30-18.26.38:070][661]LogSavePackage: Display: Finished SavePackage D:/Documentos/Documentos/Unreal Projects/CEDVFighters/CEDVFighters/Content/CEDVFighters/UI/Widgets/Floating.uasset
+[2018.04.30-18.27.48:154][654]BlueprintLog: New page: Compile Floating
+[2018.04.30-18.27.48:957][689]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/CEDVFighters/UI/Widgets/Floating" FILE="D:/Documentos/Documentos/Unreal Projects/CEDVFighters/CEDVFighters/Content/CEDVFighters/UI/Widgets/Floating.uasset" SILENT=true
+[2018.04.30-18.27.49:030][689]LogSavePackage: Save=61.58ms
+[2018.04.30-18.27.49:031][689]LogSavePackage: Moving 'D:/Documentos/Documentos/Unreal Projects/CEDVFighters/CEDVFighters/Saved/Floating1688348B4C77D1DFCD57E79F6A4914FD.tmp' to 'D:/Documentos/Documentos/Unreal Projects/CEDVFighters/CEDVFighters/Content/CEDVFighters/UI/Widgets/Floating.uasset'
+[2018.04.30-18.27.49:039][689]LogSavePackage: Display: Finished SavePackage D:/Documentos/Documentos/Unreal Projects/CEDVFighters/CEDVFighters/Content/CEDVFighters/UI/Widgets/Floating.uasset
+[2018.04.30-18.27.59:421][249]LogSavePackage: Save=212.56ms
+[2018.04.30-18.27.59:421][249]LogSavePackage: Moving 'D:/Documentos/Documentos/Unreal Projects/CEDVFighters/CEDVFighters/Saved/MainMenu758BCB7147E8D2DD50A76098D764437B.tmp' to 'D:/Documentos/Documentos/Unreal Projects/CEDVFighters/CEDVFighters/Content/CEDVFighters/MAPS/MainMenu.umap'
+[2018.04.30-18.27.59:427][249]LogSavePackage: Display: Finished SavePackage D:/Documentos/Documentos/Unreal Projects/CEDVFighters/CEDVFighters/Content/CEDVFighters/MAPS/MainMenu.umap
+[2018.04.30-18.28.09:395][803]LogSavePackage: Save=197.21ms
+[2018.04.30-18.28.09:395][803]LogSavePackage: Moving 'D:/Documentos/Documentos/Unreal Projects/CEDVFighters/CEDVFighters/Saved/MainMenuEE2067364B56B975FA44B2A22B2F053A.tmp' to 'D:/Documentos/Documentos/Unreal Projects/CEDVFighters/CEDVFighters/Content/CEDVFighters/MAPS/MainMenu.umap'
+[2018.04.30-18.28.09:401][803]LogSavePackage: Display: Finished SavePackage D:/Documentos/Documentos/Unreal Projects/CEDVFighters/CEDVFighters/Content/CEDVFighters/MAPS/MainMenu.umap
+[2018.04.30-18.30.19:106][ 73]BlueprintLog: New page: Compile Floating
+[2018.04.30-18.31.04:401][306]BlueprintLog: New page: Compile Floating
+[2018.04.30-18.31.05:300][328]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/CEDVFighters/UI/Widgets/Floating" FILE="D:/Documentos/Documentos/Unreal Projects/CEDVFighters/CEDVFighters/Content/CEDVFighters/UI/Widgets/Floating.uasset" SILENT=true
+[2018.04.30-18.31.05:369][328]LogSavePackage: Save=60.28ms
+[2018.04.30-18.31.05:369][328]LogSavePackage: Moving 'D:/Documentos/Documentos/Unreal Projects/CEDVFighters/CEDVFighters/Saved/Floating72D5B9B24C6C0D12F6BB32B3D66E2622.tmp' to 'D:/Documentos/Documentos/Unreal Projects/CEDVFighters/CEDVFighters/Content/CEDVFighters/UI/Widgets/Floating.uasset'
+[2018.04.30-18.31.05:375][328]LogSavePackage: Display: Finished SavePackage D:/Documentos/Documentos/Unreal Projects/CEDVFighters/CEDVFighters/Content/CEDVFighters/UI/Widgets/Floating.uasset
+[2018.04.30-18.33.14:442][205]AssetReimport: New page: Outstanding source content changes 10:33:14 PM
+[2018.04.30-18.33.14:472][206]LogFactory: FactoryCreateFile: SoundWave with ReimportSoundFactory (0 0 D:/Documentos/Documentos/Unreal Projects/CEDVFighters/CEDVFighters/Content/CEDVFighters/SOUND/GUI/Confirm.wav)
+[2018.04.30-18.33.14:568][207]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/CEDVFighters/SOUND/GUI/Confirm" FILE="D:/Documentos/Documentos/Unreal Projects/CEDVFighters/CEDVFighters/Content/CEDVFighters/SOUND/GUI/Confirm.uasset" SILENT=true
+[2018.04.30-18.33.14:582][207]LogSavePackage: Save=9.69ms
+[2018.04.30-18.33.14:582][207]LogSavePackage: Moving 'D:/Documentos/Documentos/Unreal Projects/CEDVFighters/CEDVFighters/Saved/Confirm1A0DF1E64E0AD3EF333C25BA6A73BA45.tmp' to 'D:/Documentos/Documentos/Unreal Projects/CEDVFighters/CEDVFighters/Content/CEDVFighters/SOUND/GUI/Confirm.uasset'
+[2018.04.30-18.33.14:590][207]LogSavePackage: Display: Finished SavePackage D:/Documentos/Documentos/Unreal Projects/CEDVFighters/CEDVFighters/Content/CEDVFighters/SOUND/GUI/Confirm.uasset
+[2018.04.30-18.33.18:004][394]AssetReimport: Importing new asset /Game/CEDVFighters/SOUND/GUI/Confirm.
+[2018.04.30-18.33.36:010][417]LogAudioDerivedData: Display: Building compressed audio format OGG wave Confirm...
+[2018.04.30-18.33.36:149][417]LogAudioDerivedData: Updated SoundWave->RawPCMDataSize during cooking SoundWave /Game/CEDVFighters/SOUND/GUI/Confirm.Confirm.
+[2018.04.30-18.33.51:680][329]BlueprintLog: New page: Compile Floating
+[2018.04.30-18.33.52:501][350]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/CEDVFighters/UI/Widgets/Floating" FILE="D:/Documentos/Documentos/Unreal Projects/CEDVFighters/CEDVFighters/Content/CEDVFighters/UI/Widgets/Floating.uasset" SILENT=true
+[2018.04.30-18.33.52:575][350]LogSavePackage: Save=62.74ms
+[2018.04.30-18.33.52:575][350]LogSavePackage: Moving 'D:/Documentos/Documentos/Unreal Projects/CEDVFighters/CEDVFighters/Saved/FloatingF16305D745D2197ECEE0108BC15DFD07.tmp' to 'D:/Documentos/Documentos/Unreal Projects/CEDVFighters/CEDVFighters/Content/CEDVFighters/UI/Widgets/Floating.uasset'
+[2018.04.30-18.33.52:582][350]LogSavePackage: Display: Finished SavePackage D:/Documentos/Documentos/Unreal Projects/CEDVFighters/CEDVFighters/Content/CEDVFighters/UI/Widgets/Floating.uasset
+[2018.04.30-18.34.02:390][933]BlueprintLog: New page: Compile Floating
+[2018.04.30-18.34.03:165][951]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/CEDVFighters/UI/Widgets/Floating" FILE="D:/Documentos/Documentos/Unreal Projects/CEDVFighters/CEDVFighters/Content/CEDVFighters/UI/Widgets/Floating.uasset" SILENT=true
+[2018.04.30-18.34.03:237][951]LogSavePackage: Save=63.71ms
+[2018.04.30-18.34.03:237][951]LogSavePackage: Moving 'D:/Documentos/Documentos/Unreal Projects/CEDVFighters/CEDVFighters/Saved/Floating26EED3644E4AFBA17BF663AD5360A3C6.tmp' to 'D:/Documentos/Documentos/Unreal Projects/CEDVFighters/CEDVFighters/Content/CEDVFighters/UI/Widgets/Floating.uasset'
+[2018.04.30-18.34.03:241][951]LogSavePackage: Display: Finished SavePackage D:/Documentos/Documentos/Unreal Projects/CEDVFighters/CEDVFighters/Content/CEDVFighters/UI/Widgets/Floating.uasset
+[2018.04.30-18.37.33:109][ 71]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/CEDVFighters/UI/Widgets/Floating" FILE="D:/Documentos/Documentos/Unreal Projects/CEDVFighters/CEDVFighters/Content/CEDVFighters/UI/Widgets/Floating.uasset" SILENT=true
+[2018.04.30-18.37.33:184][ 71]LogSavePackage: Save=65.57ms
+[2018.04.30-18.37.33:184][ 71]LogSavePackage: Moving 'D:/Documentos/Documentos/Unreal Projects/CEDVFighters/CEDVFighters/Saved/FloatingF9B023E04E89D6AD76925A8832A40189.tmp' to 'D:/Documentos/Documentos/Unreal Projects/CEDVFighters/CEDVFighters/Content/CEDVFighters/UI/Widgets/Floating.uasset'
+[2018.04.30-18.37.33:188][ 71]LogSavePackage: Display: Finished SavePackage D:/Documentos/Documentos/Unreal Projects/CEDVFighters/CEDVFighters/Content/CEDVFighters/UI/Widgets/Floating.uasset
+[2018.04.30-18.37.52:539][124]LogSlate: Prevented a slow task dialog from being summoned while a context menu was open
+[2018.04.30-18.38.04:122][775]BlueprintLog: New page: Compile MainMenu
+[2018.04.30-18.38.05:400][796]LogSavePackage: Save=215.83ms
+[2018.04.30-18.38.05:400][796]LogSavePackage: Moving 'D:/Documentos/Documentos/Unreal Projects/CEDVFighters/CEDVFighters/Saved/MainMenu39D0C169432187497E17AEA590588556.tmp' to 'D:/Documentos/Documentos/Unreal Projects/CEDVFighters/CEDVFighters/Content/CEDVFighters/MAPS/MainMenu.umap'
+[2018.04.30-18.38.05:408][796]LogSavePackage: Display: Finished SavePackage D:/Documentos/Documentos/Unreal Projects/CEDVFighters/CEDVFighters/Content/CEDVFighters/MAPS/MainMenu.umap
+[2018.04.30-18.38.05:446][796]LogFileHelpers: Saving map 'MainMenu' took 0.512
+[2018.04.30-18.38.06:202][828]LogTemp: Repeating last play command: Selected Viewport
+[2018.04.30-18.38.06:234][828]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/CEDVFighters/MAPS/MainMenu.MainMenu:PersistentLevel' has LevelScriptBlueprint '/Game/CEDVFighters/MAPS/MainMenu.MainMenu:PersistentLevel.MainMenu' with GeneratedClass '/Game/CEDVFighters/MAPS/MainMenu.MainMenu_C' with ClassGeneratedBy '/Game/CEDVFighters/MAPS/MainMenu.MainMenu:PersistentLevel.MainMenu'
+[2018.04.30-18.38.06:236][828]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.04.30-18.38.06:236][828]PIE: New page: PIE session: MainMenu (Apr 30, 2018, 10:38:06 PM)
+[2018.04.30-18.38.06:237][828]LogPlayLevel: Creating play world package: /Game/CEDVFighters/MAPS/UEDPIE_0_MainMenu
+[2018.04.30-18.38.06:239][828]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001946s)
+[2018.04.30-18.38.06:240][828]LogAIModule: Creating AISystem for world MainMenu
+[2018.04.30-18.38.06:241][828]LogPlayLevel: PIE: World Init took: (0.001649s)
+[2018.04.30-18.38.06:241][828]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/CEDVFighters/MAPS/MainMenu.MainMenu to /Game/CEDVFighters/MAPS/UEDPIE_0_MainMenu.MainMenu (0.004615s)
+[2018.04.30-18.38.06:301][828]LogInit: XAudio2 using 'Altavoces (Realtek High Definition Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2018.04.30-18.38.06:376][828]LogInit: FAudioDevice initialized.
+[2018.04.30-18.38.06:463][828]LogLoad: Game class is 'CEDVFightersGameMode'
+[2018.04.30-18.38.06:466][828]LogWorld: Bringing World /Game/CEDVFighters/MAPS/UEDPIE_0_MainMenu.MainMenu up for play (max tick rate 60) at 2018.04.30-20.38.06
+[2018.04.30-18.38.06:467][828]LogWorld: Bringing up level for play took: 0.002146
+[2018.04.30-18.38.06:468][828]LogGameMode: FindPlayerStart: PATHS NOT DEFINED or NO PLAYERSTART with positive rating
+[2018.04.30-18.38.06:490][828]PIE: Play in editor start time for /Game/CEDVFighters/MAPS/UEDPIE_0_MainMenu -0.609
+[2018.04.30-18.38.06:491][828]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/CEDVFighters/MAPS/MainMenu.MainMenu:PersistentLevel' has LevelScriptBlueprint '/Game/CEDVFighters/MAPS/MainMenu.MainMenu:PersistentLevel.MainMenu' with GeneratedClass '/Game/CEDVFighters/MAPS/MainMenu.MainMenu_C' with ClassGeneratedBy '/Game/CEDVFighters/MAPS/MainMenu.MainMenu:PersistentLevel.MainMenu'
+[2018.04.30-18.38.16:751][427]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.04.30-18.38.30:593][251]LogSlate: Window 'CEDVFighters Game Preview Standalone (64-bit/PCD3D_SM5)' being destroyed
+[2018.04.30-18.38.30:606][251]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/CEDVFighters/MAPS/MainMenu.MainMenu:PersistentLevel' has LevelScriptBlueprint '/Game/CEDVFighters/MAPS/MainMenu.MainMenu:PersistentLevel.MainMenu' with GeneratedClass '/Game/CEDVFighters/MAPS/MainMenu.MainMenu_C' with ClassGeneratedBy '/Game/CEDVFighters/MAPS/MainMenu.MainMenu:PersistentLevel.MainMenu'
+[2018.04.30-18.38.30:662][251]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/CEDVFighters/MAPS/MainMenu.MainMenu:PersistentLevel' has LevelScriptBlueprint '/Game/CEDVFighters/MAPS/MainMenu.MainMenu:PersistentLevel.MainMenu' with GeneratedClass '/Game/CEDVFighters/MAPS/MainMenu.MainMenu_C' with ClassGeneratedBy '/Game/CEDVFighters/MAPS/MainMenu.MainMenu:PersistentLevel.MainMenu'
+[2018.04.30-18.38.39:859][776]BlueprintLog: New page: Compile MainMenu
+[2018.04.30-18.38.41:326][809]LogSavePackage: Save=215.46ms
+[2018.04.30-18.38.41:326][809]LogSavePackage: Moving 'D:/Documentos/Documentos/Unreal Projects/CEDVFighters/CEDVFighters/Saved/MainMenu0F9E972E40AEDABD84A303B1ABC4BF33.tmp' to 'D:/Documentos/Documentos/Unreal Projects/CEDVFighters/CEDVFighters/Content/CEDVFighters/MAPS/MainMenu.umap'
+[2018.04.30-18.38.41:334][809]LogSavePackage: Display: Finished SavePackage D:/Documentos/Documentos/Unreal Projects/CEDVFighters/CEDVFighters/Content/CEDVFighters/MAPS/MainMenu.umap
+[2018.04.30-18.38.41:369][809]LogFileHelpers: Saving map 'MainMenu' took 0.495
+[2018.04.30-18.38.53:523][492]BlueprintLog: New page: Compile Floating
+[2018.04.30-18.39.00:634][880]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/CEDVFighters/UI/Widgets/Floating" FILE="D:/Documentos/Documentos/Unreal Projects/CEDVFighters/CEDVFighters/Content/CEDVFighters/UI/Widgets/Floating.uasset" SILENT=true
+[2018.04.30-18.39.00:706][880]LogSavePackage: Save=60.61ms
+[2018.04.30-18.39.00:706][880]LogSavePackage: Moving 'D:/Documentos/Documentos/Unreal Projects/CEDVFighters/CEDVFighters/Saved/FloatingEB81920041736DD0897085BCCD17310F.tmp' to 'D:/Documentos/Documentos/Unreal Projects/CEDVFighters/CEDVFighters/Content/CEDVFighters/UI/Widgets/Floating.uasset'
+[2018.04.30-18.39.00:713][880]LogSavePackage: Display: Finished SavePackage D:/Documentos/Documentos/Unreal Projects/CEDVFighters/CEDVFighters/Content/CEDVFighters/UI/Widgets/Floating.uasset
+[2018.04.30-18.39.04:866][120]LogTemp: Repeating last play command: Selected Viewport
+[2018.04.30-18.39.04:899][120]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/CEDVFighters/MAPS/MainMenu.MainMenu:PersistentLevel' has LevelScriptBlueprint '/Game/CEDVFighters/MAPS/MainMenu.MainMenu:PersistentLevel.MainMenu' with GeneratedClass '/Game/CEDVFighters/MAPS/MainMenu.MainMenu_C' with ClassGeneratedBy '/Game/CEDVFighters/MAPS/MainMenu.MainMenu:PersistentLevel.MainMenu'
+[2018.04.30-18.39.04:900][120]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.04.30-18.39.04:901][120]PIE: New page: PIE session: MainMenu (Apr 30, 2018, 10:39:04 PM)
+[2018.04.30-18.39.04:901][120]LogPlayLevel: Creating play world package: /Game/CEDVFighters/MAPS/UEDPIE_0_MainMenu
+[2018.04.30-18.39.04:903][120]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001959s)
+[2018.04.30-18.39.04:904][120]LogAIModule: Creating AISystem for world MainMenu
+[2018.04.30-18.39.04:905][120]LogPlayLevel: PIE: World Init took: (0.001480s)
+[2018.04.30-18.39.04:905][120]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/CEDVFighters/MAPS/MainMenu.MainMenu to /Game/CEDVFighters/MAPS/UEDPIE_0_MainMenu.MainMenu (0.004401s)
+[2018.04.30-18.39.04:962][120]LogInit: XAudio2 using 'Altavoces (Realtek High Definition Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2018.04.30-18.39.05:037][120]LogInit: FAudioDevice initialized.
+[2018.04.30-18.39.05:131][120]LogLoad: Game class is 'CEDVFightersGameMode'
+[2018.04.30-18.39.05:133][120]LogWorld: Bringing World /Game/CEDVFighters/MAPS/UEDPIE_0_MainMenu.MainMenu up for play (max tick rate 60) at 2018.04.30-20.39.05
+[2018.04.30-18.39.05:134][120]LogWorld: Bringing up level for play took: 0.001457
+[2018.04.30-18.39.05:135][120]LogGameMode: FindPlayerStart: PATHS NOT DEFINED or NO PLAYERSTART with positive rating
+[2018.04.30-18.39.05:162][120]PIE: Play in editor start time for /Game/CEDVFighters/MAPS/UEDPIE_0_MainMenu 0.063
+[2018.04.30-18.39.05:163][120]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/CEDVFighters/MAPS/MainMenu.MainMenu:PersistentLevel' has LevelScriptBlueprint '/Game/CEDVFighters/MAPS/MainMenu.MainMenu:PersistentLevel.MainMenu' with GeneratedClass '/Game/CEDVFighters/MAPS/MainMenu.MainMenu_C' with ClassGeneratedBy '/Game/CEDVFighters/MAPS/MainMenu.MainMenu:PersistentLevel.MainMenu'
+[2018.04.30-18.39.24:301][997]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.04.30-18.39.47:846][ 93]LogSlate: Window 'CEDVFighters Game Preview Standalone (64-bit/PCD3D_SM5)' being destroyed
+[2018.04.30-18.39.47:858][ 93]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/CEDVFighters/MAPS/MainMenu.MainMenu:PersistentLevel' has LevelScriptBlueprint '/Game/CEDVFighters/MAPS/MainMenu.MainMenu:PersistentLevel.MainMenu' with GeneratedClass '/Game/CEDVFighters/MAPS/MainMenu.MainMenu_C' with ClassGeneratedBy '/Game/CEDVFighters/MAPS/MainMenu.MainMenu:PersistentLevel.MainMenu'
+[2018.04.30-18.39.47:905][ 93]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/CEDVFighters/MAPS/MainMenu.MainMenu:PersistentLevel' has LevelScriptBlueprint '/Game/CEDVFighters/MAPS/MainMenu.MainMenu:PersistentLevel.MainMenu' with GeneratedClass '/Game/CEDVFighters/MAPS/MainMenu.MainMenu_C' with ClassGeneratedBy '/Game/CEDVFighters/MAPS/MainMenu.MainMenu:PersistentLevel.MainMenu'
+[2018.04.30-18.39.55:350][518]LogTemp: Repeating last play command: Selected Viewport
+[2018.04.30-18.39.55:383][518]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/CEDVFighters/MAPS/MainMenu.MainMenu:PersistentLevel' has LevelScriptBlueprint '/Game/CEDVFighters/MAPS/MainMenu.MainMenu:PersistentLevel.MainMenu' with GeneratedClass '/Game/CEDVFighters/MAPS/MainMenu.MainMenu_C' with ClassGeneratedBy '/Game/CEDVFighters/MAPS/MainMenu.MainMenu:PersistentLevel.MainMenu'
+[2018.04.30-18.39.55:384][518]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.04.30-18.39.55:384][518]PIE: New page: PIE session: MainMenu (Apr 30, 2018, 10:39:55 PM)
+[2018.04.30-18.39.55:385][518]LogPlayLevel: Creating play world package: /Game/CEDVFighters/MAPS/UEDPIE_0_MainMenu
+[2018.04.30-18.39.55:388][518]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002265s)
+[2018.04.30-18.39.55:389][518]LogAIModule: Creating AISystem for world MainMenu
+[2018.04.30-18.39.55:389][518]LogPlayLevel: PIE: World Init took: (0.001459s)
+[2018.04.30-18.39.55:390][518]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/CEDVFighters/MAPS/MainMenu.MainMenu to /Game/CEDVFighters/MAPS/UEDPIE_0_MainMenu.MainMenu (0.004812s)
+[2018.04.30-18.39.55:447][518]LogInit: XAudio2 using 'Altavoces (Realtek High Definition Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2018.04.30-18.39.55:529][518]LogInit: FAudioDevice initialized.
+[2018.04.30-18.39.55:620][518]LogLoad: Game class is 'CEDVFightersGameMode'
+[2018.04.30-18.39.55:623][518]LogWorld: Bringing World /Game/CEDVFighters/MAPS/UEDPIE_0_MainMenu.MainMenu up for play (max tick rate 60) at 2018.04.30-20.39.55
+[2018.04.30-18.39.55:624][518]LogWorld: Bringing up level for play took: 0.001536
+[2018.04.30-18.39.55:626][518]LogGameMode: FindPlayerStart: PATHS NOT DEFINED or NO PLAYERSTART with positive rating
+[2018.04.30-18.39.55:650][518]PIE: Play in editor start time for /Game/CEDVFighters/MAPS/UEDPIE_0_MainMenu 0.552
+[2018.04.30-18.39.55:651][518]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/CEDVFighters/MAPS/MainMenu.MainMenu:PersistentLevel' has LevelScriptBlueprint '/Game/CEDVFighters/MAPS/MainMenu.MainMenu:PersistentLevel.MainMenu' with GeneratedClass '/Game/CEDVFighters/MAPS/MainMenu.MainMenu_C' with ClassGeneratedBy '/Game/CEDVFighters/MAPS/MainMenu.MainMenu:PersistentLevel.MainMenu'
+[2018.04.30-18.39.59:416][684]LogSlate: Window 'CEDVFighters Game Preview Standalone (64-bit/PCD3D_SM5)' being destroyed
+[2018.04.30-18.39.59:427][684]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/CEDVFighters/MAPS/MainMenu.MainMenu:PersistentLevel' has LevelScriptBlueprint '/Game/CEDVFighters/MAPS/MainMenu.MainMenu:PersistentLevel.MainMenu' with GeneratedClass '/Game/CEDVFighters/MAPS/MainMenu.MainMenu_C' with ClassGeneratedBy '/Game/CEDVFighters/MAPS/MainMenu.MainMenu:PersistentLevel.MainMenu'
+[2018.04.30-18.39.59:470][684]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/CEDVFighters/MAPS/MainMenu.MainMenu:PersistentLevel' has LevelScriptBlueprint '/Game/CEDVFighters/MAPS/MainMenu.MainMenu:PersistentLevel.MainMenu' with GeneratedClass '/Game/CEDVFighters/MAPS/MainMenu.MainMenu_C' with ClassGeneratedBy '/Game/CEDVFighters/MAPS/MainMenu.MainMenu:PersistentLevel.MainMenu'
+[2018.04.30-18.40.48:539][540]LogEditorTransaction: Undo Set Vector Property
+[2018.04.30-18.41.04:464][448]BlueprintLog: New page: Compile Floating
+[2018.04.30-18.41.05:760][505]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/CEDVFighters/UI/Widgets/Floating" FILE="D:/Documentos/Documentos/Unreal Projects/CEDVFighters/CEDVFighters/Content/CEDVFighters/UI/Widgets/Floating.uasset" SILENT=true
+[2018.04.30-18.41.05:829][505]LogSavePackage: Save=60.13ms
+[2018.04.30-18.41.05:829][505]LogSavePackage: Moving 'D:/Documentos/Documentos/Unreal Projects/CEDVFighters/CEDVFighters/Saved/Floating222CDDD74B098EC0B43CD8AA6C4F0919.tmp' to 'D:/Documentos/Documentos/Unreal Projects/CEDVFighters/CEDVFighters/Content/CEDVFighters/UI/Widgets/Floating.uasset'
+[2018.04.30-18.41.05:836][505]LogSavePackage: Display: Finished SavePackage D:/Documentos/Documentos/Unreal Projects/CEDVFighters/CEDVFighters/Content/CEDVFighters/UI/Widgets/Floating.uasset
+[2018.04.30-18.41.17:578][195]BlueprintLog: New page: Compile Floating
+[2018.04.30-18.41.18:170][210]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/CEDVFighters/UI/Widgets/Floating" FILE="D:/Documentos/Documentos/Unreal Projects/CEDVFighters/CEDVFighters/Content/CEDVFighters/UI/Widgets/Floating.uasset" SILENT=true
+[2018.04.30-18.41.18:239][210]LogSavePackage: Save=59.76ms
+[2018.04.30-18.41.18:239][210]LogSavePackage: Moving 'D:/Documentos/Documentos/Unreal Projects/CEDVFighters/CEDVFighters/Saved/Floating9FB75E3F4A06A28FD4507A804649769F.tmp' to 'D:/Documentos/Documentos/Unreal Projects/CEDVFighters/CEDVFighters/Content/CEDVFighters/UI/Widgets/Floating.uasset'
+[2018.04.30-18.41.18:243][210]LogSavePackage: Display: Finished SavePackage D:/Documentos/Documentos/Unreal Projects/CEDVFighters/CEDVFighters/Content/CEDVFighters/UI/Widgets/Floating.uasset
+[2018.04.30-18.41.18:849][244]LogTemp: Repeating last play command: Selected Viewport
+[2018.04.30-18.41.18:880][244]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/CEDVFighters/MAPS/MainMenu.MainMenu:PersistentLevel' has LevelScriptBlueprint '/Game/CEDVFighters/MAPS/MainMenu.MainMenu:PersistentLevel.MainMenu' with GeneratedClass '/Game/CEDVFighters/MAPS/MainMenu.MainMenu_C' with ClassGeneratedBy '/Game/CEDVFighters/MAPS/MainMenu.MainMenu:PersistentLevel.MainMenu'
+[2018.04.30-18.41.18:882][244]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.04.30-18.41.18:882][244]PIE: New page: PIE session: MainMenu (Apr 30, 2018, 10:41:18 PM)
+[2018.04.30-18.41.18:883][244]LogPlayLevel: Creating play world package: /Game/CEDVFighters/MAPS/UEDPIE_0_MainMenu
+[2018.04.30-18.41.18:885][244]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001929s)
+[2018.04.30-18.41.18:886][244]LogAIModule: Creating AISystem for world MainMenu
+[2018.04.30-18.41.18:887][244]LogPlayLevel: PIE: World Init took: (0.001504s)
+[2018.04.30-18.41.18:887][244]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/CEDVFighters/MAPS/MainMenu.MainMenu to /Game/CEDVFighters/MAPS/UEDPIE_0_MainMenu.MainMenu (0.004392s)
+[2018.04.30-18.41.18:943][244]LogInit: XAudio2 using 'Altavoces (Realtek High Definition Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2018.04.30-18.41.19:021][244]LogInit: FAudioDevice initialized.
+[2018.04.30-18.41.19:139][244]LogLoad: Game class is 'CEDVFightersGameMode'
+[2018.04.30-18.41.19:141][244]LogWorld: Bringing World /Game/CEDVFighters/MAPS/UEDPIE_0_MainMenu.MainMenu up for play (max tick rate 60) at 2018.04.30-20.41.19
+[2018.04.30-18.41.19:142][244]LogWorld: Bringing up level for play took: 0.001705
+[2018.04.30-18.41.19:143][244]LogGameMode: FindPlayerStart: PATHS NOT DEFINED or NO PLAYERSTART with positive rating
+[2018.04.30-18.41.19:168][244]PIE: Play in editor start time for /Game/CEDVFighters/MAPS/UEDPIE_0_MainMenu 0.069
+[2018.04.30-18.41.19:169][244]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/CEDVFighters/MAPS/MainMenu.MainMenu:PersistentLevel' has LevelScriptBlueprint '/Game/CEDVFighters/MAPS/MainMenu.MainMenu:PersistentLevel.MainMenu' with GeneratedClass '/Game/CEDVFighters/MAPS/MainMenu.MainMenu_C' with ClassGeneratedBy '/Game/CEDVFighters/MAPS/MainMenu.MainMenu:PersistentLevel.MainMenu'
+[2018.04.30-18.41.34:651][583]LogRenderer: Reallocating scene render targets to support 1324x756 Format 10 NumSamples 1 (Frame:458).
+[2018.04.30-18.41.34:723][583]LogRenderer: Reallocating scene render targets to support 1360x756 Format 10 NumSamples 1 (Frame:459).
+[2018.04.30-18.41.46:050][993]LogSlate: Window 'CEDVFighters Game Preview Standalone (64-bit/PCD3D_SM5)' being destroyed
+[2018.04.30-18.41.46:063][993]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/CEDVFighters/MAPS/MainMenu.MainMenu:PersistentLevel' has LevelScriptBlueprint '/Game/CEDVFighters/MAPS/MainMenu.MainMenu:PersistentLevel.MainMenu' with GeneratedClass '/Game/CEDVFighters/MAPS/MainMenu.MainMenu_C' with ClassGeneratedBy '/Game/CEDVFighters/MAPS/MainMenu.MainMenu:PersistentLevel.MainMenu'
+[2018.04.30-18.41.46:111][993]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/CEDVFighters/MAPS/MainMenu.MainMenu:PersistentLevel' has LevelScriptBlueprint '/Game/CEDVFighters/MAPS/MainMenu.MainMenu:PersistentLevel.MainMenu' with GeneratedClass '/Game/CEDVFighters/MAPS/MainMenu.MainMenu_C' with ClassGeneratedBy '/Game/CEDVFighters/MAPS/MainMenu.MainMenu:PersistentLevel.MainMenu'
+[2018.04.30-18.41.47:562][ 68]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/CEDVFighters/UI/Widgets/Floating" FILE="D:/Documentos/Documentos/Unreal Projects/CEDVFighters/CEDVFighters/Content/CEDVFighters/UI/Widgets/Floating.uasset" SILENT=true
+[2018.04.30-18.41.47:630][ 68]LogSavePackage: Save=59.14ms
+[2018.04.30-18.41.47:630][ 68]LogSavePackage: Moving 'D:/Documentos/Documentos/Unreal Projects/CEDVFighters/CEDVFighters/Saved/Floating747B9D8249E3898D4B0666B2C5EABADA.tmp' to 'D:/Documentos/Documentos/Unreal Projects/CEDVFighters/CEDVFighters/Content/CEDVFighters/UI/Widgets/Floating.uasset'
+[2018.04.30-18.41.47:634][ 68]LogSavePackage: Display: Finished SavePackage D:/Documentos/Documentos/Unreal Projects/CEDVFighters/CEDVFighters/Content/CEDVFighters/UI/Widgets/Floating.uasset
+[2018.04.30-18.41.53:879][433]BlueprintLog: New page: Compile MainMenu
+[2018.04.30-18.41.55:028][454]LogSavePackage: Save=205.16ms
+[2018.04.30-18.41.55:029][454]LogSavePackage: Moving 'D:/Documentos/Documentos/Unreal Projects/CEDVFighters/CEDVFighters/Saved/MainMenu97CE809341E07DBA6AA0729AE6DA9579.tmp' to 'D:/Documentos/Documentos/Unreal Projects/CEDVFighters/CEDVFighters/Content/CEDVFighters/MAPS/MainMenu.umap'
+[2018.04.30-18.41.55:036][454]LogSavePackage: Display: Finished SavePackage D:/Documentos/Documentos/Unreal Projects/CEDVFighters/CEDVFighters/Content/CEDVFighters/MAPS/MainMenu.umap
+[2018.04.30-18.41.55:069][454]LogFileHelpers: Saving map 'MainMenu' took 0.489
+[2018.04.30-18.41.56:417][510]LogSavePackage: Save=200.56ms
+[2018.04.30-18.41.56:417][510]LogSavePackage: Moving 'D:/Documentos/Documentos/Unreal Projects/CEDVFighters/CEDVFighters/Saved/MainMenu63F8B0BF499C53E12D44808B4B38AF4D.tmp' to 'D:/Documentos/Documentos/Unreal Projects/CEDVFighters/CEDVFighters/Content/CEDVFighters/MAPS/MainMenu.umap'
+[2018.04.30-18.41.56:423][510]LogSavePackage: Display: Finished SavePackage D:/Documentos/Documentos/Unreal Projects/CEDVFighters/CEDVFighters/Content/CEDVFighters/MAPS/MainMenu.umap
+[2018.04.30-18.42.01:305][787]LogTemp: Repeating last play command: Selected Viewport
+[2018.04.30-18.42.01:336][787]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/CEDVFighters/MAPS/MainMenu.MainMenu:PersistentLevel' has LevelScriptBlueprint '/Game/CEDVFighters/MAPS/MainMenu.MainMenu:PersistentLevel.MainMenu' with GeneratedClass '/Game/CEDVFighters/MAPS/MainMenu.MainMenu_C' with ClassGeneratedBy '/Game/CEDVFighters/MAPS/MainMenu.MainMenu:PersistentLevel.MainMenu'
+[2018.04.30-18.42.01:338][787]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.04.30-18.42.01:338][787]PIE: New page: PIE session: MainMenu (Apr 30, 2018, 10:42:01 PM)
+[2018.04.30-18.42.01:339][787]LogPlayLevel: Creating play world package: /Game/CEDVFighters/MAPS/UEDPIE_0_MainMenu
+[2018.04.30-18.42.01:341][787]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001782s)
+[2018.04.30-18.42.01:342][787]LogAIModule: Creating AISystem for world MainMenu
+[2018.04.30-18.42.01:343][787]LogPlayLevel: PIE: World Init took: (0.001534s)
+[2018.04.30-18.42.01:343][787]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/CEDVFighters/MAPS/MainMenu.MainMenu to /Game/CEDVFighters/MAPS/UEDPIE_0_MainMenu.MainMenu (0.004435s)
+[2018.04.30-18.42.01:402][787]LogInit: XAudio2 using 'Altavoces (Realtek High Definition Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2018.04.30-18.42.01:474][787]LogInit: FAudioDevice initialized.
+[2018.04.30-18.42.01:566][787]LogLoad: Game class is 'CEDVFightersGameMode'
+[2018.04.30-18.42.01:569][787]LogWorld: Bringing World /Game/CEDVFighters/MAPS/UEDPIE_0_MainMenu.MainMenu up for play (max tick rate 60) at 2018.04.30-20.42.01
+[2018.04.30-18.42.01:570][787]LogWorld: Bringing up level for play took: 0.001415
+[2018.04.30-18.42.01:571][787]LogGameMode: FindPlayerStart: PATHS NOT DEFINED or NO PLAYERSTART with positive rating
+[2018.04.30-18.42.01:591][787]PIE: Play in editor start time for /Game/CEDVFighters/MAPS/UEDPIE_0_MainMenu 0.492
+[2018.04.30-18.42.01:592][787]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/CEDVFighters/MAPS/MainMenu.MainMenu:PersistentLevel' has LevelScriptBlueprint '/Game/CEDVFighters/MAPS/MainMenu.MainMenu:PersistentLevel.MainMenu' with GeneratedClass '/Game/CEDVFighters/MAPS/MainMenu.MainMenu_C' with ClassGeneratedBy '/Game/CEDVFighters/MAPS/MainMenu.MainMenu:PersistentLevel.MainMenu'
+[2018.04.30-18.42.38:597][575]LogSlate: Window 'CEDVFighters Game Preview Standalone (64-bit/PCD3D_SM5)' being destroyed
+[2018.04.30-18.42.38:611][575]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/CEDVFighters/MAPS/MainMenu.MainMenu:PersistentLevel' has LevelScriptBlueprint '/Game/CEDVFighters/MAPS/MainMenu.MainMenu:PersistentLevel.MainMenu' with GeneratedClass '/Game/CEDVFighters/MAPS/MainMenu.MainMenu_C' with ClassGeneratedBy '/Game/CEDVFighters/MAPS/MainMenu.MainMenu:PersistentLevel.MainMenu'
+[2018.04.30-18.42.38:658][575]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/CEDVFighters/MAPS/MainMenu.MainMenu:PersistentLevel' has LevelScriptBlueprint '/Game/CEDVFighters/MAPS/MainMenu.MainMenu:PersistentLevel.MainMenu' with GeneratedClass '/Game/CEDVFighters/MAPS/MainMenu.MainMenu_C' with ClassGeneratedBy '/Game/CEDVFighters/MAPS/MainMenu.MainMenu:PersistentLevel.MainMenu'
+[2018.04.30-18.43.00:574][ 70]BlueprintLog: New page: Compile Floating
+[2018.04.30-18.43.06:239][357]LogSlate: Window 'CEDVFighters - Unreal Editor' being destroyed
+[2018.04.30-18.43.06:680][358]Cmd: QUIT_EDITOR
+[2018.04.30-18.43.07:259][358]LogWindowsTextInputMethodSystem: Display: IME system now deactivated.
+[2018.04.30-18.43.07:281][358]LogSlate: Slate User Destroyed.  User Index 0, Is Virtual User: 0
+[2018.04.30-18.43.07:281][358]LogExit: Preparing to exit.
+[2018.04.30-18.43.07:912][358]LogExit: Editor shut down
+[2018.04.30-18.43.07:936][358]LogExit: Transaction tracking system shut down
+[2018.04.30-18.43.08:058][358]LogDirectoryWatcher: A directory notification for '../../../Engine/Content/' was aborted.
+[2018.04.30-18.43.08:058][358]LogDirectoryWatcher: A directory notification for 'D:/Documentos/Documentos/Unreal Projects/CEDVFighters/CEDVFighters/Content/' was aborted.
+[2018.04.30-18.43.08:059][358]LogDirectoryWatcher: A directory notification for '../../Plugins/2D/Paper2D/Content/' was aborted.
+[2018.04.30-18.43.08:059][358]LogDirectoryWatcher: A directory notification for '../../Plugins/Enterprise/DatasmithContent/Content/' was aborted.
+[2018.04.30-18.43.08:059][358]LogDirectoryWatcher: A directory notification for '../../Plugins/Media/MediaCompositing/Content/' was aborted.
+[2018.04.30-18.43.08:059][358]LogDirectoryWatcher: A directory notification for '../../Plugins/Runtime/AppleARKit/Content/' was aborted.
+[2018.04.30-18.43.08:059][358]LogDirectoryWatcher: A directory notification for '../../Plugins/Runtime/Oculus/OculusVR/Content/' was aborted.
+[2018.04.30-18.43.08:059][358]LogDirectoryWatcher: A directory notification for '../../Plugins/Runtime/Steam/SteamVR/Content/' was aborted.
+[2018.04.30-18.43.08:289][358]LogExit: Object subsystem successfully closed.
+[2018.04.30-18.43.08:333][358]LogShaderCompilers: Display: Shaders left to compile 0
+[2018.04.30-18.43.08:346][358]LogD3D11RHI: Shutdown
+[2018.04.30-18.43.08:346][358]LogD3D11RHI: CleanupD3DDevice
+[2018.04.30-18.43.08:376][358]LogD3D11RHI: ~FD3D11DynamicRHI
+[2018.04.30-18.43.08:473][358]LogModuleManager: Shutting down and abandoning module MovieSceneCapture (582)
+[2018.04.30-18.43.08:473][358]LogModuleManager: Shutting down and abandoning module SequencerWidgets (580)
+[2018.04.30-18.43.08:473][358]LogModuleManager: Shutting down and abandoning module BlueprintGraph (578)
+[2018.04.30-18.43.08:473][358]LogModuleManager: Shutting down and abandoning module HierarchicalLODOutliner (576)
+[2018.04.30-18.43.08:473][358]LogModuleManager: Shutting down and abandoning module DesktopPlatform (574)
+[2018.04.30-18.43.08:473][358]LogModuleManager: Shutting down and abandoning module AddContentDialog (572)
+[2018.04.30-18.43.08:473][358]LogDirectoryWatcher: A directory notification for 'C:/Program Files/Epic Games/UE_4.19/FeaturePacks/' was aborted.
+[2018.04.30-18.43.08:475][358]LogModuleManager: Shutting down and abandoning module WidgetCarousel (571)
+[2018.04.30-18.43.08:475][358]LogModuleManager: Shutting down and abandoning module CollectionManager (568)
+[2018.04.30-18.43.08:476][358]LogDirectoryWatcher: A directory notification for 'D:/Documentos/Documentos/Unreal Projects/CEDVFighters/CEDVFighters/Content/Collections/' was aborted.
+[2018.04.30-18.43.08:476][358]LogDirectoryWatcher: A directory notification for 'D:/Documentos/Documentos/Unreal Projects/CEDVFighters/CEDVFighters/Content/Developers/Ricar/Collections/' was aborted.
+[2018.04.30-18.43.08:476][358]LogDirectoryWatcher: A directory notification for 'D:/Documentos/Documentos/Unreal Projects/CEDVFighters/CEDVFighters/Saved/Collections/' was aborted.
+[2018.04.30-18.43.08:476][358]LogModuleManager: Shutting down and abandoning module SceneOutliner (566)
+[2018.04.30-18.43.08:477][358]LogModuleManager: Shutting down and abandoning module EditorWidgets (564)
+[2018.04.30-18.43.08:477][358]LogModuleManager: Shutting down and abandoning module StatsViewer (562)
+[2018.04.30-18.43.08:477][358]LogModuleManager: Shutting down and abandoning module FoliageEdit (560)
+[2018.04.30-18.43.08:477][358]LogModuleManager: Shutting down and abandoning module LandscapeEditor (558)
+[2018.04.30-18.43.08:477][358]LogModuleManager: Shutting down and abandoning module MeshPaintMode (556)
+[2018.04.30-18.43.08:477][358]LogModuleManager: Shutting down and abandoning module SceneDepthPickerMode (554)
+[2018.04.30-18.43.08:477][358]LogModuleManager: Shutting down and abandoning module ActorPickerMode (552)
+[2018.04.30-18.43.08:477][358]LogModuleManager: Shutting down and abandoning module GeometryMode (550)
+[2018.04.30-18.43.08:477][358]LogModuleManager: Shutting down and abandoning module TextureAlignMode (548)
+[2018.04.30-18.43.08:477][358]LogModuleManager: Shutting down and abandoning module BspMode (546)
+[2018.04.30-18.43.08:477][358]LogModuleManager: Shutting down and abandoning module PIEPreviewDeviceProfileSelector (544)
+[2018.04.30-18.43.08:478][358]LogModuleManager: Shutting down and abandoning module HardwareSurvey (542)
+[2018.04.30-18.43.08:478][358]LogModuleManager: Shutting down and abandoning module SequenceRecorderSections (540)
+[2018.04.30-18.43.08:478][358]LogModuleManager: Shutting down and abandoning module AutomationWorker (538)
+[2018.04.30-18.43.08:478][358]LogModuleManager: Shutting down and abandoning module AudioCaptureEditor (536)
+[2018.04.30-18.43.08:478][358]LogModuleManager: Shutting down and abandoning module SequenceRecorder (535)
+[2018.04.30-18.43.08:478][358]LogModuleManager: Shutting down and abandoning module MatineeToLevelSequence (532)
+[2018.04.30-18.43.08:478][358]LogModuleManager: Shutting down and abandoning module LevelSequenceEditor (530)
+[2018.04.30-18.43.08:478][358]LogModuleManager: Shutting down and abandoning module PlacementMode (529)
+[2018.04.30-18.43.08:478][358]LogModuleManager: Shutting down and abandoning module MaterialEditor (528)
+[2018.04.30-18.43.08:479][358]LogModuleManager: Shutting down and abandoning module WmfMediaFactory (524)
+[2018.04.30-18.43.08:479][358]LogModuleManager: Shutting down and abandoning module WmfMediaEditor (522)
+[2018.04.30-18.43.08:479][358]LogModuleManager: Shutting down and abandoning module MediaPlayerEditor (520)
+[2018.04.30-18.43.08:479][358]LogModuleManager: Shutting down and abandoning module OpenExrWrapper (518)
+[2018.04.30-18.43.08:479][358]LogModuleManager: Shutting down and abandoning module ImgMediaFactory (516)
+[2018.04.30-18.43.08:479][358]LogModuleManager: Shutting down and abandoning module ImgMediaEditor (514)
+[2018.04.30-18.43.08:479][358]LogModuleManager: Shutting down and abandoning module AvfMediaFactory (512)
+[2018.04.30-18.43.08:479][358]LogModuleManager: Shutting down and abandoning module AvfMediaEditor (510)
+[2018.04.30-18.43.08:479][358]LogModuleManager: Shutting down and abandoning module AndroidMediaFactory (508)
+[2018.04.30-18.43.08:479][358]LogModuleManager: Shutting down and abandoning module AndroidMediaEditor (506)
+[2018.04.30-18.43.08:479][358]LogModuleManager: Shutting down and abandoning module CharacterAI (504)
+[2018.04.30-18.43.08:479][358]LogModuleManager: Shutting down and abandoning module SmartSnapping (502)
+[2018.04.30-18.43.08:479][358]LogModuleManager: Shutting down and abandoning module SessionServices (500)
+[2018.04.30-18.43.08:480][358]LogModuleManager: Shutting down and abandoning module ViewportSnapping (498)
+[2018.04.30-18.43.08:480][358]LogModuleManager: Shutting down and abandoning module ViewportInteraction (496)
+[2018.04.30-18.43.08:480][358]LogModuleManager: Shutting down and abandoning module ClothPainter (494)
+[2018.04.30-18.43.08:480][358]LogModuleManager: Shutting down and abandoning module SkeletalMeshEditor (493)
+[2018.04.30-18.43.08:480][358]LogModuleManager: Shutting down and abandoning module LogVisualizer (490)
+[2018.04.30-18.43.08:480][358]LogModuleManager: Shutting down and abandoning module IntroTutorials (488)
+[2018.04.30-18.43.08:480][358]LogModuleManager: Shutting down and abandoning module GameProjectGeneration (487)
+[2018.04.30-18.43.08:480][358]LogModuleManager: Shutting down and abandoning module IOSPlatformEditor (484)
+[2018.04.30-18.43.08:481][358]LogModuleManager: Shutting down and abandoning module HTML5PlatformEditor (482)
+[2018.04.30-18.43.08:481][358]LogModuleManager: Shutting down and abandoning module AndroidPlatformEditor (480)
+[2018.04.30-18.43.08:481][358]LogModuleManager: Shutting down and abandoning module AndroidDeviceDetection (479)
+[2018.04.30-18.43.09:221][358]LogModuleManager: Shutting down and abandoning module WindowsPlatformEditor (476)
+[2018.04.30-18.43.09:221][358]LogModuleManager: Shutting down and abandoning module IOSRuntimeSettings (474)
+[2018.04.30-18.43.09:221][358]LogModuleManager: Shutting down and abandoning module AndroidRuntimeSettings (472)
+[2018.04.30-18.43.09:221][358]LogModuleManager: Shutting down and abandoning module InputBindingEditor (470)
+[2018.04.30-18.43.09:221][358]LogModuleManager: Shutting down and abandoning module MergeActors (468)
+[2018.04.30-18.43.09:221][358]LogModuleManager: Shutting down and abandoning module LocalizationDashboard (466)
+[2018.04.30-18.43.09:221][358]LogModuleManager: Shutting down and abandoning module LocalizationService (465)
+[2018.04.30-18.43.09:221][358]LogModuleManager: Shutting down and abandoning module HardwareTargeting (462)
+[2018.04.30-18.43.09:221][358]LogModuleManager: Shutting down and abandoning module DeviceProfileEditor (460)
+[2018.04.30-18.43.09:221][358]LogModuleManager: Shutting down and abandoning module UndoHistory (458)
+[2018.04.30-18.43.09:221][358]LogModuleManager: Shutting down and abandoning module XmlParser (456)
+[2018.04.30-18.43.09:221][358]LogModuleManager: Shutting down and abandoning module Blutility (454)
+[2018.04.30-18.43.09:221][358]LogModuleManager: Shutting down and abandoning module ProjectSettingsViewer (452)
+[2018.04.30-18.43.09:221][358]LogModuleManager: Shutting down and abandoning module ProjectTargetPlatformEditor (451)
+[2018.04.30-18.43.09:222][358]LogModuleManager: Shutting down and abandoning module EditorSettingsViewer (448)
+[2018.04.30-18.43.09:222][358]LogModuleManager: Shutting down and abandoning module SettingsEditor (446)
+[2018.04.30-18.43.09:222][358]LogModuleManager: Shutting down and abandoning module ProjectLauncher (444)
+[2018.04.30-18.43.09:222][358]LogModuleManager: Shutting down and abandoning module SessionFrontend (442)
+[2018.04.30-18.43.09:222][358]LogModuleManager: Shutting down and abandoning module ProfilerClient (440)
+[2018.04.30-18.43.09:222][358]LogModuleManager: Shutting down and abandoning module DeviceManager (438)
+[2018.04.30-18.43.09:222][358]LogModuleManager: Shutting down and abandoning module TargetDeviceServices (437)
+[2018.04.30-18.43.09:275][358]LogModuleManager: Shutting down and abandoning module AutomationController (434)
+[2018.04.30-18.43.09:275][358]LogModuleManager: Shutting down and abandoning module AutomationWindow (432)
+[2018.04.30-18.43.09:275][358]LogModuleManager: Shutting down and abandoning module Layers (430)
+[2018.04.30-18.43.09:275][358]LogModuleManager: Shutting down and abandoning module ComponentVisualizers (428)
+[2018.04.30-18.43.09:275][358]LogModuleManager: Shutting down and abandoning module DetailCustomizations (426)
+[2018.04.30-18.43.09:275][358]LogModuleManager: Shutting down and abandoning module PackagesDialog (424)
+[2018.04.30-18.43.09:275][358]LogModuleManager: Shutting down and abandoning module Persona (422)
+[2018.04.30-18.43.09:276][358]LogModuleManager: Shutting down and abandoning module AdvancedPreviewScene (421)
+[2018.04.30-18.43.09:276][358]LogModuleManager: Shutting down and abandoning module AnimGraph (419)
+[2018.04.30-18.43.09:276][358]LogModuleManager: Shutting down and abandoning module Kismet (416)
+[2018.04.30-18.43.09:286][358]LogModuleManager: Shutting down and abandoning module GraphEditor (414)
+[2018.04.30-18.43.09:286][358]LogModuleManager: Shutting down and abandoning module ClassViewer (412)
+[2018.04.30-18.43.09:289][358]LogModuleManager: Shutting down and abandoning module Toolbox (410)
+[2018.04.30-18.43.09:289][358]LogModuleManager: Shutting down and abandoning module ModuleUI (408)
+[2018.04.30-18.43.09:289][358]LogModuleManager: Shutting down and abandoning module MovieSceneTools (406)
+[2018.04.30-18.43.09:289][358]LogModuleManager: Shutting down and abandoning module OutputLog (404)
+[2018.04.30-18.43.09:289][358]LogModuleManager: Shutting down and abandoning module GammaUI (402)
+[2018.04.30-18.43.09:289][358]LogModuleManager: Shutting down and abandoning module Documentation (400)
+[2018.04.30-18.43.09:289][358]LogModuleManager: Shutting down and abandoning module MovieSceneTracks (398)
+[2018.04.30-18.43.09:289][358]LogModuleManager: Shutting down and abandoning module MovieScene (396)
+[2018.04.30-18.43.09:289][358]LogModuleManager: Shutting down and abandoning module StreamingPauseRendering (394)
+[2018.04.30-18.43.09:289][358]LogModuleManager: Shutting down and abandoning module LauncherPlatform (392)
+[2018.04.30-18.43.09:289][358]LogModuleManager: Shutting down and abandoning module AnalyticsET (390)
+[2018.04.30-18.43.09:289][358]LogModuleManager: Shutting down and abandoning module PortalServices (388)
+[2018.04.30-18.43.09:289][358]LogModuleManager: Shutting down and abandoning module PortalRpc (386)
+[2018.04.30-18.43.09:289][358]LogModuleManager: Shutting down and abandoning module MessagingRpc (384)
+[2018.04.30-18.43.09:289][358]LogModuleManager: Shutting down and abandoning module AIModule (382)
+[2018.04.30-18.43.09:289][358]LogModuleManager: Shutting down and abandoning module GameplayDebugger (381)
+[2018.04.30-18.43.09:289][358]LogModuleManager: Shutting down and abandoning module AITestSuite (379)
+[2018.04.30-18.43.09:289][358]LogModuleManager: Shutting down and abandoning module ProfilerService (376)
+[2018.04.30-18.43.09:525][358]LogModuleManager: Shutting down and abandoning module TaskGraph (374)
+[2018.04.30-18.43.09:525][358]LogModuleManager: Shutting down and abandoning module SteamVRController (372)
+[2018.04.30-18.43.09:525][358]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponentEditor (370)
+[2018.04.30-18.43.09:525][358]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponent (368)
+[2018.04.30-18.43.09:525][358]LogModuleManager: Shutting down and abandoning module OculusInput (366)
+[2018.04.30-18.43.09:525][358]LogModuleManager: Shutting down and abandoning module MobilePatchingUtils (364)
+[2018.04.30-18.43.09:525][358]LogModuleManager: Shutting down and abandoning module CustomMeshComponent (362)
+[2018.04.30-18.43.09:525][358]LogModuleManager: Shutting down and abandoning module CableComponent (360)
+[2018.04.30-18.43.09:525][358]LogModuleManager: Shutting down and abandoning module AudioCapture (358)
+[2018.04.30-18.43.09:525][358]LogModuleManager: Shutting down and abandoning module ArchVisCharacter (356)
+[2018.04.30-18.43.09:525][358]LogModuleManager: Shutting down and abandoning module AndroidPermission (354)
+[2018.04.30-18.43.09:525][358]LogModuleManager: Shutting down and abandoning module NUTUnrealEngine4 (350)
+[2018.04.30-18.43.09:525][358]LogModuleManager: Shutting down and abandoning module NetcodeUnitTest (348)
+[2018.04.30-18.43.09:525][358]LogModuleManager: Shutting down and abandoning module MediaCompositingEditor (346)
+[2018.04.30-18.43.09:525][358]LogModuleManager: Shutting down and abandoning module MediaCompositing (344)
+[2018.04.30-18.43.09:525][358]LogModuleManager: Shutting down and abandoning module LinearTimecode (342)
+[2018.04.30-18.43.09:526][358]LogModuleManager: Shutting down and abandoning module ImgMedia (340)
+[2018.04.30-18.43.09:532][358]LogModuleManager: Shutting down and abandoning module HTML5Networking (338)
+[2018.04.30-18.43.09:532][358]LogModuleManager: Shutting down and abandoning module AlembicImporter (336)
+[2018.04.30-18.43.09:532][358]LogModuleManager: Shutting down and abandoning module AlembicLibrary (335)
+[2018.04.30-18.43.09:532][358]LogModuleManager: Shutting down and abandoning module GeometryCache (334)
+[2018.04.30-18.43.09:532][358]LogModuleManager: Shutting down and abandoning module GeometryCacheEd (333)
+[2018.04.30-18.43.09:532][358]LogModuleManager: Shutting down and abandoning module DatasmithContent (328)
+[2018.04.30-18.43.09:532][358]LogModuleManager: Shutting down and abandoning module SpeedTreeImporter (326)
+[2018.04.30-18.43.09:532][358]LogModuleManager: Shutting down and abandoning module PluginBrowser (324)
+[2018.04.30-18.43.09:532][358]LogModuleManager: Shutting down and abandoning module MobileLauncherProfileWizard (322)
+[2018.04.30-18.43.09:532][358]LogModuleManager: Shutting down and abandoning module CryptoKeysOpenSSL (320)
+[2018.04.30-18.43.09:532][358]LogModuleManager: Shutting down and abandoning module CryptoKeys (318)
+[2018.04.30-18.43.09:532][358]LogModuleManager: Shutting down and abandoning module VisualStudioSourceCodeAccess (316)
+[2018.04.30-18.43.09:532][358]LogModuleManager: Shutting down and abandoning module VisualStudioCodeSourceCodeAccess (314)
+[2018.04.30-18.43.09:532][358]LogModuleManager: Shutting down and abandoning module UObjectPlugin (312)
+[2018.04.30-18.43.09:532][358]LogModuleManager: Shutting down and abandoning module SubversionSourceControl (310)
+[2018.04.30-18.43.09:532][358]LogModuleManager: Shutting down and abandoning module PerforceSourceControl (308)
+[2018.04.30-18.43.09:533][358]LogModuleManager: Shutting down and abandoning module GitSourceControl (306)
+[2018.04.30-18.43.09:533][358]LogModuleManager: Shutting down and abandoning module SourceControl (305)
+[2018.04.30-18.43.09:533][358]LogModuleManager: Shutting down and abandoning module CLionSourceCodeAccess (302)
+[2018.04.30-18.43.09:533][358]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeEditor (300)
+[2018.04.30-18.43.09:533][358]LogModuleManager: Shutting down and abandoning module PaperTiledImporter (298)
+[2018.04.30-18.43.09:533][358]LogModuleManager: Shutting down and abandoning module PaperSpriteSheetImporter (296)
+[2018.04.30-18.43.09:533][358]LogModuleManager: Shutting down and abandoning module Paper2DEditor (294)
+[2018.04.30-18.43.09:533][358]LogModuleManager: Shutting down and abandoning module MeshPaint (293)
+[2018.04.30-18.43.09:533][358]LogModuleManager: Shutting down and abandoning module CEDVFighters (290)
+[2018.04.30-18.43.09:533][358]LogModuleManager: Shutting down and abandoning module RuntimePhysXCooking (288)
+[2018.04.30-18.43.09:533][358]LogModuleManager: Shutting down and abandoning module PhysXVehiclesEditor (286)
+[2018.04.30-18.43.09:533][358]LogModuleManager: Shutting down and abandoning module PhysXVehicles (284)
+[2018.04.30-18.43.09:533][358]LogModuleManager: Shutting down and abandoning module OculusEditor (282)
+[2018.04.30-18.43.09:533][358]LogModuleManager: Shutting down and abandoning module LocationServicesBPLibrary (280)
+[2018.04.30-18.43.09:533][358]LogModuleManager: Shutting down and abandoning module ImmediatePhysicsEditor (278)
+[2018.04.30-18.43.09:533][358]LogModuleManager: Shutting down and abandoning module ImmediatePhysics (276)
+[2018.04.30-18.43.09:533][358]LogModuleManager: Shutting down and abandoning module ActorSequence (274)
+[2018.04.30-18.43.09:533][358]LogModuleManager: Shutting down and abandoning module UdpMessaging (272)
+[2018.04.30-18.43.09:634][358]LogModuleManager: Shutting down and abandoning module TcpMessaging (270)
+[2018.04.30-18.43.09:735][358]LogModuleManager: Shutting down and abandoning module GameplayTagsEditor (268)
+[2018.04.30-18.43.09:735][358]LogModuleManager: Shutting down and abandoning module FacialAnimationEditor (266)
+[2018.04.30-18.43.09:735][358]LogModuleManager: Shutting down and abandoning module FacialAnimation (264)
+[2018.04.30-18.43.09:735][358]LogModuleManager: Shutting down and abandoning module DataValidation (262)
+[2018.04.30-18.43.09:735][358]LogModuleManager: Shutting down and abandoning module AssetManagerEditor (260)
+[2018.04.30-18.43.09:735][358]LogModuleManager: Shutting down and abandoning module LevelEditor (259)
+[2018.04.30-18.43.09:736][358]LogModuleManager: Shutting down and abandoning module PixelInspectorModule (258)
+[2018.04.30-18.43.09:737][358]LogModuleManager: Shutting down and abandoning module CommonMenuExtensions (256)
+[2018.04.30-18.43.09:737][358]LogModuleManager: Shutting down and abandoning module MainFrame (254)
+[2018.04.30-18.43.09:737][358]LogModuleManager: Shutting down and abandoning module HotReload (253)
+[2018.04.30-18.43.09:737][358]LogDirectoryWatcher: A directory notification for 'D:/Documentos/Documentos/Unreal Projects/CEDVFighters/CEDVFighters/Binaries/Win64' was aborted.
+[2018.04.30-18.43.09:738][358]LogModuleManager: Shutting down and abandoning module ContentBrowser (249)
+[2018.04.30-18.43.09:740][358]LogModuleManager: Shutting down and abandoning module TreeMap (247)
+[2018.04.30-18.43.09:740][358]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeRuntime (244)
+[2018.04.30-18.43.09:740][358]LogModuleManager: Shutting down and abandoning module LiveLinkEditor (242)
+[2018.04.30-18.43.09:740][358]LogModuleManager: Shutting down and abandoning module LiveLink (240)
+[2018.04.30-18.43.09:825][358]LogModuleManager: Shutting down and abandoning module Paper2D (238)
+[2018.04.30-18.43.09:825][358]LogModuleManager: Shutting down and abandoning module WindowsMoviePlayer (236)
+[2018.04.30-18.43.09:825][358]LogModuleManager: Shutting down and abandoning module WmfMedia (234)
+[2018.04.30-18.43.09:828][358]LogModuleManager: Shutting down and abandoning module Media (233)
+[2018.04.30-18.43.09:834][358]LogModuleManager: Shutting down and abandoning module PacketHandler (230)
+[2018.04.30-18.43.09:834][358]LogModuleManager: Shutting down and abandoning module ClothingSystemEditor (228)
+[2018.04.30-18.43.09:834][358]LogModuleManager: Shutting down and abandoning module ClothingSystemRuntime (226)
+[2018.04.30-18.43.09:834][358]LogModuleManager: Shutting down and abandoning module MediaAssets (224)
+[2018.04.30-18.43.09:834][358]LogModuleManager: Shutting down and abandoning module Overlay (222)
+[2018.04.30-18.43.09:834][358]LogModuleManager: Shutting down and abandoning module OverlayEditor (221)
+[2018.04.30-18.43.09:834][358]LogModuleManager: Shutting down and abandoning module VREditor (218)
+[2018.04.30-18.43.09:834][358]LogModuleManager: Shutting down and abandoning module StringTableEditor (216)
+[2018.04.30-18.43.09:834][358]LogModuleManager: Shutting down and abandoning module GameplayTasksEditor (214)
+[2018.04.30-18.43.09:834][358]LogModuleManager: Shutting down and abandoning module BehaviorTreeEditor (212)
+[2018.04.30-18.43.09:834][358]LogModuleManager: Shutting down and abandoning module FunctionalTesting (210)
+[2018.04.30-18.43.09:835][358]LogModuleManager: Shutting down and abandoning module CollisionAnalyzer (208)
+[2018.04.30-18.43.09:835][358]LogModuleManager: Shutting down and abandoning module WorkspaceMenuStructure (207)
+[2018.04.30-18.43.09:835][358]LogModuleManager: Shutting down and abandoning module UMG (204)
+[2018.04.30-18.43.09:835][358]LogModuleManager: Shutting down and abandoning module UMGEditor (203)
+[2018.04.30-18.43.09:835][358]LogModuleManager: Shutting down and abandoning module Sequencer (202)
+[2018.04.30-18.43.09:835][358]LogModuleManager: Shutting down and abandoning module MessageLog (199)
+[2018.04.30-18.43.09:835][358]LogModuleManager: Shutting down and abandoning module SlateReflector (194)
+[2018.04.30-18.43.09:836][358]LogModuleManager: Shutting down and abandoning module Slate (192)
+[2018.04.30-18.43.09:836][358]LogModuleManager: Shutting down and abandoning module EditorStyle (190)
+[2018.04.30-18.43.09:839][358]LogModuleManager: Shutting down and abandoning module MRMesh (188)
+[2018.04.30-18.43.09:839][358]LogModuleManager: Shutting down and abandoning module SourceCodeAccess (186)
+[2018.04.30-18.43.09:839][358]LogModuleManager: Shutting down and abandoning module HeadMountedDisplay (184)
+[2018.04.30-18.43.09:839][358]LogModuleManager: Shutting down and abandoning module XAudio2 (182)
+[2018.04.30-18.43.09:839][358]LogModuleManager: Shutting down and abandoning module Networking (180)
+[2018.04.30-18.43.09:839][358]LogModuleManager: Shutting down and abandoning module Core (178)
+[2018.04.30-18.43.09:839][358]LogModuleManager: Shutting down and abandoning module LevelSequence (176)
+[2018.04.30-18.43.09:839][358]LogModuleManager: Shutting down and abandoning module KismetCompiler (174)
+[2018.04.30-18.43.09:839][358]LogModuleManager: Shutting down and abandoning module MeshUtilities (172)
+[2018.04.30-18.43.09:839][358]LogModuleManager: Shutting down and abandoning module MeshMergeUtilities (171)
+[2018.04.30-18.43.09:839][358]LogModuleManager: Shutting down and abandoning module MeshReductionInterface (170)
+[2018.04.30-18.43.09:839][358]LogModuleManager: Shutting down and abandoning module SimplygonSwarm (169)
+[2018.04.30-18.43.09:839][358]LogModuleManager: Shutting down and abandoning module SimplygonMeshReduction (167)
+[2018.04.30-18.43.09:839][358]LogModuleManager: Shutting down and abandoning module QuadricMeshReduction (165)
+[2018.04.30-18.43.09:840][358]LogModuleManager: Shutting down and abandoning module MaterialBaking (161)
+[2018.04.30-18.43.09:840][358]LogModuleManager: Shutting down and abandoning module DirectoryWatcher (157)
+[2018.04.30-18.43.09:843][358]LogModuleManager: Shutting down and abandoning module DerivedDataCache (154)
+[2018.04.30-18.43.09:887][358]LogDerivedDataCache: Shutdown
+[2018.04.30-18.43.09:887][358]LogModuleManager: Shutting down and abandoning module XGEController (152)
+[2018.04.30-18.43.09:887][358]LogModuleManager: Shutting down and abandoning module TargetPlatform (150)
+[2018.04.30-18.43.09:887][358]LogModuleManager: Shutting down and abandoning module VulkanShaderFormat (149)
+[2018.04.30-18.43.09:887][358]LogModuleManager: Shutting down and abandoning module ShaderFormatVectorVM (147)
+[2018.04.30-18.43.09:887][358]LogModuleManager: Shutting down and abandoning module ShaderFormatOpenGL (145)
+[2018.04.30-18.43.09:887][358]LogModuleManager: Shutting down and abandoning module ShaderFormatD3D (143)
+[2018.04.30-18.43.09:887][358]LogModuleManager: Shutting down and abandoning module MetalShaderFormat (141)
+[2018.04.30-18.43.09:887][358]LogModuleManager: Shutting down and abandoning module TextureFormatUncompressed (139)
+[2018.04.30-18.43.09:887][358]LogModuleManager: Shutting down and abandoning module TextureFormatPVR (137)
+[2018.04.30-18.43.09:887][358]LogModuleManager: Shutting down and abandoning module TextureFormatDXT (135)
+[2018.04.30-18.43.09:887][358]LogModuleManager: Shutting down and abandoning module TextureFormatIntelISPCTexComp (133)
+[2018.04.30-18.43.09:888][358]LogModuleManager: Shutting down and abandoning module TextureFormatASTC (131)
+[2018.04.30-18.43.09:888][358]LogModuleManager: Shutting down and abandoning module ImageWrapper (130)
+[2018.04.30-18.43.09:888][358]LogModuleManager: Shutting down and abandoning module TextureFormatAndroid (127)
+[2018.04.30-18.43.09:888][358]LogModuleManager: Shutting down and abandoning module AudioFormatOpus (125)
+[2018.04.30-18.43.09:888][358]LogModuleManager: Shutting down and abandoning module AudioFormatOgg (123)
+[2018.04.30-18.43.09:888][358]LogModuleManager: Shutting down and abandoning module AudioFormatADPCM (121)
+[2018.04.30-18.43.09:888][358]LogModuleManager: Shutting down and abandoning module LinuxTargetPlatform (119)
+[2018.04.30-18.43.09:888][358]LogModuleManager: Shutting down and abandoning module LinuxServerTargetPlatform (117)
+[2018.04.30-18.43.09:888][358]LogModuleManager: Shutting down and abandoning module LinuxNoEditorTargetPlatform (115)
+[2018.04.30-18.43.09:888][358]LogModuleManager: Shutting down and abandoning module LinuxClientTargetPlatform (113)
+[2018.04.30-18.43.09:888][358]LogModuleManager: Shutting down and abandoning module TVOSTargetPlatform (111)
+[2018.04.30-18.43.09:888][358]LogModuleManager: Shutting down and abandoning module Messaging (109)
+[2018.04.30-18.43.09:888][358]LogModuleManager: Shutting down and abandoning module IOSTargetPlatform (107)
+[2018.04.30-18.43.09:888][358]LogModuleManager: Shutting down and abandoning module HTML5TargetPlatform (105)
+[2018.04.30-18.43.09:888][358]LogModuleManager: Shutting down and abandoning module AndroidTargetPlatform (103)
+[2018.04.30-18.43.09:888][358]LogModuleManager: Shutting down and abandoning module Android_PVRTCTargetPlatform (101)
+[2018.04.30-18.43.09:888][358]LogModuleManager: Shutting down and abandoning module Android_MultiTargetPlatform (99)
+[2018.04.30-18.43.09:888][358]LogModuleManager: Shutting down and abandoning module Android_ETC2TargetPlatform (97)
+[2018.04.30-18.43.09:888][358]LogModuleManager: Shutting down and abandoning module Android_ETC1TargetPlatform (95)
+[2018.04.30-18.43.09:888][358]LogModuleManager: Shutting down and abandoning module Android_ETC1aTargetPlatform (93)
+[2018.04.30-18.43.09:888][358]LogModuleManager: Shutting down and abandoning module Android_DXTTargetPlatform (91)
+[2018.04.30-18.43.09:888][358]LogModuleManager: Shutting down and abandoning module Android_ATCTargetPlatform (89)
+[2018.04.30-18.43.09:889][358]LogModuleManager: Shutting down and abandoning module Android_ASTCTargetPlatform (87)
+[2018.04.30-18.43.09:889][358]LogModuleManager: Shutting down and abandoning module WindowsTargetPlatform (85)
+[2018.04.30-18.43.09:889][358]LogModuleManager: Shutting down and abandoning module WindowsServerTargetPlatform (83)
+[2018.04.30-18.43.09:889][358]LogModuleManager: Shutting down and abandoning module WindowsNoEditorTargetPlatform (81)
+[2018.04.30-18.43.09:889][358]LogModuleManager: Shutting down and abandoning module WindowsClientTargetPlatform (79)
+[2018.04.30-18.43.09:889][358]LogModuleManager: Shutting down and abandoning module MacTargetPlatform (77)
+[2018.04.30-18.43.09:889][358]LogModuleManager: Shutting down and abandoning module MacServerTargetPlatform (75)
+[2018.04.30-18.43.09:889][358]LogModuleManager: Shutting down and abandoning module MacNoEditorTargetPlatform (73)
+[2018.04.30-18.43.09:889][358]LogModuleManager: Shutting down and abandoning module MacClientTargetPlatform (71)
+[2018.04.30-18.43.09:889][358]LogModuleManager: Shutting down and abandoning module AllDesktopTargetPlatform (69)
+[2018.04.30-18.43.09:889][358]LogModuleManager: Shutting down and abandoning module InputCore (66)
+[2018.04.30-18.43.09:889][358]LogModuleManager: Shutting down and abandoning module Settings (64)
+[2018.04.30-18.43.09:889][358]LogModuleManager: Shutting down and abandoning module PhysXCooking (62)
+[2018.04.30-18.43.09:889][358]LogModuleManager: Shutting down and abandoning module SteamVR (60)
+[2018.04.30-18.43.09:889][358]LogModuleManager: Shutting down and abandoning module OculusHMD (58)
+[2018.04.30-18.43.09:889][358]LogModuleManager: Shutting down and abandoning module ExampleDeviceProfileSelector (56)
+[2018.04.30-18.43.09:889][358]LogModuleManager: Shutting down and abandoning module AppleARKit (54)
+[2018.04.30-18.43.09:889][358]LogModuleManager: Shutting down and abandoning module AugmentedReality (51)
+[2018.04.30-18.43.09:889][358]LogModuleManager: Shutting down and abandoning module OnlineBlueprintSupport (48)
+[2018.04.30-18.43.09:890][358]LogModuleManager: Shutting down and abandoning module OnlineSubsystem (44)
+[2018.04.30-18.43.09:890][358]LogModuleManager: Shutting down and abandoning module XMPP (43)
+[2018.04.30-18.43.09:890][358]LogModuleManager: Shutting down and abandoning module HTTP (41)
+[2018.04.30-18.43.09:890][358]LogHttp: Display: Http module shutting down, but needs to wait on 1 outstanding Http requests:
+[2018.04.30-18.43.09:890][358]LogHttp: Display: 	verb=[POST] url=[https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7BDDAED115-4FA4-9E41-25ED-D68C5C88B9F7%7D&AppID=UEEditor.Rocket.Release&AppVersion=4.19.1-3989454%2B%2B%2BUE4%2BRelease-4.19&UserID=4955a3064f80298e28ebf0b85016ace2%7C226439f66b624bc5a960ae4fd7fa0181%7Cd9abc26c-3c32-4ce5-af19-3ee8c22f60f0&AppEnvironment=datacollector-binary&UploadType=eteventstream] status=Processing
+[2018.04.30-18.43.09:919][358]LogModuleManager: Shutting down and abandoning module SSL (40)
+[2018.04.30-18.43.09:920][358]LogModuleManager: Shutting down and abandoning module AnimationModifiers (36)
+[2018.04.30-18.43.09:921][358]LogModuleManager: Shutting down and abandoning module PropertyEditor (35)
+[2018.04.30-18.43.09:921][358]LogModuleManager: Shutting down and abandoning module AudioEditor (32)
+[2018.04.30-18.43.09:921][358]LogModuleManager: Shutting down and abandoning module TextureCompressor (30)
+[2018.04.30-18.43.09:921][358]LogModuleManager: Shutting down and abandoning module ShaderCore (28)
+[2018.04.30-18.43.09:921][358]LogModuleManager: Shutting down and abandoning module Landscape (26)
+[2018.04.30-18.43.09:921][358]LogModuleManager: Shutting down and abandoning module SlateRHIRenderer (24)
+[2018.04.30-18.43.09:924][358]LogModuleManager: Shutting down and abandoning module OpenGLDrv (22)
+[2018.04.30-18.43.09:924][358]LogModuleManager: Shutting down and abandoning module D3D11RHI (20)
+[2018.04.30-18.43.09:924][358]LogModuleManager: Shutting down and abandoning module AnimGraphRuntime (18)
+[2018.04.30-18.43.09:924][358]LogModuleManager: Shutting down and abandoning module Renderer (16)
+[2018.04.30-18.43.09:924][358]LogModuleManager: Shutting down and abandoning module Engine (14)
+[2018.04.30-18.43.09:924][358]LogModuleManager: Shutting down and abandoning module CoreUObject (12)
+[2018.04.30-18.43.09:925][358]LogModuleManager: Shutting down and abandoning module NetworkFile (10)
+[2018.04.30-18.43.09:925][358]LogModuleManager: Shutting down and abandoning module CookedIterativeFile (8)
+[2018.04.30-18.43.09:925][358]LogModuleManager: Shutting down and abandoning module StreamingFile (6)
+[2018.04.30-18.43.09:925][358]LogModuleManager: Shutting down and abandoning module SandboxFile (4)
+[2018.04.30-18.43.09:925][358]LogModuleManager: Shutting down and abandoning module PakFile (2)
+[2018.04.30-18.43.09:937][358]LogExit: Exiting.
+[2018.04.30-18.43.09:955][358]Log file closed, 04/30/18 20:43:09
