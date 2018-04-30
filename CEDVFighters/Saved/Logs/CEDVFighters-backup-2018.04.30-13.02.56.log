@@ -1,0 +1,1013 @@
+﻿Log file open, 04/30/18 11:28:36
+LogWindows: Failed to load 'aqProf.dll' (GetLastError=126)
+LogWindows: File 'aqProf.dll' does not exist
+LogWindows: Failed to load 'VtuneApi.dll' (GetLastError=126)
+LogWindows: File 'VtuneApi.dll' does not exist
+LogWindows: Failed to load 'VtuneApi32e.dll' (GetLastError=126)
+LogWindows: File 'VtuneApi32e.dll' does not exist
+LogInit: Display: Running engine for game: CEDVFighters
+LogPlatformFile: Not using cached read wrapper
+LogInit: Display: RandInit(-853717905) SRandInit(-853717905).
+LogInit: Read version file with build ID '3944462'
+LogInit: Overriding engine version to CL 3989454, compatible CL 3944462
+LogInit: Registered custom module enumerator with build ID '3944462'
+LogTaskGraph: Started task graph with 5 named threads and 20 total threads with 3 sets of task threads.
+LogStats: Stats thread started at 0.208523
+LogD3D11RHI: Aftermath initialized
+LogICUInternationalization: Display: ICU TimeZone Detection - Raw Offset: +1:00, Platform Override: ''
+LogPluginManager: Mounting plugin Paper2D
+LogPluginManager: Mounting plugin LiveLink
+LogPluginManager: Mounting plugin LightPropagationVolume
+LogPluginManager: Mounting plugin CLionSourceCodeAccess
+LogPluginManager: Mounting plugin CodeLiteSourceCodeAccess
+LogPluginManager: Mounting plugin GitSourceControl
+LogPluginManager: Mounting plugin KDevelopSourceCodeAccess
+LogPluginManager: Mounting plugin NullSourceCodeAccess
+LogPluginManager: Mounting plugin PerforceSourceControl
+LogPluginManager: Mounting plugin SubversionSourceControl
+LogPluginManager: Mounting plugin UObjectPlugin
+LogPluginManager: Mounting plugin VisualStudioCodeSourceCodeAccess
+LogPluginManager: Mounting plugin VisualStudioSourceCodeAccess
+LogPluginManager: Mounting plugin XCodeSourceCodeAccess
+LogPluginManager: Mounting plugin AssetManagerEditor
+LogPluginManager: Mounting plugin CryptoKeys
+LogPluginManager: Mounting plugin DataValidation
+LogPluginManager: Mounting plugin FacialAnimation
+LogPluginManager: Mounting plugin GameplayTagsEditor
+LogPluginManager: Mounting plugin MobileLauncherProfileWizard
+LogPluginManager: Mounting plugin PluginBrowser
+LogPluginManager: Mounting plugin SpeedTreeImporter
+LogPluginManager: Mounting plugin DatasmithContent
+LogPluginManager: Mounting plugin AlembicImporter
+LogPluginManager: Mounting plugin CharacterAI
+LogPluginManager: Mounting plugin HTML5Networking
+LogPluginManager: Mounting plugin AndroidMedia
+LogPluginManager: Mounting plugin AvfMedia
+LogPluginManager: Mounting plugin ImgMedia
+LogPluginManager: Mounting plugin LinearTimecode
+LogPluginManager: Mounting plugin MediaCompositing
+LogPluginManager: Mounting plugin MediaPlayerEditor
+LogPluginManager: Mounting plugin WmfMedia
+LogPluginManager: Mounting plugin TcpMessaging
+LogPluginManager: Mounting plugin UdpMessaging
+LogPluginManager: Mounting plugin ActorSequence
+LogPluginManager: Mounting plugin LevelSequenceEditor
+LogPluginManager: Mounting plugin MatineeToLevelSequence
+LogPluginManager: Mounting plugin NetcodeUnitTest
+LogPluginManager: Mounting plugin NUTUnrealEngine4
+LogPluginManager: Mounting plugin OnlineSubsystemGooglePlay
+LogPluginManager: Mounting plugin OnlineSubsystemIOS
+LogPluginManager: Mounting plugin OnlineSubsystem
+LogPluginManager: Mounting plugin OnlineSubsystemNull
+LogPluginManager: Mounting plugin OnlineSubsystemUtils
+LogPluginManager: Mounting plugin AndroidDeviceProfileSelector
+LogPluginManager: Mounting plugin AndroidMoviePlayer
+LogPluginManager: Mounting plugin AndroidPermission
+LogPluginManager: Mounting plugin AppleARKit
+LogPluginManager: Mounting plugin AppleMoviePlayer
+LogPluginManager: Mounting plugin ArchVisCharacter
+LogPluginManager: Mounting plugin AudioCapture
+LogPluginManager: Mounting plugin CableComponent
+LogPluginManager: Mounting plugin CustomMeshComponent
+LogPluginManager: Mounting plugin ExampleDeviceProfileSelector
+LogPluginManager: Mounting plugin GoogleCloudMessaging
+LogPluginManager: Mounting plugin ImmediatePhysics
+LogPluginManager: Mounting plugin IOSDeviceProfileSelector
+LogPluginManager: Mounting plugin LinuxDeviceProfileSelector
+LogPluginManager: Mounting plugin LocationServicesBPLibrary
+LogPluginManager: Mounting plugin MobilePatchingUtils
+LogPluginManager: Mounting plugin OculusVR
+LogPluginManager: Plugin shader directory ../../../Engine/Plugins/Runtime/Oculus/OculusVR/Shaders found
+LogPluginManager: Mapping shader source directory ../../../Engine/Plugins/Runtime/Oculus/OculusVR/Shaders to virtual directory /Plugin/OculusVR
+LogPluginManager: Mounting plugin PhysXVehicles
+LogPluginManager: Mounting plugin ProceduralMeshComponent
+LogPluginManager: Mounting plugin RuntimePhysXCooking
+LogPluginManager: Mounting plugin SteamVR
+LogPluginManager: Mounting plugin WindowsMoviePlayer
+LogStreaming: Display: Took  0.078s to configure plugins.
+LogModuleManager: Display: Found up-to-date module file D:/CEDV/GIT/CEDVFighters/CEDVFighters/Binaries/Win64/UE4Editor-CEDVFighters.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/2D/Paper2D/Binaries/Win64/UE4Editor-Paper2D.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/2D/Paper2D/Binaries/Win64/UE4Editor-Paper2DEditor.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/2D/Paper2D/Binaries/Win64/UE4Editor-PaperSpriteSheetImporter.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/2D/Paper2D/Binaries/Win64/UE4Editor-PaperTiledImporter.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/2D/Paper2D/Binaries/Win64/UE4Editor-SmartSnapping.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Animation/LiveLink/Binaries/Win64/UE4Editor-LiveLink.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Animation/LiveLink/Binaries/Win64/UE4Editor-LiveLinkEditor.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Blendables/LightPropagationVolume/Binaries/Win64/UE4Editor-LightPropagationVolumeRuntime.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Blendables/LightPropagationVolume/Binaries/Win64/UE4Editor-LightPropagationVolumeEditor.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Developer/CLionSourceCodeAccess/Binaries/Win64/UE4Editor-CLionSourceCodeAccess.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Developer/GitSourceControl/Binaries/Win64/UE4Editor-GitSourceControl.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Developer/PerforceSourceControl/Binaries/Win64/UE4Editor-PerforceSourceControl.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Developer/SubversionSourceControl/Binaries/Win64/UE4Editor-SubversionSourceControl.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Developer/UObjectPlugin/Binaries/Win64/UE4Editor-UObjectPlugin.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Developer/VisualStudioCodeSourceCodeAccess/Binaries/Win64/UE4Editor-VisualStudioCodeSourceCodeAccess.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Developer/VisualStudioSourceCodeAccess/Binaries/Win64/UE4Editor-VisualStudioSourceCodeAccess.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Editor/AssetManagerEditor/Binaries/Win64/UE4Editor-AssetManagerEditor.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Editor/CryptoKeys/Binaries/Win64/UE4Editor-CryptoKeys.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Editor/CryptoKeys/Binaries/Win64/UE4Editor-CryptoKeysOpenSSL.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Editor/DataValidation/Binaries/Win64/UE4Editor-DataValidation.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Editor/FacialAnimation/Binaries/Win64/UE4Editor-FacialAnimation.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Editor/FacialAnimation/Binaries/Win64/UE4Editor-FacialAnimationEditor.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Editor/GameplayTagsEditor/Binaries/Win64/UE4Editor-GameplayTagsEditor.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Editor/MobileLauncherProfileWizard/Binaries/Win64/UE4Editor-MobileLauncherProfileWizard.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Editor/PluginBrowser/Binaries/Win64/UE4Editor-PluginBrowser.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Editor/SpeedTreeImporter/Binaries/Win64/UE4Editor-SpeedTreeImporter.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Enterprise/DatasmithContent/Binaries/Win64/UE4Editor-DatasmithContent.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Experimental/AlembicImporter/Binaries/Win64/UE4Editor-AlembicImporter.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Experimental/AlembicImporter/Binaries/Win64/UE4Editor-AlembicLibrary.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Experimental/CharacterAI/Binaries/Win64/UE4Editor-CharacterAI.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Experimental/HTML5Networking/Binaries/Win64/UE4Editor-HTML5Networking.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/AndroidMedia/Binaries/Win64/UE4Editor-AndroidMediaEditor.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/AndroidMedia/Binaries/Win64/UE4Editor-AndroidMediaFactory.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/AvfMedia/Binaries/Win64/UE4Editor-AvfMediaEditor.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/AvfMedia/Binaries/Win64/UE4Editor-AvfMediaFactory.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/AvfMedia/Binaries/Win64/UE4Editor-AvfMediaFactory.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/ImgMedia/Binaries/Win64/UE4Editor-ImgMedia.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/ImgMedia/Binaries/Win64/UE4Editor-ImgMediaEditor.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/ImgMedia/Binaries/Win64/UE4Editor-ImgMediaFactory.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/ImgMedia/Binaries/Win64/UE4Editor-ImgMediaFactory.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/ImgMedia/Binaries/Win64/UE4Editor-OpenExrWrapper.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/LinearTimecode/Binaries/Win64/UE4Editor-LinearTimecode.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/MediaCompositing/Binaries/Win64/UE4Editor-MediaCompositing.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/MediaCompositing/Binaries/Win64/UE4Editor-MediaCompositingEditor.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/MediaPlayerEditor/Binaries/Win64/UE4Editor-MediaPlayerEditor.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/WmfMedia/Binaries/Win64/UE4Editor-WmfMedia.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/WmfMedia/Binaries/Win64/UE4Editor-WmfMediaEditor.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/WmfMedia/Binaries/Win64/UE4Editor-WmfMediaFactory.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/WmfMedia/Binaries/Win64/UE4Editor-WmfMediaFactory.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Messaging/TcpMessaging/Binaries/Win64/UE4Editor-TcpMessaging.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Messaging/UdpMessaging/Binaries/Win64/UE4Editor-UdpMessaging.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/MovieScene/ActorSequence/Binaries/Win64/UE4Editor-ActorSequence.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/MovieScene/LevelSequenceEditor/Binaries/Win64/UE4Editor-LevelSequenceEditor.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/MovieScene/MatineeToLevelSequence/Binaries/Win64/UE4Editor-MatineeToLevelSequence.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/NetcodeUnitTest/NetcodeUnitTest/Binaries/Win64/UE4Editor-NetcodeUnitTest.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/NetcodeUnitTest/NUTUnrealEngine4/Binaries/Win64/UE4Editor-NUTUnrealEngine4.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Online/OnlineSubsystem/Binaries/Win64/UE4Editor-OnlineSubsystem.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Online/OnlineSubsystemNull/Binaries/Win64/UE4Editor-OnlineSubsystemNull.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Online/OnlineSubsystemUtils/Binaries/Win64/UE4Editor-OnlineSubsystemUtils.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Online/OnlineSubsystemUtils/Binaries/Win64/UE4Editor-OnlineBlueprintSupport.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/AndroidDeviceProfileSelector/Binaries/Win64/UE4Editor-AndroidDeviceProfileSelector.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/AndroidPermission/Binaries/Win64/UE4Editor-AndroidPermission.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/AppleARKit/Binaries/Win64/UE4Editor-AppleARKit.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/ArchVisCharacter/Binaries/Win64/UE4Editor-ArchVisCharacter.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/AudioCapture/Binaries/Win64/UE4Editor-AudioCapture.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/AudioCapture/Binaries/Win64/UE4Editor-AudioCaptureEditor.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/CableComponent/Binaries/Win64/UE4Editor-CableComponent.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/CustomMeshComponent/Binaries/Win64/UE4Editor-CustomMeshComponent.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/ExampleDeviceProfileSelector/Binaries/Win64/UE4Editor-ExampleDeviceProfileSelector.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/ImmediatePhysics/Binaries/Win64/UE4Editor-ImmediatePhysics.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/ImmediatePhysics/Binaries/Win64/UE4Editor-ImmediatePhysicsEditor.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/LocationServicesBPLibrary/Binaries/Win64/UE4Editor-LocationServicesBPLibrary.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/MobilePatchingUtils/Binaries/Win64/UE4Editor-MobilePatchingUtils.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/Oculus/OculusVR/Binaries/Win64/UE4Editor-OculusHMD.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/Oculus/OculusVR/Binaries/Win64/UE4Editor-OculusInput.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/Oculus/OculusVR/Binaries/Win64/UE4Editor-OculusEditor.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/PhysXVehicles/Binaries/Win64/UE4Editor-PhysXVehicles.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/PhysXVehicles/Binaries/Win64/UE4Editor-PhysXVehiclesEditor.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/ProceduralMeshComponent/Binaries/Win64/UE4Editor-ProceduralMeshComponent.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/ProceduralMeshComponent/Binaries/Win64/UE4Editor-ProceduralMeshComponentEditor.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/RuntimePhysXCooking/Binaries/Win64/UE4Editor-RuntimePhysXCooking.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/Steam/SteamVR/Binaries/Win64/UE4Editor-SteamVR.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/Steam/SteamVR/Binaries/Win64/UE4Editor-SteamVRController.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/WindowsMoviePlayer/Binaries/Win64/UE4Editor-WindowsMoviePlayer.dll (API version 3944462).
+LogInit: Using libcurl 7.47.1
+LogInit:  - built for x86_64-pc-win32
+LogInit:  - supports SSL with OpenSSL/1.0.2g
+LogInit:  - supports HTTP deflate (compression) using libz 1.2.8
+LogInit:  - other features:
+LogInit:      CURL_VERSION_SSL
+LogInit:      CURL_VERSION_LIBZ
+LogInit:      CURL_VERSION_IPV6
+LogInit:      CURL_VERSION_ASYNCHDNS
+LogInit:      CURL_VERSION_LARGEFILE
+LogInit:      CURL_VERSION_IDN
+LogInit:  CurlRequestOptions (configurable via config and command line):
+LogInit:  - bVerifyPeer = false  - Libcurl will NOT verify peer certificate
+LogInit:  - bUseHttpProxy = false  - Libcurl will NOT use HTTP proxy
+LogInit:  - bDontReuseConnections = false  - Libcurl will reuse connections
+LogInit:  - CertBundlePath = nullptr  - Libcurl will use whatever was configured at build time.
+LogInit:  - MaxHostConnections = 16  - Libcurl will limit the number of connections to a host
+LogInit:  - LocalHostAddr = Default
+LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+LogInit: WinSock: I am MAQUINON (192.168.56.1:0)
+LogInit: Build: ++UE4+Release-4.19-CL-3989454
+LogInit: Engine Version: 4.19.1-3989454+++UE4+Release-4.19
+LogInit: Compatible Engine Version: 4.19.0-3944462+++UE4+Release-4.19
+LogInit: Net CL: 3944462
+LogDevObjectVersion: Number of dev versions registered: 18
+LogDevObjectVersion:   Dev-Blueprints (B0D832E4-1F89-4F0D-ACCF-7EB736FD4AA2): 10
+LogDevObjectVersion:   Dev-Build (E1C64328-A22C-4D53-A36C-8E866417BD8C): 0
+LogDevObjectVersion:   Dev-Core (375EC13C-06E4-48FB-B500-84F0262A717E): 2
+LogDevObjectVersion:   Dev-Editor (E4B068ED-F494-42E9-A231-DA0B2E46BB41): 23
+LogDevObjectVersion:   Dev-Framework (CFFC743F-43B0-4480-9391-14DF171D2073): 33
+LogDevObjectVersion:   Dev-Mobile (B02B49B5-BB20-44E9-A304-32B752E40360): 2
+LogDevObjectVersion:   Dev-Networking (A4E4105C-59A1-49B5-A7C5-40C4547EDFEE): 0
+LogDevObjectVersion:   Dev-Online (39C831C9-5AE6-47DC-9A44-9C173E1C8E7C): 0
+LogDevObjectVersion:   Dev-Physics (78F01B33-EBEA-4F98-B9B4-84EACCB95AA2): 0
+LogDevObjectVersion:   Dev-Platform (6631380F-2D4D-43E0-8009-CF276956A95A): 0
+LogDevObjectVersion:   Dev-Rendering (12F88B9F-8875-4AFC-A67C-D90C383ABD29): 25
+LogDevObjectVersion:   Dev-Sequencer (7B5AE74C-D270-4C10-A958-57980B212A5A): 6
+LogDevObjectVersion:   Dev-VR (D7296918-1DD6-4BDD-9DE2-64A83CC13884): 1
+LogDevObjectVersion:   Dev-LoadTimes (C2A15278-BFE7-4AFE-6C17-90FF531DF755): 1
+LogDevObjectVersion:   Private-Geometry (6EACA3D4-40EC-4CC1-B786-8BED09428FC5): 2
+LogDevObjectVersion:   Dev-AnimPhys (29E575DD-E0A3-4627-9D10-D276232CDCEA): 16
+LogDevObjectVersion:   Dev-ReflectionCapture (6B266CEC-1EC7-4B8F-A30B-E4D90942FC07): 1
+LogDevObjectVersion:   Dev-Automation (0DF73D61-A23F-47EA-B727-89E90C41499A): 1
+LogInit: Compiled (64-bit): Apr  6 2018 12:26:04
+LogInit: Compiled with Visual C++: 19.00.24215.01
+LogInit: Build Configuration: Development
+LogInit: Branch Name: ++UE4+Release-4.19
+LogInit: Command Line:  
+LogInit: Base Directory: C:/Program Files/Epic Games/UE_4.19/Engine/Binaries/Win64/
+LogInit: Installed Engine Build: 1
+LogStreaming: Display: Took  0.000s to delete old logs.
+LogInit: Presizing for max 8388607 objects, including 0 objects not considered by GC, pre-allocating 0 bytes for permanent pool.
+LogInit: Object subsystem initialized
+[2018.04.30-09.28.37:312][  0]LogInit: Selected Device Profile: [Windows]
+[2018.04.30-09.28.37:312][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2018.04.30-09.28.37:319][  0]LogInit: Computer: MAQUINON
+[2018.04.30-09.28.37:319][  0]LogInit: User: Juan
+[2018.04.30-09.28.37:319][  0]LogInit: CPU Page size=4096, Cores=6
+[2018.04.30-09.28.37:319][  0]LogInit: High frequency timer resolution =3.515664 MHz
+[2018.04.30-09.28.37:319][  0]LogMemory: Memory total: Physical=8.0GB (8GB approx)
+[2018.04.30-09.28.37:319][  0]LogMemory: Platform Memory Stats for Windows
+[2018.04.30-09.28.37:319][  0]LogMemory: Process Physical Memory: 275.51 MB used, 275.51 MB peak
+[2018.04.30-09.28.37:319][  0]LogMemory: Process Virtual Memory: 267.37 MB used, 267.37 MB peak
+[2018.04.30-09.28.37:319][  0]LogMemory: Physical Memory: 4528.01 MB used,  3619.08 MB free, 8147.09 MB total
+[2018.04.30-09.28.37:319][  0]LogMemory: Virtual Memory: 641.68 MB used,  3619.08 MB free, 8388608.00 MB total
+[2018.04.30-09.28.37:341][  0]LogInit: Overriding language with editor language configuration option (en).
+[2018.04.30-09.28.37:341][  0]LogInit: Overriding locale with editor locale configuration option (en).
+[2018.04.30-09.28.37:664][  0]LogStreaming: Display: Took  0.323s to EndInitTextLocalization.
+[2018.04.30-09.28.37:664][  0]LogWindows: Failed to load 'shcore.dll' (GetLastError=126)
+[2018.04.30-09.28.37:664][  0]LogWindows: File 'shcore.dll' does not exist
+[2018.04.30-09.28.37:664][  0]LogInit: Setting process to DPI aware
+[2018.04.30-09.28.37:667][  0]LogWindows: Failed to load 'shcore.dll' (GetLastError=126)
+[2018.04.30-09.28.37:667][  0]LogWindows: File 'shcore.dll' does not exist
+[2018.04.30-09.28.37:667][  0]LogInit: Setting process to DPI aware
+[2018.04.30-09.28.37:686][  0]LogSlate: New Slate User Created.  User Index 0, Is Virtual User: 0
+[2018.04.30-09.28.37:686][  0]LogSlate: Slate User Registered.  User Index 0, Is Virtual User: 0
+[2018.04.30-09.28.37:932][  0]LogD3D11RHI: D3D11 adapters:
+[2018.04.30-09.28.37:966][  0]LogD3D11RHI:    0. 'NVIDIA GeForce GTX 1050 Ti' (Feature Level 11_0)
+[2018.04.30-09.28.37:966][  0]LogD3D11RHI:       3998/0/3817 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:1, VendorId:0x10de
+[2018.04.30-09.28.37:966][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
+[2018.04.30-09.28.37:973][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2018.04.30-09.28.37:973][  0]LogD3D11RHI:     GPU DeviceId: 0x1c82 (for the marketing name, search the web for "GPU Device Id")
+[2018.04.30-09.28.37:973][  0]LogWindows: EnumDisplayDevices:
+[2018.04.30-09.28.37:974][  0]LogWindows:    0. 'NVIDIA GeForce GTX 1050 Ti' (P:1 D:1)
+[2018.04.30-09.28.37:974][  0]LogWindows:    1. 'NVIDIA GeForce GTX 1050 Ti' (P:0 D:0)
+[2018.04.30-09.28.37:974][  0]LogWindows:    2. 'NVIDIA GeForce GTX 1050 Ti' (P:0 D:0)
+[2018.04.30-09.28.37:974][  0]LogWindows:    3. 'NVIDIA GeForce GTX 1050 Ti' (P:0 D:0)
+[2018.04.30-09.28.37:974][  0]LogWindows:    4. 'RDPDD Chained DD' (P:0 D:0)
+[2018.04.30-09.28.37:974][  0]LogWindows:    5. 'RDP Encoder Mirror Driver' (P:0 D:0)
+[2018.04.30-09.28.37:974][  0]LogWindows:    6. 'RDP Reflector Display Driver' (P:0 D:0)
+[2018.04.30-09.28.37:974][  0]LogWindows: DebugString: GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter FoundDriverCount:4 
+[2018.04.30-09.28.37:974][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce GTX 1050 Ti
+[2018.04.30-09.28.37:974][  0]LogD3D11RHI:   Driver Version: 391.01 (internal:23.21.13.9101, unified:391.01)
+[2018.04.30-09.28.37:974][  0]LogD3D11RHI:      Driver Date: 2-23-2018
+[2018.04.30-09.28.37:974][  0]LogRHI: Texture pool is 2798 MB (70% of 3998 MB)
+[2018.04.30-09.28.37:985][  0]LogD3D11RHI: [Aftermath] Aftermath enabled and primed
+[2018.04.30-09.28.37:985][  0]LogD3D11RHI: [Aftermath] Aftermath enabled and primed
+[2018.04.30-09.28.37:985][  0]LogD3D11RHI: Async texture creation enabled
+[2018.04.30-09.28.38:003][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 2)
+[2018.04.30-09.28.38:050][  0]LogShaderCompilers: Guid format shader working directory is 8 characters bigger than the processId version (D:/CEDV/GIT/CEDVFighters/CEDVFighters/Intermediate/Shaders/WorkingDirectory/6972/).
+[2018.04.30-09.28.38:050][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/Juan/AppData/Local/Temp/UnrealShaderWorkingDir/97E3F4AB4796B997A187CBA60427974B/'.
+[2018.04.30-09.28.38:192][  0]LogTemp: Display: Loaded TP AllDesktopTargetPlatform
+[2018.04.30-09.28.38:203][  0]LogTemp: Display: Loaded TP MacClientTargetPlatform
+[2018.04.30-09.28.38:213][  0]LogTemp: Display: Loaded TP MacNoEditorTargetPlatform
+[2018.04.30-09.28.38:223][  0]LogTemp: Display: Loaded TP MacServerTargetPlatform
+[2018.04.30-09.28.38:234][  0]LogTemp: Display: Loaded TP MacTargetPlatform
+[2018.04.30-09.28.38:244][  0]LogTemp: Display: Loaded TP WindowsClientTargetPlatform
+[2018.04.30-09.28.38:254][  0]LogTemp: Display: Loaded TP WindowsNoEditorTargetPlatform
+[2018.04.30-09.28.38:264][  0]LogTemp: Display: Loaded TP WindowsServerTargetPlatform
+[2018.04.30-09.28.38:269][  0]LogTemp: Display: Loaded TP WindowsTargetPlatform
+[2018.04.30-09.28.38:279][  0]LogTemp: Display: Loaded TP Android_ASTCTargetPlatform
+[2018.04.30-09.28.38:288][  0]LogTemp: Display: Loaded TP Android_ATCTargetPlatform
+[2018.04.30-09.28.38:297][  0]LogTemp: Display: Loaded TP Android_DXTTargetPlatform
+[2018.04.30-09.28.38:306][  0]LogTemp: Display: Loaded TP Android_ETC1aTargetPlatform
+[2018.04.30-09.28.38:315][  0]LogTemp: Display: Loaded TP Android_ETC1TargetPlatform
+[2018.04.30-09.28.38:325][  0]LogTemp: Display: Loaded TP Android_ETC2TargetPlatform
+[2018.04.30-09.28.38:343][  0]LogTemp: Display: Loaded TP Android_MultiTargetPlatform
+[2018.04.30-09.28.38:343][  0]LogTemp: Display: Loaded TP Android_PVRTCTargetPlatform
+[2018.04.30-09.28.38:353][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.04.30-09.28.38:354][  0]LogTemp: Display: Loaded TP HTML5TargetPlatform
+[2018.04.30-09.28.38:386][  0]LogTemp: Display: Loaded TP IOSTargetPlatform
+[2018.04.30-09.28.38:394][  0]LogTemp: Display: Loaded TP TVOSTargetPlatform
+[2018.04.30-09.28.38:403][  0]LogTemp: Display: Loaded TP LinuxClientTargetPlatform
+[2018.04.30-09.28.38:412][  0]LogTemp: Display: Loaded TP LinuxNoEditorTargetPlatform
+[2018.04.30-09.28.38:421][  0]LogTemp: Display: Loaded TP LinuxServerTargetPlatform
+[2018.04.30-09.28.38:430][  0]LogTemp: Display: Loaded TP LinuxTargetPlatform
+[2018.04.30-09.28.38:430][  0]LogTargetPlatformManager: Display: Building Assets For Windows
+[2018.04.30-09.28.38:513][  0]LogXGEController: Cleaning working directory: C:/Users/Juan/AppData/Local/Temp/UnrealXGEWorkingDir/
+[2018.04.30-09.28.38:513][  0]LogXGEController: Cannot use XGE Controller as Incredibuild is not installed on this machine.
+[2018.04.30-09.28.38:513][  0]LogShaderCompilers: Cannot use XGE Shader Compiler as Incredibuild is not installed on this machine.
+[2018.04.30-09.28.38:513][  0]LogShaderCompilers: Display: Using Local Shader Compiler.
+[2018.04.30-09.28.39:021][  0]LogDerivedDataCache: Display: Max Cache Size: 512 MB
+[2018.04.30-09.28.39:115][  0]LogDerivedDataCache: Loaded boot cache 0.09s 75MB C:/Users/Juan/AppData/Local/UnrealEngine/4.19/DerivedDataCache/Boot.ddc.
+[2018.04.30-09.28.39:115][  0]LogDerivedDataCache: Display: Loaded Boot cache: C:/Users/Juan/AppData/Local/UnrealEngine/4.19/DerivedDataCache/Boot.ddc
+[2018.04.30-09.28.39:115][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file D:/CEDV/GIT/CEDVFighters/CEDVFighters/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2018.04.30-09.28.39:115][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2018.04.30-09.28.39:115][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file D:/CEDV/GIT/CEDVFighters/CEDVFighters/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2018.04.30-09.28.39:115][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2018.04.30-09.28.39:127][  0]LogDerivedDataCache: Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2018.04.30-09.28.39:139][  0]LogDerivedDataCache: Using Local data cache path C:/Users/Juan/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2018.04.30-09.28.39:149][  0]LogMaterial: Verifying Global Shaders for PCD3D_SM5
+[2018.04.30-09.28.39:149][  0]LogSlate: Using Freetype 2.6.0
+[2018.04.30-09.28.39:150][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2018.04.30-09.28.39:150][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2018.04.30-09.28.39:265][  0]LogAssetRegistry: FAssetRegistry took 0.0230 seconds to start up
+[2018.04.30-09.28.39:488][  0]LogInit: Selected Device Profile: [Windows]
+[2018.04.30-09.28.39:606][  0]LogSimplygon: Simplygon DLL not present - disabling.
+[2018.04.30-09.28.39:609][  0]LogMeshReduction: Using SimplygonSwarm for distributed automatic mesh merging
+[2018.04.30-09.28.39:609][  0]LogMeshReduction: Using QuadricMeshReduction for automatic static mesh reduction
+[2018.04.30-09.28.39:609][  0]LogMeshReduction: No automatic skeletal mesh reduction module available
+[2018.04.30-09.28.39:609][  0]LogMeshReduction: No automatic mesh merging module available
+[2018.04.30-09.28.39:609][  0]LogMeshMerging: No automatic mesh merging module available
+[2018.04.30-09.28.39:632][  0]LogNetVersion: CEDVFighters , NetCL: 3944462, EngineNetVer: 2, GameNetVer: 0 (Checksum: 260886863)
+[2018.04.30-09.28.40:019][  0]LogPackageLocalizationCache: Processed 9 localized package path(s) for 1 prioritized culture(s) in 0.031633 seconds
+[2018.04.30-09.28.40:025][  0]LogUObjectArray: 36728 objects as part of root set at end of initial load.
+[2018.04.30-09.28.40:025][  0]LogUObjectAllocator: 7314304 out of 0 bytes used by permanent object pool.
+[2018.04.30-09.28.40:025][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2018.04.30-09.28.41:466][  0]LogTcpMessaging: Initializing TcpMessaging bridge
+[2018.04.30-09.28.41:489][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2018.04.30-09.28.41:773][  0]SourceControl: Source control is disabled
+[2018.04.30-09.28.41:774][  0]SourceControl: Source control is disabled
+[2018.04.30-09.28.41:786][  0]SourceControl: Source control is disabled
+[2018.04.30-09.28.41:798][  0]SourceControl: Source control is disabled
+[2018.04.30-09.28.42:150][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
+[2018.04.30-09.28.42:264][  0]LogOcInput: OculusInput pre-init called
+[2018.04.30-09.28.42:345][  0]LogEngine: Initializing Engine...
+[2018.04.30-09.28.42:346][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2018.04.30-09.28.42:347][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2018.04.30-09.28.42:347][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
+[2018.04.30-09.28.42:634][  0]LogAIModule: Creating AISystem for world Untitled
+[2018.04.30-09.28.42:642][  0]LogInit: XAudio2 using 'Altavoces (2- Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2018.04.30-09.28.42:648][  0]LogInit: FAudioDevice initialized.
+[2018.04.30-09.28.42:723][  0]LogDerivedDataCache: Saved boot cache 0.08s 75MB C:/Users/Juan/AppData/Local/UnrealEngine/4.19/DerivedDataCache/Boot.ddc.
+[2018.04.30-09.28.42:736][  0]LogInit: Texture streaming: Enabled
+[2018.04.30-09.28.42:752][  0]LogEngineSessionManager: EngineSessionManager initialized
+[2018.04.30-09.28.42:764][  0]LogInit: Transaction tracking system initialized
+[2018.04.30-09.28.42:785][  0]BlueprintLog: New page: Editor Load
+[2018.04.30-09.28.42:851][  0]LocalizationService: Localization service is disabled
+[2018.04.30-09.28.42:922][  0]LogLinker: Warning: Can't find file '/Game/2DSideScrollerBP/2DSideScrollerOverview'
+[2018.04.30-09.28.42:923][  0]LogLinker: Warning: Can't find file '/Game/2DSideScrollerBP/2DSideScrollerOverview'
+[2018.04.30-09.28.42:923][  0]LogUObjectGlobals: Warning: Failed to find object 'Class /Game/2DSideScrollerBP/2DSideScrollerOverview.2DSideScrollerOverview_C'
+[2018.04.30-09.28.42:943][  0]LogConsoleResponse: Display: 
+[2018.04.30-09.28.43:100][  0]LogCook: Display: Max memory allowance for cook 16384mb min free memory 0mb
+[2018.04.30-09.28.43:100][  0]LogCook: Display: Mobile HDR setting 1
+[2018.04.30-09.28.43:100][  0]LogGameplayTags: Display: UGameplayTagsManager::DoneAddingNativeTags. DelegateIsBound: 0
+[2018.04.30-09.28.43:100][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2018.04.30-09.28.43:100][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
+[2018.04.30-09.28.43:366][  0]LogFileCache: Scanning file cache for directory 'D:/CEDV/GIT/CEDVFighters/CEDVFighters/Content/' took 0.01s
+[2018.04.30-09.28.43:366][  0]SourceControl: Source control is disabled
+[2018.04.30-09.28.43:366][  0]Cmd: MAP LOAD FILE="D:/CEDV/GIT/CEDVFighters/CEDVFighters/Content/TwinStickCPP/Maps/TwinStickExampleMap.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2018.04.30-09.28.43:367][  0]LightingResults: New page: Lighting Build
+[2018.04.30-09.28.43:369][  0]MapCheck: New page: Map Check
+[2018.04.30-09.28.43:369][  0]LightingResults: New page: Lighting Build
+[2018.04.30-09.28.43:548][  0]LogAIModule: Creating AISystem for world TwinStickExampleMap
+[2018.04.30-09.28.43:557][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2018.04.30-09.28.43:568][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2018.04.30-09.28.43:617][  0]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 49.256ms to complete.
+[2018.04.30-09.28.43:617][  0]LogFileHelpers: Loading map 'TwinStickExampleMap' took 0.251
+[2018.04.30-09.28.43:744][  0]LogCollectionManager: Loaded 0 collections in 0.001498 seconds
+[2018.04.30-09.28.43:771][  0]LogFileCache: Scanning file cache for directory 'D:/CEDV/GIT/CEDVFighters/CEDVFighters/Saved/Collections/' took 0.01s
+[2018.04.30-09.28.43:771][  0]LogFileCache: Scanning file cache for directory 'D:/CEDV/GIT/CEDVFighters/CEDVFighters/Content/Developers/Juan/Collections/' took 0.00s
+[2018.04.30-09.28.43:771][  0]LogFileCache: Scanning file cache for directory 'D:/CEDV/GIT/CEDVFighters/CEDVFighters/Content/Collections/' took 0.01s
+[2018.04.30-09.28.43:771][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000001 seconds
+[2018.04.30-09.28.43:778][  0]LogContentBrowser: Native class hierarchy populated in 0.0068 seconds. Added 2458 classes and 565 folders.
+[2018.04.30-09.28.43:784][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0005 seconds. Added 0 classes and 0 folders.
+[2018.04.30-09.28.43:817][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0004 seconds. Added 0 classes and 0 folders.
+[2018.04.30-09.28.43:824][  0]LogSlate: Took 0.000377 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2018.04.30-09.28.43:826][  0]LogSlate: Took 0.000830 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
+[2018.04.30-09.28.43:831][  0]LogSlate: Took 0.000616 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
+[2018.04.30-09.28.43:908][  0]LogRenderer: Reallocating scene render targets to support 1164x648 Format 10 NumSamples 1 (Frame:1).
+[2018.04.30-09.28.44:057][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0005 seconds. Added 0 classes and 0 folders.
+[2018.04.30-09.28.44:057][  0]LogLoad: (Engine Initialization) Total time: 8.71 seconds
+[2018.04.30-09.28.44:057][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.00 seconds
+[2018.04.30-09.28.44:082][  0]LogAssetRegistry: Asset discovery search completed in 4.8371 seconds
+[2018.04.30-09.28.44:083][  0]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000001 seconds (found 0 objects)
+[2018.04.30-09.28.44:084][  0]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000062 seconds (updated 0 objects)
+[2018.04.30-09.28.44:086][  0]LogContentStreaming: Texture pool size now 1000 MB
+[2018.04.30-09.28.44:176][  0]LogSlate: Took 0.000534 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2018.04.30-09.28.51:132][825]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.04.30-09.29.11:226][229]LogSlate: Took 0.000270 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2018.04.30-09.29.11:742][229]LogMetaData: Removing '/Game/CEDVFighters/UI/HUD/Widgets/MainMenu.MainMenu_C' ref from Metadata '/Game/HUD/Widgets/MainMenu.PackageMetaData'
+[2018.04.30-09.29.11:742][229]LogMetaData: Removing '/Game/CEDVFighters/UI/HUD/Widgets/MainMenu.MainMenu:SetUp.K2Node_FunctionEntry_145' ref from Metadata '/Game/HUD/Widgets/MainMenu.PackageMetaData'
+[2018.04.30-09.29.11:742][229]LogMetaData: Removing '/Game/CEDVFighters/UI/HUD/Widgets/MainMenu.MainMenu:NoRenderOpacity.K2Node_FunctionEntry_541' ref from Metadata '/Game/HUD/Widgets/MainMenu.PackageMetaData'
+[2018.04.30-09.29.11:742][229]LogMetaData: Removing '/Game/CEDVFighters/UI/HUD/Widgets/MainMenu.MainMenu:NoScale.K2Node_FunctionEntry_782' ref from Metadata '/Game/HUD/Widgets/MainMenu.PackageMetaData'
+[2018.04.30-09.29.11:742][229]LogMetaData: Removing '/Game/CEDVFighters/UI/HUD/Widgets/MainMenu.SKEL_MainMenu_C:Construct' ref from Metadata '/Game/HUD/Widgets/MainMenu.PackageMetaData'
+[2018.04.30-09.29.11:742][229]LogMetaData: Removing '/Game/CEDVFighters/UI/HUD/Widgets/MainMenu.SKEL_MainMenu_C:BndEvt__FadeIn_K2Node_ComponentBoundEvent_3_OnWidgetAnimationPlaybackStatusChanged__DelegateSignature' ref from Metadata '/Game/HUD/Widgets/MainMenu.PackageMetaData'
+[2018.04.30-09.29.11:742][229]LogMetaData: Removing '/Game/CEDVFighters/UI/HUD/Widgets/MainMenu.SKEL_MainMenu_C:BndEvt__Wink_K2Node_ComponentBoundEvent_4_OnWidgetAnimationPlaybackStatusChanged__DelegateSignature' ref from Metadata '/Game/HUD/Widgets/MainMenu.PackageMetaData'
+[2018.04.30-09.29.11:742][229]LogMetaData: Removing '/Game/CEDVFighters/UI/HUD/Widgets/MainMenu.SKEL_MainMenu_C:BndEvt__Stretch_K2Node_ComponentBoundEvent_5_OnWidgetAnimationPlaybackStatusChanged__DelegateSignature' ref from Metadata '/Game/HUD/Widgets/MainMenu.PackageMetaData'
+[2018.04.30-09.29.11:742][229]LogMetaData: Removing '/Game/CEDVFighters/UI/HUD/Widgets/MainMenu.SKEL_MainMenu_C:BndEvt__Blur_K2Node_ComponentBoundEvent_6_OnWidgetAnimationPlaybackStatusChanged__DelegateSignature' ref from Metadata '/Game/HUD/Widgets/MainMenu.PackageMetaData'
+[2018.04.30-09.29.11:742][229]LogMetaData: Removing '/Game/CEDVFighters/UI/HUD/Widgets/MainMenu.SKEL_MainMenu_C:BndEvt__PlayButton_K2Node_ComponentBoundEvent_1229_OnButtonHoverEvent__DelegateSignature' ref from Metadata '/Game/HUD/Widgets/MainMenu.PackageMetaData'
+[2018.04.30-09.29.11:742][229]LogMetaData: Removing '/Game/CEDVFighters/UI/HUD/Widgets/MainMenu.SKEL_MainMenu_C:BndEvt__PlayButton_K2Node_ComponentBoundEvent_1281_OnButtonHoverEvent__DelegateSignature' ref from Metadata '/Game/HUD/Widgets/MainMenu.PackageMetaData'
+[2018.04.30-09.29.11:742][229]LogMetaData: Removing '/Game/CEDVFighters/UI/HUD/Widgets/MainMenu.SKEL_MainMenu_C:BndEvt__PlayButton_K2Node_ComponentBoundEvent_76_OnButtonClickedEvent__DelegateSignature' ref from Metadata '/Game/HUD/Widgets/MainMenu.PackageMetaData'
+[2018.04.30-09.29.11:742][229]LogMetaData: Removing '/Game/CEDVFighters/UI/HUD/Widgets/MainMenu.SKEL_MainMenu_C:BndEvt__PlayButton_K2Node_ComponentBoundEvent_171_OnButtonPressedEvent__DelegateSignature' ref from Metadata '/Game/HUD/Widgets/MainMenu.PackageMetaData'
+[2018.04.30-09.29.11:742][229]LogMetaData: Removing '/Game/CEDVFighters/UI/HUD/Widgets/MainMenu.SKEL_MainMenu_C:Separator_Right_Glow' ref from Metadata '/Game/HUD/Widgets/MainMenu.PackageMetaData'
+[2018.04.30-09.29.11:742][229]LogMetaData: Removing '/Game/CEDVFighters/UI/HUD/Widgets/MainMenu.SKEL_MainMenu_C:Separator_Right' ref from Metadata '/Game/HUD/Widgets/MainMenu.PackageMetaData'
+[2018.04.30-09.29.11:742][229]LogMetaData: Removing '/Game/CEDVFighters/UI/HUD/Widgets/MainMenu.SKEL_MainMenu_C:Separator_Left_Glow' ref from Metadata '/Game/HUD/Widgets/MainMenu.PackageMetaData'
+[2018.04.30-09.29.11:742][229]LogMetaData: Removing '/Game/CEDVFighters/UI/HUD/Widgets/MainMenu.SKEL_MainMenu_C:Separator_Left' ref from Metadata '/Game/HUD/Widgets/MainMenu.PackageMetaData'
+[2018.04.30-09.29.11:742][229]LogMetaData: Removing '/Game/CEDVFighters/UI/HUD/Widgets/MainMenu.SKEL_MainMenu_C:Records_Button' ref from Metadata '/Game/HUD/Widgets/MainMenu.PackageMetaData'
+[2018.04.30-09.29.11:742][229]LogMetaData: Removing '/Game/CEDVFighters/UI/HUD/Widgets/MainMenu.SKEL_MainMenu_C:PlayButton' ref from Metadata '/Game/HUD/Widgets/MainMenu.PackageMetaData'
+[2018.04.30-09.29.11:742][229]LogMetaData: Removing '/Game/CEDVFighters/UI/HUD/Widgets/MainMenu.SKEL_MainMenu_C:OptionsButton' ref from Metadata '/Game/HUD/Widgets/MainMenu.PackageMetaData'
+[2018.04.30-09.29.11:742][229]LogMetaData: Removing '/Game/CEDVFighters/UI/HUD/Widgets/MainMenu.SKEL_MainMenu_C:Frame_Glow' ref from Metadata '/Game/HUD/Widgets/MainMenu.PackageMetaData'
+[2018.04.30-09.29.11:742][229]LogMetaData: Removing '/Game/CEDVFighters/UI/HUD/Widgets/MainMenu.SKEL_MainMenu_C:Frame' ref from Metadata '/Game/HUD/Widgets/MainMenu.PackageMetaData'
+[2018.04.30-09.29.11:742][229]LogMetaData: Removing '/Game/CEDVFighters/UI/HUD/Widgets/MainMenu.SKEL_MainMenu_C:ExitButton' ref from Metadata '/Game/HUD/Widgets/MainMenu.PackageMetaData'
+[2018.04.30-09.29.11:742][229]LogMetaData: Removing '/Game/CEDVFighters/UI/HUD/Widgets/MainMenu.SKEL_MainMenu_C:CreditsButton' ref from Metadata '/Game/HUD/Widgets/MainMenu.PackageMetaData'
+[2018.04.30-09.29.11:742][229]LogMetaData: Removing '/Game/CEDVFighters/UI/HUD/Widgets/MainMenu.SKEL_MainMenu_C:Circle' ref from Metadata '/Game/HUD/Widgets/MainMenu.PackageMetaData'
+[2018.04.30-09.29.11:742][229]LogMetaData: Removing '/Game/CEDVFighters/UI/HUD/Widgets/MainMenu.SKEL_MainMenu_C:Background_Glow' ref from Metadata '/Game/HUD/Widgets/MainMenu.PackageMetaData'
+[2018.04.30-09.29.11:742][229]LogMetaData: Removing '/Game/CEDVFighters/UI/HUD/Widgets/MainMenu.SKEL_MainMenu_C:Background_Frame' ref from Metadata '/Game/HUD/Widgets/MainMenu.PackageMetaData'
+[2018.04.30-09.29.11:742][229]LogMetaData: Removing '/Game/CEDVFighters/UI/HUD/Widgets/MainMenu.SKEL_MainMenu_C:Arrows' ref from Metadata '/Game/HUD/Widgets/MainMenu.PackageMetaData'
+[2018.04.30-09.29.11:743][229]LogMetaData: Removing '/Game/CEDVFighters/UI/HUD/Widgets/MainMenu.SKEL_MainMenu_C:Arrow_3' ref from Metadata '/Game/HUD/Widgets/MainMenu.PackageMetaData'
+[2018.04.30-09.29.11:743][229]LogMetaData: Removing '/Game/CEDVFighters/UI/HUD/Widgets/MainMenu.SKEL_MainMenu_C:Arrow_2' ref from Metadata '/Game/HUD/Widgets/MainMenu.PackageMetaData'
+[2018.04.30-09.29.11:743][229]LogMetaData: Removing '/Game/CEDVFighters/UI/HUD/Widgets/MainMenu.SKEL_MainMenu_C:Arrow_1' ref from Metadata '/Game/HUD/Widgets/MainMenu.PackageMetaData'
+[2018.04.30-09.29.11:743][229]LogMetaData: Removing '/Game/CEDVFighters/UI/HUD/Widgets/MainMenu.SKEL_MainMenu_C:5' ref from Metadata '/Game/HUD/Widgets/MainMenu.PackageMetaData'
+[2018.04.30-09.29.11:743][229]LogMetaData: Removing '/Game/CEDVFighters/UI/HUD/Widgets/MainMenu.SKEL_MainMenu_C:4' ref from Metadata '/Game/HUD/Widgets/MainMenu.PackageMetaData'
+[2018.04.30-09.29.11:743][229]LogMetaData: Removing '/Game/CEDVFighters/UI/HUD/Widgets/MainMenu.SKEL_MainMenu_C:3' ref from Metadata '/Game/HUD/Widgets/MainMenu.PackageMetaData'
+[2018.04.30-09.29.11:743][229]LogMetaData: Removing '/Game/CEDVFighters/UI/HUD/Widgets/MainMenu.SKEL_MainMenu_C:2' ref from Metadata '/Game/HUD/Widgets/MainMenu.PackageMetaData'
+[2018.04.30-09.29.11:743][229]LogMetaData: Removing '/Game/CEDVFighters/UI/HUD/Widgets/MainMenu.SKEL_MainMenu_C:1' ref from Metadata '/Game/HUD/Widgets/MainMenu.PackageMetaData'
+[2018.04.30-09.29.11:743][229]LogMetaData: Removing '/Game/CEDVFighters/UI/HUD/Widgets/MainMenu.SKEL_MainMenu_C:Unfold' ref from Metadata '/Game/HUD/Widgets/MainMenu.PackageMetaData'
+[2018.04.30-09.29.11:743][229]LogMetaData: Removing '/Game/CEDVFighters/UI/HUD/Widgets/MainMenu.SKEL_MainMenu_C:FadeIn' ref from Metadata '/Game/HUD/Widgets/MainMenu.PackageMetaData'
+[2018.04.30-09.29.11:743][229]LogMetaData: Removing '/Game/CEDVFighters/UI/HUD/Widgets/MainMenu.SKEL_MainMenu_C:Blink' ref from Metadata '/Game/HUD/Widgets/MainMenu.PackageMetaData'
+[2018.04.30-09.29.11:743][229]LogMetaData: Removing '/Game/CEDVFighters/UI/HUD/Widgets/MainMenu.SKEL_MainMenu_C:Stretch' ref from Metadata '/Game/HUD/Widgets/MainMenu.PackageMetaData'
+[2018.04.30-09.29.11:743][229]LogMetaData: Removing '/Game/CEDVFighters/UI/HUD/Widgets/MainMenu.SKEL_MainMenu_C:Spin' ref from Metadata '/Game/HUD/Widgets/MainMenu.PackageMetaData'
+[2018.04.30-09.29.11:743][229]LogMetaData: Removing '/Game/CEDVFighters/UI/HUD/Widgets/MainMenu.SKEL_MainMenu_C:Spin_Random' ref from Metadata '/Game/HUD/Widgets/MainMenu.PackageMetaData'
+[2018.04.30-09.29.11:743][229]LogMetaData: Removing '/Game/CEDVFighters/UI/HUD/Widgets/MainMenu.SKEL_MainMenu_C:Wink' ref from Metadata '/Game/HUD/Widgets/MainMenu.PackageMetaData'
+[2018.04.30-09.29.11:743][229]LogMetaData: Removing '/Game/CEDVFighters/UI/HUD/Widgets/MainMenu.SKEL_MainMenu_C:Blur' ref from Metadata '/Game/HUD/Widgets/MainMenu.PackageMetaData'
+[2018.04.30-09.29.11:743][229]LogMetaData: Removing '/Game/CEDVFighters/UI/HUD/Widgets/MainMenu.SKEL_MainMenu_C:Unroll' ref from Metadata '/Game/HUD/Widgets/MainMenu.PackageMetaData'
+[2018.04.30-09.29.11:743][229]LogMetaData: Removing '/Game/CEDVFighters/UI/HUD/Widgets/MainMenu.SKEL_MainMenu_C:FastSpin' ref from Metadata '/Game/HUD/Widgets/MainMenu.PackageMetaData'
+[2018.04.30-09.29.11:743][229]LogMetaData: Removing '/Game/CEDVFighters/UI/HUD/Widgets/MainMenu.SKEL_MainMenu_C:Glow' ref from Metadata '/Game/HUD/Widgets/MainMenu.PackageMetaData'
+[2018.04.30-09.29.11:743][229]LogMetaData: Removing '/Game/CEDVFighters/UI/HUD/Widgets/MainMenu.SKEL_MainMenu_C:DistortCredits' ref from Metadata '/Game/HUD/Widgets/MainMenu.PackageMetaData'
+[2018.04.30-09.29.11:743][229]LogMetaData: Removing '/Game/CEDVFighters/UI/HUD/Widgets/MainMenu.SKEL_MainMenu_C:DistortRecords' ref from Metadata '/Game/HUD/Widgets/MainMenu.PackageMetaData'
+[2018.04.30-09.29.11:743][229]LogMetaData: Removing '/Game/CEDVFighters/UI/HUD/Widgets/MainMenu.SKEL_MainMenu_C:DistortOptions' ref from Metadata '/Game/HUD/Widgets/MainMenu.PackageMetaData'
+[2018.04.30-09.29.11:743][229]LogMetaData: Removing '/Game/CEDVFighters/UI/HUD/Widgets/MainMenu.SKEL_MainMenu_C:DistortExit' ref from Metadata '/Game/HUD/Widgets/MainMenu.PackageMetaData'
+[2018.04.30-09.29.11:743][229]LogMetaData: Removing '/Game/CEDVFighters/UI/HUD/Widgets/MainMenu.SKEL_MainMenu_C:Arrow' ref from Metadata '/Game/HUD/Widgets/MainMenu.PackageMetaData'
+[2018.04.30-09.29.11:743][229]LogMetaData: Removing '/Game/CEDVFighters/UI/HUD/Widgets/MainMenu.SKEL_MainMenu_C:Point' ref from Metadata '/Game/HUD/Widgets/MainMenu.PackageMetaData'
+[2018.04.30-09.29.11:743][229]LogMetaData: Removing '/Game/CEDVFighters/UI/HUD/Widgets/MainMenu.SKEL_MainMenu_C' ref from Metadata '/Game/HUD/Widgets/MainMenu.PackageMetaData'
+[2018.04.30-09.29.11:743][229]LogMetaData: Removing '/Game/CEDVFighters/UI/HUD/Widgets/MainMenu.MainMenu_C:Separator_Right_Glow' ref from Metadata '/Game/HUD/Widgets/MainMenu.PackageMetaData'
+[2018.04.30-09.29.11:743][229]LogMetaData: Removing '/Game/CEDVFighters/UI/HUD/Widgets/MainMenu.MainMenu_C:Separator_Right' ref from Metadata '/Game/HUD/Widgets/MainMenu.PackageMetaData'
+[2018.04.30-09.29.11:743][229]LogMetaData: Removing '/Game/CEDVFighters/UI/HUD/Widgets/MainMenu.MainMenu_C:Separator_Left_Glow' ref from Metadata '/Game/HUD/Widgets/MainMenu.PackageMetaData'
+[2018.04.30-09.29.11:743][229]LogMetaData: Removing '/Game/CEDVFighters/UI/HUD/Widgets/MainMenu.MainMenu_C:Separator_Left' ref from Metadata '/Game/HUD/Widgets/MainMenu.PackageMetaData'
+[2018.04.30-09.29.11:743][229]LogMetaData: Removing '/Game/CEDVFighters/UI/HUD/Widgets/MainMenu.MainMenu_C:Records_Button' ref from Metadata '/Game/HUD/Widgets/MainMenu.PackageMetaData'
+[2018.04.30-09.29.11:743][229]LogMetaData: Removing '/Game/CEDVFighters/UI/HUD/Widgets/MainMenu.MainMenu_C:PlayButton' ref from Metadata '/Game/HUD/Widgets/MainMenu.PackageMetaData'
+[2018.04.30-09.29.11:743][229]LogMetaData: Removing '/Game/CEDVFighters/UI/HUD/Widgets/MainMenu.MainMenu_C:OptionsButton' ref from Metadata '/Game/HUD/Widgets/MainMenu.PackageMetaData'
+[2018.04.30-09.29.11:743][229]LogMetaData: Removing '/Game/CEDVFighters/UI/HUD/Widgets/MainMenu.MainMenu_C:Frame_Glow' ref from Metadata '/Game/HUD/Widgets/MainMenu.PackageMetaData'
+[2018.04.30-09.29.11:743][229]LogMetaData: Removing '/Game/CEDVFighters/UI/HUD/Widgets/MainMenu.MainMenu_C:Frame' ref from Metadata '/Game/HUD/Widgets/MainMenu.PackageMetaData'
+[2018.04.30-09.29.11:743][229]LogMetaData: Removing '/Game/CEDVFighters/UI/HUD/Widgets/MainMenu.MainMenu_C:ExitButton' ref from Metadata '/Game/HUD/Widgets/MainMenu.PackageMetaData'
+[2018.04.30-09.29.11:743][229]LogMetaData: Removing '/Game/CEDVFighters/UI/HUD/Widgets/MainMenu.MainMenu_C:CreditsButton' ref from Metadata '/Game/HUD/Widgets/MainMenu.PackageMetaData'
+[2018.04.30-09.29.11:743][229]LogMetaData: Removing '/Game/CEDVFighters/UI/HUD/Widgets/MainMenu.MainMenu_C:Circle' ref from Metadata '/Game/HUD/Widgets/MainMenu.PackageMetaData'
+[2018.04.30-09.29.11:743][229]LogMetaData: Removing '/Game/CEDVFighters/UI/HUD/Widgets/MainMenu.MainMenu_C:Background_Glow' ref from Metadata '/Game/HUD/Widgets/MainMenu.PackageMetaData'
+[2018.04.30-09.29.11:743][229]LogMetaData: Removing '/Game/CEDVFighters/UI/HUD/Widgets/MainMenu.MainMenu_C:Background_Frame' ref from Metadata '/Game/HUD/Widgets/MainMenu.PackageMetaData'
+[2018.04.30-09.29.11:743][229]LogMetaData: Removing '/Game/CEDVFighters/UI/HUD/Widgets/MainMenu.MainMenu_C:Arrows' ref from Metadata '/Game/HUD/Widgets/MainMenu.PackageMetaData'
+[2018.04.30-09.29.11:743][229]LogMetaData: Removing '/Game/CEDVFighters/UI/HUD/Widgets/MainMenu.MainMenu_C:Arrow_3' ref from Metadata '/Game/HUD/Widgets/MainMenu.PackageMetaData'
+[2018.04.30-09.29.11:743][229]LogMetaData: Removing '/Game/CEDVFighters/UI/HUD/Widgets/MainMenu.MainMenu_C:Arrow_2' ref from Metadata '/Game/HUD/Widgets/MainMenu.PackageMetaData'
+[2018.04.30-09.29.11:743][229]LogMetaData: Removing '/Game/CEDVFighters/UI/HUD/Widgets/MainMenu.MainMenu_C:Arrow_1' ref from Metadata '/Game/HUD/Widgets/MainMenu.PackageMetaData'
+[2018.04.30-09.29.11:743][229]LogMetaData: Removing '/Game/CEDVFighters/UI/HUD/Widgets/MainMenu.MainMenu_C:5' ref from Metadata '/Game/HUD/Widgets/MainMenu.PackageMetaData'
+[2018.04.30-09.29.11:743][229]LogMetaData: Removing '/Game/CEDVFighters/UI/HUD/Widgets/MainMenu.MainMenu_C:4' ref from Metadata '/Game/HUD/Widgets/MainMenu.PackageMetaData'
+[2018.04.30-09.29.11:743][229]LogMetaData: Removing '/Game/CEDVFighters/UI/HUD/Widgets/MainMenu.MainMenu_C:3' ref from Metadata '/Game/HUD/Widgets/MainMenu.PackageMetaData'
+[2018.04.30-09.29.11:743][229]LogMetaData: Removing '/Game/CEDVFighters/UI/HUD/Widgets/MainMenu.MainMenu_C:2' ref from Metadata '/Game/HUD/Widgets/MainMenu.PackageMetaData'
+[2018.04.30-09.29.11:743][229]LogMetaData: Removing '/Game/CEDVFighters/UI/HUD/Widgets/MainMenu.MainMenu_C:1' ref from Metadata '/Game/HUD/Widgets/MainMenu.PackageMetaData'
+[2018.04.30-09.29.11:743][229]LogMetaData: Removing '/Game/CEDVFighters/UI/HUD/Widgets/MainMenu.MainMenu_C:Unfold' ref from Metadata '/Game/HUD/Widgets/MainMenu.PackageMetaData'
+[2018.04.30-09.29.11:743][229]LogMetaData: Removing '/Game/CEDVFighters/UI/HUD/Widgets/MainMenu.MainMenu_C:FadeIn' ref from Metadata '/Game/HUD/Widgets/MainMenu.PackageMetaData'
+[2018.04.30-09.29.11:743][229]LogMetaData: Removing '/Game/CEDVFighters/UI/HUD/Widgets/MainMenu.MainMenu_C:Blink' ref from Metadata '/Game/HUD/Widgets/MainMenu.PackageMetaData'
+[2018.04.30-09.29.11:743][229]LogMetaData: Removing '/Game/CEDVFighters/UI/HUD/Widgets/MainMenu.MainMenu_C:Stretch' ref from Metadata '/Game/HUD/Widgets/MainMenu.PackageMetaData'
+[2018.04.30-09.29.11:743][229]LogMetaData: Removing '/Game/CEDVFighters/UI/HUD/Widgets/MainMenu.MainMenu_C:Spin' ref from Metadata '/Game/HUD/Widgets/MainMenu.PackageMetaData'
+[2018.04.30-09.29.11:743][229]LogMetaData: Removing '/Game/CEDVFighters/UI/HUD/Widgets/MainMenu.MainMenu_C:Spin_Random' ref from Metadata '/Game/HUD/Widgets/MainMenu.PackageMetaData'
+[2018.04.30-09.29.11:743][229]LogMetaData: Removing '/Game/CEDVFighters/UI/HUD/Widgets/MainMenu.MainMenu_C:Wink' ref from Metadata '/Game/HUD/Widgets/MainMenu.PackageMetaData'
+[2018.04.30-09.29.11:743][229]LogMetaData: Removing '/Game/CEDVFighters/UI/HUD/Widgets/MainMenu.MainMenu_C:Blur' ref from Metadata '/Game/HUD/Widgets/MainMenu.PackageMetaData'
+[2018.04.30-09.29.11:743][229]LogMetaData: Removing '/Game/CEDVFighters/UI/HUD/Widgets/MainMenu.MainMenu_C:Unroll' ref from Metadata '/Game/HUD/Widgets/MainMenu.PackageMetaData'
+[2018.04.30-09.29.11:743][229]LogMetaData: Removing '/Game/CEDVFighters/UI/HUD/Widgets/MainMenu.MainMenu_C:FastSpin' ref from Metadata '/Game/HUD/Widgets/MainMenu.PackageMetaData'
+[2018.04.30-09.29.11:743][229]LogMetaData: Removing '/Game/CEDVFighters/UI/HUD/Widgets/MainMenu.MainMenu_C:Glow' ref from Metadata '/Game/HUD/Widgets/MainMenu.PackageMetaData'
+[2018.04.30-09.29.11:743][229]LogMetaData: Removing '/Game/CEDVFighters/UI/HUD/Widgets/MainMenu.MainMenu_C:DistortCredits' ref from Metadata '/Game/HUD/Widgets/MainMenu.PackageMetaData'
+[2018.04.30-09.29.11:743][229]LogMetaData: Removing '/Game/CEDVFighters/UI/HUD/Widgets/MainMenu.MainMenu_C:DistortRecords' ref from Metadata '/Game/HUD/Widgets/MainMenu.PackageMetaData'
+[2018.04.30-09.29.11:743][229]LogMetaData: Removing '/Game/CEDVFighters/UI/HUD/Widgets/MainMenu.MainMenu_C:DistortOptions' ref from Metadata '/Game/HUD/Widgets/MainMenu.PackageMetaData'
+[2018.04.30-09.29.11:743][229]LogMetaData: Removing '/Game/CEDVFighters/UI/HUD/Widgets/MainMenu.MainMenu_C:DistortExit' ref from Metadata '/Game/HUD/Widgets/MainMenu.PackageMetaData'
+[2018.04.30-09.29.11:743][229]LogMetaData: Removing '/Game/CEDVFighters/UI/HUD/Widgets/MainMenu.MainMenu_C:Arrow' ref from Metadata '/Game/HUD/Widgets/MainMenu.PackageMetaData'
+[2018.04.30-09.29.11:743][229]LogMetaData: Removing '/Game/CEDVFighters/UI/HUD/Widgets/MainMenu.MainMenu_C:Point' ref from Metadata '/Game/HUD/Widgets/MainMenu.PackageMetaData'
+[2018.04.30-09.29.11:743][229]LogMetaData: Removing '/Game/CEDVFighters/UI/HUD/Widgets/MainMenu.MainMenu_C:Construct' ref from Metadata '/Game/HUD/Widgets/MainMenu.PackageMetaData'
+[2018.04.30-09.29.11:743][229]LogMetaData: Removing '/Game/CEDVFighters/UI/HUD/Widgets/MainMenu.MainMenu_C:ExecuteUbergraph_MainMenu' ref from Metadata '/Game/HUD/Widgets/MainMenu.PackageMetaData'
+[2018.04.30-09.29.11:767][229]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/CEDVFighters/UI/HUD/Assets/Background_Frame" FILE="D:/CEDV/GIT/CEDVFighters/CEDVFighters/Content/CEDVFighters/UI/HUD/Assets/Background_Frame.uasset" SILENT=true
+[2018.04.30-09.29.11:772][229]LogSavePackage: Save=4.00ms
+[2018.04.30-09.29.11:772][229]LogSavePackage: Moving 'D:/CEDV/GIT/CEDVFighters/CEDVFighters/Saved/Background_FrameE2C84ECB4169CACAC61A2DA616692B2F.tmp' to 'D:/CEDV/GIT/CEDVFighters/CEDVFighters/Content/CEDVFighters/UI/HUD/Assets/Background_Frame.uasset'
+[2018.04.30-09.29.11:824][229]LogSavePackage: Display: Finished SavePackage D:/CEDV/GIT/CEDVFighters/CEDVFighters/Content/CEDVFighters/UI/HUD/Assets/Background_Frame.uasset
+[2018.04.30-09.29.11:837][229]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/CEDVFighters/UI/HUD/Assets/Background_Glow" FILE="D:/CEDV/GIT/CEDVFighters/CEDVFighters/Content/CEDVFighters/UI/HUD/Assets/Background_Glow.uasset" SILENT=true
+[2018.04.30-09.29.11:849][229]LogSavePackage: Save=10.57ms
+[2018.04.30-09.29.11:849][229]LogSavePackage: Moving 'D:/CEDV/GIT/CEDVFighters/CEDVFighters/Saved/Background_GlowC1066C0B428E9D0394B606B622EE8F09.tmp' to 'D:/CEDV/GIT/CEDVFighters/CEDVFighters/Content/CEDVFighters/UI/HUD/Assets/Background_Glow.uasset'
+[2018.04.30-09.29.11:850][229]LogSavePackage: Display: Finished SavePackage D:/CEDV/GIT/CEDVFighters/CEDVFighters/Content/CEDVFighters/UI/HUD/Assets/Background_Glow.uasset
+[2018.04.30-09.29.11:867][229]LogSavePackage: Save=2.69ms
+[2018.04.30-09.29.11:867][229]LogSavePackage: Moving 'D:/CEDV/GIT/CEDVFighters/CEDVFighters/Saved/Button_BottomLeft5D027BBB4F16C20FF932A2B4F3C28FDF.tmp' to 'D:/CEDV/GIT/CEDVFighters/CEDVFighters/Content/CEDVFighters/UI/HUD/Assets/MainMenu/Button_BottomLeft.uasset'
+[2018.04.30-09.29.11:868][229]LogSavePackage: Display: Finished SavePackage D:/CEDV/GIT/CEDVFighters/CEDVFighters/Content/CEDVFighters/UI/HUD/Assets/MainMenu/Button_BottomLeft.uasset
+[2018.04.30-09.29.11:878][229]LogSavePackage: Save=2.59ms
+[2018.04.30-09.29.11:878][229]LogSavePackage: Moving 'D:/CEDV/GIT/CEDVFighters/CEDVFighters/Saved/Button_BottomLeft_GlowEB9DE3D14B24AFCBF0A832AC77C31287.tmp' to 'D:/CEDV/GIT/CEDVFighters/CEDVFighters/Content/CEDVFighters/UI/HUD/Assets/MainMenu/Button_BottomLeft_Glow.uasset'
+[2018.04.30-09.29.11:879][229]LogSavePackage: Display: Finished SavePackage D:/CEDV/GIT/CEDVFighters/CEDVFighters/Content/CEDVFighters/UI/HUD/Assets/MainMenu/Button_BottomLeft_Glow.uasset
+[2018.04.30-09.29.11:895][229]LogSavePackage: Save=2.77ms
+[2018.04.30-09.29.11:895][229]LogSavePackage: Moving 'D:/CEDV/GIT/CEDVFighters/CEDVFighters/Saved/Button_BottomLeft_HoverFBDEB24B4D6CCDC98C10178EEA58C956.tmp' to 'D:/CEDV/GIT/CEDVFighters/CEDVFighters/Content/CEDVFighters/UI/HUD/Assets/MainMenu/Button_BottomLeft_Hover.uasset'
+[2018.04.30-09.29.11:896][229]LogSavePackage: Display: Finished SavePackage D:/CEDV/GIT/CEDVFighters/CEDVFighters/Content/CEDVFighters/UI/HUD/Assets/MainMenu/Button_BottomLeft_Hover.uasset
+[2018.04.30-09.29.11:912][229]LogSavePackage: Save=2.52ms
+[2018.04.30-09.29.11:912][229]LogSavePackage: Moving 'D:/CEDV/GIT/CEDVFighters/CEDVFighters/Saved/Button_BottomRight4750AF2146501A076EBDCEA85109B02F.tmp' to 'D:/CEDV/GIT/CEDVFighters/CEDVFighters/Content/CEDVFighters/UI/HUD/Assets/MainMenu/Button_BottomRight.uasset'
+[2018.04.30-09.29.11:913][229]LogSavePackage: Display: Finished SavePackage D:/CEDV/GIT/CEDVFighters/CEDVFighters/Content/CEDVFighters/UI/HUD/Assets/MainMenu/Button_BottomRight.uasset
+[2018.04.30-09.29.11:923][229]LogSavePackage: Save=2.61ms
+[2018.04.30-09.29.11:923][229]LogSavePackage: Moving 'D:/CEDV/GIT/CEDVFighters/CEDVFighters/Saved/Button_BottomRightGlow7C1C1A774C52B4CA85F570831EBBB2D7.tmp' to 'D:/CEDV/GIT/CEDVFighters/CEDVFighters/Content/CEDVFighters/UI/HUD/Assets/MainMenu/Button_BottomRightGlow.uasset'
+[2018.04.30-09.29.11:924][229]LogSavePackage: Display: Finished SavePackage D:/CEDV/GIT/CEDVFighters/CEDVFighters/Content/CEDVFighters/UI/HUD/Assets/MainMenu/Button_BottomRightGlow.uasset
+[2018.04.30-09.29.11:934][229]LogSavePackage: Save=2.83ms
+[2018.04.30-09.29.11:934][229]LogSavePackage: Moving 'D:/CEDV/GIT/CEDVFighters/CEDVFighters/Saved/Button_BottomRight_Hover875A64DE49B673EFBA6D25BB247F7C9A.tmp' to 'D:/CEDV/GIT/CEDVFighters/CEDVFighters/Content/CEDVFighters/UI/HUD/Assets/MainMenu/Button_BottomRight_Hover.uasset'
+[2018.04.30-09.29.11:936][229]LogSavePackage: Display: Finished SavePackage D:/CEDV/GIT/CEDVFighters/CEDVFighters/Content/CEDVFighters/UI/HUD/Assets/MainMenu/Button_BottomRight_Hover.uasset
+[2018.04.30-09.29.11:948][229]LogSavePackage: Save=2.61ms
+[2018.04.30-09.29.11:948][229]LogSavePackage: Moving 'D:/CEDV/GIT/CEDVFighters/CEDVFighters/Saved/Button_TopLeft6CC2EC944C73A9365C0040A1E78EA575.tmp' to 'D:/CEDV/GIT/CEDVFighters/CEDVFighters/Content/CEDVFighters/UI/HUD/Assets/MainMenu/Button_TopLeft.uasset'
+[2018.04.30-09.29.11:950][229]LogSavePackage: Display: Finished SavePackage D:/CEDV/GIT/CEDVFighters/CEDVFighters/Content/CEDVFighters/UI/HUD/Assets/MainMenu/Button_TopLeft.uasset
+[2018.04.30-09.29.11:958][229]LogSavePackage: Save=2.51ms
+[2018.04.30-09.29.11:958][229]LogSavePackage: Moving 'D:/CEDV/GIT/CEDVFighters/CEDVFighters/Saved/Button_TopLeft_GlowBF34B33A484D597A5057B8A91B0EE887.tmp' to 'D:/CEDV/GIT/CEDVFighters/CEDVFighters/Content/CEDVFighters/UI/HUD/Assets/MainMenu/Button_TopLeft_Glow.uasset'
+[2018.04.30-09.29.11:960][229]LogSavePackage: Display: Finished SavePackage D:/CEDV/GIT/CEDVFighters/CEDVFighters/Content/CEDVFighters/UI/HUD/Assets/MainMenu/Button_TopLeft_Glow.uasset
+[2018.04.30-09.29.11:968][229]LogSavePackage: Save=2.57ms
+[2018.04.30-09.29.11:968][229]LogSavePackage: Moving 'D:/CEDV/GIT/CEDVFighters/CEDVFighters/Saved/Button_TopLeft_Hover135497EF42DBCC4842C17B807BB9FAE9.tmp' to 'D:/CEDV/GIT/CEDVFighters/CEDVFighters/Content/CEDVFighters/UI/HUD/Assets/MainMenu/Button_TopLeft_Hover.uasset'
+[2018.04.30-09.29.11:970][229]LogSavePackage: Display: Finished SavePackage D:/CEDV/GIT/CEDVFighters/CEDVFighters/Content/CEDVFighters/UI/HUD/Assets/MainMenu/Button_TopLeft_Hover.uasset
+[2018.04.30-09.29.11:979][229]LogSavePackage: Save=2.58ms
+[2018.04.30-09.29.11:979][229]LogSavePackage: Moving 'D:/CEDV/GIT/CEDVFighters/CEDVFighters/Saved/Button_TopRight9D7CCD3849C01546DD990899633C1C9B.tmp' to 'D:/CEDV/GIT/CEDVFighters/CEDVFighters/Content/CEDVFighters/UI/HUD/Assets/MainMenu/Button_TopRight.uasset'
+[2018.04.30-09.29.11:980][229]LogSavePackage: Display: Finished SavePackage D:/CEDV/GIT/CEDVFighters/CEDVFighters/Content/CEDVFighters/UI/HUD/Assets/MainMenu/Button_TopRight.uasset
+[2018.04.30-09.29.11:991][229]LogSavePackage: Save=2.62ms
+[2018.04.30-09.29.11:991][229]LogSavePackage: Moving 'D:/CEDV/GIT/CEDVFighters/CEDVFighters/Saved/Button_TopRightGlowEC1AD51F4838D38B99EEBF9E8DA06068.tmp' to 'D:/CEDV/GIT/CEDVFighters/CEDVFighters/Content/CEDVFighters/UI/HUD/Assets/MainMenu/Button_TopRightGlow.uasset'
+[2018.04.30-09.29.11:992][229]LogSavePackage: Display: Finished SavePackage D:/CEDV/GIT/CEDVFighters/CEDVFighters/Content/CEDVFighters/UI/HUD/Assets/MainMenu/Button_TopRightGlow.uasset
+[2018.04.30-09.29.12:003][229]LogSavePackage: Save=2.73ms
+[2018.04.30-09.29.12:003][229]LogSavePackage: Moving 'D:/CEDV/GIT/CEDVFighters/CEDVFighters/Saved/Button_TopRight_HoverEB6398644A8211289D8335BECF19CD4A.tmp' to 'D:/CEDV/GIT/CEDVFighters/CEDVFighters/Content/CEDVFighters/UI/HUD/Assets/MainMenu/Button_TopRight_Hover.uasset'
+[2018.04.30-09.29.12:004][229]LogSavePackage: Display: Finished SavePackage D:/CEDV/GIT/CEDVFighters/CEDVFighters/Content/CEDVFighters/UI/HUD/Assets/MainMenu/Button_TopRight_Hover.uasset
+[2018.04.30-09.29.12:018][229]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/CEDVFighters/UI/HUD/Assets/MainMenu/Circle_0" FILE="D:/CEDV/GIT/CEDVFighters/CEDVFighters/Content/CEDVFighters/UI/HUD/Assets/MainMenu/Circle_0.uasset" SILENT=true
+[2018.04.30-09.29.12:024][229]LogSavePackage: Save=4.54ms
+[2018.04.30-09.29.12:024][229]LogSavePackage: Moving 'D:/CEDV/GIT/CEDVFighters/CEDVFighters/Saved/Circle_07D1B44DA4A59C486CEA5159FF0B4F0A4.tmp' to 'D:/CEDV/GIT/CEDVFighters/CEDVFighters/Content/CEDVFighters/UI/HUD/Assets/MainMenu/Circle_0.uasset'
+[2018.04.30-09.29.12:026][229]LogSavePackage: Display: Finished SavePackage D:/CEDV/GIT/CEDVFighters/CEDVFighters/Content/CEDVFighters/UI/HUD/Assets/MainMenu/Circle_0.uasset
+[2018.04.30-09.29.12:037][229]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/CEDVFighters/UI/HUD/Assets/MainMenu/Circle_1" FILE="D:/CEDV/GIT/CEDVFighters/CEDVFighters/Content/CEDVFighters/UI/HUD/Assets/MainMenu/Circle_1.uasset" SILENT=true
+[2018.04.30-09.29.12:044][229]LogSavePackage: Save=5.99ms
+[2018.04.30-09.29.12:044][229]LogSavePackage: Moving 'D:/CEDV/GIT/CEDVFighters/CEDVFighters/Saved/Circle_134A0B4864ED299B79F8B4D85B801935A.tmp' to 'D:/CEDV/GIT/CEDVFighters/CEDVFighters/Content/CEDVFighters/UI/HUD/Assets/MainMenu/Circle_1.uasset'
+[2018.04.30-09.29.12:046][229]LogSavePackage: Display: Finished SavePackage D:/CEDV/GIT/CEDVFighters/CEDVFighters/Content/CEDVFighters/UI/HUD/Assets/MainMenu/Circle_1.uasset
+[2018.04.30-09.29.12:057][229]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/CEDVFighters/UI/HUD/Assets/MainMenu/Circle_2" FILE="D:/CEDV/GIT/CEDVFighters/CEDVFighters/Content/CEDVFighters/UI/HUD/Assets/MainMenu/Circle_2.uasset" SILENT=true
+[2018.04.30-09.29.12:065][229]LogSavePackage: Save=5.98ms
+[2018.04.30-09.29.12:065][229]LogSavePackage: Moving 'D:/CEDV/GIT/CEDVFighters/CEDVFighters/Saved/Circle_2170B026C47E027F2B88DBFA38B81C4BC.tmp' to 'D:/CEDV/GIT/CEDVFighters/CEDVFighters/Content/CEDVFighters/UI/HUD/Assets/MainMenu/Circle_2.uasset'
+[2018.04.30-09.29.12:066][229]LogSavePackage: Display: Finished SavePackage D:/CEDV/GIT/CEDVFighters/CEDVFighters/Content/CEDVFighters/UI/HUD/Assets/MainMenu/Circle_2.uasset
+[2018.04.30-09.29.12:077][229]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/CEDVFighters/UI/HUD/Assets/MainMenu/Circle_4" FILE="D:/CEDV/GIT/CEDVFighters/CEDVFighters/Content/CEDVFighters/UI/HUD/Assets/MainMenu/Circle_4.uasset" SILENT=true
+[2018.04.30-09.29.12:083][229]LogSavePackage: Save=4.22ms
+[2018.04.30-09.29.12:083][229]LogSavePackage: Moving 'D:/CEDV/GIT/CEDVFighters/CEDVFighters/Saved/Circle_439C7FB4848B9D201B0D45A9361BCC9F3.tmp' to 'D:/CEDV/GIT/CEDVFighters/CEDVFighters/Content/CEDVFighters/UI/HUD/Assets/MainMenu/Circle_4.uasset'
+[2018.04.30-09.29.12:084][229]LogSavePackage: Display: Finished SavePackage D:/CEDV/GIT/CEDVFighters/CEDVFighters/Content/CEDVFighters/UI/HUD/Assets/MainMenu/Circle_4.uasset
+[2018.04.30-09.29.12:095][229]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/CEDVFighters/UI/HUD/Assets/MainMenu/Circle_5" FILE="D:/CEDV/GIT/CEDVFighters/CEDVFighters/Content/CEDVFighters/UI/HUD/Assets/MainMenu/Circle_5.uasset" SILENT=true
+[2018.04.30-09.29.12:100][229]LogSavePackage: Save=3.96ms
+[2018.04.30-09.29.12:101][229]LogSavePackage: Moving 'D:/CEDV/GIT/CEDVFighters/CEDVFighters/Saved/Circle_578032954492EDEE26EDCD78B31D67AEC.tmp' to 'D:/CEDV/GIT/CEDVFighters/CEDVFighters/Content/CEDVFighters/UI/HUD/Assets/MainMenu/Circle_5.uasset'
+[2018.04.30-09.29.12:102][229]LogSavePackage: Display: Finished SavePackage D:/CEDV/GIT/CEDVFighters/CEDVFighters/Content/CEDVFighters/UI/HUD/Assets/MainMenu/Circle_5.uasset
+[2018.04.30-09.29.12:109][229]LogSavePackage: Save=2.16ms
+[2018.04.30-09.29.12:109][229]LogSavePackage: Moving 'D:/CEDV/GIT/CEDVFighters/CEDVFighters/Saved/Circle_Arrow_196865643493DD3FFE53E1EBEDA54B01E.tmp' to 'D:/CEDV/GIT/CEDVFighters/CEDVFighters/Content/CEDVFighters/UI/HUD/Assets/MainMenu/Circle_Arrow_1.uasset'
+[2018.04.30-09.29.12:111][229]LogSavePackage: Display: Finished SavePackage D:/CEDV/GIT/CEDVFighters/CEDVFighters/Content/CEDVFighters/UI/HUD/Assets/MainMenu/Circle_Arrow_1.uasset
+[2018.04.30-09.29.12:118][229]LogSavePackage: Save=1.98ms
+[2018.04.30-09.29.12:118][229]LogSavePackage: Moving 'D:/CEDV/GIT/CEDVFighters/CEDVFighters/Saved/Circle_Arrow_2C16C35134D3293A9A273EE9E7DBCA18C.tmp' to 'D:/CEDV/GIT/CEDVFighters/CEDVFighters/Content/CEDVFighters/UI/HUD/Assets/MainMenu/Circle_Arrow_2.uasset'
+[2018.04.30-09.29.12:119][229]LogSavePackage: Display: Finished SavePackage D:/CEDV/GIT/CEDVFighters/CEDVFighters/Content/CEDVFighters/UI/HUD/Assets/MainMenu/Circle_Arrow_2.uasset
+[2018.04.30-09.29.12:130][229]LogSavePackage: Save=2.15ms
+[2018.04.30-09.29.12:130][229]LogSavePackage: Moving 'D:/CEDV/GIT/CEDVFighters/CEDVFighters/Saved/Circle_Arrow_3509A59C44A0D3C64039AD9BA3F659759.tmp' to 'D:/CEDV/GIT/CEDVFighters/CEDVFighters/Content/CEDVFighters/UI/HUD/Assets/MainMenu/Circle_Arrow_3.uasset'
+[2018.04.30-09.29.12:132][229]LogSavePackage: Display: Finished SavePackage D:/CEDV/GIT/CEDVFighters/CEDVFighters/Content/CEDVFighters/UI/HUD/Assets/MainMenu/Circle_Arrow_3.uasset
+[2018.04.30-09.29.12:137][229]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/CEDVFighters/UI/HUD/Assets/MainMenu/Frame" FILE="D:/CEDV/GIT/CEDVFighters/CEDVFighters/Content/CEDVFighters/UI/HUD/Assets/MainMenu/Frame.uasset" SILENT=true
+[2018.04.30-09.29.12:142][229]LogSavePackage: Save=3.43ms
+[2018.04.30-09.29.12:142][229]LogSavePackage: Moving 'D:/CEDV/GIT/CEDVFighters/CEDVFighters/Saved/Frame9A631D934782BF3B15F25CA736C783F2.tmp' to 'D:/CEDV/GIT/CEDVFighters/CEDVFighters/Content/CEDVFighters/UI/HUD/Assets/MainMenu/Frame.uasset'
+[2018.04.30-09.29.12:143][229]LogSavePackage: Display: Finished SavePackage D:/CEDV/GIT/CEDVFighters/CEDVFighters/Content/CEDVFighters/UI/HUD/Assets/MainMenu/Frame.uasset
+[2018.04.30-09.29.12:149][229]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/CEDVFighters/UI/HUD/Assets/MainMenu/Frame_Glow" FILE="D:/CEDV/GIT/CEDVFighters/CEDVFighters/Content/CEDVFighters/UI/HUD/Assets/MainMenu/Frame_Glow.uasset" SILENT=true
+[2018.04.30-09.29.12:154][229]LogSavePackage: Save=4.11ms
+[2018.04.30-09.29.12:155][229]LogSavePackage: Moving 'D:/CEDV/GIT/CEDVFighters/CEDVFighters/Saved/Frame_GlowBF499A5348287AA10D38F8BA90121848.tmp' to 'D:/CEDV/GIT/CEDVFighters/CEDVFighters/Content/CEDVFighters/UI/HUD/Assets/MainMenu/Frame_Glow.uasset'
+[2018.04.30-09.29.12:156][229]LogSavePackage: Display: Finished SavePackage D:/CEDV/GIT/CEDVFighters/CEDVFighters/Content/CEDVFighters/UI/HUD/Assets/MainMenu/Frame_Glow.uasset
+[2018.04.30-09.29.12:168][229]LogSavePackage: Save=3.60ms
+[2018.04.30-09.29.12:168][229]LogSavePackage: Moving 'D:/CEDV/GIT/CEDVFighters/CEDVFighters/Saved/Separator_Left15055E834F539A375E3842A20E3C59E5.tmp' to 'D:/CEDV/GIT/CEDVFighters/CEDVFighters/Content/CEDVFighters/UI/HUD/Assets/MainMenu/Separator_Left.uasset'
+[2018.04.30-09.29.12:169][229]LogSavePackage: Display: Finished SavePackage D:/CEDV/GIT/CEDVFighters/CEDVFighters/Content/CEDVFighters/UI/HUD/Assets/MainMenu/Separator_Left.uasset
+[2018.04.30-09.29.12:183][229]LogSavePackage: Save=3.84ms
+[2018.04.30-09.29.12:183][229]LogSavePackage: Moving 'D:/CEDV/GIT/CEDVFighters/CEDVFighters/Saved/Separator_Left_Glow185230F641EE66496E8FFFB31BA82F1F.tmp' to 'D:/CEDV/GIT/CEDVFighters/CEDVFighters/Content/CEDVFighters/UI/HUD/Assets/MainMenu/Separator_Left_Glow.uasset'
+[2018.04.30-09.29.12:184][229]LogSavePackage: Display: Finished SavePackage D:/CEDV/GIT/CEDVFighters/CEDVFighters/Content/CEDVFighters/UI/HUD/Assets/MainMenu/Separator_Left_Glow.uasset
+[2018.04.30-09.29.12:195][229]LogSavePackage: Save=3.32ms
+[2018.04.30-09.29.12:195][229]LogSavePackage: Moving 'D:/CEDV/GIT/CEDVFighters/CEDVFighters/Saved/Separator_Right0F0A38B444B21DDE8280699DC42F49A7.tmp' to 'D:/CEDV/GIT/CEDVFighters/CEDVFighters/Content/CEDVFighters/UI/HUD/Assets/MainMenu/Separator_Right.uasset'
+[2018.04.30-09.29.12:197][229]LogSavePackage: Display: Finished SavePackage D:/CEDV/GIT/CEDVFighters/CEDVFighters/Content/CEDVFighters/UI/HUD/Assets/MainMenu/Separator_Right.uasset
+[2018.04.30-09.29.12:209][229]LogSavePackage: Save=3.61ms
+[2018.04.30-09.29.12:209][229]LogSavePackage: Moving 'D:/CEDV/GIT/CEDVFighters/CEDVFighters/Saved/Separator_Right_Glow591EBD9642E639F1EE545980EFB28709.tmp' to 'D:/CEDV/GIT/CEDVFighters/CEDVFighters/Content/CEDVFighters/UI/HUD/Assets/MainMenu/Separator_Right_Glow.uasset'
+[2018.04.30-09.29.12:210][229]LogSavePackage: Display: Finished SavePackage D:/CEDV/GIT/CEDVFighters/CEDVFighters/Content/CEDVFighters/UI/HUD/Assets/MainMenu/Separator_Right_Glow.uasset
+[2018.04.30-09.29.12:222][229]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/CEDVFighters/UI/HUD/Fonts/HUD" FILE="D:/CEDV/GIT/CEDVFighters/CEDVFighters/Content/CEDVFighters/UI/HUD/Fonts/HUD.uasset" SILENT=true
+[2018.04.30-09.29.12:226][229]LogSavePackage: Save=2.83ms
+[2018.04.30-09.29.12:226][229]LogSavePackage: Moving 'D:/CEDV/GIT/CEDVFighters/CEDVFighters/Saved/HUD6A5DC09141F23FDA7829609D4A976043.tmp' to 'D:/CEDV/GIT/CEDVFighters/CEDVFighters/Content/CEDVFighters/UI/HUD/Fonts/HUD.uasset'
+[2018.04.30-09.29.12:227][229]LogSavePackage: Display: Finished SavePackage D:/CEDV/GIT/CEDVFighters/CEDVFighters/Content/CEDVFighters/UI/HUD/Fonts/HUD.uasset
+[2018.04.30-09.29.12:230][229]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/CEDVFighters/UI/HUD/Fonts/Trivial/Trivial-Bold" FILE="D:/CEDV/GIT/CEDVFighters/CEDVFighters/Content/CEDVFighters/UI/HUD/Fonts/Trivial/Trivial-Bold.uasset" SILENT=true
+[2018.04.30-09.29.12:233][229]LogSavePackage: Save=1.44ms
+[2018.04.30-09.29.12:233][229]LogSavePackage: Moving 'D:/CEDV/GIT/CEDVFighters/CEDVFighters/Saved/Trivial-Bold81CB28E9457D3586A27AE4B9EC01F32B.tmp' to 'D:/CEDV/GIT/CEDVFighters/CEDVFighters/Content/CEDVFighters/UI/HUD/Fonts/Trivial/Trivial-Bold.uasset'
+[2018.04.30-09.29.12:234][229]LogSavePackage: Display: Finished SavePackage D:/CEDV/GIT/CEDVFighters/CEDVFighters/Content/CEDVFighters/UI/HUD/Fonts/Trivial/Trivial-Bold.uasset
+[2018.04.30-09.29.12:237][229]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/CEDVFighters/UI/HUD/Fonts/Trivial/Trivial-Light" FILE="D:/CEDV/GIT/CEDVFighters/CEDVFighters/Content/CEDVFighters/UI/HUD/Fonts/Trivial/Trivial-Light.uasset" SILENT=true
+[2018.04.30-09.29.12:238][229]LogSavePackage: Save=0.77ms
+[2018.04.30-09.29.12:238][229]LogSavePackage: Moving 'D:/CEDV/GIT/CEDVFighters/CEDVFighters/Saved/Trivial-LightB7DCD30A4CEA7F7E5980CFBDF890A3D2.tmp' to 'D:/CEDV/GIT/CEDVFighters/CEDVFighters/Content/CEDVFighters/UI/HUD/Fonts/Trivial/Trivial-Light.uasset'
+[2018.04.30-09.29.12:240][229]LogSavePackage: Display: Finished SavePackage D:/CEDV/GIT/CEDVFighters/CEDVFighters/Content/CEDVFighters/UI/HUD/Fonts/Trivial/Trivial-Light.uasset
+[2018.04.30-09.29.12:244][229]LogSavePackage: Save=0.76ms
+[2018.04.30-09.29.12:244][229]LogSavePackage: Moving 'D:/CEDV/GIT/CEDVFighters/CEDVFighters/Saved/Trivial-Regular668DE78D46B2013779BAC592770256D8.tmp' to 'D:/CEDV/GIT/CEDVFighters/CEDVFighters/Content/CEDVFighters/UI/HUD/Fonts/Trivial/Trivial-Regular.uasset'
+[2018.04.30-09.29.12:245][229]LogSavePackage: Display: Finished SavePackage D:/CEDV/GIT/CEDVFighters/CEDVFighters/Content/CEDVFighters/UI/HUD/Fonts/Trivial/Trivial-Regular.uasset
+[2018.04.30-09.29.12:248][229]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/CEDVFighters/UI/HUD/Widgets/MainMenu" FILE="D:/CEDV/GIT/CEDVFighters/CEDVFighters/Content/CEDVFighters/UI/HUD/Widgets/MainMenu.uasset" SILENT=true
+[2018.04.30-09.29.12:376][229]LogSavePackage: Save=125.79ms
+[2018.04.30-09.29.12:376][229]LogSavePackage: Moving 'D:/CEDV/GIT/CEDVFighters/CEDVFighters/Saved/MainMenu994390FB498C5DCA61B80A9F1390AE70.tmp' to 'D:/CEDV/GIT/CEDVFighters/CEDVFighters/Content/CEDVFighters/UI/HUD/Widgets/MainMenu.uasset'
+[2018.04.30-09.29.12:377][229]LogSavePackage: Display: Finished SavePackage D:/CEDV/GIT/CEDVFighters/CEDVFighters/Content/CEDVFighters/UI/HUD/Widgets/MainMenu.uasset
+[2018.04.30-09.29.12:381][229]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/HUD/Widgets/MainMenu" FILE="D:/CEDV/GIT/CEDVFighters/CEDVFighters/Content/HUD/Widgets/MainMenu.uasset" SILENT=true
+[2018.04.30-09.29.12:384][229]LogSavePackage: Save=0.76ms
+[2018.04.30-09.29.12:384][229]LogSavePackage: Moving 'D:/CEDV/GIT/CEDVFighters/CEDVFighters/Saved/MainMenuCD8AB0994A743A3318808CA9310BCEB5.tmp' to 'D:/CEDV/GIT/CEDVFighters/CEDVFighters/Content/HUD/Widgets/MainMenu.uasset'
+[2018.04.30-09.29.12:386][229]LogSavePackage: Display: Finished SavePackage D:/CEDV/GIT/CEDVFighters/CEDVFighters/Content/HUD/Widgets/MainMenu.uasset
+[2018.04.30-09.30.01:454][843]LogSlate: Window 'Delete Assets' being destroyed
+[2018.04.30-09.30.26:690][794]LogAIModule: Creating AISystem for world MainMenu
+[2018.04.30-09.30.30:259][213]LogMetaData: Removing '/Game/CEDVFighters/MAPS/MainMenu.MainMenu_C' ref from Metadata '/Game/TwinStickBP/Maps/MainMenu.PackageMetaData'
+[2018.04.30-09.30.30:259][213]LogMetaData: Removing '/Game/CEDVFighters/MAPS/MainMenu.MainMenu:PersistentLevel.MainMenu.EventGraph.K2Node_Event_0' ref from Metadata '/Game/TwinStickBP/Maps/MainMenu.PackageMetaData'
+[2018.04.30-09.30.30:259][213]LogMetaData: Removing '/Game/CEDVFighters/MAPS/MainMenu.MainMenu:PersistentLevel.MainMenu.DrawWidget.K2Node_FunctionEntry_0' ref from Metadata '/Game/TwinStickBP/Maps/MainMenu.PackageMetaData'
+[2018.04.30-09.30.30:259][213]LogMetaData: Removing '/Game/CEDVFighters/MAPS/MainMenu.SKEL_MainMenu_C' ref from Metadata '/Game/TwinStickBP/Maps/MainMenu.PackageMetaData'
+[2018.04.30-09.30.30:319][213]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/CEDVFighters/MAPS/MainMenu" FILE="D:/CEDV/GIT/CEDVFighters/CEDVFighters/Content/CEDVFighters/MAPS/MainMenu.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2018.04.30-09.30.30:376][213]LogSavePackage: Save=45.19ms
+[2018.04.30-09.30.30:376][213]LogSavePackage: Moving 'D:/CEDV/GIT/CEDVFighters/CEDVFighters/Saved/MainMenu1CCACBDE42F3EF5593B8ECAB17F6A40F.tmp' to 'D:/CEDV/GIT/CEDVFighters/CEDVFighters/Content/CEDVFighters/MAPS/MainMenu.umap'
+[2018.04.30-09.30.30:377][213]LogSavePackage: Display: Finished SavePackage D:/CEDV/GIT/CEDVFighters/CEDVFighters/Content/CEDVFighters/MAPS/MainMenu.umap
+[2018.04.30-09.30.30:379][213]LogFileHelpers: Saving map 'MainMenu' took 0.109
+[2018.04.30-09.31.34:919][810]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/CEDVFighters/SOUND/GUI/Unfold" FILE="D:/CEDV/GIT/CEDVFighters/CEDVFighters/Content/CEDVFighters/SOUND/GUI/Unfold.uasset" SILENT=true
+[2018.04.30-09.31.34:923][810]LogSavePackage: Save=3.39ms
+[2018.04.30-09.31.34:923][810]LogSavePackage: Moving 'D:/CEDV/GIT/CEDVFighters/CEDVFighters/Saved/Unfold079A2D9D4D610679659537AB41CC7C35.tmp' to 'D:/CEDV/GIT/CEDVFighters/CEDVFighters/Content/CEDVFighters/SOUND/GUI/Unfold.uasset'
+[2018.04.30-09.31.34:925][810]LogSavePackage: Display: Finished SavePackage D:/CEDV/GIT/CEDVFighters/CEDVFighters/Content/CEDVFighters/SOUND/GUI/Unfold.uasset
+[2018.04.30-09.31.34:931][810]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/CEDVFighters/SOUND/GUI/Transition_2" FILE="D:/CEDV/GIT/CEDVFighters/CEDVFighters/Content/CEDVFighters/SOUND/GUI/Transition_2.uasset" SILENT=true
+[2018.04.30-09.31.34:935][810]LogSavePackage: Save=3.13ms
+[2018.04.30-09.31.34:935][810]LogSavePackage: Moving 'D:/CEDV/GIT/CEDVFighters/CEDVFighters/Saved/Transition_2D2FDAAB048CE52D0817DD08C1F229F88.tmp' to 'D:/CEDV/GIT/CEDVFighters/CEDVFighters/Content/CEDVFighters/SOUND/GUI/Transition_2.uasset'
+[2018.04.30-09.31.34:937][810]LogSavePackage: Display: Finished SavePackage D:/CEDV/GIT/CEDVFighters/CEDVFighters/Content/CEDVFighters/SOUND/GUI/Transition_2.uasset
+[2018.04.30-09.31.34:943][810]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/CEDVFighters/SOUND/GUI/Transition_1" FILE="D:/CEDV/GIT/CEDVFighters/CEDVFighters/Content/CEDVFighters/SOUND/GUI/Transition_1.uasset" SILENT=true
+[2018.04.30-09.31.34:947][810]LogSavePackage: Save=3.04ms
+[2018.04.30-09.31.34:948][810]LogSavePackage: Moving 'D:/CEDV/GIT/CEDVFighters/CEDVFighters/Saved/Transition_1CA4F5FAA4DF925CCC57555820AD15F9E.tmp' to 'D:/CEDV/GIT/CEDVFighters/CEDVFighters/Content/CEDVFighters/SOUND/GUI/Transition_1.uasset'
+[2018.04.30-09.31.34:949][810]LogSavePackage: Display: Finished SavePackage D:/CEDV/GIT/CEDVFighters/CEDVFighters/Content/CEDVFighters/SOUND/GUI/Transition_1.uasset
+[2018.04.30-09.31.34:955][810]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/CEDVFighters/SOUND/GUI/Interference_03" FILE="D:/CEDV/GIT/CEDVFighters/CEDVFighters/Content/CEDVFighters/SOUND/GUI/Interference_03.uasset" SILENT=true
+[2018.04.30-09.31.34:959][810]LogSavePackage: Save=2.87ms
+[2018.04.30-09.31.34:959][810]LogSavePackage: Moving 'D:/CEDV/GIT/CEDVFighters/CEDVFighters/Saved/Interference_038CFFD37B4DE375003A6F5EAFAF8ADF12.tmp' to 'D:/CEDV/GIT/CEDVFighters/CEDVFighters/Content/CEDVFighters/SOUND/GUI/Interference_03.uasset'
+[2018.04.30-09.31.34:961][810]LogSavePackage: Display: Finished SavePackage D:/CEDV/GIT/CEDVFighters/CEDVFighters/Content/CEDVFighters/SOUND/GUI/Interference_03.uasset
+[2018.04.30-09.31.34:968][810]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/CEDVFighters/SOUND/GUI/Interference_02" FILE="D:/CEDV/GIT/CEDVFighters/CEDVFighters/Content/CEDVFighters/SOUND/GUI/Interference_02.uasset" SILENT=true
+[2018.04.30-09.31.34:972][810]LogSavePackage: Save=2.97ms
+[2018.04.30-09.31.34:972][810]LogSavePackage: Moving 'D:/CEDV/GIT/CEDVFighters/CEDVFighters/Saved/Interference_02E7D2746441739CA051D15AAFF8792456.tmp' to 'D:/CEDV/GIT/CEDVFighters/CEDVFighters/Content/CEDVFighters/SOUND/GUI/Interference_02.uasset'
+[2018.04.30-09.31.34:973][810]LogSavePackage: Display: Finished SavePackage D:/CEDV/GIT/CEDVFighters/CEDVFighters/Content/CEDVFighters/SOUND/GUI/Interference_02.uasset
+[2018.04.30-09.31.34:980][810]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/CEDVFighters/SOUND/GUI/Interference" FILE="D:/CEDV/GIT/CEDVFighters/CEDVFighters/Content/CEDVFighters/SOUND/GUI/Interference.uasset" SILENT=true
+[2018.04.30-09.31.34:984][810]LogSavePackage: Save=3.00ms
+[2018.04.30-09.31.34:984][810]LogSavePackage: Moving 'D:/CEDV/GIT/CEDVFighters/CEDVFighters/Saved/Interference8BA1D42E4501CDE31C8648ACD799DE2F.tmp' to 'D:/CEDV/GIT/CEDVFighters/CEDVFighters/Content/CEDVFighters/SOUND/GUI/Interference.uasset'
+[2018.04.30-09.31.34:985][810]LogSavePackage: Display: Finished SavePackage D:/CEDV/GIT/CEDVFighters/CEDVFighters/Content/CEDVFighters/SOUND/GUI/Interference.uasset
+[2018.04.30-09.31.34:992][810]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/CEDVFighters/SOUND/GUI/Click" FILE="D:/CEDV/GIT/CEDVFighters/CEDVFighters/Content/CEDVFighters/SOUND/GUI/Click.uasset" SILENT=true
+[2018.04.30-09.31.34:997][810]LogSavePackage: Save=3.58ms
+[2018.04.30-09.31.34:997][810]LogSavePackage: Moving 'D:/CEDV/GIT/CEDVFighters/CEDVFighters/Saved/Click6533FEDB4D4B5CB11A2B6EAD270D11A7.tmp' to 'D:/CEDV/GIT/CEDVFighters/CEDVFighters/Content/CEDVFighters/SOUND/GUI/Click.uasset'
+[2018.04.30-09.31.34:998][810]LogSavePackage: Display: Finished SavePackage D:/CEDV/GIT/CEDVFighters/CEDVFighters/Content/CEDVFighters/SOUND/GUI/Click.uasset
+[2018.04.30-09.31.35:005][810]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/CEDVFighters/SOUND/GUI/Button_Hover" FILE="D:/CEDV/GIT/CEDVFighters/CEDVFighters/Content/CEDVFighters/SOUND/GUI/Button_Hover.uasset" SILENT=true
+[2018.04.30-09.31.35:009][810]LogSavePackage: Save=2.92ms
+[2018.04.30-09.31.35:009][810]LogSavePackage: Moving 'D:/CEDV/GIT/CEDVFighters/CEDVFighters/Saved/Button_HoverDAFFC3A24B6A5874BE59C39E829B9CD9.tmp' to 'D:/CEDV/GIT/CEDVFighters/CEDVFighters/Content/CEDVFighters/SOUND/GUI/Button_Hover.uasset'
+[2018.04.30-09.31.35:010][810]LogSavePackage: Display: Finished SavePackage D:/CEDV/GIT/CEDVFighters/CEDVFighters/Content/CEDVFighters/SOUND/GUI/Button_Hover.uasset
+[2018.04.30-09.31.35:029][810]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/CEDVFighters/SOUND/GUI/Ambience_Deep" FILE="D:/CEDV/GIT/CEDVFighters/CEDVFighters/Content/CEDVFighters/SOUND/GUI/Ambience_Deep.uasset" SILENT=true
+[2018.04.30-09.31.35:146][810]LogSavePackage: Save=115.37ms
+[2018.04.30-09.31.35:146][810]LogSavePackage: Moving 'D:/CEDV/GIT/CEDVFighters/CEDVFighters/Saved/Ambience_Deep4BB237B14DD215825AEBD08A265E9C88.tmp' to 'D:/CEDV/GIT/CEDVFighters/CEDVFighters/Content/CEDVFighters/SOUND/GUI/Ambience_Deep.uasset'
+[2018.04.30-09.31.35:147][810]LogSavePackage: Display: Finished SavePackage D:/CEDV/GIT/CEDVFighters/CEDVFighters/Content/CEDVFighters/SOUND/GUI/Ambience_Deep.uasset
+[2018.04.30-09.31.35:163][810]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/CEDVFighters/SOUND/GUI/Ambience_2" FILE="D:/CEDV/GIT/CEDVFighters/CEDVFighters/Content/CEDVFighters/SOUND/GUI/Ambience_2.uasset" SILENT=true
+[2018.04.30-09.31.35:217][810]LogSavePackage: Save=53.02ms
+[2018.04.30-09.31.35:217][810]LogSavePackage: Moving 'D:/CEDV/GIT/CEDVFighters/CEDVFighters/Saved/Ambience_254EDCD334F2B3E26A94AA2913F295014.tmp' to 'D:/CEDV/GIT/CEDVFighters/CEDVFighters/Content/CEDVFighters/SOUND/GUI/Ambience_2.uasset'
+[2018.04.30-09.31.35:219][810]LogSavePackage: Display: Finished SavePackage D:/CEDV/GIT/CEDVFighters/CEDVFighters/Content/CEDVFighters/SOUND/GUI/Ambience_2.uasset
+[2018.04.30-09.31.35:602][810]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/CEDVFighters/UI/HUD/Widgets/MainMenu" FILE="D:/CEDV/GIT/CEDVFighters/CEDVFighters/Content/CEDVFighters/UI/HUD/Widgets/MainMenu.uasset" SILENT=true
+[2018.04.30-09.31.35:716][810]LogSavePackage: Save=111.48ms
+[2018.04.30-09.31.35:716][810]LogSavePackage: Moving 'D:/CEDV/GIT/CEDVFighters/CEDVFighters/Saved/MainMenuBA62860648E51829995DFCB0A7E22398.tmp' to 'D:/CEDV/GIT/CEDVFighters/CEDVFighters/Content/CEDVFighters/UI/HUD/Widgets/MainMenu.uasset'
+[2018.04.30-09.31.35:718][810]LogSavePackage: Display: Finished SavePackage D:/CEDV/GIT/CEDVFighters/CEDVFighters/Content/CEDVFighters/UI/HUD/Widgets/MainMenu.uasset
+[2018.04.30-09.32.00:382][456]LogSlate: Window 'Delete Assets' being destroyed
+[2018.04.30-09.33.29:589][116]Cmd: MAP LOAD FILE="D:/CEDV/GIT/CEDVFighters/CEDVFighters/Content/CEDVFighters/MAPS/MainMenu.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2018.04.30-09.33.29:589][116]LightingResults: New page: Lighting Build
+[2018.04.30-09.33.29:590][116]LoadErrors: New page: Loading map: MainMenu.umap
+[2018.04.30-09.33.29:591][116]MapCheck: New page: Map Check
+[2018.04.30-09.33.29:591][116]LightingResults: New page: Lighting Build
+[2018.04.30-09.33.29:602][116]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2018.04.30-09.33.29:621][116]Cmd: MAP CHECKDEP NOCLEARLOG
+[2018.04.30-09.33.29:670][116]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 48.7ms to complete.
+[2018.04.30-09.33.29:671][116]LogFileHelpers: Loading map 'MainMenu' took 0.083
+[2018.04.30-09.33.35:245][782]LogTemp: Repeating last play command: Selected Viewport
+[2018.04.30-09.33.35:253][782]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/CEDVFighters/MAPS/MainMenu.MainMenu:PersistentLevel' has LevelScriptBlueprint '/Game/CEDVFighters/MAPS/MainMenu.MainMenu:PersistentLevel.MainMenu' with GeneratedClass '/Game/CEDVFighters/MAPS/MainMenu.MainMenu_C' with ClassGeneratedBy '/Game/CEDVFighters/MAPS/MainMenu.MainMenu:PersistentLevel.MainMenu'
+[2018.04.30-09.33.35:253][782]BlueprintLog: New page: Pre-Play auto-recompile
+[2018.04.30-09.33.35:274][782]LogPlayLevel: [PlayLevel] Compiling MainMenu before play...
+[2018.04.30-09.33.35:319][782]LogPlayLevel: PlayLevel: Blueprint regeneration took 65 ms (1 blueprints)
+[2018.04.30-09.33.35:319][782]PIE: New page: PIE session: MainMenu (Apr 30, 2018, 1:33:35 PM)
+[2018.04.30-09.33.35:319][782]LogPlayLevel: Creating play world package: /Game/CEDVFighters/MAPS/UEDPIE_0_MainMenu
+[2018.04.30-09.33.35:320][782]LogPlayLevel: PIE: StaticDuplicateObject took: (0.000802s)
+[2018.04.30-09.33.35:321][782]LogAIModule: Creating AISystem for world MainMenu
+[2018.04.30-09.33.35:321][782]LogPlayLevel: PIE: World Init took: (0.000705s)
+[2018.04.30-09.33.35:321][782]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/CEDVFighters/MAPS/MainMenu.MainMenu to /Game/CEDVFighters/MAPS/UEDPIE_0_MainMenu.MainMenu (0.001605s)
+[2018.04.30-09.33.35:331][782]LogInit: XAudio2 using 'Altavoces (2- Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2018.04.30-09.33.35:334][782]LogInit: FAudioDevice initialized.
+[2018.04.30-09.33.35:375][782]LogLoad: Game class is 'CEDVFightersGameMode'
+[2018.04.30-09.33.35:376][782]LogWorld: Bringing World /Game/CEDVFighters/MAPS/UEDPIE_0_MainMenu.MainMenu up for play (max tick rate 0) at 2018.04.30-11.33.35
+[2018.04.30-09.33.35:376][782]LogWorld: Bringing up level for play took: 0.000391
+[2018.04.30-09.33.35:380][782]LogContentBrowser: Native class hierarchy updated for 'MovieSceneCapture' in 0.0005 seconds. Added 11 classes and 0 folders.
+[2018.04.30-09.33.35:387][782]PIE: Play in editor start time for /Game/CEDVFighters/MAPS/UEDPIE_0_MainMenu -0.183
+[2018.04.30-09.33.35:387][782]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/CEDVFighters/MAPS/MainMenu.MainMenu:PersistentLevel' has LevelScriptBlueprint '/Game/CEDVFighters/MAPS/MainMenu.MainMenu:PersistentLevel.MainMenu' with GeneratedClass '/Game/CEDVFighters/MAPS/MainMenu.MainMenu_C' with ClassGeneratedBy '/Game/CEDVFighters/MAPS/MainMenu.MainMenu:PersistentLevel.MainMenu'
+[2018.04.30-09.33.46:661][132]LogNet: Browse: /Game/TwinStickCPP/Maps/TwinStickExampleMap
+[2018.04.30-09.33.46:661][132]LogLoad: LoadMap: /Game/TwinStickCPP/Maps/TwinStickExampleMap
+[2018.04.30-09.33.47:173][132]LogAIModule: Creating AISystem for world TwinStickExampleMap
+[2018.04.30-09.33.47:173][132]LogLoad: Game class is 'CEDVFightersGameMode'
+[2018.04.30-09.33.47:175][132]LogWorld: Bringing World /Game/TwinStickCPP/Maps/UEDPIE_0_TwinStickExampleMap.TwinStickExampleMap up for play (max tick rate 0) at 2018.04.30-11.33.47
+[2018.04.30-09.33.47:175][132]LogWorld: Bringing up level for play took: 0.001634
+[2018.04.30-09.33.47:176][132]LogLoad: Took 0.514927 seconds to LoadMap(/Game/TwinStickCPP/Maps/TwinStickExampleMap)
+[2018.04.30-09.33.49:460][389]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/CEDVFighters/MAPS/MainMenu.MainMenu:PersistentLevel' has LevelScriptBlueprint '/Game/CEDVFighters/MAPS/MainMenu.MainMenu:PersistentLevel.MainMenu' with GeneratedClass '/Game/CEDVFighters/MAPS/MainMenu.MainMenu_C' with ClassGeneratedBy '/Game/CEDVFighters/MAPS/MainMenu.MainMenu:PersistentLevel.MainMenu'
+[2018.04.30-09.33.49:491][389]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/CEDVFighters/MAPS/MainMenu.MainMenu:PersistentLevel' has LevelScriptBlueprint '/Game/CEDVFighters/MAPS/MainMenu.MainMenu:PersistentLevel.MainMenu' with GeneratedClass '/Game/CEDVFighters/MAPS/MainMenu.MainMenu_C' with ClassGeneratedBy '/Game/CEDVFighters/MAPS/MainMenu.MainMenu:PersistentLevel.MainMenu'
+[2018.04.30-09.34.09:455][774]LogSlate: Window 'CEDVFighters - Unreal Editor' being destroyed
+[2018.04.30-09.34.09:604][775]Cmd: QUIT_EDITOR
+[2018.04.30-09.34.09:625][775]LogSlate: Slate User Destroyed.  User Index 0, Is Virtual User: 0
+[2018.04.30-09.34.09:625][775]LogExit: Preparing to exit.
+[2018.04.30-09.34.10:544][775]LogExit: Editor shut down
+[2018.04.30-09.34.10:551][775]LogExit: Transaction tracking system shut down
+[2018.04.30-09.34.10:662][775]LogDirectoryWatcher: A directory notification for '../../../Engine/Content/' was aborted.
+[2018.04.30-09.34.10:663][775]LogDirectoryWatcher: A directory notification for 'D:/CEDV/GIT/CEDVFighters/CEDVFighters/Content/' was aborted.
+[2018.04.30-09.34.10:663][775]LogDirectoryWatcher: A directory notification for '../../Plugins/2D/Paper2D/Content/' was aborted.
+[2018.04.30-09.34.10:663][775]LogDirectoryWatcher: A directory notification for '../../Plugins/Enterprise/DatasmithContent/Content/' was aborted.
+[2018.04.30-09.34.10:663][775]LogDirectoryWatcher: A directory notification for '../../Plugins/Media/MediaCompositing/Content/' was aborted.
+[2018.04.30-09.34.10:663][775]LogDirectoryWatcher: A directory notification for '../../Plugins/Runtime/AppleARKit/Content/' was aborted.
+[2018.04.30-09.34.10:663][775]LogDirectoryWatcher: A directory notification for '../../Plugins/Runtime/Oculus/OculusVR/Content/' was aborted.
+[2018.04.30-09.34.10:663][775]LogDirectoryWatcher: A directory notification for '../../Plugins/Runtime/Steam/SteamVR/Content/' was aborted.
+[2018.04.30-09.34.10:756][775]LogExit: Object subsystem successfully closed.
+[2018.04.30-09.34.10:771][775]LogShaderCompilers: Display: Shaders left to compile 0
+[2018.04.30-09.34.10:774][775]LogD3D11RHI: Shutdown
+[2018.04.30-09.34.10:774][775]LogD3D11RHI: CleanupD3DDevice
+[2018.04.30-09.34.10:776][775]LogD3D11RHI: ~FD3D11DynamicRHI
+[2018.04.30-09.34.10:793][775]LogModuleManager: Shutting down and abandoning module MovieSceneCapture (582)
+[2018.04.30-09.34.10:793][775]LogModuleManager: Shutting down and abandoning module HierarchicalLODUtilities (580)
+[2018.04.30-09.34.10:793][775]LogModuleManager: Shutting down and abandoning module HierarchicalLODOutliner (578)
+[2018.04.30-09.34.10:793][775]LogModuleManager: Shutting down and abandoning module DesktopPlatform (576)
+[2018.04.30-09.34.10:793][775]LogModuleManager: Shutting down and abandoning module AddContentDialog (574)
+[2018.04.30-09.34.10:793][775]LogDirectoryWatcher: A directory notification for 'C:/Program Files/Epic Games/UE_4.19/FeaturePacks/' was aborted.
+[2018.04.30-09.34.10:795][775]LogModuleManager: Shutting down and abandoning module WidgetCarousel (573)
+[2018.04.30-09.34.10:795][775]LogModuleManager: Shutting down and abandoning module EditorWidgets (570)
+[2018.04.30-09.34.10:795][775]LogModuleManager: Shutting down and abandoning module CollectionManager (568)
+[2018.04.30-09.34.10:795][775]LogDirectoryWatcher: A directory notification for 'D:/CEDV/GIT/CEDVFighters/CEDVFighters/Content/Collections/' was aborted.
+[2018.04.30-09.34.10:795][775]LogDirectoryWatcher: A directory notification for 'D:/CEDV/GIT/CEDVFighters/CEDVFighters/Content/Developers/Juan/Collections/' was aborted.
+[2018.04.30-09.34.10:795][775]LogDirectoryWatcher: A directory notification for 'D:/CEDV/GIT/CEDVFighters/CEDVFighters/Saved/Collections/' was aborted.
+[2018.04.30-09.34.10:795][775]LogModuleManager: Shutting down and abandoning module WorldBrowser (566)
+[2018.04.30-09.34.10:795][775]LogModuleManager: Shutting down and abandoning module SceneOutliner (564)
+[2018.04.30-09.34.10:795][775]LogModuleManager: Shutting down and abandoning module StatsViewer (562)
+[2018.04.30-09.34.10:795][775]LogModuleManager: Shutting down and abandoning module FoliageEdit (560)
+[2018.04.30-09.34.10:795][775]LogModuleManager: Shutting down and abandoning module LandscapeEditor (558)
+[2018.04.30-09.34.10:795][775]LogModuleManager: Shutting down and abandoning module MeshPaintMode (556)
+[2018.04.30-09.34.10:795][775]LogModuleManager: Shutting down and abandoning module SceneDepthPickerMode (554)
+[2018.04.30-09.34.10:795][775]LogModuleManager: Shutting down and abandoning module ActorPickerMode (552)
+[2018.04.30-09.34.10:795][775]LogModuleManager: Shutting down and abandoning module GeometryMode (550)
+[2018.04.30-09.34.10:795][775]LogModuleManager: Shutting down and abandoning module TextureAlignMode (548)
+[2018.04.30-09.34.10:795][775]LogModuleManager: Shutting down and abandoning module BspMode (546)
+[2018.04.30-09.34.10:795][775]LogModuleManager: Shutting down and abandoning module PIEPreviewDeviceProfileSelector (544)
+[2018.04.30-09.34.10:795][775]LogModuleManager: Shutting down and abandoning module HardwareSurvey (542)
+[2018.04.30-09.34.10:795][775]LogModuleManager: Shutting down and abandoning module SequenceRecorderSections (540)
+[2018.04.30-09.34.10:795][775]LogModuleManager: Shutting down and abandoning module AutomationWorker (538)
+[2018.04.30-09.34.10:795][775]LogModuleManager: Shutting down and abandoning module AudioCaptureEditor (536)
+[2018.04.30-09.34.10:795][775]LogModuleManager: Shutting down and abandoning module SequenceRecorder (535)
+[2018.04.30-09.34.10:796][775]LogModuleManager: Shutting down and abandoning module MatineeToLevelSequence (532)
+[2018.04.30-09.34.10:796][775]LogModuleManager: Shutting down and abandoning module LevelSequenceEditor (530)
+[2018.04.30-09.34.10:796][775]LogModuleManager: Shutting down and abandoning module PlacementMode (529)
+[2018.04.30-09.34.10:796][775]LogModuleManager: Shutting down and abandoning module MaterialEditor (528)
+[2018.04.30-09.34.10:796][775]LogModuleManager: Shutting down and abandoning module WmfMediaFactory (524)
+[2018.04.30-09.34.10:796][775]LogModuleManager: Shutting down and abandoning module WmfMediaEditor (522)
+[2018.04.30-09.34.10:796][775]LogModuleManager: Shutting down and abandoning module MediaPlayerEditor (520)
+[2018.04.30-09.34.10:796][775]LogModuleManager: Shutting down and abandoning module OpenExrWrapper (518)
+[2018.04.30-09.34.10:796][775]LogModuleManager: Shutting down and abandoning module ImgMediaFactory (516)
+[2018.04.30-09.34.10:796][775]LogModuleManager: Shutting down and abandoning module ImgMediaEditor (514)
+[2018.04.30-09.34.10:796][775]LogModuleManager: Shutting down and abandoning module AvfMediaFactory (512)
+[2018.04.30-09.34.10:796][775]LogModuleManager: Shutting down and abandoning module AvfMediaEditor (510)
+[2018.04.30-09.34.10:796][775]LogModuleManager: Shutting down and abandoning module AndroidMediaFactory (508)
+[2018.04.30-09.34.10:796][775]LogModuleManager: Shutting down and abandoning module AndroidMediaEditor (506)
+[2018.04.30-09.34.10:796][775]LogModuleManager: Shutting down and abandoning module CharacterAI (504)
+[2018.04.30-09.34.10:796][775]LogModuleManager: Shutting down and abandoning module SmartSnapping (502)
+[2018.04.30-09.34.10:796][775]LogModuleManager: Shutting down and abandoning module SessionServices (500)
+[2018.04.30-09.34.10:796][775]LogModuleManager: Shutting down and abandoning module ViewportSnapping (498)
+[2018.04.30-09.34.10:796][775]LogModuleManager: Shutting down and abandoning module ViewportInteraction (496)
+[2018.04.30-09.34.10:796][775]LogModuleManager: Shutting down and abandoning module ClothPainter (494)
+[2018.04.30-09.34.10:796][775]LogModuleManager: Shutting down and abandoning module SkeletalMeshEditor (493)
+[2018.04.30-09.34.10:796][775]LogModuleManager: Shutting down and abandoning module LogVisualizer (490)
+[2018.04.30-09.34.10:796][775]LogModuleManager: Shutting down and abandoning module IntroTutorials (488)
+[2018.04.30-09.34.10:796][775]LogModuleManager: Shutting down and abandoning module GameProjectGeneration (487)
+[2018.04.30-09.34.10:796][775]LogModuleManager: Shutting down and abandoning module IOSPlatformEditor (484)
+[2018.04.30-09.34.10:796][775]LogModuleManager: Shutting down and abandoning module HTML5PlatformEditor (482)
+[2018.04.30-09.34.10:796][775]LogModuleManager: Shutting down and abandoning module AndroidPlatformEditor (480)
+[2018.04.30-09.34.10:796][775]LogModuleManager: Shutting down and abandoning module AndroidDeviceDetection (479)
+[2018.04.30-09.34.11:414][775]LogModuleManager: Shutting down and abandoning module WindowsPlatformEditor (476)
+[2018.04.30-09.34.11:414][775]LogModuleManager: Shutting down and abandoning module IOSRuntimeSettings (474)
+[2018.04.30-09.34.11:414][775]LogModuleManager: Shutting down and abandoning module AndroidRuntimeSettings (472)
+[2018.04.30-09.34.11:414][775]LogModuleManager: Shutting down and abandoning module InputBindingEditor (470)
+[2018.04.30-09.34.11:414][775]LogModuleManager: Shutting down and abandoning module MergeActors (468)
+[2018.04.30-09.34.11:414][775]LogModuleManager: Shutting down and abandoning module LocalizationDashboard (466)
+[2018.04.30-09.34.11:414][775]LogModuleManager: Shutting down and abandoning module LocalizationService (465)
+[2018.04.30-09.34.11:414][775]LogModuleManager: Shutting down and abandoning module HardwareTargeting (462)
+[2018.04.30-09.34.11:414][775]LogModuleManager: Shutting down and abandoning module DeviceProfileEditor (460)
+[2018.04.30-09.34.11:414][775]LogModuleManager: Shutting down and abandoning module UndoHistory (458)
+[2018.04.30-09.34.11:414][775]LogModuleManager: Shutting down and abandoning module XmlParser (456)
+[2018.04.30-09.34.11:414][775]LogModuleManager: Shutting down and abandoning module Blutility (454)
+[2018.04.30-09.34.11:414][775]LogModuleManager: Shutting down and abandoning module ProjectSettingsViewer (452)
+[2018.04.30-09.34.11:414][775]LogModuleManager: Shutting down and abandoning module ProjectTargetPlatformEditor (451)
+[2018.04.30-09.34.11:414][775]LogModuleManager: Shutting down and abandoning module EditorSettingsViewer (448)
+[2018.04.30-09.34.11:415][775]LogModuleManager: Shutting down and abandoning module SettingsEditor (446)
+[2018.04.30-09.34.11:415][775]LogModuleManager: Shutting down and abandoning module ProjectLauncher (444)
+[2018.04.30-09.34.11:415][775]LogModuleManager: Shutting down and abandoning module SessionFrontend (442)
+[2018.04.30-09.34.11:415][775]LogModuleManager: Shutting down and abandoning module ProfilerClient (440)
+[2018.04.30-09.34.11:415][775]LogModuleManager: Shutting down and abandoning module DeviceManager (438)
+[2018.04.30-09.34.11:415][775]LogModuleManager: Shutting down and abandoning module TargetDeviceServices (437)
+[2018.04.30-09.34.11:465][775]LogModuleManager: Shutting down and abandoning module AutomationController (434)
+[2018.04.30-09.34.11:465][775]LogModuleManager: Shutting down and abandoning module AutomationWindow (432)
+[2018.04.30-09.34.11:465][775]LogModuleManager: Shutting down and abandoning module Layers (430)
+[2018.04.30-09.34.11:465][775]LogModuleManager: Shutting down and abandoning module ComponentVisualizers (428)
+[2018.04.30-09.34.11:465][775]LogModuleManager: Shutting down and abandoning module DetailCustomizations (426)
+[2018.04.30-09.34.11:465][775]LogModuleManager: Shutting down and abandoning module PackagesDialog (424)
+[2018.04.30-09.34.11:465][775]LogModuleManager: Shutting down and abandoning module Persona (422)
+[2018.04.30-09.34.11:465][775]LogModuleManager: Shutting down and abandoning module AdvancedPreviewScene (421)
+[2018.04.30-09.34.11:465][775]LogModuleManager: Shutting down and abandoning module AnimGraph (419)
+[2018.04.30-09.34.11:465][775]LogModuleManager: Shutting down and abandoning module Kismet (416)
+[2018.04.30-09.34.11:465][775]LogModuleManager: Shutting down and abandoning module GraphEditor (414)
+[2018.04.30-09.34.11:465][775]LogModuleManager: Shutting down and abandoning module ClassViewer (412)
+[2018.04.30-09.34.11:465][775]LogModuleManager: Shutting down and abandoning module Toolbox (410)
+[2018.04.30-09.34.11:465][775]LogModuleManager: Shutting down and abandoning module ModuleUI (408)
+[2018.04.30-09.34.11:465][775]LogModuleManager: Shutting down and abandoning module MovieSceneTools (406)
+[2018.04.30-09.34.11:465][775]LogModuleManager: Shutting down and abandoning module OutputLog (404)
+[2018.04.30-09.34.11:465][775]LogModuleManager: Shutting down and abandoning module GammaUI (402)
+[2018.04.30-09.34.11:465][775]LogModuleManager: Shutting down and abandoning module Documentation (400)
+[2018.04.30-09.34.11:465][775]LogModuleManager: Shutting down and abandoning module MovieSceneTracks (398)
+[2018.04.30-09.34.11:465][775]LogModuleManager: Shutting down and abandoning module MovieScene (396)
+[2018.04.30-09.34.11:465][775]LogModuleManager: Shutting down and abandoning module StreamingPauseRendering (394)
+[2018.04.30-09.34.11:465][775]LogModuleManager: Shutting down and abandoning module LauncherPlatform (392)
+[2018.04.30-09.34.11:465][775]LogModuleManager: Shutting down and abandoning module AnalyticsET (390)
+[2018.04.30-09.34.11:466][775]LogModuleManager: Shutting down and abandoning module PortalServices (388)
+[2018.04.30-09.34.11:466][775]LogModuleManager: Shutting down and abandoning module PortalRpc (386)
+[2018.04.30-09.34.11:466][775]LogModuleManager: Shutting down and abandoning module MessagingRpc (384)
+[2018.04.30-09.34.11:466][775]LogModuleManager: Shutting down and abandoning module AIModule (382)
+[2018.04.30-09.34.11:466][775]LogModuleManager: Shutting down and abandoning module GameplayDebugger (381)
+[2018.04.30-09.34.11:466][775]LogModuleManager: Shutting down and abandoning module AITestSuite (379)
+[2018.04.30-09.34.11:466][775]LogModuleManager: Shutting down and abandoning module ProfilerService (376)
+[2018.04.30-09.34.11:615][775]LogModuleManager: Shutting down and abandoning module TaskGraph (374)
+[2018.04.30-09.34.11:615][775]LogModuleManager: Shutting down and abandoning module SteamVRController (372)
+[2018.04.30-09.34.11:615][775]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponentEditor (370)
+[2018.04.30-09.34.11:615][775]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponent (368)
+[2018.04.30-09.34.11:615][775]LogModuleManager: Shutting down and abandoning module OculusInput (366)
+[2018.04.30-09.34.11:615][775]LogModuleManager: Shutting down and abandoning module MobilePatchingUtils (364)
+[2018.04.30-09.34.11:615][775]LogModuleManager: Shutting down and abandoning module CustomMeshComponent (362)
+[2018.04.30-09.34.11:615][775]LogModuleManager: Shutting down and abandoning module CableComponent (360)
+[2018.04.30-09.34.11:615][775]LogModuleManager: Shutting down and abandoning module AudioCapture (358)
+[2018.04.30-09.34.11:615][775]LogModuleManager: Shutting down and abandoning module ArchVisCharacter (356)
+[2018.04.30-09.34.11:615][775]LogModuleManager: Shutting down and abandoning module AndroidPermission (354)
+[2018.04.30-09.34.11:615][775]LogModuleManager: Shutting down and abandoning module NUTUnrealEngine4 (350)
+[2018.04.30-09.34.11:615][775]LogModuleManager: Shutting down and abandoning module NetcodeUnitTest (348)
+[2018.04.30-09.34.11:615][775]LogModuleManager: Shutting down and abandoning module MediaCompositingEditor (346)
+[2018.04.30-09.34.11:615][775]LogModuleManager: Shutting down and abandoning module MediaCompositing (344)
+[2018.04.30-09.34.11:615][775]LogModuleManager: Shutting down and abandoning module LinearTimecode (342)
+[2018.04.30-09.34.11:615][775]LogModuleManager: Shutting down and abandoning module ImgMedia (340)
+[2018.04.30-09.34.11:617][775]LogModuleManager: Shutting down and abandoning module HTML5Networking (338)
+[2018.04.30-09.34.11:617][775]LogModuleManager: Shutting down and abandoning module AlembicImporter (336)
+[2018.04.30-09.34.11:617][775]LogModuleManager: Shutting down and abandoning module AlembicLibrary (335)
+[2018.04.30-09.34.11:617][775]LogModuleManager: Shutting down and abandoning module GeometryCache (334)
+[2018.04.30-09.34.11:617][775]LogModuleManager: Shutting down and abandoning module GeometryCacheEd (333)
+[2018.04.30-09.34.11:617][775]LogModuleManager: Shutting down and abandoning module DatasmithContent (328)
+[2018.04.30-09.34.11:617][775]LogModuleManager: Shutting down and abandoning module SpeedTreeImporter (326)
+[2018.04.30-09.34.11:617][775]LogModuleManager: Shutting down and abandoning module PluginBrowser (324)
+[2018.04.30-09.34.11:617][775]LogModuleManager: Shutting down and abandoning module MobileLauncherProfileWizard (322)
+[2018.04.30-09.34.11:617][775]LogModuleManager: Shutting down and abandoning module CryptoKeysOpenSSL (320)
+[2018.04.30-09.34.11:617][775]LogModuleManager: Shutting down and abandoning module CryptoKeys (318)
+[2018.04.30-09.34.11:617][775]LogModuleManager: Shutting down and abandoning module VisualStudioSourceCodeAccess (316)
+[2018.04.30-09.34.11:617][775]LogModuleManager: Shutting down and abandoning module VisualStudioCodeSourceCodeAccess (314)
+[2018.04.30-09.34.11:617][775]LogModuleManager: Shutting down and abandoning module UObjectPlugin (312)
+[2018.04.30-09.34.11:617][775]LogModuleManager: Shutting down and abandoning module SubversionSourceControl (310)
+[2018.04.30-09.34.11:618][775]LogModuleManager: Shutting down and abandoning module PerforceSourceControl (308)
+[2018.04.30-09.34.11:618][775]LogModuleManager: Shutting down and abandoning module GitSourceControl (306)
+[2018.04.30-09.34.11:618][775]LogModuleManager: Shutting down and abandoning module SourceControl (305)
+[2018.04.30-09.34.11:618][775]LogModuleManager: Shutting down and abandoning module CLionSourceCodeAccess (302)
+[2018.04.30-09.34.11:618][775]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeEditor (300)
+[2018.04.30-09.34.11:618][775]LogModuleManager: Shutting down and abandoning module PaperTiledImporter (298)
+[2018.04.30-09.34.11:618][775]LogModuleManager: Shutting down and abandoning module PaperSpriteSheetImporter (296)
+[2018.04.30-09.34.11:618][775]LogModuleManager: Shutting down and abandoning module Paper2DEditor (294)
+[2018.04.30-09.34.11:618][775]LogModuleManager: Shutting down and abandoning module MeshPaint (293)
+[2018.04.30-09.34.11:618][775]LogModuleManager: Shutting down and abandoning module CEDVFighters (290)
+[2018.04.30-09.34.11:618][775]LogModuleManager: Shutting down and abandoning module RuntimePhysXCooking (288)
+[2018.04.30-09.34.11:618][775]LogModuleManager: Shutting down and abandoning module PhysXVehiclesEditor (286)
+[2018.04.30-09.34.11:618][775]LogModuleManager: Shutting down and abandoning module PhysXVehicles (284)
+[2018.04.30-09.34.11:618][775]LogModuleManager: Shutting down and abandoning module OculusEditor (282)
+[2018.04.30-09.34.11:618][775]LogModuleManager: Shutting down and abandoning module LocationServicesBPLibrary (280)
+[2018.04.30-09.34.11:618][775]LogModuleManager: Shutting down and abandoning module ImmediatePhysicsEditor (278)
+[2018.04.30-09.34.11:618][775]LogModuleManager: Shutting down and abandoning module ImmediatePhysics (276)
+[2018.04.30-09.34.11:618][775]LogModuleManager: Shutting down and abandoning module ActorSequence (274)
+[2018.04.30-09.34.11:618][775]LogModuleManager: Shutting down and abandoning module UdpMessaging (272)
+[2018.04.30-09.34.11:718][775]LogModuleManager: Shutting down and abandoning module TcpMessaging (270)
+[2018.04.30-09.34.11:818][775]LogModuleManager: Shutting down and abandoning module GameplayTagsEditor (268)
+[2018.04.30-09.34.11:818][775]LogModuleManager: Shutting down and abandoning module FacialAnimationEditor (266)
+[2018.04.30-09.34.11:818][775]LogModuleManager: Shutting down and abandoning module FacialAnimation (264)
+[2018.04.30-09.34.11:818][775]LogModuleManager: Shutting down and abandoning module DataValidation (262)
+[2018.04.30-09.34.11:818][775]LogModuleManager: Shutting down and abandoning module AssetManagerEditor (260)
+[2018.04.30-09.34.11:818][775]LogModuleManager: Shutting down and abandoning module LevelEditor (259)
+[2018.04.30-09.34.11:818][775]LogModuleManager: Shutting down and abandoning module PixelInspectorModule (258)
+[2018.04.30-09.34.11:818][775]LogModuleManager: Shutting down and abandoning module CommonMenuExtensions (256)
+[2018.04.30-09.34.11:818][775]LogModuleManager: Shutting down and abandoning module MainFrame (254)
+[2018.04.30-09.34.11:819][775]LogModuleManager: Shutting down and abandoning module HotReload (253)
+[2018.04.30-09.34.11:819][775]LogDirectoryWatcher: A directory notification for 'D:/CEDV/GIT/CEDVFighters/CEDVFighters/Binaries/Win64' was aborted.
+[2018.04.30-09.34.11:819][775]LogModuleManager: Shutting down and abandoning module ContentBrowser (249)
+[2018.04.30-09.34.11:820][775]LogModuleManager: Shutting down and abandoning module TreeMap (247)
+[2018.04.30-09.34.11:820][775]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeRuntime (244)
+[2018.04.30-09.34.11:820][775]LogModuleManager: Shutting down and abandoning module LiveLinkEditor (242)
+[2018.04.30-09.34.11:820][775]LogModuleManager: Shutting down and abandoning module LiveLink (240)
+[2018.04.30-09.34.12:236][775]LogModuleManager: Shutting down and abandoning module Paper2D (238)
+[2018.04.30-09.34.12:236][775]LogModuleManager: Shutting down and abandoning module WindowsMoviePlayer (236)
+[2018.04.30-09.34.12:236][775]LogModuleManager: Shutting down and abandoning module WmfMedia (234)
+[2018.04.30-09.34.12:237][775]LogModuleManager: Shutting down and abandoning module Media (233)
+[2018.04.30-09.34.12:242][775]LogModuleManager: Shutting down and abandoning module PacketHandler (230)
+[2018.04.30-09.34.12:242][775]LogModuleManager: Shutting down and abandoning module ClothingSystemEditor (228)
+[2018.04.30-09.34.12:242][775]LogModuleManager: Shutting down and abandoning module ClothingSystemRuntime (226)
+[2018.04.30-09.34.12:242][775]LogModuleManager: Shutting down and abandoning module MediaAssets (224)
+[2018.04.30-09.34.12:242][775]LogModuleManager: Shutting down and abandoning module Overlay (222)
+[2018.04.30-09.34.12:242][775]LogModuleManager: Shutting down and abandoning module OverlayEditor (221)
+[2018.04.30-09.34.12:242][775]LogModuleManager: Shutting down and abandoning module VREditor (218)
+[2018.04.30-09.34.12:242][775]LogModuleManager: Shutting down and abandoning module StringTableEditor (216)
+[2018.04.30-09.34.12:242][775]LogModuleManager: Shutting down and abandoning module GameplayTasksEditor (214)
+[2018.04.30-09.34.12:242][775]LogModuleManager: Shutting down and abandoning module BehaviorTreeEditor (212)
+[2018.04.30-09.34.12:242][775]LogModuleManager: Shutting down and abandoning module FunctionalTesting (210)
+[2018.04.30-09.34.12:242][775]LogModuleManager: Shutting down and abandoning module CollisionAnalyzer (208)
+[2018.04.30-09.34.12:242][775]LogModuleManager: Shutting down and abandoning module WorkspaceMenuStructure (207)
+[2018.04.30-09.34.12:242][775]LogModuleManager: Shutting down and abandoning module UMG (204)
+[2018.04.30-09.34.12:242][775]LogModuleManager: Shutting down and abandoning module UMGEditor (203)
+[2018.04.30-09.34.12:242][775]LogModuleManager: Shutting down and abandoning module Sequencer (202)
+[2018.04.30-09.34.12:243][775]LogModuleManager: Shutting down and abandoning module MessageLog (199)
+[2018.04.30-09.34.12:243][775]LogModuleManager: Shutting down and abandoning module SlateReflector (194)
+[2018.04.30-09.34.12:243][775]LogModuleManager: Shutting down and abandoning module Slate (192)
+[2018.04.30-09.34.12:243][775]LogModuleManager: Shutting down and abandoning module EditorStyle (190)
+[2018.04.30-09.34.12:244][775]LogModuleManager: Shutting down and abandoning module MRMesh (188)
+[2018.04.30-09.34.12:244][775]LogModuleManager: Shutting down and abandoning module SourceCodeAccess (186)
+[2018.04.30-09.34.12:244][775]LogModuleManager: Shutting down and abandoning module HeadMountedDisplay (184)
+[2018.04.30-09.34.12:244][775]LogModuleManager: Shutting down and abandoning module XAudio2 (182)
+[2018.04.30-09.34.12:244][775]LogModuleManager: Shutting down and abandoning module Networking (180)
+[2018.04.30-09.34.12:244][775]LogModuleManager: Shutting down and abandoning module Core (178)
+[2018.04.30-09.34.12:244][775]LogModuleManager: Shutting down and abandoning module LevelSequence (176)
+[2018.04.30-09.34.12:244][775]LogModuleManager: Shutting down and abandoning module KismetCompiler (174)
+[2018.04.30-09.34.12:244][775]LogModuleManager: Shutting down and abandoning module MeshUtilities (172)
+[2018.04.30-09.34.12:244][775]LogModuleManager: Shutting down and abandoning module MeshMergeUtilities (171)
+[2018.04.30-09.34.12:244][775]LogModuleManager: Shutting down and abandoning module MeshReductionInterface (170)
+[2018.04.30-09.34.12:244][775]LogModuleManager: Shutting down and abandoning module SimplygonSwarm (169)
+[2018.04.30-09.34.12:244][775]LogModuleManager: Shutting down and abandoning module SimplygonMeshReduction (167)
+[2018.04.30-09.34.12:244][775]LogModuleManager: Shutting down and abandoning module QuadricMeshReduction (165)
+[2018.04.30-09.34.12:244][775]LogModuleManager: Shutting down and abandoning module MaterialBaking (161)
+[2018.04.30-09.34.12:244][775]LogModuleManager: Shutting down and abandoning module DirectoryWatcher (157)
+[2018.04.30-09.34.12:245][775]LogModuleManager: Shutting down and abandoning module DerivedDataCache (154)
+[2018.04.30-09.34.12:324][775]LogDerivedDataCache: Shutdown
+[2018.04.30-09.34.12:324][775]LogModuleManager: Shutting down and abandoning module XGEController (152)
+[2018.04.30-09.34.12:324][775]LogXGEController: Cleaning working directory: C:/Users/Juan/AppData/Local/Temp/UnrealXGEWorkingDir/
+[2018.04.30-09.34.12:324][775]LogModuleManager: Shutting down and abandoning module TargetPlatform (150)
+[2018.04.30-09.34.12:324][775]LogModuleManager: Shutting down and abandoning module VulkanShaderFormat (149)
+[2018.04.30-09.34.12:324][775]LogModuleManager: Shutting down and abandoning module ShaderFormatVectorVM (147)
+[2018.04.30-09.34.12:324][775]LogModuleManager: Shutting down and abandoning module ShaderFormatOpenGL (145)
+[2018.04.30-09.34.12:324][775]LogModuleManager: Shutting down and abandoning module ShaderFormatD3D (143)
+[2018.04.30-09.34.12:324][775]LogModuleManager: Shutting down and abandoning module MetalShaderFormat (141)
+[2018.04.30-09.34.12:324][775]LogModuleManager: Shutting down and abandoning module TextureFormatUncompressed (139)
+[2018.04.30-09.34.12:324][775]LogModuleManager: Shutting down and abandoning module TextureFormatPVR (137)
+[2018.04.30-09.34.12:324][775]LogModuleManager: Shutting down and abandoning module TextureFormatDXT (135)
+[2018.04.30-09.34.12:324][775]LogModuleManager: Shutting down and abandoning module TextureFormatIntelISPCTexComp (133)
+[2018.04.30-09.34.12:325][775]LogModuleManager: Shutting down and abandoning module TextureFormatASTC (131)
+[2018.04.30-09.34.12:325][775]LogModuleManager: Shutting down and abandoning module ImageWrapper (130)
+[2018.04.30-09.34.12:325][775]LogModuleManager: Shutting down and abandoning module TextureFormatAndroid (127)
+[2018.04.30-09.34.12:325][775]LogModuleManager: Shutting down and abandoning module AudioFormatOpus (125)
+[2018.04.30-09.34.12:325][775]LogModuleManager: Shutting down and abandoning module AudioFormatOgg (123)
+[2018.04.30-09.34.12:325][775]LogModuleManager: Shutting down and abandoning module AudioFormatADPCM (121)
+[2018.04.30-09.34.12:325][775]LogModuleManager: Shutting down and abandoning module LinuxTargetPlatform (119)
+[2018.04.30-09.34.12:325][775]LogModuleManager: Shutting down and abandoning module LinuxServerTargetPlatform (117)
+[2018.04.30-09.34.12:325][775]LogModuleManager: Shutting down and abandoning module LinuxNoEditorTargetPlatform (115)
+[2018.04.30-09.34.12:325][775]LogModuleManager: Shutting down and abandoning module LinuxClientTargetPlatform (113)
+[2018.04.30-09.34.12:325][775]LogModuleManager: Shutting down and abandoning module TVOSTargetPlatform (111)
+[2018.04.30-09.34.12:325][775]LogModuleManager: Shutting down and abandoning module Messaging (109)
+[2018.04.30-09.34.12:325][775]LogModuleManager: Shutting down and abandoning module IOSTargetPlatform (107)
+[2018.04.30-09.34.12:325][775]LogModuleManager: Shutting down and abandoning module HTML5TargetPlatform (105)
+[2018.04.30-09.34.12:325][775]LogModuleManager: Shutting down and abandoning module AndroidTargetPlatform (103)
+[2018.04.30-09.34.12:325][775]LogModuleManager: Shutting down and abandoning module Android_PVRTCTargetPlatform (101)
+[2018.04.30-09.34.12:325][775]LogModuleManager: Shutting down and abandoning module Android_MultiTargetPlatform (99)
+[2018.04.30-09.34.12:325][775]LogModuleManager: Shutting down and abandoning module Android_ETC2TargetPlatform (97)
+[2018.04.30-09.34.12:325][775]LogModuleManager: Shutting down and abandoning module Android_ETC1TargetPlatform (95)
+[2018.04.30-09.34.12:325][775]LogModuleManager: Shutting down and abandoning module Android_ETC1aTargetPlatform (93)
+[2018.04.30-09.34.12:325][775]LogModuleManager: Shutting down and abandoning module Android_DXTTargetPlatform (91)
+[2018.04.30-09.34.12:325][775]LogModuleManager: Shutting down and abandoning module Android_ATCTargetPlatform (89)
+[2018.04.30-09.34.12:325][775]LogModuleManager: Shutting down and abandoning module Android_ASTCTargetPlatform (87)
+[2018.04.30-09.34.12:325][775]LogModuleManager: Shutting down and abandoning module WindowsTargetPlatform (85)
+[2018.04.30-09.34.12:325][775]LogModuleManager: Shutting down and abandoning module WindowsServerTargetPlatform (83)
+[2018.04.30-09.34.12:325][775]LogModuleManager: Shutting down and abandoning module WindowsNoEditorTargetPlatform (81)
+[2018.04.30-09.34.12:325][775]LogModuleManager: Shutting down and abandoning module WindowsClientTargetPlatform (79)
+[2018.04.30-09.34.12:325][775]LogModuleManager: Shutting down and abandoning module MacTargetPlatform (77)
+[2018.04.30-09.34.12:325][775]LogModuleManager: Shutting down and abandoning module MacServerTargetPlatform (75)
+[2018.04.30-09.34.12:325][775]LogModuleManager: Shutting down and abandoning module MacNoEditorTargetPlatform (73)
+[2018.04.30-09.34.12:325][775]LogModuleManager: Shutting down and abandoning module MacClientTargetPlatform (71)
+[2018.04.30-09.34.12:325][775]LogModuleManager: Shutting down and abandoning module AllDesktopTargetPlatform (69)
+[2018.04.30-09.34.12:325][775]LogModuleManager: Shutting down and abandoning module InputCore (66)
+[2018.04.30-09.34.12:325][775]LogModuleManager: Shutting down and abandoning module Settings (64)
+[2018.04.30-09.34.12:325][775]LogModuleManager: Shutting down and abandoning module PhysXCooking (62)
+[2018.04.30-09.34.12:325][775]LogModuleManager: Shutting down and abandoning module SteamVR (60)
+[2018.04.30-09.34.12:325][775]LogModuleManager: Shutting down and abandoning module OculusHMD (58)
+[2018.04.30-09.34.12:325][775]LogModuleManager: Shutting down and abandoning module ExampleDeviceProfileSelector (56)
+[2018.04.30-09.34.12:325][775]LogModuleManager: Shutting down and abandoning module AppleARKit (54)
+[2018.04.30-09.34.12:325][775]LogModuleManager: Shutting down and abandoning module AugmentedReality (51)
+[2018.04.30-09.34.12:325][775]LogModuleManager: Shutting down and abandoning module OnlineBlueprintSupport (48)
+[2018.04.30-09.34.12:325][775]LogModuleManager: Shutting down and abandoning module OnlineSubsystem (44)
+[2018.04.30-09.34.12:325][775]LogModuleManager: Shutting down and abandoning module XMPP (43)
+[2018.04.30-09.34.12:325][775]LogModuleManager: Shutting down and abandoning module HTTP (41)
+[2018.04.30-09.34.12:325][775]LogHttp: Display: Http module shutting down, but needs to wait on 1 outstanding Http requests:
+[2018.04.30-09.34.12:325][775]LogHttp: Display: 	verb=[POST] url=[https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7BE5B2E39E-4A3C-7BD1-7E28-EA9D20D4BB62%7D&AppID=UEEditor.Rocket.Release&AppVersion=4.19.1-3989454%2B%2B%2BUE4%2BRelease-4.19&UserID=52b5a646486133a52323f5996f77fc48%7C843bdfc835bf49b4be43c884fbbf2f59%7C65347cc7-3055-43a7-a5aa-3f017135251b&AppEnvironment=datacollector-binary&UploadType=eteventstream] status=Processing
+[2018.04.30-09.34.12:349][775]LogModuleManager: Shutting down and abandoning module SSL (40)
+[2018.04.30-09.34.12:349][775]LogModuleManager: Shutting down and abandoning module AnimationModifiers (36)
+[2018.04.30-09.34.12:349][775]LogModuleManager: Shutting down and abandoning module PropertyEditor (35)
+[2018.04.30-09.34.12:349][775]LogModuleManager: Shutting down and abandoning module AudioEditor (32)
+[2018.04.30-09.34.12:349][775]LogModuleManager: Shutting down and abandoning module TextureCompressor (30)
+[2018.04.30-09.34.12:350][775]LogModuleManager: Shutting down and abandoning module ShaderCore (28)
+[2018.04.30-09.34.12:350][775]LogModuleManager: Shutting down and abandoning module Landscape (26)
+[2018.04.30-09.34.12:350][775]LogModuleManager: Shutting down and abandoning module SlateRHIRenderer (24)
+[2018.04.30-09.34.12:351][775]LogModuleManager: Shutting down and abandoning module OpenGLDrv (22)
+[2018.04.30-09.34.12:351][775]LogModuleManager: Shutting down and abandoning module D3D11RHI (20)
+[2018.04.30-09.34.12:351][775]LogModuleManager: Shutting down and abandoning module AnimGraphRuntime (18)
+[2018.04.30-09.34.12:351][775]LogModuleManager: Shutting down and abandoning module Renderer (16)
+[2018.04.30-09.34.12:351][775]LogModuleManager: Shutting down and abandoning module Engine (14)
+[2018.04.30-09.34.12:351][775]LogModuleManager: Shutting down and abandoning module CoreUObject (12)
+[2018.04.30-09.34.12:351][775]LogModuleManager: Shutting down and abandoning module NetworkFile (10)
+[2018.04.30-09.34.12:351][775]LogModuleManager: Shutting down and abandoning module CookedIterativeFile (8)
+[2018.04.30-09.34.12:351][775]LogModuleManager: Shutting down and abandoning module StreamingFile (6)
+[2018.04.30-09.34.12:351][775]LogModuleManager: Shutting down and abandoning module SandboxFile (4)
+[2018.04.30-09.34.12:351][775]LogModuleManager: Shutting down and abandoning module PakFile (2)
+[2018.04.30-09.34.12:354][775]LogExit: Exiting.
+[2018.04.30-09.34.12:359][775]Log file closed, 04/30/18 11:34:12
