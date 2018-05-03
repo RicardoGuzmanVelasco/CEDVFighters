@@ -15,13 +15,15 @@ class ACEDVFightersPawn : public APawn
 	UPROPERTY(Category = Mesh, VisibleDefaultsOnly, BlueprintReadOnly, meta = (AllowPrivateAccess = "true"))
 	class UStaticMeshComponent* ShipMeshComponent;
 
-	/** The camera */
-	UPROPERTY(Category = Camera, VisibleAnywhere, BlueprintReadOnly, meta = (AllowPrivateAccess = "true"))
-	class UCameraComponent* CameraComponent;
+	UPROPERTY(Category = Effect, VisibleDefaultsOnly, BlueprintReadOnly, meta = (AllowPrivateAccess = "true"))
+	class UParticleSystemComponent* LeftFlame; 
+	UPROPERTY(Category = Effect, VisibleDefaultsOnly, BlueprintReadOnly, meta = (AllowPrivateAccess = "true"))
+	class UParticleSystemComponent* RightFlame;
+	UPROPERTY(Category = Effect, VisibleDefaultsOnly, BlueprintReadOnly, meta = (AllowPrivateAccess = "true"))
+	class UParticleSystemComponent* SmallLeftFlame;
+	UPROPERTY(Category = Effect, VisibleDefaultsOnly, BlueprintReadOnly, meta = (AllowPrivateAccess = "true"))
+	class UParticleSystemComponent* SmallRightFlame;
 
-	/** Camera boom positioning the camera above the character */
-	UPROPERTY(Category = Camera, VisibleAnywhere, BlueprintReadOnly, meta = (AllowPrivateAccess = "true"))
-	class USpringArmComponent* CameraBoom;
 
 public:
 	ACEDVFightersPawn();
@@ -70,9 +72,5 @@ private:
 public:
 	/** Returns ShipMeshComponent subobject **/
 	FORCEINLINE class UStaticMeshComponent* GetShipMeshComponent() const { return ShipMeshComponent; }
-	/** Returns CameraComponent subobject **/
-	FORCEINLINE class UCameraComponent* GetCameraComponent() const { return CameraComponent; }
-	/** Returns CameraBoom subobject **/
-	FORCEINLINE class USpringArmComponent* GetCameraBoom() const { return CameraBoom; }
 };
 

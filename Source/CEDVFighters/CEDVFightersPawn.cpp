@@ -4,12 +4,12 @@
 #include "CEDVFightersProjectile.h"
 #include "TimerManager.h"
 #include "UObject/ConstructorHelpers.h"
-#include "Camera/CameraComponent.h"
 #include "Components/StaticMeshComponent.h"
+#include "Runtime/Engine/Classes/Particles/ParticleSystemComponent.h"
 #include "Components/InputComponent.h"
-#include "GameFramework/SpringArmComponent.h"
 #include "Engine/CollisionProfile.h"
 #include "Engine/StaticMesh.h"
+#include "Runtime/Engine/Classes/Particles/ParticleSystem.h"
 #include "Kismet/GameplayStatics.h"
 #include "Sound/SoundBase.h"
 
@@ -20,17 +20,42 @@ const FName ACEDVFightersPawn::FireRightBinding("FireRight");
 
 ACEDVFightersPawn::ACEDVFightersPawn()
 {	
-	static ConstructorHelpers::FObjectFinder<UStaticMesh> ShipMesh(TEXT("/Game/TwinStick/Meshes/TwinStickUFO.TwinStickUFO"));
+	static ConstructorHelpers::FObjectFinder<UStaticMesh> ShipMesh(TEXT("/Game/MESHES/PlayerShip_Mesh.PlayerShip_Mesh"));
+	// StaticMesh'/Game/MESHES/PlayerShip_Mesh.PlayerShip_Mesh'
 	// Create the mesh component
 	ShipMeshComponent = CreateDefaultSubobject<UStaticMeshComponent>(TEXT("ShipMesh"));
 	RootComponent = ShipMeshComponent;
 	ShipMeshComponent->SetCollisionProfileName(UCollisionProfile::Pawn_ProfileName);
 	ShipMeshComponent->SetStaticMesh(ShipMesh.Object);
-	
+
+	// ParticleSystem'/Game/FX/MotorFlame/FX_MotorFlame.FX_MotorFlame'
+	static ConstructorHelpers::FObjectFinder<UParticleSystem> PS_LeftFlame(TEXT("/Game/FX/MotorFlame/FX_MotorFlame.FX_MotorFlame"));
+	LeftFlame = CreateDefaultSubobject<UParticleSystemComponent>(TEXT("LeftFlame"));
+	LeftFlame->Template = PS_LeftFlame.Object;
+	LeftFlame->SetupAttachment(RootComponent);
+	LeftFlame->RelativeLocation = FVector(-110.0f,-10.0f, 20.0f);
+	LeftFlame->RelativeRotation = FRotator(0.0f, 90.0f, 0.0f);
+	LeftFlame->RelativeScale3D = FVector(8.0f, 8.0f, 8.0f);
+
+	RightFlame = CreateDefaultSubobject<UParticleSystemComponent>(TEXT("RightFlame"));
+	RightFlame->Template = PS_LeftFlame.Object;
+	RightFlame->AttachToComponent(LeftFlame, FAttachmentTransformRules::KeepRelativeTransform);
+	RightFlame->RelativeLocation = FVector(2.5f, 0.0f, 0.0f);
+	RightFlame->RelativeRotation = FRotator(0.0f, 0.0f, 0.0f);
+	RightFlame->RelativeScale3D = FVector(1.0f, 1.0f, 1.0f);
+
+	SmallLeftFlame = CreateDefaultSubobject<UParticleSystemComponent>(TEXT("SmallLeftFlame"));
+	SmallLeftFlame->Template = PS_LeftFlame.Object;
+	SmallLeftFlame->SetupAttachment(RootComponent);
+	SmallLeftFlame->RelativeLocation = FVector(-70.0f, -140.0f, 10.0f);
+	SmallLeftFlame->RelativeRotation = FRotator(0.0f, 90.0f, 0.0f);
+	SmallLeftFlame->RelativeScale3D = FVector(4.0f, 4.0f, 4.0f);
+
 	// Cache our sound effect
 	static ConstructorHelpers::FObjectFinder<USoundBase> FireAudio(TEXT("/Game/TwinStick/Audio/TwinStickFire.TwinStickFire"));
 	FireSound = FireAudio.Object;
 
+	/*
 	// Create a camera boom...
 	CameraBoom = CreateDefaultSubobject<USpringArmComponent>(TEXT("CameraBoom"));
 	CameraBoom->SetupAttachment(RootComponent);
@@ -43,6 +68,8 @@ ACEDVFightersPawn::ACEDVFightersPawn()
 	CameraComponent = CreateDefaultSubobject<UCameraComponent>(TEXT("TopDownCamera"));
 	CameraComponent->SetupAttachment(CameraBoom, USpringArmComponent::SocketName);
 	CameraComponent->bUsePawnControlRotation = false;	// Camera does not rotate relative to arm
+	*/
+
 
 	// Movement
 	MoveSpeed = 1000.0f;
