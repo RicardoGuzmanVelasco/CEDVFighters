@@ -12,6 +12,7 @@
 #include "Runtime/Engine/Classes/Particles/ParticleSystem.h"
 #include "Kismet/GameplayStatics.h"
 #include "Sound/SoundBase.h"
+#include "EngineMinimal.h"
 
 const FName ACEDVFightersPawn::MoveForwardBinding("MoveForward");
 const FName ACEDVFightersPawn::MoveRightBinding("MoveRight");
@@ -32,51 +33,46 @@ ACEDVFightersPawn::ACEDVFightersPawn()
 	static ConstructorHelpers::FObjectFinder<UParticleSystem> PS_LeftFlame(TEXT("/Game/FX/MotorFlame/FX_MotorFlame.FX_MotorFlame"));
 	LeftFlame = CreateDefaultSubobject<UParticleSystemComponent>(TEXT("LeftFlame"));
 	LeftFlame->Template = PS_LeftFlame.Object;
+	//LeftFlame->AttachToComponent(ShipMeshComponent, FAttachmentTransformRules::KeepRelativeTransform);
 	LeftFlame->SetupAttachment(RootComponent);
 	LeftFlame->RelativeLocation = FVector(-110.0f,-10.0f, 20.0f);
-	LeftFlame->RelativeRotation = FRotator(0.0f, 90.0f, 0.0f);
-	LeftFlame->RelativeScale3D = FVector(8.0f, 8.0f, 8.0f);
+	LeftFlame->RelativeRotation = FRotator(90.0f, 0.0f, 0.0f);
+	LeftFlame->RelativeScale3D = FVector(8.0f, 12.0f, 8.0f);
 
 	RightFlame = CreateDefaultSubobject<UParticleSystemComponent>(TEXT("RightFlame"));
 	RightFlame->Template = PS_LeftFlame.Object;
-	RightFlame->AttachToComponent(LeftFlame, FAttachmentTransformRules::KeepRelativeTransform);
-	RightFlame->RelativeLocation = FVector(2.5f, 0.0f, 0.0f);
-	RightFlame->RelativeRotation = FRotator(0.0f, 0.0f, 0.0f);
-	RightFlame->RelativeScale3D = FVector(1.0f, 1.0f, 1.0f);
+	RightFlame->SetupAttachment(RootComponent);
+	//RightFlame->AttachToComponent(LeftFlame, FAttachmentTransformRules::KeepRelativeTransform);
+	RightFlame->RelativeLocation = FVector(-110.0f, 10.0f, 20.0f);
+	RightFlame->RelativeRotation = FRotator(90.0f, 0.0f, 0.0f);
+	RightFlame->RelativeScale3D = FVector(8.0f, 12.0f, 8.0f);
+
 
 	SmallLeftFlame = CreateDefaultSubobject<UParticleSystemComponent>(TEXT("SmallLeftFlame"));
 	SmallLeftFlame->Template = PS_LeftFlame.Object;
 	SmallLeftFlame->SetupAttachment(RootComponent);
 	SmallLeftFlame->RelativeLocation = FVector(-70.0f, -140.0f, 10.0f);
-	SmallLeftFlame->RelativeRotation = FRotator(0.0f, 90.0f, 0.0f);
-	SmallLeftFlame->RelativeScale3D = FVector(4.0f, 4.0f, 4.0f);
+	SmallLeftFlame->RelativeRotation = FRotator(90.0f, 0.0f, 0.0f);
+	SmallLeftFlame->RelativeScale3D = FVector(6.0f, 8.0f, 6.0f);
+
+	SmallRightFlame = CreateDefaultSubobject<UParticleSystemComponent>(TEXT("SmallRightFlame"));
+	SmallRightFlame->Template = PS_LeftFlame.Object;
+	SmallRightFlame->SetupAttachment(RootComponent);
+	SmallRightFlame->RelativeLocation = FVector(-70.0f, 140.0f, 10.0f);
+	SmallRightFlame->RelativeRotation = FRotator(90.0f, 0.0f, 0.0f);
+	SmallRightFlame->RelativeScale3D = FVector(6.0f, 8.0f, 6.0f);
 
 	// Cache our sound effect
 	static ConstructorHelpers::FObjectFinder<USoundBase> FireAudio(TEXT("/Game/TwinStick/Audio/TwinStickFire.TwinStickFire"));
 	FireSound = FireAudio.Object;
 
-	/*
-	// Create a camera boom...
-	CameraBoom = CreateDefaultSubobject<USpringArmComponent>(TEXT("CameraBoom"));
-	CameraBoom->SetupAttachment(RootComponent);
-	CameraBoom->bAbsoluteRotation = true; // Don't want arm to rotate when ship does
-	CameraBoom->TargetArmLength = 1200.f;
-	CameraBoom->RelativeRotation = FRotator(-80.f, 0.f, 0.f);
-	CameraBoom->bDoCollisionTest = false; // Don't want to pull camera in when it collides with level
-
-	// Create a camera...
-	CameraComponent = CreateDefaultSubobject<UCameraComponent>(TEXT("TopDownCamera"));
-	CameraComponent->SetupAttachment(CameraBoom, USpringArmComponent::SocketName);
-	CameraComponent->bUsePawnControlRotation = false;	// Camera does not rotate relative to arm
-	*/
-
-
 	// Movement
-	MoveSpeed = 1000.0f;
+	MoveSpeed = 1500.0f;
 	// Weapon
-	GunOffset = FVector(90.f, 0.f, 0.f);
-	FireRate = 0.1f;
+	GunOffset = FVector(140.f, 0.f, 0.f);
+	FireRate = 0.05f;
 	bCanFire = true;
+	ScreenMarginPct = 10.0f;
 }
 
 void ACEDVFightersPawn::SetupPlayerInputComponent(class UInputComponent* PlayerInputComponent)
@@ -87,14 +83,36 @@ void ACEDVFightersPawn::SetupPlayerInputComponent(class UInputComponent* PlayerI
 	PlayerInputComponent->BindAxis(MoveForwardBinding);
 	PlayerInputComponent->BindAxis(MoveRightBinding);
 	PlayerInputComponent->BindAxis(FireForwardBinding);
-	PlayerInputComponent->BindAxis(FireRightBinding);
+	//PlayerInputComponent->BindAxis(FireRightBinding);
 }
+
+
+void ACEDVFightersPawn::BeginPlay() 
+{
+	Super::BeginPlay();
+
+	ScreenSize = FVector2D(GEngine->GameViewport->Viewport->GetSizeXY());
+	ScreenMargin = ScreenMarginPct * 0.01f * ScreenSize;
+	
+	//GEngine->AddOnScreenDebugMessage(-1, 15.0f, FColor::Yellow, ScreenLimits.ToString());
+}
+
 
 void ACEDVFightersPawn::Tick(float DeltaSeconds)
 {
+	// Shot
+	const float FireValue = GetInputAxisValue(FireForwardBinding);
+	if (FireValue > 0.0f)
+	{
+		// Try and fire a shot
+		FireShot(FVector(1.0f, 0.0f, 0.0f));
+	}
+
 	// Find movement direction
 	const float ForwardValue = GetInputAxisValue(MoveForwardBinding);
 	const float RightValue = GetInputAxisValue(MoveRightBinding);
+
+	
 
 	// Clamp max size so that (X=1, Y=1) doesn't cause faster movement in diagonal directions
 	const FVector MoveDirection = FVector(ForwardValue, RightValue, 0.f).GetClampedToMaxSize(1.0f);
@@ -102,10 +120,13 @@ void ACEDVFightersPawn::Tick(float DeltaSeconds)
 	// Calculate  movement
 	const FVector Movement = MoveDirection * MoveSpeed * DeltaSeconds;
 
+	if (MoveOutScreen(Movement))
+		return;
+
 	// If non-zero size, move this actor
 	if (Movement.SizeSquared() > 0.0f)
 	{
-		const FRotator NewRotation = Movement.Rotation();
+		const FRotator NewRotation = RootComponent->GetComponentRotation();
 		FHitResult Hit(1.f);
 		RootComponent->MoveComponent(Movement, NewRotation, true, &Hit);
 		
@@ -116,14 +137,13 @@ void ACEDVFightersPawn::Tick(float DeltaSeconds)
 			RootComponent->MoveComponent(Deflection, NewRotation, true);
 		}
 	}
-	
-	// Create fire direction vector
-	const float FireForwardValue = GetInputAxisValue(FireForwardBinding);
-	const float FireRightValue = GetInputAxisValue(FireRightBinding);
-	const FVector FireDirection = FVector(FireForwardValue, FireRightValue, 0.f);
 
-	// Try and fire a shot
-	FireShot(FireDirection);
+	//if (RightValue != 0.0f)
+	
+		const FRotator NewRotation = FRotator(0.0f, 0.0f, FMath::Sign(RightValue) * 30.0f);
+		//RootComponent->SetRelativeRotation(NewRotation);
+		SetActorRelativeRotation(NewRotation);
+
 }
 
 void ACEDVFightersPawn::FireShot(FVector FireDirection)
@@ -162,5 +182,22 @@ void ACEDVFightersPawn::FireShot(FVector FireDirection)
 void ACEDVFightersPawn::ShotTimerExpired()
 {
 	bCanFire = true;
+}
+
+bool ACEDVFightersPawn::MoveOutScreen(const FVector &movement) const
+{
+	FVector WorldPlayerPosition = GetActorLocation() + movement;
+	
+	FVector2D ScreenPlayerPosition;
+	UGameplayStatics::ProjectWorldToScreen(UGameplayStatics::GetPlayerController(GetWorld(), 0),
+		WorldPlayerPosition, ScreenPlayerPosition);
+	
+	//GEngine->AddOnScreenDebugMessage(-1, 0.50f, FColor::Red, ScreenPlayerPosition.ToString());
+
+	if (ScreenPlayerPosition.X < 0 + ScreenMargin.X || ScreenPlayerPosition.X > ScreenSize.X - ScreenMargin.X ||
+		ScreenPlayerPosition.Y < 0 + ScreenMargin.Y || ScreenPlayerPosition.Y > ScreenSize.Y - ScreenMargin.X)
+	return true;
+
+	return false;
 }
 

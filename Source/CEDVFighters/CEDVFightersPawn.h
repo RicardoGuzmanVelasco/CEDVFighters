@@ -44,7 +44,12 @@ public:
 	UPROPERTY(Category = Audio, EditAnywhere, BlueprintReadWrite)
 	class USoundBase* FireSound;
 
+	// Screen margin to limit movements, in percentage
+	UPROPERTY(Category = Gameplay, EditAnywhere, BlueprintReadWrite)
+		float ScreenMarginPct;
+
 	// Begin Actor Interface
+	virtual void BeginPlay() override;
 	virtual void Tick(float DeltaSeconds) override;
 	virtual void SetupPlayerInputComponent(class UInputComponent* InputComponent) override;
 	// End Actor Interface
@@ -54,12 +59,16 @@ public:
 
 	/* Handler for the fire timer expiry */
 	void ShotTimerExpired();
+	bool MoveOutScreen(const FVector &movement) const;
 
 	// Static names for axis bindings
 	static const FName MoveForwardBinding;
 	static const FName MoveRightBinding;
 	static const FName FireForwardBinding;
 	static const FName FireRightBinding;
+
+	FVector2D ScreenMargin;
+	FVector2D ScreenSize;
 
 private:
 
