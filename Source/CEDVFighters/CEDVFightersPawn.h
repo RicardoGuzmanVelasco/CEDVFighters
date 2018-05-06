@@ -60,15 +60,13 @@ public:
 	/* Handler for the fire timer expiry */
 	void ShotTimerExpired();
 	bool MoveOutScreen(const FVector &movement) const;
+	void ScaleFlames(const float forwardValue);
 
 	// Static names for axis bindings
 	static const FName MoveForwardBinding;
 	static const FName MoveRightBinding;
 	static const FName FireForwardBinding;
 	static const FName FireRightBinding;
-
-	FVector2D ScreenMargin;
-	FVector2D ScreenSize;
 
 private:
 

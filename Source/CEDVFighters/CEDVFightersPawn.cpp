@@ -37,7 +37,7 @@ ACEDVFightersPawn::ACEDVFightersPawn()
 	LeftFlame->SetupAttachment(RootComponent);
 	LeftFlame->RelativeLocation = FVector(-110.0f,-10.0f, 20.0f);
 	LeftFlame->RelativeRotation = FRotator(90.0f, 0.0f, 0.0f);
-	LeftFlame->RelativeScale3D = FVector(8.0f, 12.0f, 8.0f);
+	LeftFlame->RelativeScale3D = FVector(4.0f, 6.0f, 4.0f);
 
 	RightFlame = CreateDefaultSubobject<UParticleSystemComponent>(TEXT("RightFlame"));
 	RightFlame->Template = PS_LeftFlame.Object;
@@ -45,7 +45,7 @@ ACEDVFightersPawn::ACEDVFightersPawn()
 	//RightFlame->AttachToComponent(LeftFlame, FAttachmentTransformRules::KeepRelativeTransform);
 	RightFlame->RelativeLocation = FVector(-110.0f, 10.0f, 20.0f);
 	RightFlame->RelativeRotation = FRotator(90.0f, 0.0f, 0.0f);
-	RightFlame->RelativeScale3D = FVector(8.0f, 12.0f, 8.0f);
+	RightFlame->RelativeScale3D = FVector(4.0f, 6.0f, 4.0f);
 
 
 	SmallLeftFlame = CreateDefaultSubobject<UParticleSystemComponent>(TEXT("SmallLeftFlame"));
@@ -53,17 +53,18 @@ ACEDVFightersPawn::ACEDVFightersPawn()
 	SmallLeftFlame->SetupAttachment(RootComponent);
 	SmallLeftFlame->RelativeLocation = FVector(-70.0f, -140.0f, 10.0f);
 	SmallLeftFlame->RelativeRotation = FRotator(90.0f, 0.0f, 0.0f);
-	SmallLeftFlame->RelativeScale3D = FVector(6.0f, 8.0f, 6.0f);
+	SmallLeftFlame->RelativeScale3D = FVector(3.0f, 4.0f, 3.0f);
 
 	SmallRightFlame = CreateDefaultSubobject<UParticleSystemComponent>(TEXT("SmallRightFlame"));
 	SmallRightFlame->Template = PS_LeftFlame.Object;
 	SmallRightFlame->SetupAttachment(RootComponent);
 	SmallRightFlame->RelativeLocation = FVector(-70.0f, 140.0f, 10.0f);
 	SmallRightFlame->RelativeRotation = FRotator(90.0f, 0.0f, 0.0f);
-	SmallRightFlame->RelativeScale3D = FVector(6.0f, 8.0f, 6.0f);
+	SmallRightFlame->RelativeScale3D = FVector(3.0f, 4.0f, 3.0f);
 
 	// Cache our sound effect
-	static ConstructorHelpers::FObjectFinder<USoundBase> FireAudio(TEXT("/Game/TwinStick/Audio/TwinStickFire.TwinStickFire"));
+	//SoundWave'/Game/SOUND/GAME/DisparoLaser2.DisparoLaser2'
+	static ConstructorHelpers::FObjectFinder<USoundBase> FireAudio(TEXT("/Game/SOUND/GAME/DisparoLaser2.DisparoLaser2"));
 	FireSound = FireAudio.Object;
 
 	// Movement
@@ -72,7 +73,7 @@ ACEDVFightersPawn::ACEDVFightersPawn()
 	GunOffset = FVector(140.f, 0.f, 0.f);
 	FireRate = 0.05f;
 	bCanFire = true;
-	ScreenMarginPct = 10.0f;
+	ScreenMarginPct = 5.0f;
 }
 
 void ACEDVFightersPawn::SetupPlayerInputComponent(class UInputComponent* PlayerInputComponent)
@@ -91,9 +92,6 @@ void ACEDVFightersPawn::BeginPlay()
 {
 	Super::BeginPlay();
 
-	ScreenSize = FVector2D(GEngine->GameViewport->Viewport->GetSizeXY());
-	ScreenMargin = ScreenMarginPct * 0.01f * ScreenSize;
-	
 	//GEngine->AddOnScreenDebugMessage(-1, 15.0f, FColor::Yellow, ScreenLimits.ToString());
 }
 
@@ -111,8 +109,9 @@ void ACEDVFightersPawn::Tick(float DeltaSeconds)
 	// Find movement direction
 	const float ForwardValue = GetInputAxisValue(MoveForwardBinding);
 	const float RightValue = GetInputAxisValue(MoveRightBinding);
-
 	
+	//GEngine->AddOnScreenDebugMessage(-1, 0.50f, FColor::Red, FString::SanitizeFloat(ForwardValue));
+	ScaleFlames(ForwardValue);
 
 	// Clamp max size so that (X=1, Y=1) doesn't cause faster movement in diagonal directions
 	const FVector MoveDirection = FVector(ForwardValue, RightValue, 0.f).GetClampedToMaxSize(1.0f);
@@ -186,7 +185,10 @@ void ACEDVFightersPawn::ShotTimerExpired()
 
 bool ACEDVFightersPawn::MoveOutScreen(const FVector &movement) const
 {
-	FVector WorldPlayerPosition = GetActorLocation() + movement;
+	const FVector2D ScreenSize = FVector2D(GEngine->GameViewport->Viewport->GetSizeXY());
+	const FVector2D ScreenMargin = ScreenMarginPct * 0.01f * ScreenSize;
+
+	const FVector WorldPlayerPosition = GetActorLocation() + movement;
 	
 	FVector2D ScreenPlayerPosition;
 	UGameplayStatics::ProjectWorldToScreen(UGameplayStatics::GetPlayerController(GetWorld(), 0),
@@ -194,10 +196,21 @@ bool ACEDVFightersPawn::MoveOutScreen(const FVector &movement) const
 	
 	//GEngine->AddOnScreenDebugMessage(-1, 0.50f, FColor::Red, ScreenPlayerPosition.ToString());
 
-	if (ScreenPlayerPosition.X < 0 + ScreenMargin.X || ScreenPlayerPosition.X > ScreenSize.X - ScreenMargin.X ||
-		ScreenPlayerPosition.Y < 0 + ScreenMargin.Y || ScreenPlayerPosition.Y > ScreenSize.Y - ScreenMargin.X)
-	return true;
+	if (ScreenPlayerPosition.X < ScreenMargin.X || ScreenPlayerPosition.X > ScreenSize.X - ScreenMargin.X ||
+		ScreenPlayerPosition.Y < ScreenMargin.Y || ScreenPlayerPosition.Y > ScreenSize.Y - ScreenMargin.X)
+		return true;
 
 	return false;
+}
+
+void ACEDVFightersPawn::ScaleFlames(const float forwardValue)
+{
+	const FVector flameScale(2.0f * forwardValue + 4.0f, 3.0f * forwardValue + 6.0f, 2.0f * forwardValue + 4.0f);
+	const FVector smallFlameScale(2.0f * forwardValue + 3.0f, 3.0f * forwardValue + 4.0f, 2.0f * forwardValue + 3.0f);
+
+	RightFlame->RelativeScale3D = flameScale;
+	LeftFlame->RelativeScale3D = flameScale;
+	SmallRightFlame->RelativeScale3D = smallFlameScale;
+	SmallLeftFlame->RelativeScale3D = smallFlameScale;
 }
 
