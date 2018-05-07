@@ -47,8 +47,9 @@ void ACEDVFightersProjectile::OnHit(UPrimitiveComponent* HitComp, AActor* OtherA
 	// Spawns explosion effect and destroy object and projectile
 	if ((OtherActor != NULL) && (OtherActor != this))
 	{
-		const FTransform otherTransform = OtherActor->GetActorTransform();
-		GWorld->SpawnActor(ExplosionClass, &otherTransform);
+		const FVector explosionLocation = OtherActor->GetActorLocation() + FVector(0.0f, 0.0f, 100.0f);
+		const FRotator explosionRotator = FRotator(0.0f);
+		GWorld->SpawnActor(ExplosionClass, &explosionLocation, &explosionRotator);
 		OtherActor->Destroy();
 	}
 
