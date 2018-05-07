@@ -22,6 +22,9 @@ class ACEDVFightersProjectile : public AActor
 	UPROPERTY(VisibleAnywhere, BlueprintReadOnly, Category = Movement, meta = (AllowPrivateAccess = "true"))
 	UProjectileMovementComponent* ProjectileMovement;
 
+	/** Explosion class */
+	TSubclassOf<class AActor> ExplosionClass;
+
 public:
 	ACEDVFightersProjectile();
 

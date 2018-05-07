@@ -12,7 +12,7 @@ ACEDVFightersProjectile::ACEDVFightersProjectile()
 	// Static reference to the mesh to use for the projectile
 	//StaticMesh'/Game/MESHES/ProjectileMesh.ProjectileMesh'
 	static ConstructorHelpers::FObjectFinder<UStaticMesh> ProjectileMeshAsset(TEXT("/Game/MESHES/ProjectileMesh.ProjectileMesh"));
-
+	
 	// Create mesh component for the projectile sphere
 	ProjectileMesh = CreateDefaultSubobject<UStaticMeshComponent>(TEXT("ProjectileMesh0"));
 	ProjectileMesh->SetStaticMesh(ProjectileMeshAsset.Object);
@@ -30,16 +30,26 @@ ACEDVFightersProjectile::ACEDVFightersProjectile()
 	ProjectileMovement->bShouldBounce = false;
 	ProjectileMovement->ProjectileGravityScale = 0.f; // No gravity
 
+	static ConstructorHelpers::FObjectFinder<UBlueprint> BPExplosion(TEXT("Blueprint'/Game/FX/2DExplosion/BP_2DExplosion.BP_2DExplosion'"));
+	if (BPExplosion.Succeeded())
+	{
+		ExplosionClass = BPExplosion.Object->GeneratedClass;
+	}
+
 	// Die after 3 seconds by default
 	InitialLifeSpan = 3.0f;
 }
 
 void ACEDVFightersProjectile::OnHit(UPrimitiveComponent* HitComp, AActor* OtherActor, UPrimitiveComponent* OtherComp, FVector NormalImpulse, const FHitResult& Hit)
 {
-	// Only add impulse and destroy projectile if we hit a physics
-	if ((OtherActor != NULL) && (OtherActor != this) && (OtherComp != NULL) && OtherComp->IsSimulatingPhysics())
+	//GEngine->AddOnScreenDebugMessage(-1, 1.0f, FColor::Yellow, ExplosionClass->GetName());
+
+	// Spawns explosion effect and destroy object and projectile
+	if ((OtherActor != NULL) && (OtherActor != this))
 	{
-		OtherComp->AddImpulseAtLocation(GetVelocity() * 20.0f, GetActorLocation());
+		const FTransform otherTransform = OtherActor->GetActorTransform();
+		GWorld->SpawnActor(ExplosionClass, &otherTransform);
+		OtherActor->Destroy();
 	}
 
 	Destroy();
