@@ -14,10 +14,10 @@
 #include "Sound/SoundBase.h"
 #include "EngineMinimal.h"
 
-const FName ACEDVFightersPawn::MoveForwardBinding("MoveForward");ass
+const FName ACEDVFightersPawn::MoveForwardBinding("MoveForward");
 const FName ACEDVFightersPawn::MoveRightBinding("MoveRight");
 const FName ACEDVFightersPawn::FireForwardBinding("FireForward");
-const FName ACEDVFightersPawn::FireRightBinding("FireRight");
+//const FName ACEDVFightersPawn::FireRightBinding("FireRight");
 
 ACEDVFightersPawn::ACEDVFightersPawn()
 {	
