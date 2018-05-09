@@ -205,12 +205,40 @@ bool ACEDVFightersPawn::MoveOutScreen(const FVector &movement) const
 
 void ACEDVFightersPawn::ScaleFlames(const float forwardValue)
 {
-	const FVector flameScale(2.0f * forwardValue + 4.0f, 3.0f * forwardValue + 6.0f, 2.0f * forwardValue + 4.0f);
-	const FVector smallFlameScale(2.0f * forwardValue + 3.0f, 3.0f * forwardValue + 4.0f, 2.0f * forwardValue + 3.0f);
+	FVector flameScale;
+	FVector smallFlameScale;
 
-	RightFlame->RelativeScale3D = flameScale;
-	LeftFlame->RelativeScale3D = flameScale;
-	SmallRightFlame->RelativeScale3D = smallFlameScale;
-	SmallLeftFlame->RelativeScale3D = smallFlameScale;
+	switch ((int)forwardValue)
+	{
+		case 0:
+			flameScale = FVector(4.0f, 6.0f, 4.0f);
+			smallFlameScale = FVector(3.0f, 4.0f, 3.0f);
+			break;
+		case 1:
+			flameScale = FVector(8.0f, 12.0f, 8.0f);
+			smallFlameScale = FVector(6.0f, 8.0f, 6.0f);
+			break;
+		case -1:
+			flameScale = FVector(2.0f, 3.0f, 2.0f);
+			smallFlameScale = FVector(2.0f, 2.0f, 2.0f);
+			break;
+	}
+	
+	GEngine->AddOnScreenDebugMessage(-1, 0.050f, FColor::Blue, FString::FromInt((int)forwardValue));
+	
+	/*RightFlame->SetWorldScale3D(flameScale);
+	LeftFlame->SetWorldScale3D(flameScale);
+	SmallRightFlame->SetWorldScale3D(smallFlameScale);
+	SmallLeftFlame->SetWorldScale3D(smallFlameScale);*/
+
+	RightFlame->SetRelativeScale3D(flameScale);
+	LeftFlame->SetRelativeScale3D(flameScale);
+	SmallRightFlame->SetRelativeScale3D(smallFlameScale);
+	SmallLeftFlame->SetRelativeScale3D(smallFlameScale);
+
+	//RightFlame->RelativeScale3D = flameScale;
+	//LeftFlame->RelativeScale3D = flameScale;
+	//SmallRightFlame->RelativeScale3D = smallFlameScale;
+	//SmallLeftFlame->RelativeScale3D = smallFlameScale;
 }
 
