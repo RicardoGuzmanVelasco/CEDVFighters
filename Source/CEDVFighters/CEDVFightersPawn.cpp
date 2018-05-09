@@ -24,6 +24,7 @@ ACEDVFightersPawn::ACEDVFightersPawn()
 	static ConstructorHelpers::FObjectFinder<UStaticMesh> ShipMesh(TEXT("/Game/MESHES/PlayerShip_Mesh.PlayerShip_Mesh"));
 	// StaticMesh'/Game/MESHES/PlayerShip_Mesh.PlayerShip_Mesh'
 	// Create the mesh component
+
 	ShipMeshComponent = CreateDefaultSubobject<UStaticMeshComponent>(TEXT("ShipMesh"));
 	RootComponent = ShipMeshComponent;
 	ShipMeshComponent->SetCollisionProfileName(UCollisionProfile::Pawn_ProfileName);
@@ -46,7 +47,6 @@ ACEDVFightersPawn::ACEDVFightersPawn()
 	RightFlame->RelativeLocation = FVector(-110.0f, 10.0f, 20.0f);
 	RightFlame->RelativeRotation = FRotator(90.0f, 0.0f, 0.0f);
 	RightFlame->RelativeScale3D = FVector(4.0f, 6.0f, 4.0f);
-
 
 	SmallLeftFlame = CreateDefaultSubobject<UParticleSystemComponent>(TEXT("SmallLeftFlame"));
 	SmallLeftFlame->Template = PS_LeftFlame.Object;
@@ -74,6 +74,10 @@ ACEDVFightersPawn::ACEDVFightersPawn()
 	FireRate = 0.05f;
 	bCanFire = true;
 	ScreenMarginPct = 5.0f;
+
+	Health = MaxHealth = 100.0f;
+
+	this->Tags.AddUnique(FName("Player"));
 }
 
 void ACEDVFightersPawn::SetupPlayerInputComponent(class UInputComponent* PlayerInputComponent)
@@ -84,7 +88,6 @@ void ACEDVFightersPawn::SetupPlayerInputComponent(class UInputComponent* PlayerI
 	PlayerInputComponent->BindAxis(MoveForwardBinding);
 	PlayerInputComponent->BindAxis(MoveRightBinding);
 	PlayerInputComponent->BindAxis(FireForwardBinding);
-	//PlayerInputComponent->BindAxis(FireRightBinding);
 }
 
 

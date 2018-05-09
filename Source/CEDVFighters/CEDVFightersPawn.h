@@ -44,6 +44,14 @@ public:
 	UPROPERTY(Category = Audio, EditAnywhere, BlueprintReadWrite)
 	class USoundBase* FireSound;
 
+	/* Max health for player */
+	UPROPERTY(Category = Gameplay, EditAnywhere, BlueprintReadWrite)
+	float Health;
+
+	/* The speed our ship moves around the level */
+	UPROPERTY(Category = Gameplay, EditAnywhere, BlueprintReadWrite)
+	float MaxHealth;
+
 	// Screen margin to limit movements, in percentage
 	UPROPERTY(Category = Gameplay, EditAnywhere, BlueprintReadWrite)
 		float ScreenMarginPct;
