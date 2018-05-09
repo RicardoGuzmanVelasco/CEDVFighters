@@ -224,7 +224,7 @@ void ACEDVFightersPawn::ScaleFlames(const float forwardValue)
 			break;
 	}
 	
-	GEngine->AddOnScreenDebugMessage(-1, 0.050f, FColor::Blue, FString::FromInt((int)forwardValue));
+	//GEngine->AddOnScreenDebugMessage(-1, 0.050f, FColor::Blue, FString::FromInt((int)forwardValue));
 	
 	/*RightFlame->SetWorldScale3D(flameScale);
 	LeftFlame->SetWorldScale3D(flameScale);
