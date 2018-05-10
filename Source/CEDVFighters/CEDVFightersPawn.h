@@ -70,6 +70,8 @@ public:
 	bool MoveOutScreen(const FVector &movement) const;
 	void ScaleFlames(const float forwardValue);
 
+	float TakeDamage(float Damage, FDamageEvent const & DamageEvent, AController * EventInstigator, AActor * DamageCauser);
+
 	// Static names for axis bindings
 	static const FName MoveForwardBinding;
 	static const FName MoveRightBinding;

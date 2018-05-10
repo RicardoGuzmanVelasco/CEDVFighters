@@ -20,7 +20,7 @@ const FName ACEDVFightersPawn::FireForwardBinding("FireForward");
 //const FName ACEDVFightersPawn::FireRightBinding("FireRight");
 
 ACEDVFightersPawn::ACEDVFightersPawn()
-{	
+{
 	static ConstructorHelpers::FObjectFinder<UStaticMesh> ShipMesh(TEXT("/Game/MESHES/PlayerShip_Mesh.PlayerShip_Mesh"));
 	// StaticMesh'/Game/MESHES/PlayerShip_Mesh.PlayerShip_Mesh'
 	// Create the mesh component
@@ -36,7 +36,7 @@ ACEDVFightersPawn::ACEDVFightersPawn()
 	LeftFlame->Template = PS_LeftFlame.Object;
 	//LeftFlame->AttachToComponent(ShipMeshComponent, FAttachmentTransformRules::KeepRelativeTransform);
 	LeftFlame->SetupAttachment(RootComponent);
-	LeftFlame->RelativeLocation = FVector(-110.0f,-10.0f, 20.0f);
+	LeftFlame->RelativeLocation = FVector(-110.0f, -10.0f, 20.0f);
 	LeftFlame->RelativeRotation = FRotator(90.0f, 0.0f, 0.0f);
 	LeftFlame->RelativeScale3D = FVector(4.0f, 6.0f, 4.0f);
 
@@ -91,7 +91,7 @@ void ACEDVFightersPawn::SetupPlayerInputComponent(class UInputComponent* PlayerI
 }
 
 
-void ACEDVFightersPawn::BeginPlay() 
+void ACEDVFightersPawn::BeginPlay()
 {
 	Super::BeginPlay();
 
@@ -112,7 +112,7 @@ void ACEDVFightersPawn::Tick(float DeltaSeconds)
 	// Find movement direction
 	const float ForwardValue = GetInputAxisValue(MoveForwardBinding);
 	const float RightValue = GetInputAxisValue(MoveRightBinding);
-	
+
 	//GEngine->AddOnScreenDebugMessage(-1, 0.50f, FColor::Red, FString::SanitizeFloat(ForwardValue));
 	ScaleFlames(ForwardValue);
 
@@ -131,7 +131,7 @@ void ACEDVFightersPawn::Tick(float DeltaSeconds)
 		const FRotator NewRotation = RootComponent->GetComponentRotation();
 		FHitResult Hit(1.f);
 		RootComponent->MoveComponent(Movement, NewRotation, true, &Hit);
-		
+
 		if (Hit.IsValidBlockingHit())
 		{
 			const FVector Normal2D = Hit.Normal.GetSafeNormal2D();
@@ -141,10 +141,10 @@ void ACEDVFightersPawn::Tick(float DeltaSeconds)
 	}
 
 	//if (RightValue != 0.0f)
-	
-		const FRotator NewRotation = FRotator(0.0f, 0.0f, FMath::Sign(RightValue) * 30.0f);
-		//RootComponent->SetRelativeRotation(NewRotation);
-		SetActorRelativeRotation(NewRotation);
+
+	const FRotator NewRotation = FRotator(0.0f, 0.0f, FMath::Sign(RightValue) * 30.0f);
+	//RootComponent->SetRelativeRotation(NewRotation);
+	SetActorRelativeRotation(NewRotation);
 
 }
 
@@ -192,11 +192,11 @@ bool ACEDVFightersPawn::MoveOutScreen(const FVector &movement) const
 	const FVector2D ScreenMargin = ScreenMarginPct * 0.01f * ScreenSize;
 
 	const FVector WorldPlayerPosition = GetActorLocation() + movement;
-	
+
 	FVector2D ScreenPlayerPosition;
 	UGameplayStatics::ProjectWorldToScreen(UGameplayStatics::GetPlayerController(GetWorld(), 0),
 		WorldPlayerPosition, ScreenPlayerPosition);
-	
+
 	//GEngine->AddOnScreenDebugMessage(-1, 0.50f, FColor::Red, ScreenPlayerPosition.ToString());
 
 	if (ScreenPlayerPosition.X < ScreenMargin.X || ScreenPlayerPosition.X > ScreenSize.X - ScreenMargin.X ||
@@ -213,22 +213,22 @@ void ACEDVFightersPawn::ScaleFlames(const float forwardValue)
 
 	switch ((int)forwardValue)
 	{
-		case 0:
-			flameScale = FVector(4.0f, 6.0f, 4.0f);
-			smallFlameScale = FVector(3.0f, 4.0f, 3.0f);
-			break;
-		case 1:
-			flameScale = FVector(8.0f, 12.0f, 8.0f);
-			smallFlameScale = FVector(6.0f, 8.0f, 6.0f);
-			break;
-		case -1:
-			flameScale = FVector(2.0f, 3.0f, 2.0f);
-			smallFlameScale = FVector(2.0f, 2.0f, 2.0f);
-			break;
+	case 0:
+		flameScale = FVector(4.0f, 6.0f, 4.0f);
+		smallFlameScale = FVector(3.0f, 4.0f, 3.0f);
+		break;
+	case 1:
+		flameScale = FVector(8.0f, 12.0f, 8.0f);
+		smallFlameScale = FVector(6.0f, 8.0f, 6.0f);
+		break;
+	case -1:
+		flameScale = FVector(2.0f, 3.0f, 2.0f);
+		smallFlameScale = FVector(2.0f, 2.0f, 2.0f);
+		break;
 	}
-	
+
 	//GEngine->AddOnScreenDebugMessage(-1, 0.050f, FColor::Blue, FString::FromInt((int)forwardValue));
-	
+
 	/*RightFlame->SetWorldScale3D(flameScale);
 	LeftFlame->SetWorldScale3D(flameScale);
 	SmallRightFlame->SetWorldScale3D(smallFlameScale);
@@ -245,3 +245,10 @@ void ACEDVFightersPawn::ScaleFlames(const float forwardValue)
 	//SmallLeftFlame->RelativeScale3D = smallFlameScale;
 }
 
+float ACEDVFightersPawn::TakeDamage(float Damage, struct FDamageEvent const& DamageEvent,
+	class AController* EventInstigator, class AActor* DamageCauser)
+{
+	Health -= Damage;
+	//To-Do: if Health <= 0, die.
+	return Damage;
+}
