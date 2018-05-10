@@ -54,7 +54,11 @@ public:
 
 	// Screen margin to limit movements, in percentage
 	UPROPERTY(Category = Gameplay, EditAnywhere, BlueprintReadWrite)
-		float ScreenMarginPct;
+	float ScreenMarginPct;
+
+	/* No taking damage */
+	UPROPERTY(Category = Gameplay, EditAnywhere, BlueprintReadWrite)
+	bool GodMode;
 
 	// Begin Actor Interface
 	virtual void BeginPlay() override;

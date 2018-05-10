@@ -76,6 +76,7 @@ ACEDVFightersPawn::ACEDVFightersPawn()
 	ScreenMarginPct = 5.0f;
 
 	Health = MaxHealth = 100.0f;
+	GodMode = false;
 
 	this->Tags.AddUnique(FName("Player"));
 }
@@ -248,7 +249,9 @@ void ACEDVFightersPawn::ScaleFlames(const float forwardValue)
 float ACEDVFightersPawn::TakeDamage(float Damage, struct FDamageEvent const& DamageEvent,
 	class AController* EventInstigator, class AActor* DamageCauser)
 {
-	Health -= Damage;
+	if (!GodMode)
+		Health -= Damage;
+
 	//To-Do: if Health <= 0, die.
 	return Damage;
 }
