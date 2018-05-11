@@ -17,7 +17,7 @@
 const FName ACEDVFightersPawn::MoveForwardBinding("MoveForward");
 const FName ACEDVFightersPawn::MoveRightBinding("MoveRight");
 const FName ACEDVFightersPawn::FireForwardBinding("FireForward");
-//const FName ACEDVFightersPawn::FireRightBinding("FireRight");
+
 
 ACEDVFightersPawn::ACEDVFightersPawn()
 {
@@ -77,6 +77,8 @@ ACEDVFightersPawn::ACEDVFightersPawn()
 
 	Health = MaxHealth = 100.0f;
 	GodMode = false;
+
+	CameraMode = ECameraModeEnum::CM_Normal;
 
 	this->Tags.AddUnique(FName("Player"));
 }
@@ -189,6 +191,10 @@ void ACEDVFightersPawn::ShotTimerExpired()
 
 bool ACEDVFightersPawn::MoveOutScreen(const FVector &movement) const
 {
+
+	if (CameraMode != ECameraModeEnum::CM_Normal)
+		return false;
+
 	const FVector2D ScreenSize = FVector2D(GEngine->GameViewport->Viewport->GetSizeXY());
 	const FVector2D ScreenMargin = ScreenMarginPct * 0.01f * ScreenSize;
 

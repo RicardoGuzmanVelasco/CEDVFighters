@@ -6,6 +6,17 @@
 #include "GameFramework/Character.h"
 #include "CEDVFightersPawn.generated.h"
 
+
+// Enum for camera modes
+UENUM(BlueprintType)
+enum class ECameraModeEnum : uint8
+{
+	CM_Normal 	UMETA(DisplayName = "Normal"),
+	CM_Perspective 	UMETA(DisplayName = "Perspective"),
+	CM_FirstPerson	UMETA(DisplayName = "FirstPerson")
+};
+
+
 UCLASS(Blueprintable)
 class ACEDVFightersPawn : public APawn
 {
@@ -59,6 +70,9 @@ public:
 	/* No taking damage */
 	UPROPERTY(Category = Gameplay, EditAnywhere, BlueprintReadWrite)
 	bool GodMode;
+
+	UPROPERTY(Category = Gameplay, EditAnywhere, BlueprintReadWrite)
+	ECameraModeEnum CameraMode;
 
 	// Begin Actor Interface
 	virtual void BeginPlay() override;
