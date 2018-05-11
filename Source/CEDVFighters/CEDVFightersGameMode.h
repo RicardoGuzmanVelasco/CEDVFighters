@@ -13,6 +13,15 @@ class ACEDVFightersGameMode : public AGameModeBase
 
 public:
 	ACEDVFightersGameMode();
+
+	UPROPERTY(Category = GameMode, EditAnywhere, BlueprintReadWrite)
+		int Level;
+	UPROPERTY(Category = Gameplay, EditAnywhere, BlueprintReadWrite)
+		int Wave;
+	UPROPERTY(Category = Gameplay, EditAnywhere, BlueprintReadWrite)
+		int MaxWaves;
+	UPROPERTY(Category = Gameplay, EditAnywhere, BlueprintReadWrite)
+		int Score;
 };
 
 
