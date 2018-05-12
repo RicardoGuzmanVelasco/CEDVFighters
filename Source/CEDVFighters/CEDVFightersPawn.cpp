@@ -173,6 +173,7 @@ void ACEDVFightersPawn::FireShot(FVector FireDirection)
 			bCanFire = false;
 			World->GetTimerManager().SetTimer(TimerHandle_ShotTimerExpired, this, &ACEDVFightersPawn::ShotTimerExpired, FireRate);
 
+
 			// try and play the sound if specified
 			if (FireSound != nullptr)
 			{
