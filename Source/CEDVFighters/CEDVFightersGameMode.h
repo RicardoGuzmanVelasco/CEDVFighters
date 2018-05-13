@@ -2,6 +2,7 @@
 
 #pragma once
 
+#include "CEDVFightersEnums.h"
 #include "CoreMinimal.h"
 #include "GameFramework/GameModeBase.h"
 #include "CEDVFightersGameMode.generated.h"
@@ -14,7 +15,7 @@ class ACEDVFightersGameMode : public AGameModeBase
 public:
 	ACEDVFightersGameMode();
 
-	UPROPERTY(Category = GameMode, EditAnywhere, BlueprintReadWrite)
+	UPROPERTY(Category = Gameplay, EditAnywhere, BlueprintReadWrite)
 		int Level;
 	UPROPERTY(Category = Gameplay, EditAnywhere, BlueprintReadWrite)
 		int Wave;
@@ -22,6 +23,13 @@ public:
 		int MaxWaves;
 	UPROPERTY(Category = Gameplay, EditAnywhere, BlueprintReadWrite)
 		int Score;
+	UPROPERTY(Category = Gameplay, VisibleAnywhere, BlueprintReadWrite)
+		int KilledShips;
+	UPROPERTY(Category = Gameplay, VisibleAnywhere, BlueprintReadWrite)
+		int MaxLevelShips;
+
+	UPROPERTY(Category = Gameplay, VisibleAnywhere, BlueprintReadWrite)
+		EGamePhases GamePhase;
 };
 
 

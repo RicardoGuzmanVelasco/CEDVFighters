@@ -2,20 +2,10 @@
 
 #pragma once
 
+#include "CEDVFightersEnums.h"
 #include "CoreMinimal.h"
 #include "GameFramework/Character.h"
 #include "CEDVFightersPawn.generated.h"
-
-
-// Enum for camera modes
-UENUM(BlueprintType)
-enum class ECameraModeEnum : uint8
-{
-	CM_Normal 	UMETA(DisplayName = "Normal"),
-	CM_Perspective 	UMETA(DisplayName = "Perspective"),
-	CM_FirstPerson	UMETA(DisplayName = "FirstPerson")
-};
-
 
 UCLASS(Blueprintable)
 class ACEDVFightersPawn : public APawn

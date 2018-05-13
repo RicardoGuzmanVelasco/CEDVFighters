@@ -78,7 +78,7 @@ ACEDVFightersPawn::ACEDVFightersPawn()
 	Health = MaxHealth = 100.0f;
 	GodMode = false;
 
-	CameraMode = ECameraModeEnum::CM_Normal;
+	CameraMode = ECameraModeEnum::CM_TopCamera;
 
 	this->Tags.AddUnique(FName("Player"));
 }
@@ -193,7 +193,7 @@ void ACEDVFightersPawn::ShotTimerExpired()
 bool ACEDVFightersPawn::MoveOutScreen(const FVector &movement) const
 {
 
-	if (CameraMode != ECameraModeEnum::CM_Normal)
+	if (CameraMode != ECameraModeEnum::CM_TopCamera)
 		return false;
 
 	const FVector2D ScreenSize = FVector2D(GEngine->GameViewport->Viewport->GetSizeXY());

@@ -94,8 +94,13 @@ void ABaseEnemyPawn::Destroyed()
 	ACEDVFightersGameMode *gm = (ACEDVFightersGameMode *)UGameplayStatics::GetGameMode(this);
 
 	if (gm != nullptr)
+	{
 		gm->Score += ScorePoints;
-	
+		gm->KilledShips++;
+
+		FString msj = FString::FromInt(gm->KilledShips) + " / " + FString::FromInt(gm->MaxLevelShips);
+		GEngine->AddOnScreenDebugMessage(-1, 2.0f, FColor::Blue, msj);
+	}
 }
 void ABaseEnemyPawn::ApproachMove(float DeltaSeconds)
 {
