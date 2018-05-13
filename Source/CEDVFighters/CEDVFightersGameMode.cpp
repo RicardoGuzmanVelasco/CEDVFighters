@@ -15,5 +15,6 @@ ACEDVFightersGameMode::ACEDVFightersGameMode()
 	MaxLevelShips = 0;
 	KilledShips = 0;
 	GamePhase = EGamePhases::GPHASE_Waves;
+	KilledCannons = 0;
 }
 

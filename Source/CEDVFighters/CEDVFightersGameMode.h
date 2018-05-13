@@ -29,6 +29,9 @@ public:
 		int MaxLevelShips;
 
 	UPROPERTY(Category = Gameplay, VisibleAnywhere, BlueprintReadWrite)
+		int KilledCannons;
+	
+	UPROPERTY(Category = Gameplay, VisibleAnywhere, BlueprintReadWrite)
 		EGamePhases GamePhase;
 };
 

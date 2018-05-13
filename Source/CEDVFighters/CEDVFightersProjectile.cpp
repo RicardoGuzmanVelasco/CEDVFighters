@@ -1,6 +1,8 @@
 // Copyright 1998-2018 Epic Games, Inc. All Rights Reserve
 
 #include "CEDVFightersProjectile.h"
+#include "CEDVFightersGameMode.h"
+#include "Kismet/GameplayStatics.h"
 #include "GameFramework/ProjectileMovementComponent.h"
 #include "UObject/ConstructorHelpers.h"
 #include "Components/StaticMeshComponent.h"
@@ -56,6 +58,43 @@ void ACEDVFightersProjectile::OnHit(UPrimitiveComponent* HitComp, AActor* OtherA
 			GWorld->SpawnActor(ExplosionClass, &explosionLocation, &explosionRotator);
 			OtherActor->Destroy();
 
+			Destroy();
+		}
+		else if (OtherActor->ActorHasTag(TEXT("LongCannon")))
+		{			
+			UProperty* HealthProperty = OtherActor->GetClass()->FindPropertyByName("Health");
+			if (HealthProperty == nullptr)
+			{
+				GEngine->AddOnScreenDebugMessage(-1, 3.0f, FColor::Yellow, "Error reading health properties!!!");
+				return;
+			}
+
+			float* HealthValue = HealthProperty->ContainerPtrToValuePtr<float>(OtherActor);
+
+			if (HealthValue == nullptr)
+			{
+				GEngine->AddOnScreenDebugMessage(-1, 3.0f, FColor::Yellow, "Error reading health property values!!!");
+				return;
+			}
+			
+			GEngine->AddOnScreenDebugMessage(-1, 3.0f, FColor::Blue, FString::SanitizeFloat(*HealthValue));
+
+			*HealthValue -= 10.0f;
+
+			if (*HealthValue <= 0.0f)
+			{
+				const FVector explosionLocation = OtherActor->GetActorLocation() + FVector(0.0f, 0.0f, 100.0f);
+				const FRotator explosionRotator = FRotator(0.0f);
+				GWorld->SpawnActor(ExplosionClass, &explosionLocation, &explosionRotator);
+				OtherActor->Destroy();
+
+				ACEDVFightersGameMode *gm = (ACEDVFightersGameMode *)UGameplayStatics::GetGameMode(this);
+
+				if (gm != nullptr)
+					gm->KilledCannons++;
+				
+			}
+						
 			Destroy();
 		}
 	}

@@ -97,9 +97,6 @@ void ABaseEnemyPawn::Destroyed()
 	{
 		gm->Score += ScorePoints;
 		gm->KilledShips++;
-
-		FString msj = FString::FromInt(gm->KilledShips) + " / " + FString::FromInt(gm->MaxLevelShips);
-		GEngine->AddOnScreenDebugMessage(-1, 2.0f, FColor::Blue, msj);
 	}
 }
 void ABaseEnemyPawn::ApproachMove(float DeltaSeconds)
