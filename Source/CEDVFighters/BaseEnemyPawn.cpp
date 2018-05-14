@@ -58,6 +58,7 @@ ABaseEnemyPawn::ABaseEnemyPawn()
 	MaxShotRate = 2.0;
 	ScorePoints = 100;
 	IsLeader = false;
+	BackDestroyed = false;
 
 	this->Tags.AddUnique(FName("Enemy"));
 }
@@ -96,7 +97,8 @@ void ABaseEnemyPawn::Destroyed()
 
 	if (gm != nullptr)
 	{
-		gm->Score += ScorePoints;
+		if (!BackDestroyed)
+			gm->Score += ScorePoints;
 		gm->KilledShips++;
 	}
 }
@@ -138,6 +140,11 @@ void ABaseEnemyPawn::OnOverlapBegin(UPrimitiveComponent* OverlappedComp, AActor*
 			gm->Wave++;
 			IsLeader = false;
 		}
+	}
+	else if (OtherActor->ActorHasTag(TEXT("BackTrigger")))
+	{
+		BackDestroyed = true;
+		Destroy();
 	}
 }
 

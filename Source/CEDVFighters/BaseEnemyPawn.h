@@ -68,4 +68,5 @@ public:
 	TSubclassOf<class AActor> ProjectileClass;
 
 	FTimerHandle TH_ShotTimer;
+	bool BackDestroyed;
 };
