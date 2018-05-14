@@ -34,12 +34,23 @@ ACEDVFightersProjectile::ACEDVFightersProjectile()
 	ProjectileMovement->bShouldBounce = false;
 	ProjectileMovement->ProjectileGravityScale = 0.f; // No gravity
 
+	//Blueprint'/Game/FX/2DExplosion/BP_2DExplosion01.BP_2DExplosion01'
+	//Blueprint'/Game/FX/2DExplosion/BP_2DExplosion.BP_2DExplosion'
 	static ConstructorHelpers::FObjectFinder<UBlueprint> BPExplosion(TEXT("Blueprint'/Game/FX/2DExplosion/BP_2DExplosion.BP_2DExplosion'"));
 	if (BPExplosion.Succeeded())
 	{
 		ExplosionClass = BPExplosion.Object->GeneratedClass;
 	}
-
+	static ConstructorHelpers::FObjectFinder<UBlueprint> BPExplosion01(TEXT("Blueprint'/Game/FX/2DExplosion/BP_2DExplosion01.BP_2DExplosion01'"));
+	if (BPExplosion01.Succeeded())
+	{
+		Explosion01Class = BPExplosion01.Object->GeneratedClass;
+	}
+	static ConstructorHelpers::FObjectFinder<UBlueprint> BPExplosion02(TEXT("Blueprint'/Game/FX/2DExplosion/BP_2DExplosion02.BP_2DExplosion02'"));
+	if (BPExplosion02.Succeeded())
+	{
+		Explosion02Class = BPExplosion02.Object->GeneratedClass;
+	}
 	// Die after 3 seconds by default
 	InitialLifeSpan = 3.0f;
 }
@@ -55,7 +66,15 @@ void ACEDVFightersProjectile::OnHit(UPrimitiveComponent* HitComp, AActor* OtherA
 		{
 			const FVector explosionLocation = OtherActor->GetActorLocation() + FVector(0.0f, 0.0f, 100.0f);
 			const FRotator explosionRotator = FRotator(0.0f);
-			GWorld->SpawnActor(ExplosionClass, &explosionLocation, &explosionRotator);
+
+			float explosionType = FMath::FRandRange(0.0f, 100.0f);
+			if (explosionType < 33.3f)
+				GWorld->SpawnActor(ExplosionClass, &explosionLocation, &explosionRotator);
+			else if (explosionType <= 66.6)
+				GWorld->SpawnActor(Explosion01Class, &explosionLocation, &explosionRotator);
+			else
+				GWorld->SpawnActor(Explosion02Class, &explosionLocation, &explosionRotator);
+
 			OtherActor->Destroy();
 
 			Destroy();
