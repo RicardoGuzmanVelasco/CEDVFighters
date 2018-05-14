@@ -9,7 +9,7 @@ ACEDVFightersGameMode::ACEDVFightersGameMode()
 	DefaultPawnClass = ACEDVFightersPawn::StaticClass();
 
 	Level = 1;
-	Wave = 1;
+	Wave = 0;
 	MaxWaves = 1;
 	Score = 0;
 	MaxLevelShips = 0;

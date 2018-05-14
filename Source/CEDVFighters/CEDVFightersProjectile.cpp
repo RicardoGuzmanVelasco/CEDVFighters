@@ -65,7 +65,7 @@ void ACEDVFightersProjectile::OnHit(UPrimitiveComponent* HitComp, AActor* OtherA
 			UProperty* HealthProperty = OtherActor->GetClass()->FindPropertyByName("Health");
 			if (HealthProperty == nullptr)
 			{
-				GEngine->AddOnScreenDebugMessage(-1, 3.0f, FColor::Yellow, "Error reading health properties!!!");
+				GEngine->AddOnScreenDebugMessage(-1, 3.0f, FColor::Yellow, "Error reading health property!!!");
 				return;
 			}
 
@@ -73,11 +73,11 @@ void ACEDVFightersProjectile::OnHit(UPrimitiveComponent* HitComp, AActor* OtherA
 
 			if (HealthValue == nullptr)
 			{
-				GEngine->AddOnScreenDebugMessage(-1, 3.0f, FColor::Yellow, "Error reading health property values!!!");
+				GEngine->AddOnScreenDebugMessage(-1, 3.0f, FColor::Yellow, "Error reading health property value!!!");
 				return;
 			}
 			
-			GEngine->AddOnScreenDebugMessage(-1, 3.0f, FColor::Blue, FString::SanitizeFloat(*HealthValue));
+			//GEngine->AddOnScreenDebugMessage(-1, 3.0f, FColor::Blue, FString::SanitizeFloat(*HealthValue));
 
 			*HealthValue -= 10.0f;
 

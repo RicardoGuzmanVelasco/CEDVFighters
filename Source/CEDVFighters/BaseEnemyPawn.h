@@ -62,6 +62,8 @@ public:
 		float MaxShotRate;
 	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = Default)
 		int ScorePoints;
+	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = Default)
+		bool IsLeader;
 
 	TSubclassOf<class AActor> ProjectileClass;
 

@@ -57,6 +57,7 @@ ABaseEnemyPawn::ABaseEnemyPawn()
 	MinShotRate = 1.0;
 	MaxShotRate = 2.0;
 	ScorePoints = 100;
+	IsLeader = false;
 
 	this->Tags.AddUnique(FName("Enemy"));
 }
@@ -125,8 +126,19 @@ void ABaseEnemyPawn::OnOverlapBegin(UPrimitiveComponent* OverlappedComp, AActor*
 		ApproachComplete = true;
 		CanShot = true;
 		this->SpawnDefaultController();
-	}
+
 		
+	} 
+	else if (IsLeader && OtherActor->ActorHasTag(TEXT("WaveTrigger")))
+	{
+		ACEDVFightersGameMode *gm = (ACEDVFightersGameMode *)UGameplayStatics::GetGameMode(this);
+
+		if (gm != nullptr)
+		{
+			gm->Wave++;
+			IsLeader = false;
+		}
+	}
 }
 
 void ABaseEnemyPawn::Shot()
