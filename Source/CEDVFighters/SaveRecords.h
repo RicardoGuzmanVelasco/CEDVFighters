@@ -58,4 +58,6 @@ public:
 	UPROPERTY(VisibleAnywhere, Category = Records)
 		uint32 UserIndex;
 
+
+	USaveRecords();
 };
