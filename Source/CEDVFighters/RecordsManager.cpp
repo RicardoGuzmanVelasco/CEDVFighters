@@ -1,4 +1,6 @@
 #include "RecordsManager.h"
+#include "CEDVFightersEnums.h"
+#include "CEDVFightersGameMode.h"
 #include "Kismet/GameplayStatics.h"
 
 
@@ -11,17 +13,43 @@ ARecordsManager::ARecordsManager()
 
 
 
-void ARecordsManager::LoadRecords()
+void ARecordsManager::LoadSaveInstance()
 {
 	LoadRecordsInstance = Cast<USaveRecords>(UGameplayStatics::CreateSaveGameObject(USaveRecords::StaticClass()));
 	LoadRecordsInstance = Cast<USaveRecords>(UGameplayStatics::LoadGameFromSlot(LoadRecordsInstance->SaveSlotName, LoadRecordsInstance->UserIndex));
 
-	RecordsArray = GetRecordsArray();
+	LoadRecords();
 }
 
-void ARecordsManager::ResetRecords()
+void ARecordsManager::LoadRecords()
 {
-	LoadRecords();
+	ACEDVFightersGameMode *gm = (ACEDVFightersGameMode *)UGameplayStatics::GetGameMode(this);
+
+	if (gm == nullptr)
+	{
+		UE_LOG(LogTemp, Error, TEXT("GAMEMODE UNABLE TO FIND."))
+		return;
+	}
+
+	switch (1) {
+	case 1:
+		RecordsArray = LoadRecordsInstance->Easy;
+		break;
+	case 2:
+		RecordsArray = LoadRecordsInstance->Normal;
+		break;
+	case 3:
+		RecordsArray = LoadRecordsInstance->Hard;
+		break;
+	case 4:
+		RecordsArray = LoadRecordsInstance->Extreme;
+		break;
+	}
+}
+
+void ARecordsManager::ResetSaveInstance()
+{
+	LoadSaveInstance();
 	RecordsArray.Empty(USaveRecords::MaxRecords);
 
 	//To-Do: save clear.
@@ -31,28 +59,7 @@ void ARecordsManager::BeginPlay()
 {
 	Super::BeginPlay();
 
-	LoadRecords();
-}
-
-TArray<FGameRecord> ARecordsManager::GetRecordsArray()
-{
-	//To-Do: return according the difficult of gamemode.
-	TArray<FGameRecord> Array;
-	switch (1) {
-	case 1:
-		Array = LoadRecordsInstance->Easy;
-		break;
-	case 2:
-		Array = LoadRecordsInstance->Normal;
-		break;
-	case 3:
-		Array = LoadRecordsInstance->Hard;
-		break;
-	case 4:
-		Array = LoadRecordsInstance->Extreme;
-		break;
-	}
-	return Array;
+	LoadSaveInstance();
 }
 
 void ARecordsManager::Tick(float DeltaTime)

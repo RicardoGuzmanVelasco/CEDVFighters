@@ -14,14 +14,14 @@ class CEDVFIGHTERS_API ARecordsManager : public AActor
 	
 public:	
 	ARecordsManager();
+	void LoadSaveInstance();
 	void LoadRecords();
-	void ResetRecords();
+	void ResetSaveInstance();
 
 protected:
 	virtual void BeginPlay() override;
 
 	TArray<FGameRecord> RecordsArray;
-	TArray<FGameRecord> GetRecordsArray();
 	UPROPERTY()
 		class USaveRecords* LoadRecordsInstance;
 
