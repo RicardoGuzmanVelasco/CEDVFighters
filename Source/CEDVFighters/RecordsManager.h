@@ -21,6 +21,9 @@ public:
 	void ResetSaveInstance();
 	void WriteSaveInstance();
 
+	UFUNCTION(BlueprintCallable, Category = "SaveGame")
+	TArray<FGameRecord> GetRecords(EDifficult FromDifficult);
+
 protected:
 	virtual void BeginPlay() override;
 

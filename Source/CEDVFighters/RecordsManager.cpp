@@ -73,6 +73,26 @@ void ARecordsManager::WriteSaveInstance()
 	UGameplayStatics::SaveGameToSlot(LoadRecordsInstance, LoadRecordsInstance->SaveSlotName, LoadRecordsInstance->UserIndex);
 }
 
+TArray<FGameRecord> ARecordsManager::GetRecords(EDifficult FromDifficult)
+{
+	TArray<FGameRecord> Array;
+	switch (FromDifficult) {
+	case EDifficult::DIFF_Easy:
+		Array = LoadRecordsInstance->Easy;
+		break;
+	case EDifficult::DIFF_Normal:
+		Array = LoadRecordsInstance->Normal;
+		break;
+	case EDifficult::DIFF_Hard:
+		Array = LoadRecordsInstance->Hard;
+		break;
+	case EDifficult::DIFF_Extreme:
+		Array = LoadRecordsInstance->Extreme;
+		break;
+	}
+	return Array;
+}
+
 void ARecordsManager::BeginPlay()
 {
 	Super::BeginPlay();
