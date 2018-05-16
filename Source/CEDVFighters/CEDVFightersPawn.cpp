@@ -2,6 +2,7 @@
 
 #include "CEDVFightersPawn.h"
 #include "CEDVFightersProjectile.h"
+#include "RecordsManager.h"
 #include "TimerManager.h"
 #include "UObject/ConstructorHelpers.h"
 #include "Components/StaticMeshComponent.h"
@@ -12,7 +13,9 @@
 #include "Runtime/Engine/Classes/Particles/ParticleSystem.h"
 #include "Kismet/GameplayStatics.h"
 #include "Sound/SoundBase.h"
+#include "Blueprint/UserWidget.h"
 #include "EngineMinimal.h"
+#include "CEDVFightersGameMode.h"
 
 const FName ACEDVFightersPawn::MoveForwardBinding("MoveForward");
 const FName ACEDVFightersPawn::MoveRightBinding("MoveRight");
@@ -98,6 +101,12 @@ void ACEDVFightersPawn::BeginPlay()
 {
 	Super::BeginPlay();
 
+	TArray<AActor*> FoundActors;
+	UGameplayStatics::GetAllActorsOfClass(GetWorld(), ARecordsManager::StaticClass(), FoundActors);
+
+	if (FoundActors.IsValidIndex(0))
+		RecordsMgr = (ARecordsManager*)FoundActors[0];
+	
 	//GEngine->AddOnScreenDebugMessage(-1, 15.0f, FColor::Yellow, ScreenLimits.ToString());
 }
 
@@ -260,5 +269,46 @@ float ACEDVFightersPawn::TakeDamage(float Damage, struct FDamageEvent const& Dam
 		Health -= Damage;
 
 	//To-Do: if Health <= 0, die.
+	if (Health <= 0)
+		this->HasDied();
+
+
 	return Damage;
+}
+
+void ACEDVFightersPawn::HasDied()
+{
+	if (RecordsMgr == nullptr)
+		return;
+	
+	ACEDVFightersGameMode *gm = (ACEDVFightersGameMode *)UGameplayStatics::GetGameMode(this);
+
+	if (gm == nullptr)
+		return;
+
+	UGameplayStatics::SetGamePaused(this, true);
+	
+	int Score = gm->Score;
+	int	Level = gm->Level;
+	int Wave = gm->Wave;
+	
+	if (RecordsMgr->IsRecord(Score, Level, Wave))
+	{
+		if (wFloatingRecords)
+		{
+			UUserWidget* widget = CreateWidget<UUserWidget>(GetWorld(), wFloatingRecords);
+			if (widget)
+				widget->AddToViewport();
+		}
+	}
+	else
+	{
+		if (wGameOver)
+		{
+			UUserWidget* widget = CreateWidget<UUserWidget>(GetWorld(), wGameOver);
+			if (widget)
+				widget->AddToViewport();
+		}
+	}
+
 }

@@ -64,6 +64,17 @@ public:
 	UPROPERTY(Category = Gameplay, EditAnywhere, BlueprintReadWrite)
 	ECameraModeEnum CameraMode;
 
+	UPROPERTY()
+		class ARecordsManager *RecordsMgr;
+
+	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "Widgets")
+		TSubclassOf<class UUserWidget> wFloatingRecords;
+	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "Widgets")
+		TSubclassOf<class UUserWidget> wGameOver;
+
+	UFUNCTION()
+	void HasDied();
+
 	// Begin Actor Interface
 	virtual void BeginPlay() override;
 	virtual void Tick(float DeltaSeconds) override;
