@@ -1,6 +1,7 @@
 #include "RecordsManager.h"
 #include "CEDVFightersEnums.h"
 #include "CEDVFightersGameMode.h"
+#include "CEDVFightersGameInstance.h"
 #include "Kismet/GameplayStatics.h"
 
 
@@ -8,7 +9,7 @@
 ARecordsManager::ARecordsManager()
 {
 	//PrimaryActorTick.bCanEverTick = true;
-
+	RecordsArray = {};
 }
 
 
@@ -23,25 +24,18 @@ void ARecordsManager::LoadSaveInstance()
 
 void ARecordsManager::LoadRecords()
 {
-	ACEDVFightersGameMode *gm = (ACEDVFightersGameMode *)UGameplayStatics::GetGameMode(this);
-
-	if (gm == nullptr)
-	{
-		UE_LOG(LogTemp, Error, TEXT("GAMEMODE UNABLE TO FIND."))
-		return;
-	}
-
-	switch (1) {
-	case 1:
+	UCEDVFightersGameInstance *gi = Cast<UCEDVFightersGameInstance>(GetGameInstance());
+	switch (gi->SelectedDifficult) {
+	case EDifficult::DIFF_Easy:
 		RecordsArray = LoadRecordsInstance->Easy;
 		break;
-	case 2:
+	case EDifficult::DIFF_Normal:
 		RecordsArray = LoadRecordsInstance->Normal;
 		break;
-	case 3:
+	case EDifficult::DIFF_Hard:
 		RecordsArray = LoadRecordsInstance->Hard;
 		break;
-	case 4:
+	case EDifficult::DIFF_Extreme:
 		RecordsArray = LoadRecordsInstance->Extreme;
 		break;
 	}
@@ -49,10 +43,34 @@ void ARecordsManager::LoadRecords()
 
 void ARecordsManager::ResetSaveInstance()
 {
-	LoadSaveInstance();
+	//LoadSaveInstance();
 	RecordsArray.Empty(USaveRecords::MaxRecords);
 
-	//To-Do: save clear.
+	WriteSaveInstance();
+}
+
+void ARecordsManager::WriteSaveInstance()
+{
+	UCEDVFightersGameInstance *gi = Cast<UCEDVFightersGameInstance>(GetGameInstance());
+	switch (gi->SelectedDifficult) {
+	case EDifficult::DIFF_Easy:
+		LoadRecordsInstance->Easy = RecordsArray;
+		break;
+	case EDifficult::DIFF_Normal:
+		LoadRecordsInstance->Normal = RecordsArray;
+		break;
+	case EDifficult::DIFF_Hard:
+		LoadRecordsInstance->Hard = RecordsArray;
+		break;
+	case EDifficult::DIFF_Extreme:
+		LoadRecordsInstance->Extreme = RecordsArray;
+		break;
+	default:
+		UE_LOG(LogTemp, Warning, TEXT("Unknown difficult"));
+		break;
+	}
+
+	UGameplayStatics::SaveGameToSlot(LoadRecordsInstance, LoadRecordsInstance->SaveSlotName, LoadRecordsInstance->UserIndex);
 }
 
 void ARecordsManager::BeginPlay()
@@ -71,6 +89,20 @@ void ARecordsManager::Tick(float DeltaTime)
 void ARecordsManager::SaveNewRecord(FString Name, int Points, int Level, int Wave)
 {
 	auto Record = FGameRecord(Points, Level, Wave, Name);
+	TArray<FGameRecord>* Records = &RecordsArray; //Copy avoiding overwrite problems.
+
+	if (Records->Num() < USaveRecords::MaxRecords)
+		Records->Add(Record);
+	else
+		for (int i = 0; i < Records->Num(); i++)
+			if (!(Record < RecordsArray[i]))
+			{
+				RecordsArray.RemoveAt(RecordsArray.Num() - 1);
+				RecordsArray.Insert(Record, i - 1);
+				RecordsArray.SetNum(USaveRecords::MaxRecords);
+				break;
+			}
+	WriteSaveInstance();
 }
 
 bool ARecordsManager::IsRecord(int Points, int Level, int Wave)

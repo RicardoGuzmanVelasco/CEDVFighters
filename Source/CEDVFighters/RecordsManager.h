@@ -15,8 +15,11 @@ class CEDVFIGHTERS_API ARecordsManager : public AActor
 public:	
 	ARecordsManager();
 	void LoadSaveInstance();
+	UFUNCTION(BlueprintCallable, Category = "SaveGame")
 	void LoadRecords();
+	UFUNCTION(BlueprintCallable, Category = "SaveGame")
 	void ResetSaveInstance();
+	void WriteSaveInstance();
 
 protected:
 	virtual void BeginPlay() override;
