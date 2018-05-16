@@ -16,6 +16,7 @@ class CEDVFIGHTERS_API UCEDVFightersGameInstance : public UGameInstance
 	GENERATED_BODY()
 	
 public:
+	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "Gameplay")
 	EDifficult SelectedDifficult;
 	
 	
