@@ -16,6 +16,7 @@
 #include "Blueprint/UserWidget.h"
 #include "EngineMinimal.h"
 #include "CEDVFightersGameMode.h"
+#include "CEDVFightersEnums.h"
 
 const FName ACEDVFightersPawn::MoveForwardBinding("MoveForward");
 const FName ACEDVFightersPawn::MoveRightBinding("MoveRight");
@@ -84,6 +85,7 @@ ACEDVFightersPawn::ACEDVFightersPawn()
 	CameraMode = ECameraModeEnum::CM_TopCamera;
 
 	this->Tags.AddUnique(FName("Player"));
+	
 }
 
 void ACEDVFightersPawn::SetupPlayerInputComponent(class UInputComponent* PlayerInputComponent)
@@ -106,6 +108,8 @@ void ACEDVFightersPawn::BeginPlay()
 
 	if (FoundActors.IsValidIndex(0))
 		RecordsMgr = (ARecordsManager*)FoundActors[0];
+
+	GMode = (ACEDVFightersGameMode *)UGameplayStatics::GetGameMode(this);
 	
 	//GEngine->AddOnScreenDebugMessage(-1, 15.0f, FColor::Yellow, ScreenLimits.ToString());
 }
@@ -163,10 +167,10 @@ void ACEDVFightersPawn::Tick(float DeltaSeconds)
 void ACEDVFightersPawn::FireShot(FVector FireDirection)
 {
 	// If it's ok to fire again
-	if (bCanFire == true)
+	if (bCanFire == true && GMode->GamePhase != EGamePhases::GPHASE_BossExpanding)
 	{
 		// If we are pressing fire stick in a direction
-		if (FireDirection.SizeSquared() > 0.0f)
+		//if (FireDirection.SizeSquared() > 0.0f)
 		{
 			const FRotator FireRotation = FireDirection.Rotation();
 			// Spawn projectile at an offset from this pawn
@@ -280,17 +284,15 @@ void ACEDVFightersPawn::HasDied()
 {
 	if (RecordsMgr == nullptr)
 		return;
-	
-	ACEDVFightersGameMode *gm = (ACEDVFightersGameMode *)UGameplayStatics::GetGameMode(this);
 
-	if (gm == nullptr)
+	if (GMode == nullptr)
 		return;
 
 	UGameplayStatics::SetGamePaused(this, true);
 	
-	int Score = gm->Score;
-	int	Level = gm->Level;
-	int Wave = gm->Wave;
+	int Score = GMode->Score;
+	int	Level = GMode->Level;
+	int Wave = GMode->Wave;
 	
 	if (RecordsMgr->IsRecord(Score, Level, Wave))
 	{

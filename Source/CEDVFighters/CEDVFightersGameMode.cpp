@@ -3,12 +3,17 @@
 #include "CEDVFightersGameMode.h"
 #include "CEDVFightersPawn.h"
 
-ACEDVFightersGameMode::ACEDVFightersGameMode()
+ACEDVFightersGameMode::ACEDVFightersGameMode() : Super()
 {
 	// set default pawn class to our character class
 	DefaultPawnClass = ACEDVFightersPawn::StaticClass();
 
 	Level = 1;
+	Init();
+}
+
+void ACEDVFightersGameMode::Init()
+{	
 	Wave = 0;
 	MaxWaves = 1;
 	Score = 0;

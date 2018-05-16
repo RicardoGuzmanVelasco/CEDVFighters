@@ -67,6 +67,9 @@ public:
 	UPROPERTY()
 		class ARecordsManager *RecordsMgr;
 
+	UPROPERTY()
+		class ACEDVFightersGameMode *GMode;
+
 	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "Widgets")
 		TSubclassOf<class UUserWidget> wFloatingRecords;
 	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "Widgets")

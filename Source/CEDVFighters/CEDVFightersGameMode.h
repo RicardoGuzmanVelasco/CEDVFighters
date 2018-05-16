@@ -15,6 +15,9 @@ class ACEDVFightersGameMode : public AGameModeBase
 public:
 	ACEDVFightersGameMode();
 
+	UFUNCTION(BlueprintCallable)
+	void Init();
+
 	UPROPERTY(Category = Gameplay, EditAnywhere, BlueprintReadWrite)
 		int Level;
 	UPROPERTY(Category = Gameplay, EditAnywhere, BlueprintReadWrite)

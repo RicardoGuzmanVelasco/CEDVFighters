@@ -19,7 +19,8 @@ enum class EGamePhases : uint8
 	GPHASE_BossSpawn UMETA(DisplayName = "Phase: Boss Spawn"),
 	GPHASE_BossAppproach UMETA(DisplayName = "Phase: Boss Approach"),
 	GPHASE_BossCombat UMETA(DisplayName = "Phase: Boss Combat"),
-	GPHASE_BossExpand UMETA(DisplayName = "Phase: Boss Expanded"),
+	GPHASE_BossExpanding UMETA(DisplayName = "Phase: Boss Expanding"),
+	GPHASE_BossExpanded UMETA(DisplayName = "Phase: Boss Expanded"),
 	GPHASE_BossKilled UMETA(DisplayName = "Phase: Boss Killed")
 };
 
