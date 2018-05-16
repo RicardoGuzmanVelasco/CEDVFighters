@@ -22,3 +22,12 @@ enum class EGamePhases : uint8
 	GPHASE_BossExpand UMETA(DisplayName = "Phase: Boss Expanded"),
 	GPHASE_BossKilled UMETA(DisplayName = "Phase: Boss Killed")
 };
+
+UENUM(BlueprintType)
+enum class EDifficult : uint8
+{
+	DIFF_Easy UMETA(DisplayName = "Difficult: Easy"),
+	DIFF_Normal UMETA(DisplayName = "Difficult: Normal"),
+	DIFF_Hard UMETA(DisplayName = "Difficult: Hard"),
+	DIFF_Extreme UMETA(DisplayName = "Difficult: Extreme")
+};
