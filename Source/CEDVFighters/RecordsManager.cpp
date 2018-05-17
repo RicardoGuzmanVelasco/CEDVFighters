@@ -2,6 +2,7 @@
 #include "CEDVFightersEnums.h"
 #include "CEDVFightersGameMode.h"
 #include "CEDVFightersGameInstance.h"
+#include "Algo/Reverse.h"
 #include "Kismet/GameplayStatics.h"
 
 
@@ -39,14 +40,17 @@ void ARecordsManager::LoadRecords()
 		RecordsArray = LoadRecordsInstance->Extreme;
 		break;
 	}
+	RecordsArray.Sort();
+	Algo::Reverse(RecordsArray);
 }
 
 void ARecordsManager::ResetSaveInstance()
 {
-	//LoadSaveInstance();
-	RecordsArray.Empty(USaveRecords::MaxRecords);
-
-	WriteSaveInstance();
+		LoadRecordsInstance->Easy.Empty(USaveRecords::MaxRecords);
+		LoadRecordsInstance->Normal.Empty(USaveRecords::MaxRecords);
+		LoadRecordsInstance->Hard.Empty(USaveRecords::MaxRecords);
+		LoadRecordsInstance->Extreme.Empty(USaveRecords::MaxRecords);
+	UGameplayStatics::SaveGameToSlot(LoadRecordsInstance, LoadRecordsInstance->SaveSlotName, LoadRecordsInstance->UserIndex);
 }
 
 void ARecordsManager::WriteSaveInstance()

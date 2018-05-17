@@ -18,7 +18,7 @@ public:
 	UFUNCTION(BlueprintCallable, Category = "SaveGame")
 	void LoadRecords();
 	UFUNCTION(BlueprintCallable, Category = "SaveGame")
-	void ResetSaveInstance();
+		void ResetSaveInstance();
 	void WriteSaveInstance();
 
 	UFUNCTION(BlueprintCallable, Category = "SaveGame")
