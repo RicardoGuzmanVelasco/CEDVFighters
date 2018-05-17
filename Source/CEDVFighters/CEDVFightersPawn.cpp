@@ -71,6 +71,12 @@ ACEDVFightersPawn::ACEDVFightersPawn()
 	static ConstructorHelpers::FObjectFinder<USoundBase> FireAudio(TEXT("/Game/SOUND/GAME/DisparoLaser2.DisparoLaser2"));
 	FireSound = FireAudio.Object;
 
+	static ConstructorHelpers::FObjectFinder<UBlueprint> BPExplosion(TEXT("Blueprint'/Game/FX/2DExplosion/BP_2DExplosion02.BP_2DExplosion02'"));
+	if (BPExplosion.Succeeded())
+	{
+		ExplosionClass = BPExplosion.Object->GeneratedClass;
+	}
+
 	// Movement
 	MoveSpeed = 1500.0f;
 	// Weapon
@@ -287,6 +293,11 @@ void ACEDVFightersPawn::HasDied()
 
 	if (GMode == nullptr)
 		return;
+
+	const FVector explosionLocation = GetActorLocation() + FVector(0.0f, 0.0f, 100.0f);
+	const FRotator explosionRotator = FRotator(0.0f);
+
+	GWorld->SpawnActor(ExplosionClass, &explosionLocation, &explosionRotator);
 
 	UGameplayStatics::SetGamePaused(this, true);
 	

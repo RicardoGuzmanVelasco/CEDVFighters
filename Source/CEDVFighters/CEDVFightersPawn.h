@@ -25,6 +25,7 @@ class ACEDVFightersPawn : public APawn
 	UPROPERTY(Category = Effect, VisibleDefaultsOnly, BlueprintReadOnly, meta = (AllowPrivateAccess = "true"))
 	class UParticleSystemComponent* SmallRightFlame;
 
+	TSubclassOf<class AActor> ExplosionClass;
 
 public:
 	ACEDVFightersPawn();

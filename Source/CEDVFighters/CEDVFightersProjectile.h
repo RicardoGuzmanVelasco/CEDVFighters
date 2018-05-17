@@ -26,6 +26,7 @@ class ACEDVFightersProjectile : public AActor
 	TSubclassOf<class AActor> ExplosionClass;
 	TSubclassOf<class AActor> Explosion01Class;
 	TSubclassOf<class AActor> Explosion02Class;
+	TSubclassOf<class AActor> Explosion03Class;
 
 public:
 	ACEDVFightersProjectile();
