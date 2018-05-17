@@ -73,7 +73,8 @@ void ARecordsManager::WriteSaveInstance()
 		UE_LOG(LogTemp, Warning, TEXT("Unknown difficult"));
 		break;
 	}
-
+	RecordsArray.Sort();
+	Algo::Reverse(RecordsArray);
 	UGameplayStatics::SaveGameToSlot(LoadRecordsInstance, LoadRecordsInstance->SaveSlotName, LoadRecordsInstance->UserIndex);
 }
 
@@ -94,6 +95,8 @@ TArray<FGameRecord> ARecordsManager::GetRecords(EDifficult FromDifficult)
 		Array = LoadRecordsInstance->Extreme;
 		break;
 	}
+	Array.Sort();
+	Algo::Reverse(Array);
 	return Array;
 }
 
