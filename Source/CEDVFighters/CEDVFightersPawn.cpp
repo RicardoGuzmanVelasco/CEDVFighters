@@ -294,6 +294,9 @@ void ACEDVFightersPawn::HasDied()
 	int	Level = GMode->Level;
 	int Wave = GMode->Wave;
 	
+	FString p = FString::FromInt(Score) + " - " + FString::FromInt(Level) + " - " + FString::FromInt(Wave);
+	GEngine->AddOnScreenDebugMessage(-1, 10.0f, FColor::Red, p);
+
 	if (RecordsMgr->IsRecord(Score, Level, Wave))
 	{
 		if (wFloatingRecords)
