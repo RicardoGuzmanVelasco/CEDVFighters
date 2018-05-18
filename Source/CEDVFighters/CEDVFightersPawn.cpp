@@ -71,7 +71,7 @@ ACEDVFightersPawn::ACEDVFightersPawn()
 	static ConstructorHelpers::FObjectFinder<USoundBase> FireAudio(TEXT("/Game/SOUND/GAME/DisparoLaser2.DisparoLaser2"));
 	FireSound = FireAudio.Object;
 
-	static ConstructorHelpers::FObjectFinder<UBlueprint> BPExplosion(TEXT("Blueprint'/Game/FX/2DExplosion/BP_2DExplosion02.BP_2DExplosion02'"));
+	static ConstructorHelpers::FObjectFinder<UBlueprint> BPExplosion(TEXT("Blueprint'/Game/FX/2DExplosion/BP_2DExplosion03.BP_2DExplosion03'"));
 	if (BPExplosion.Succeeded())
 	{
 		ExplosionClass = BPExplosion.Object->GeneratedClass;
@@ -83,6 +83,7 @@ ACEDVFightersPawn::ACEDVFightersPawn()
 	GunOffset = FVector(140.f, 0.f, 0.f);
 	FireRate = 0.05f;
 	bCanFire = true;
+	bIsDead = false;
 	ScreenMarginPct = 5.0f;
 
 	Health = MaxHealth = 100.0f;
@@ -189,10 +190,6 @@ void ACEDVFightersPawn::FireShot(FVector FireDirection)
 				World->SpawnActor<ACEDVFightersProjectile>(SpawnLocation, FireRotation);
 			}
 
-			bCanFire = false;
-			World->GetTimerManager().SetTimer(TimerHandle_ShotTimerExpired, this, &ACEDVFightersPawn::ShotTimerExpired, FireRate);
-
-
 			// try and play the sound if specified
 			if (FireSound != nullptr)
 			{
@@ -200,6 +197,7 @@ void ACEDVFightersPawn::FireShot(FVector FireDirection)
 			}
 
 			bCanFire = false;
+			World->GetTimerManager().SetTimer(TimerHandle_ShotTimerExpired, this, &ACEDVFightersPawn::ShotTimerExpired, FireRate);
 		}
 	}
 }
@@ -294,17 +292,38 @@ void ACEDVFightersPawn::HasDied()
 	if (GMode == nullptr)
 		return;
 
-	const FVector explosionLocation = GetActorLocation() + FVector(0.0f, 0.0f, 100.0f);
-	const FRotator explosionRotator = FRotator(0.0f);
+	if (bIsDead)
+		return;
 
-	GWorld->SpawnActor(ExplosionClass, &explosionLocation, &explosionRotator);
+	//const FVector explosionLocation = GetActorLocation() + FVector(0.0f, 0.0f, 100.0f);
+	//const FRotator explosionRotator = FRotator(0.0f);
+	//const FVector explosionScale = FVector(2.0f, 2.0f, 1.0f);
+
+	FTransform explosionTransform = FTransform(FRotator(0.0f), GetActorLocation() + FVector(50.0f, 50.0f, 100.0f), FVector(2.0f, 2.0f, 1.0f));
+	GWorld->SpawnActor(ExplosionClass, &explosionTransform);
+	explosionTransform = FTransform(FRotator(0.0f), GetActorLocation() + FVector(50.0f, -50.0f, 100.0f), FVector(2.0f, 2.0f, 1.0f));
+	GWorld->SpawnActor(ExplosionClass, &explosionTransform);
+	explosionTransform = FTransform(FRotator(0.0f), GetActorLocation() + FVector(-50.0f, 50.0f, 100.0f), FVector(2.0f, 2.0f, 1.0f));
+	GWorld->SpawnActor(ExplosionClass, &explosionTransform);
+	explosionTransform = FTransform(FRotator(0.0f), GetActorLocation() + FVector(-50.0f, -50.0f, 100.0f), FVector(2.0f, 2.0f, 1.0f));
+	GWorld->SpawnActor(ExplosionClass, &explosionTransform);
+
+	bIsDead = true;
+	this->SetActorHiddenInGame(true);
+	
+	GetWorldTimerManager().SetTimer(TimerHandle_ExplosionFinished, this, &ACEDVFightersPawn::SetRecords, 1.5, false);
+}
+
+void ACEDVFightersPawn::SetRecords()
+{
+	//GWorld->GetTimerManager().SetTimer(TimerHandle_ExplosionFinished, this, &ACEDVFightersPawn::SetRecords, -1.0);
 
 	UGameplayStatics::SetGamePaused(this, true);
-	
+
 	int Score = GMode->Score;
 	int	Level = GMode->Level;
 	int Wave = GMode->Wave;
-	
+
 	FString p = FString::FromInt(Score) + " - " + FString::FromInt(Level) + " - " + FString::FromInt(Wave);
 	GEngine->AddOnScreenDebugMessage(-1, 10.0f, FColor::Red, p);
 
@@ -326,5 +345,4 @@ void ACEDVFightersPawn::HasDied()
 				widget->AddToViewport();
 		}
 	}
-
 }

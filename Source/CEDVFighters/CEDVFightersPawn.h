@@ -78,6 +78,8 @@ public:
 
 	UFUNCTION()
 	void HasDied();
+	UFUNCTION()
+	void SetRecords();
 
 	// Begin Actor Interface
 	virtual void BeginPlay() override;
@@ -105,9 +107,11 @@ private:
 
 	/* Flag to control firing  */
 	uint32 bCanFire : 1;
+	uint32 bIsDead : 1;
 
 	/** Handle for efficient management of ShotTimerExpired timer */
 	FTimerHandle TimerHandle_ShotTimerExpired;
+	FTimerHandle TimerHandle_ExplosionFinished;
 
 public:
 	/** Returns ShipMeshComponent subobject **/
