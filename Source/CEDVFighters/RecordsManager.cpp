@@ -118,6 +118,9 @@ void ARecordsManager::SaveNewRecord(FString Name, int Points, int Level, int Wav
 	auto Record = FGameRecord(Points, Level, Wave, Name);
 	TArray<FGameRecord>* Records = &RecordsArray; //Copy avoiding overwrite problems.
 
+	RecordsArray.Sort();
+	Algo::Reverse(RecordsArray);
+
 	if (Records->Num() < USaveRecords::MaxRecords)
 		Records->Add(Record);
 	else
@@ -134,9 +137,14 @@ void ARecordsManager::SaveNewRecord(FString Name, int Points, int Level, int Wav
 
 bool ARecordsManager::IsRecord(int Points, int Level, int Wave)
 {
+
+	UE_LOG(LogTemp, Warning, TEXT("%d, %d, %d"), Points, Level, Wave)
 	//Empty record spaces ready to fill.
 	if (RecordsArray.Num() < USaveRecords::MaxRecords)
 		return true;
+
+	RecordsArray.Sort();
+	Algo::Reverse(RecordsArray);
 
 	auto Record = FGameRecord(Points, Level, Wave);
 	for (int i = 0; i < RecordsArray.Num(); i++)
