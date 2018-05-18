@@ -19,6 +19,8 @@ public:
 	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "Gameplay")
 	EDifficult SelectedDifficult;
 	
+	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "Gameplay")
+	int CurrentLevel;
 	
 	UCEDVFightersGameInstance();
 

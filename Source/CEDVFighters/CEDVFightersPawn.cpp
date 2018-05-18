@@ -71,7 +71,8 @@ ACEDVFightersPawn::ACEDVFightersPawn()
 	static ConstructorHelpers::FObjectFinder<USoundBase> FireAudio(TEXT("/Game/SOUND/GAME/DisparoLaser2.DisparoLaser2"));
 	FireSound = FireAudio.Object;
 
-	static ConstructorHelpers::FObjectFinder<UBlueprint> BPExplosion(TEXT("Blueprint'/Game/FX/2DExplosion/BP_2DExplosion03.BP_2DExplosion03'"));
+	//Blueprint'/Game/FX/2DExplosion/BP_BigExplosion.BP_BigExplosion'
+	static ConstructorHelpers::FObjectFinder<UBlueprint> BPExplosion(TEXT("Blueprint'/Game/FX/2DExplosion/BP_BigExplosion.BP_BigExplosion'"));
 	if (BPExplosion.Succeeded())
 	{
 		ExplosionClass = BPExplosion.Object->GeneratedClass;
@@ -295,18 +296,10 @@ void ACEDVFightersPawn::HasDied()
 	if (bIsDead)
 		return;
 
-	//const FVector explosionLocation = GetActorLocation() + FVector(0.0f, 0.0f, 100.0f);
-	//const FRotator explosionRotator = FRotator(0.0f);
-	//const FVector explosionScale = FVector(2.0f, 2.0f, 1.0f);
-
-	FTransform explosionTransform = FTransform(FRotator(0.0f), GetActorLocation() + FVector(50.0f, 50.0f, 100.0f), FVector(2.0f, 2.0f, 1.0f));
-	GWorld->SpawnActor(ExplosionClass, &explosionTransform);
-	explosionTransform = FTransform(FRotator(0.0f), GetActorLocation() + FVector(50.0f, -50.0f, 100.0f), FVector(2.0f, 2.0f, 1.0f));
-	GWorld->SpawnActor(ExplosionClass, &explosionTransform);
-	explosionTransform = FTransform(FRotator(0.0f), GetActorLocation() + FVector(-50.0f, 50.0f, 100.0f), FVector(2.0f, 2.0f, 1.0f));
-	GWorld->SpawnActor(ExplosionClass, &explosionTransform);
-	explosionTransform = FTransform(FRotator(0.0f), GetActorLocation() + FVector(-50.0f, -50.0f, 100.0f), FVector(2.0f, 2.0f, 1.0f));
-	GWorld->SpawnActor(ExplosionClass, &explosionTransform);
+	const FVector explosionLocation = GetActorLocation();
+	const FRotator explosionRotator = FRotator(0.0f);
+	
+	GWorld->SpawnActor(ExplosionClass, &explosionLocation, &explosionRotator);
 
 	bIsDead = true;
 	this->SetActorHiddenInGame(true);
