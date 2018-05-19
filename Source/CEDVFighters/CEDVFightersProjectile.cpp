@@ -36,6 +36,7 @@ ACEDVFightersProjectile::ACEDVFightersProjectile()
 
 	//Blueprint'/Game/FX/2DExplosion/BP_2DExplosion01.BP_2DExplosion01'
 	//Blueprint'/Game/FX/2DExplosion/BP_2DExplosion.BP_2DExplosion'
+	//Blueprint'/Game/FX/2DExplosion/BP_BigExplosion.BP_BigExplosion'
 	static ConstructorHelpers::FObjectFinder<UBlueprint> BPExplosion(TEXT("Blueprint'/Game/FX/2DExplosion/BP_2DExplosion.BP_2DExplosion'"));
 	if (BPExplosion.Succeeded())
 	{
@@ -55,6 +56,11 @@ ACEDVFightersProjectile::ACEDVFightersProjectile()
 	if (BPExplosion03.Succeeded())
 	{
 		Explosion03Class = BPExplosion03.Object->GeneratedClass;
+	}
+	static ConstructorHelpers::FObjectFinder<UBlueprint> BPExplosion04(TEXT("Blueprint'/Game/FX/2DExplosion/BP_BigExplosion.BP_BigExplosion'"));
+	if (BPExplosion04.Succeeded())
+	{
+		BigExplosionClass = BPExplosion04.Object->GeneratedClass;
 	}
 	// Die after 3 seconds by default
 	InitialLifeSpan = 3.0f;
@@ -110,7 +116,7 @@ void ACEDVFightersProjectile::OnHit(UPrimitiveComponent* HitComp, AActor* OtherA
 			{
 				const FVector explosionLocation = OtherActor->GetActorLocation() + FVector(0.0f, 0.0f, 100.0f);
 				const FRotator explosionRotator = FRotator(0.0f);
-				GWorld->SpawnActor(ExplosionClass, &explosionLocation, &explosionRotator);
+				GWorld->SpawnActor(BigExplosionClass, &explosionLocation, &explosionRotator);
 				OtherActor->Destroy();
 
 				ACEDVFightersGameMode *gm = (ACEDVFightersGameMode *)UGameplayStatics::GetGameMode(this);

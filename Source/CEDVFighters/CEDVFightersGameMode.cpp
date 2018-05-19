@@ -2,6 +2,7 @@
 
 #include "CEDVFightersGameMode.h"
 #include "CEDVFightersPawn.h"
+#include "Kismet/GameplayStatics.h"
 
 ACEDVFightersGameMode::ACEDVFightersGameMode() : Super()
 {
@@ -21,5 +22,18 @@ void ACEDVFightersGameMode::Init()
 	KilledShips = 0;
 	GamePhase = EGamePhases::GPHASE_Waves;
 	KilledCannons = 0;
+}
+
+void ACEDVFightersGameMode::ReConstructHordes()
+{
+	TArray<AActor*> FoundActors;
+	UGameplayStatics::GetAllActorsOfClass(GetWorld(), LevelGeneratorClass, FoundActors);
+
+	if (FoundActors.IsValidIndex(0))
+	{
+		AActor* LevelGenerator = FoundActors[0];
+
+		LevelGenerator->RerunConstructionScripts();
+	}
 }
 

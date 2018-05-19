@@ -6,5 +6,6 @@
 UCEDVFightersGameInstance::UCEDVFightersGameInstance() {
 	SelectedDifficult = EDifficult::DIFF_Normal;
 	CurrentLevel = 1;
+	CurrentScore = 0;
 }
 

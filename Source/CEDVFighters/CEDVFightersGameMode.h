@@ -18,6 +18,9 @@ public:
 	UFUNCTION(BlueprintCallable)
 	void Init();
 
+	UFUNCTION(BlueprintCallable)
+	void ReConstructHordes();
+
 	UPROPERTY(Category = Gameplay, EditAnywhere, BlueprintReadWrite)
 		int Level;
 	UPROPERTY(Category = Gameplay, EditAnywhere, BlueprintReadWrite)
@@ -36,6 +39,9 @@ public:
 	
 	UPROPERTY(Category = Gameplay, VisibleAnywhere, BlueprintReadWrite)
 		EGamePhases GamePhase;
+
+	UPROPERTY(Category = Gameplay, EditAnywhere, BlueprintReadWrite)
+		TSubclassOf<class AActor> LevelGeneratorClass;
 };
 
 
