@@ -137,8 +137,6 @@ void ARecordsManager::SaveNewRecord(FString Name, int Points, int Level, int Wav
 
 bool ARecordsManager::IsRecord(int Points, int Level, int Wave)
 {
-
-	UE_LOG(LogTemp, Warning, TEXT("%d, %d, %d"), Points, Level, Wave)
 	//Empty record spaces ready to fill.
 	if (RecordsArray.Num() < USaveRecords::MaxRecords)
 		return true;
