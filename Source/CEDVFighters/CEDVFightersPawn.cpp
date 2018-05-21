@@ -111,6 +111,8 @@ void ACEDVFightersPawn::BeginPlay()
 {
 	Super::BeginPlay();
 
+	Health = MaxHealth;
+
 	TArray<AActor*> FoundActors;
 	UGameplayStatics::GetAllActorsOfClass(GetWorld(), ARecordsManager::StaticClass(), FoundActors);
 
