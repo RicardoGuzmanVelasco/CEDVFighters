@@ -55,6 +55,8 @@ void ARecordsManager::ResetSaveInstance()
 
 void ARecordsManager::WriteSaveInstance()
 {
+	//RecordsArray.Sort();
+	//Algo::Reverse(RecordsArray);
 	UCEDVFightersGameInstance *gi = Cast<UCEDVFightersGameInstance>(GetGameInstance());
 	switch (gi->SelectedDifficult) {
 	case EDifficult::DIFF_Easy:
@@ -73,8 +75,6 @@ void ARecordsManager::WriteSaveInstance()
 		UE_LOG(LogTemp, Warning, TEXT("Unknown difficult"));
 		break;
 	}
-	RecordsArray.Sort();
-	Algo::Reverse(RecordsArray);
 	UGameplayStatics::SaveGameToSlot(LoadRecordsInstance, LoadRecordsInstance->SaveSlotName, LoadRecordsInstance->UserIndex);
 }
 
